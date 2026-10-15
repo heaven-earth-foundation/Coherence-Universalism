@@ -1,0 +1,14 @@
+{
+  "publication": "Artificial Intelligence",
+  "source_pc": 1,
+  "target_pc": 2,
+  "source_manuscript": "/mnt/data/CU_AI_v0.10_Publication_PC1/CU_AI_v0.10_Publication_Candidate_1.md",
+  "source_manuscript_sha256": "17c6714a7c792275cc865e96009c3fd9254f03979357ba16f11c3e22147781d4",
+  "updated_manuscript": "CU_AI_v0.10_Publication_Candidate_2.md",
+  "updated_manuscript_sha256": "25596f6a80add6927b32c97751e829df57cf67a32a531e4005adefddbeb06157",
+  "frozen_technical_supplement": "frozen/CU_AI_v0.10_PC1_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "f99838733688561cf76c17f2af614ee5e3e0fc7e31d90ccf0a57bba17d0d0daa",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 42
+}

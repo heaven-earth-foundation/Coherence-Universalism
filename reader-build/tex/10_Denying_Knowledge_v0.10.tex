@@ -1,0 +1,3143 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Liberation Serif}
+  \setsansfont[]{Liberation Sans}
+  \setmonofont[]{DejaVu Sans Mono}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{american}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Liberation Serif}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\usepackage{adjustbox}
+\emergencystretch=3em
+\AtBeginEnvironment{longtable}{\small\sloppy}
+\usepackage{stmaryrd}
+% Printing shims for run-on conditional-bar tokens in the supplied Biology source.
+\providecommand{\midL}{\mid L}
+\providecommand{\midN}{\mid N}
+\sloppy
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={en-US},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{DENYING KNOWLEDGE TO MAKE ROOM FOR
+COMMITMENT}\label{denying-knowledge-to-make-room-for-commitment}
+
+\subsection{Truth, Commitment, and Nonmonotonic
+Warrant}\label{truth-commitment-and-nonmonotonic-warrant}
+
+\textbf{Gaura Kiśora Dās Rader}\\
+\textbf{Heaven≡Earth Foundation}\\
+\textbf{Philosophical Companion to the White Paper Series}\\
+\textbf{Version 0.10}\\
+\textbf{October 2026}
+
+\textbf{Release status.} This manuscript is part of the complete Version
+0.10 proposal. Numbered principles identify the framework's current
+formulations; their claim status, external validation, and authorization
+for consequential application remain separate questions.
+
+\textbf{Companion status.} Active Version 0.10 philosophical companion.
+M\&E and \emph{Foundations} control shared definitions, formal scope,
+and registered principle wording. This paper controls the extended
+philosophical exposition, worked cases, and reproducibility record of
+the commitment-logic clarification when consistent with those sources.
+This release edition is synchronized to the frozen Version 0.10 corpus
+and adds no authority beyond the scope stated here.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Abstract}\label{abstract}
+
+Religious and metaphysical discourse has often been forced into a choice
+between two unsatisfactory positions. Either its central utterances are
+treated as descriptions of hidden states of affairs and judged by
+standards they frequently cannot meet, or they are treated as
+expressions, practices, or forms of life that no longer answer to
+truth---and then appear to answer to nothing at all. The first route
+turns faith into speculative science. The second produces the insulation
+objection: if commitment is removed from descriptive evaluation without
+receiving another standard, nothing internal to the practice can count
+against it.
+
+This paper distinguishes a \textbf{description register} from a
+\textbf{commitment register} primarily by speech-act function and
+standard of assessment, not by positing two exhaustive semantic species.
+The same stable content may be asserted, hoped, vowed, trusted, refused,
+ritualized, or adopted as a plan. Descriptive uses remain answerable to
+truth and evidence. Commitment uses are assessed by warrant, integrity,
+protected viability, affected-party standing, consequence, correction,
+and repair. The registers are asymmetrically permeable: established
+facts constrain commitment, while commitment does not manufacture fact.
+
+For the representable fragment, the paper assumes a Boolean-closed
+language whose commitment contents possess stable \textbf{realization
+conditions}. It does not derive those conditions and does not offer a
+general solution to the Frege--Geach problem. Preferential consequence
+operates at a later level: given stable contents, it asks what follows
+defeasibly across the best viable realizations of a fixed evaluation
+model. Under standard smoothness and definability conditions, the plain
+fixed-base preferential consequence relation has the KLM System P
+structure. Strong warrant adds feasibility: it coincides with that
+relation on feasible premises and is reported separately from
+infeasibility. Ranked models support Rational Monotony when relevant
+minima are attained.
+
+The resulting practical taxonomy separates \textbf{strong warrant},
+\textbf{mere admissibility}, \textbf{exclusion}, \textbf{infeasibility},
+and \textbf{underdetermination}. A separate practical-expansion review
+asks whether a commitment may responsibly be adopted once facts,
+protected floors, affected agents, option-set adequacy, uncertainty,
+horizon, reversibility, independent challenge, and revision conditions
+are included. The paper's distinctive proposal is therefore not a new
+general semantics of commitment. It is the combination of stable
+commitment contents with fixed-base nonmonotonic consequence, yielding
+distinctions between what every best realization supports and what at
+least one supports.
+
+The paper applies this architecture to the insulation objection,
+embedded inference, disagreement, transformative commitment, deferred
+inquiry, political identity, and a schematic case of two widows who
+share the same doctrine but inhabit it differently. It also treats the
+register discipline reflexively: adopting it is itself a defeasible
+commitment grounded in a broader commitment to truth. Description
+remains corrigible by evidence; commitment remains corrigible by fact,
+consequence, affected-party testimony, and the trajectories it
+generates.
+
+The result is neither fideism nor a general non-cognitivism. It is an
+account of how responsible commitment remains possible after counterfeit
+knowledge has been denied.
+
+\textbf{Keywords:} commitment; religious language; non-monotonic logic;
+preferential semantics; System P; speech acts; Wittgenstein;
+Frege--Geach; self-deception; spiritual practice; warrant.
+
+\subsection{Note on Version 0.10}\label{note-on-version-0.10}
+
+This publication preserves the original philosophical project while
+incorporating two successive audit cycles. The first separated skeptical
+consequence from credulous admissibility and fixed the viability base
+within every model to which KLM results are applied. The second
+clarified that preferential consequence presupposes rather than supplies
+stable content, distinguished descriptive truth-satisfaction from
+commitment realization, split infeasibility from underdetermination,
+strengthened the governance conditions on model choice, and relocated
+the paper's novelty from a general semantics of religious language to a
+nonmonotonic consequence architecture over stable commitment contents.
+
+The paper therefore treats the two registers primarily as differences of
+principal speech-act function and assessment standard. Formal results
+apply only to the Boolean-representable fragment. Ritual, prayer,
+poetry, myth, first-person avowal, and other practice-bound forms may be
+meaningful while remaining outside this formalization. The complete
+correction history and the independent audit disposition are preserved
+in the
+\href{../supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md}{technical
+supplement}.
+
+This release synchronizes the companion paper with \emph{Coherence
+Universalism: Metaphysics and Epistemology} and \emph{Coherence
+Universalism: Foundations}. It adds the official CU-COM identifiers and
+cross-references to the restored meaning, love, revision, redemption,
+and Omega architecture. The formal results, audit disposition, finite
+regressions, and philosophical scope established by the audited prior
+version are unchanged.
+
+\subsection{Authority and relation to the
+series}\label{authority-and-relation-to-the-series}
+
+This paper is the active Version 0.10 philosophical companion for the
+extended commitment-logic argument. It owns the detailed philosophical
+exposition, worked cases, finite regressions, and the account of how
+commitment remains answerable to fact, consequence, affected-party
+testimony, correction, and repair.
+
+Its authority is bounded:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{Coherence Universalism: Metaphysics and Epistemology} controls
+  the shared register definitions, fixed-base formal architecture, and
+  framework-level scope;
+\item
+  \emph{Coherence Universalism: Foundations} controls registered
+  principle wording, identifiers, statuses, and authority classes;
+\item
+  the domain papers control their scientific, clinical, social, ethical,
+  and engineering claims;
+\item
+  this companion controls its fuller examples and philosophical
+  development only where they remain consistent with those sources; and
+\item
+  its technical supplement controls the reproducibility record of the
+  finite models and counterexamples.
+\end{itemize}
+
+When a conflict appears, the controlling source governs until an
+explicit, versioned revision is adopted. The companion may expose a need
+for upstream revision, but it does not silently create one.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Domain Analytic Frame and CAP
+Record}\label{domain-analytic-frame-and-cap-record}
+
+\textbf{Target:} Coherence Universalism Version 0.10 release\\
+\textbf{Status:} Active companion synchronized through Wave 6; no
+independent principle authority; final release freeze pending\\
+\textbf{Use rule:} Unresolved fields are left explicit rather than
+completed by analogy.
+
+\subsection{Paper and model identity}\label{paper-and-model-identity}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Field
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Status
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Paper & Denying Knowledge to Make Room for Commitment & Specified \\
+Domain owner & Philosophical companion / commitment-logic exposition and
+worked cases & Active bounded companion scope \\
+Primary model or analysis & Fixed-base preferential evaluation model
+over worlds or trajectories & Paper-relative \\
+Primary claim status & Philosophical argument, definitions, imported KLM
+result, formal propositions, practical governance architecture,
+interpretations, and commitments & Mixed statuses remain explicit \\
+Review gate & Philosophy of religion, logic, semantics and pragmatics,
+ethics, psychology, religious studies, and affected-practice review &
+Proportionate to claim and consequential reach \\
+Methodological authority & M\&E and Foundations control shared
+definitions, formal scope, registry wording, and statuses; this
+companion controls extended exposition and regressions within that scope
+& Bounded companion authority \\
+\end{longtable}
+
+\subsection{Shared Analytic Frame}\label{shared-analytic-frame}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Slot and domain declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Status and evidence
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & \textbf{Unit and boundary.} A declared commitment evaluation model
+with stable representable contents, descriptive background, protected
+constraints, affected-agent scope, horizon, and ordering. & Formal
+fragment only \\
+2 & \textbf{State or trajectory space.} \(W\) contains worlds, states,
+or trajectories; \(V_F\) is the fixed viability base and \(B(F,\Gamma)\)
+the minimal best set. & Formally specified \\
+3 & \textbf{Environment.} Lived practices, relationships, institutions,
+descriptive evidence, and unformalized symbolic or ritual meaning
+constrain application from outside the Boolean fragment. & Explicit
+boundary \\
+4 & \textbf{Constraints and viable region.} \(F,K,A,H\) define the fixed
+viability base; facts, floors, affected parties, and horizon are not
+generated by KLM structure. & Model-relative \\
+5 & \textbf{Actions, options, and transitions.} Premise addition,
+commitment adoption, suspension, exclusion, practical expansion,
+trajectory choice, and model revision are distinct operations. &
+Specified \\
+6 & \textbf{Dynamics or update rule.} Preferential filtering is an
+inferential operation, not a physical dynamics. Trajectory lifting is
+permitted under fixed model parameters. & Formal semantics \\
+7 & \textbf{Observation and access.} Evidence, experience, testimony,
+records, consequence, and practice determine descriptive facts and
+practical review; the formal relation does not observe the world. &
+Externally supplied \\
+8 & \textbf{Perturbation and intervention class.} New premises within a
+fixed model differ from changed facts, floors, affected scope, horizon,
+realization conditions, or ordering. & Critical distinction \\
+9 & \textbf{Equilibria, basins, or regimes.} Minimal elements under
+\(\prec\) are preferential optima, not dynamical equilibria or
+psychological attractors. & Formally specified / dynamical status not
+applicable \\
+10 & \textbf{Local--global status.} Practical expansion examines
+affected agents and externalized costs qualitatively; no exact
+local--global theorem governs commitments as a whole. & Qualitative \\
+11 & \textbf{Scalar status.} The preference relation need not be
+generated by one scalar. Strong warrant, admissibility, exclusion,
+infeasibility, and underdetermination are distinct verdicts. & No
+required scalar \\
+12 & \textbf{Statistical-image and allocation status.} The core
+preferential model is set- and order-based rather than simplex-valued.
+Optional probabilistic extensions require separate CU-M14 licensing. &
+No core simplex license \\
+13 & \textbf{Translation status.} KLM results reach exact structural
+transfer only for the stable Boolean-representable fragment under the
+required assumptions; lived application requires further bridges. &
+Level 3 formally, lower or higher elsewhere \\
+14 & \textbf{Open gaps.} General commitment semantics, practice-bound
+meaning, model capture, option adequacy, disagreement across models, and
+empirical study of trajectories remain unresolved. & Open \\
+\end{longtable}
+
+\subsection{Compact Coherence Analysis Protocol
+record}\label{compact-coherence-analysis-protocol-record}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+CAP module
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Boundary
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+System declaration & Declare \(W,F,K,A,H,V_F,\prec,\Vdash_R\), content
+fragment, and option or trajectory space. & Section 3 \\
+Observation declaration & State which descriptive facts and lived
+consequences are established, disputed, omitted, or institutionally
+controlled. & Commitment cannot manufacture fact \\
+Evaluation declaration & Distinguish formal verdicts from practical
+expansion warrant; declare floors, affected parties, options,
+uncertainty, and reversibility. & Consequence is not permission \\
+Power and authorship declaration & Name who supplied realization
+conditions, viability base, ordering, affected scope, and authority to
+apply the verdict. & Captured models remain possible \\
+Revision declaration & A changed base, floor, affected scope, horizon,
+semantics, or ordering is a new model whose warrant must be
+re-established. & Non-inheritance \\
+\end{longtable}
+
+\subsection{License summary}\label{license-summary}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+License
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Current status
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Scalar license & No scalar required for the preference relation; risk or
+decision scalarization must be separately declared. & None by default \\
+Local--global license & Qualitative governance review of affected scope
+and externalization. & No exact theorem \\
+Statistical Image License & Possible only for separately declared
+probability-threshold or outcome-distribution extensions. & Optional
+extension \\
+Allocation License & No allocation structure is required by the
+commitment-logic core. & Not applicable \\
+Refinement and Coarse-Graining License & No general coarse-graining
+theorem is invoked by the fixed-base preferential semantics. & Not
+applicable to core \\
+Fisher-Rao License & Not licensed for the core logic merely because
+probabilities may appear in an extension. & Not applicable to core \\
+Translation license & Exact KLM inheritance only under fixed-base,
+Boolean, definability, smoothness, ranking, and minimum-attainment
+conditions as stated. & Bounded Level 3 \\
+\end{longtable}
+
+\subsection{Open gaps and review
+disposition}\label{open-gaps-and-review-disposition}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Gap
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Consequence
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Required work
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Stable content & The formalism presupposes rather than explains
+realization conditions. & Semantic and practice-sensitive work \\
+Model capture & A determinate result can rest on unjust floors or
+options. & Independent governance and affected-party standing \\
+Trajectory evidence & Illustrative cases do not establish
+population-level effects. & Empirical and qualitative research \\
+\end{longtable}
+
+\begin{quote}
+\textbf{Propagation rule.} This card makes the paper's existing objects
+and limits visible. It does not strengthen any empirical, mathematical,
+normative, metaphysical, or spiritual claim beyond the wording supported
+in the manuscript.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{1. Introduction: Two Widows}\label{introduction-two-widows}
+
+Consider a schematic case.
+
+Two women lose a husband within a month of each other. Both belong to
+the same congregation, and both hold the same commitments: the dead are
+with God, death is not the end, grief is not despair.
+
+The first concludes that to grieve would be to doubt, and does not
+grieve. She speaks of her husband's homegoing with composure. Within a
+year she cannot say his name aloud. She has stopped visiting the grave,
+avoids the couple they used to see on Fridays, and has become brittle
+with anyone else in the congregation who is mourning. Asked how she is,
+she says she is at peace, and she is not lying.
+
+The second concludes that grief is what love does when it loses its
+object, and that hope does not cancel loss. She grieves badly for two
+years. She keeps saying his name. At the end of it she is someone who
+can sit with other people in their losses, and her faith has not
+diminished.
+
+The example stipulates rather than clinically diagnoses the relevant
+pattern. Quiet, delayed, private, culturally unfamiliar, or
+nonexpressive grief is not by itself evidence of suppression. Behavioral
+signs alone never establish the inner organization of a bereaved person.
+On the stipulated facts, however, one form of commitment has become
+insulated from the loss it claims to interpret, while the other has
+remained answerable to it.
+
+The two women share a theological picture. The difference lies in how
+that picture is inhabited. Nothing in the case settles whether the dead
+are with God. Sincerity does not settle the difference either. What
+matters is whether the commitment remains in truthful contact with
+experience, agency, relationship, and revision.
+
+This paper asks what standard can locate that difference.
+
+\subsection{1.1 The insulation problem}\label{the-insulation-problem}
+
+A familiar response to evidential criticism of religion holds that
+religious utterances do not always function like scientific hypotheses.
+They may orient a form of life. They may express trust, dependence,
+repentance, gratitude, hope, identity, promise, and practical
+allegiance. Demanding the evidential standard appropriate to ordinary
+empirical description may therefore misidentify what the utterance is
+doing.
+
+This response explains much. It explains why religious language persists
+despite evidential pressure that would defeat an empirical hypothesis.
+It explains why a creed can remain practically central even when
+adherents disagree about literal interpretation. It explains why ritual,
+prayer, lament, and blessing cannot be reduced to reports about
+invisible objects.
+
+But the response creates a debt. If religious commitment is removed from
+descriptive standards and no other standard is supplied, nothing can
+count against it. A disciplined commitment and a destructive one become
+equally protected. A political or spiritual community can reinterpret
+every failure as confirmation. The protection of faith becomes
+protection from criticism.
+
+That is the insulation objection.
+
+Its force is not that every religious sentence must be a failed
+empirical claim. Its force is that meaningful commitment must remain
+vulnerable to corruption and revision even when its principal work is
+not descriptive.
+
+\subsection{1.2 The historical
+challenge}\label{the-historical-challenge}
+
+The problem inherits the shape of several older debates. Ayer's
+verificationist challenge supplied one influential form of the demand
+that cognitively meaningful assertion answer to publicly assessable
+conditions (Ayer, 1936).
+
+Hume's discussion of miracle testimony asks how extraordinary religious
+claims should be weighed against established experience (Hume,
+1748/2000, §10). Clifford turns evidential responsibility into a moral
+demand: belief formed without adequate evidence can itself be culpable
+(Clifford, 1877). Wisdom's invisible-gardener parable, later used in the
+Flew--Hare--Mitchell symposium, sharpens the challenge of endlessly
+qualified religious assertion (Wisdom, 1945; Flew, 1955; Hare, 1955;
+Mitchell, 1955). Geach's challenge to non-cognitivist and ascriptivist
+accounts asks how a content can retain its identity when embedded rather
+than asserted (Geach, 1960).
+
+One family of replies meets these challenges inside the description
+register. Natural theology, Alston's doxastic-practice account, and
+Plantinga's proper-function account defend religious belief as truth-apt
+and potentially warranted (Alston, 1991; Plantinga, 2000). Nothing in
+this paper refutes that project. If a religious proposition purports to
+describe reality, it remains answerable to the evidence and arguments
+appropriate to that claim.
+
+A second family emphasizes that religious discourse also performs
+practical and expressive work. Kant limits theoretical knowledge to make
+room for practical faith. Hare's \emph{blik}, Wittgensteinian philosophy
+of religion, Phillips's grammar of religious life, and expressivist
+approaches treat some utterances as orienting practice rather than
+merely picturing hidden fact.
+
+The second family sees something important and leaves something
+unresolved. Protecting a practice from a category mistake does not yet
+explain what distinguishes a truthful, revisable commitment from an
+insane, coercive, self-deceptive, or destructive one.
+
+This paper takes that unresolved problem as its point of departure.
+
+\subsection{1.3 The proposal}\label{the-proposal}
+
+Human discourse has at least two principal functions relevant here.
+
+The \textbf{description register} contains uses whose operative role is
+to represent how things are. Such uses are answerable to evidence,
+truth, valid inference, calibration, explanatory comparison, and proof
+relative to explicit assumptions.
+
+The \textbf{commitment register} contains uses whose operative role is
+to orient identity, trust, attention, practice, relationship, or action.
+Their central question is not exhausted by whether the embedded content
+describes a hidden object. It is whether the commitment can be
+responsibly undertaken and inhabited.
+
+The distinction is therefore primarily one of speech-act force,
+principal function, and assessment standard. It does not require the
+claim that every commitment content belongs to a different semantic
+species. ``God is with me'' may function as a literal metaphysical
+assertion, a declaration of trust, a ritual avowal, a poetic
+condensation of dependence, or a mixed utterance. The proper analysis
+decomposes those functions rather than assigning whole traditions to one
+category.
+
+The registers are distinct but not sealed:
+
+\begin{quote}
+\textbf{Established descriptive facts constrain commitments. Commitments
+do not establish descriptive facts.}
+\end{quote}
+
+This asymmetry is the first defense against insulation. A commitment
+that requires denial of established fact is unwarranted in that respect.
+A commitment that helps someone live does not thereby prove its
+cosmology.
+
+The second defense is a formal and practical architecture of warrant. It
+must distinguish what follows throughout every best realization from
+what remains available in only some; what is excluded; what is
+infeasible; what the model cannot yet decide; and what may responsibly
+be adopted only under wider social and ethical constraints.
+
+\subsection{1.4 The distinctive
+contribution}\label{the-distinctive-contribution}
+
+The paper makes six claims.
+
+First, the distinction between description and commitment is best
+understood primarily through principal function and assessment standard.
+Stable proposition-like content can appear in both registers while being
+used and evaluated differently.
+
+Second, commitment-register discourse requires an internal standard.
+Sincerity, social acceptance, identity, and psychological usefulness are
+insufficient.
+
+Third, the formal apparatus assumes stable realization conditions for a
+Boolean-representable fragment. It does not derive a general semantics
+for religious, ritual, poetic, or contemplative language, and the KLM
+layer is orthogonal to that compositional task.
+
+Fourth, given stable commitment contents, fixed-base preferential
+semantics supplies a nonmonotonic consequence relation. It distinguishes
+what every best viable realization supports from what at least one
+supports.
+
+Fifth, responsible adoption requires more than formal consequence. It
+depends on factual compatibility, protected floors, affected-party
+standing, option-set integrity, independent challenge, uncertainty,
+horizon, reversibility, and revision conditions.
+
+Sixth, adopting the two-register discipline is itself a commitment: a
+revisable undertaking to let truth constrain belief and to assess
+commitments by what they make of persons, relationships, and
+institutions.
+
+The paper's distinctive proposal is therefore narrower than a general
+semantics of commitment and stronger for being so:
+
+\begin{quote}
+\textbf{Representable commitment contents can retain stable content
+while being governed by defeasible rather than classical practical
+consequence, yielding distinct verdicts of strong warrant, mere
+admissibility, exclusion, infeasibility, and underdetermination.}
+\end{quote}
+
+The aim is not to settle every question in philosophy of religion. It is
+to show how commitment can remain disciplined after it has ceased to
+impersonate knowledge.
+
+\section{2. Content, Force, and Two
+Registers}\label{content-force-and-two-registers}
+
+\subsection{2.1 Content is not identical with speech-act
+force}\label{content-is-not-identical-with-speech-act-force}
+
+A sentence can contribute stable content while being used in different
+ways. ``I will care for my mother'' can be a prediction, a promise, a
+vow, a reassurance, or a report of intention. The content relevant to
+inference may remain stable while the act performed and the standards
+governing it change.
+
+This paper therefore does not define the two registers by a sharp
+partition between proposition-like and non-proposition-like meanings. It
+distinguishes principal functions:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Principal use
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Content and force
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Primary assessment
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Descriptive assertion & A content is presented as representing how
+things are & Evidence, truth, inference \\
+Commitment act & A content is adopted, promised, trusted, refused,
+consecrated, or used to orient action & Warrant, integrity, trajectory,
+agency, correction \\
+Symbolic, ritual, poetic, or contemplative performance & Meaning may
+depend heavily on practice, embodiment, or first-person use &
+Practice-specific interpretation; not automatically covered by the
+formal model \\
+Semantically empty or manipulatively insulated use & No stable
+descriptive, inferential, practical, or corrective role can be
+identified & Critique, clarification, or rejection \\
+\end{longtable}
+
+The rows are not natural kinds. One utterance may perform several
+functions at once.
+
+\subsection{2.2 The description
+register}\label{the-description-register}
+
+An utterance functions descriptively when it purports to represent an
+independently assessable state of affairs. Examples include:
+
+\begin{itemize}
+\tightlist
+\item
+  a historical claim about an event;
+\item
+  a causal claim about illness or healing;
+\item
+  a cosmological claim about the age of the Earth;
+\item
+  a metaphysical claim used literally;
+\item
+  a prediction about what a practice will do;
+\item
+  a psychological claim about grief.
+\end{itemize}
+
+Such claims do not leave the description register because they concern
+religion, morality, consciousness, or ultimate reality. If they
+describe, they answer to descriptive standards.
+
+\subsection{2.3 The commitment register}\label{the-commitment-register}
+
+An utterance functions committally when its principal role is to
+organize how an agent or community proceeds. It may vow, bless, mourn,
+promise, trust, refuse, consecrate, orient, or receive an event within a
+practical horizon.
+
+Commitment-register questions include:
+
+\begin{itemize}
+\tightlist
+\item
+  What does this commitment train the agent to notice or exclude?
+\item
+  Does it preserve contact with established fact?
+\item
+  Does it integrate experience or require insulation?
+\item
+  Does it protect or disable agency?
+\item
+  Whose costs does it externalize?
+\item
+  What happens when it encounters grief, conflict, uncertainty, or
+  power?
+\item
+  Can it be revised without destroying the person or community that
+  holds it?
+\end{itemize}
+
+A commitment act can be unwarranted even when its content is true,
+because descriptive truth does not settle whether that content should be
+adopted as a vow, plan, identity, or governing orientation.
+
+\subsection{2.4 Mixed discourse}\label{mixed-discourse}
+
+The most important religious utterances are often mixed. Consider:
+
+\begin{quote}
+Human beings are expressions of one sacred whole; therefore each person
+should be treated with reverence.
+\end{quote}
+
+The sentence may contain:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  a metaphysical assertion or interpretation;
+\item
+  a commitment to sacred regard;
+\item
+  a normative conclusion.
+\end{enumerate}
+
+The moral attractiveness of the conclusion does not prove the
+metaphysical assertion. The commitment need not collapse merely because
+the metaphysical picture remains uncertain. The picture can be held as
+an interpretation if its status is explicit and it remains compatible
+with fact.
+
+Decomposition allows a tradition to preserve meaning without protecting
+every inherited factual claim from correction.
+
+\subsection{2.5 How principal function is
+attributed}\label{how-principal-function-is-attributed}
+
+Register classification is itself interpretive and can be disputed. No
+single grammatical form decides it. Relevant evidence includes:
+
+\begin{itemize}
+\tightlist
+\item
+  what the speaker says they are doing;
+\item
+  what kinds of correction they accept;
+\item
+  how the utterance behaves in inference;
+\item
+  what actions, permissions, or prohibitions it generates;
+\item
+  how the community treats dissent or failed expectation;
+\item
+  whether the content is asserted across contexts or used mainly in
+  ritual;
+\item
+  and what institutional consequences depend on taking it literally.
+\end{itemize}
+
+Speaker intention matters but is not conclusive. Institutions can use
+symbolic language to perform covert descriptive or coercive work.
+Conversely, an outside observer can misclassify prayer or lament by
+ignoring first-person practice. When the principal function remains
+genuinely disputed, the framework should report that uncertainty rather
+than force a register assignment.
+
+\subsection{2.6 Asymmetric permeability}\label{asymmetric-permeability}
+
+The relation between registers is one-way with respect to evidential
+support.
+
+A commitment is not responsibly available when its operative use
+requires systematic denial of established descriptive constraints.
+
+But the converse does not hold. A commitment may be beautiful, healing,
+coherent, or morally fruitful without proving its descriptive picture.
+
+Commitments may still influence inquiry by directing attention,
+generating hypotheses, sustaining costly investigation, and shaping
+which questions are asked. Inquiry is not value-free. Yet motivation and
+salience are not evidence, and a commitment's practical warrant does not
+establish the truth of the hypotheses it inspires.
+
+This asymmetry blocks two opposed errors:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{fideistic insulation:} commitment is treated as beyond factual
+  constraint;
+\item
+  \textbf{reductive elimination:} every form of meaning is forced into
+  empirical description.
+\end{itemize}
+
+The discipline is to refuse both.
+
+\subsection{2.7 The two-register discipline is itself a
+commitment}\label{the-two-register-discipline-is-itself-a-commitment}
+
+The distinction is not a view from nowhere. Its descriptive component is
+a philosophical proposal about discourse, inference, and practice.
+Choosing to organize inquiry and spiritual life by it is itself a
+defeasible commitment.
+
+That commitment is grounded in a broader undertaking:
+
+\begin{quote}
+\textbf{Make reality more important than the identity built around one's
+interpretation of it.}
+\end{quote}
+
+The discipline asks us not to let spiritual desire, fear, belonging, or
+moral aspiration determine what is accepted as fact. It also asks us not
+to reduce grief, faith, love, purpose, or sacred orientation to failed
+science.
+
+Both registers remain revisable. Descriptions change with evidence and
+argument. Commitments change when they depend on false premises, require
+self-deception, degrade reality contact, foreclose grief or inquiry,
+protect domination, or generate trajectories incompatible with truth,
+agency, compassion, justice, and repair.
+
+\section{3. The Formal Architecture}\label{the-formal-architecture}
+
+\subsection{3.1 What the formal layer
+assumes}\label{what-the-formal-layer-assumes}
+
+The formal layer does not create the meanings on which it operates. It
+begins only after a relevant fragment of commitment discourse has been
+decomposed into stable, representable contents.
+
+Let:
+
+\begin{itemize}
+\tightlist
+\item
+  \(L_D\) be a descriptive language with ordinary truth-satisfaction
+  \(w\vDash_D\delta\);
+\item
+  \(L_R\) be a declared commitment-representation language;
+\item
+  \(w\Vdash_R\varphi\) mean that world or trajectory \(w\)
+  \textbf{realizes} or \textbf{supports} commitment content \(\varphi\).
+\end{itemize}
+
+For the fragment to which the full KLM result is applied, \(L_R\) is
+Boolean-closed and the realization extensions satisfy:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\llbracket\neg\varphi\rrbracket_R
+=
+W\setminus\llbracket\varphi\rrbracket_R,
+$}\]
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\llbracket\varphi\land\psi\rrbracket_R
+=
+\llbracket\varphi\rrbracket_R
+\cap
+\llbracket\psi\rrbracket_R,
+$}\]
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\llbracket\varphi\lor\psi\rrbracket_R
+=
+\llbracket\varphi\rrbracket_R
+\cup
+\llbracket\psi\rrbracket_R.
+$}\]
+
+This is an adopted representation of stable commitment content. It is
+extension-like and proposition-like enough for embedded inference. A
+critic may therefore regard it as relabeling propositions rather than
+supplying a new semantics. The paper accepts that limitation. Its
+distinctive claim concerns the consequence relation and verdict taxonomy
+built over these contents, not the original constitution of their
+meaning.
+
+For ritual, prayer, poetry, myth, first-person avowal, and other
+contents lacking an adequate Boolean representation, the full System P
+claim is not made.
+
+\subsection{3.2 Evaluation models}\label{evaluation-models}
+
+Let:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+M=(W,V_F,\prec,\Vdash_R)
+$}\]
+
+be a preferential model for a declared evaluation context.
+
+\begin{itemize}
+\tightlist
+\item
+  \(W\) is a set of worlds, states, or trajectories.
+\item
+  \(F\) is the established descriptive background.
+\item
+  \(K\) is the set of protected or hard constraints.
+\item
+  \(A\) is the affected-agent scope.
+\item
+  \(H\) is the temporal horizon.
+\item
+  \(V_F\equiv V_{F,K,A,H}\subseteq W\) is the \textbf{fixed viability
+  base} for that model.
+\item
+  \(\prec\) is a declared preference relation fixed within the model.
+\item
+  \(\Vdash_R\) supplies the stable realization conditions for the
+  representable commitment fragment.
+\end{itemize}
+
+For a finite commitment theory \(\Gamma\subseteq L_R\), define:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\operatorname{Real}_R(\Gamma)
+=
+\bigcap_{\gamma\in\Gamma}\llbracket\gamma\rrbracket_R,
+$}\]
+
+with \(\operatorname{Real}_R(\varnothing)=W\), and:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+W_{F,\Gamma}
+=
+V_F\cap\operatorname{Real}_R(\Gamma).
+$}\]
+
+Premises filter a fixed base by intersection. They do not silently
+change protected floors, affected-agent scope, horizon, or preference
+order. If any of those changes, the analyst has moved to a different
+model. That may be legitimate, but it is model revision rather than
+ordinary premise addition.
+
+For \(X\subseteq W\), let:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\operatorname{Min}_{\prec}(X)
+=
+\{w\in X:\nexists v\in X\text{ with }v\prec w\}.
+$}\]
+
+Write:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+B(F,\Gamma)
+=
+\operatorname{Min}_{\prec}(W_{F,\Gamma}).
+$}\]
+
+The best set may contain one realization, many tied or incomparable
+realizations, or---on infinite or non-well-founded structures---none.
+
+The standardized Domain Analytic Frame above is the compact CAP record
+for this companion paper. It locates the KLM result at exact structural
+transfer only inside the declared formal fragment and prevents that
+formal status from silently transferring to model adequacy or practical
+permission.
+
+\subsection{3.3 Strong warrant and fixed-base preferential
+consequence}\label{strong-warrant-and-fixed-base-preferential-consequence}
+
+Define strong warrant by:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\forall}\varphi
+\quad\Longleftrightarrow\quad
+B(F,\Gamma)\neq\varnothing
+\;\land\;
+B(F,\Gamma)\subseteq\llbracket\varphi\rrbracket_R.
+$}\]
+
+Every best viable realization supports \(\varphi\), and at least one
+best realization exists. This is the practical verdict of \textbf{strong
+warrant}.
+
+Define the plain fixed-base preferential consequence relation
+separately:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\Gamma\mid\!\sim_C\varphi
+\quad\Longleftrightarrow\quad
+\operatorname{Min}_{\prec}(V_F\cap\operatorname{Real}_R(\Gamma))
+\subseteq
+\llbracket\varphi\rrbracket_R.
+$}\]
+
+It is not an object-language conditional. It presupposes the realization
+semantics of \(L_R\); it does not explain that semantics.
+
+Under the standard definability and smoothness assumptions, this plain
+relation satisfies the KLM System P rules (Kraus, Lehmann, \& Magidor,
+1990). Ranked extensions support Rational Monotony when the relevant
+minima are attained (Lehmann \& Magidor, 1992). Strong warrant coincides
+with the plain relation on feasible premises and fails Reflexivity on
+infeasible ones, which is why infeasibility is reported as a separate
+verdict.
+
+The \textbf{Or} rule is available only because the representable
+fragment is Boolean-closed and:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\llbracket\alpha\lor\beta\rrbracket_R
+=
+\llbracket\alpha\rrbracket_R
+\cup
+\llbracket\beta\rrbracket_R.
+$}\]
+
+For unformalized sets of practices or commitments without a defined
+disjunction, no full System P claim is made.
+
+If the preference is ranked and every relevant nonempty definable set
+attains a minimum rank, Rational Monotony is also supported. Total
+ordering by itself is not enough when minimum attainment can fail.
+
+These results establish the shape of the inference. They do not supply
+the normative or spiritual content of the viability base and ordering.
+
+\subsection{3.4 Admissibility and mere
+admissibility}\label{admissibility-and-mere-admissibility}
+
+Define inclusive admissibility:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\exists}\varphi
+\quad\Longleftrightarrow\quad
+B(F,\Gamma)\neq\varnothing
+\;\land\;
+B(F,\Gamma)\cap\llbracket\varphi\rrbracket_R\neq\varnothing.
+$}\]
+
+At least one best viable realization supports \(\varphi\).
+
+A commitment is \textbf{merely admissible} when it is admissible but not
+strongly warranted:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\exists}\varphi
+\quad\land\quad
+F,\Gamma\not\models_C^{\forall}\varphi.
+$}\]
+
+The distinction matters only where the best set contains more than one
+relevant realization. In the three-world finite regression, all 294
+merely-admissible verdicts occur in the explicitly isolated
+non-singleton-best-set stratum. The frequencies protect the
+implementation; they are not evidence that one practical verdict is
+common in lived commitment.
+
+Admissibility is weaker than consequence. Two commitments can each be
+admissible while their conjunction is not.
+
+Let:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+B(F,\Gamma)=\{w_1,w_2\},
+$}\]
+
+with:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+w_1\Vdash_R\varphi\land\neg\psi,
+\qquad
+w_2\Vdash_R\neg\varphi\land\psi.
+$}\]
+
+Then \(\varphi\) and \(\psi\) are each admissible, but
+\(\varphi\land\psi\) is not. Admissibility therefore fails \textbf{And}
+and is not itself a System P consequence relation.
+
+\subsection{3.5 Exclusion and classical
+negation}\label{exclusion-and-classical-negation}
+
+Define:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\bot}\varphi
+\quad\Longleftrightarrow\quad
+B(F,\Gamma)\neq\varnothing
+\;\land\;
+B(F,\Gamma)\cap\llbracket\varphi\rrbracket_R=\varnothing.
+$}\]
+
+No best viable realization supports \(\varphi\). The commitment is
+\textbf{excluded} relative to the declared model.
+
+Under the adopted classical complement clause for \(\neg\varphi\),
+exclusion is equivalent to strong warrant for the formal negation:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\bot}\varphi
+\quad\Longleftrightarrow\quad
+F,\Gamma\models_C^{\forall}\neg\varphi.
+$}\]
+
+This is a simplifying choice with a practical consequence. ``No best
+realization supports continuing this practice'' may not be identical in
+ordinary deliberation to ``every best realization supports ceasing it.''
+The difference can involve non-applicability, abstention, suspension, or
+absence of the question. Capturing those distinctions requires a richer
+action language or non-classical negation. The present paper does not
+undertake that extension.
+
+Exclusion does not mean physical impossibility. It means that
+\(\varphi\) is unsupported throughout the best set of the declared
+model.
+
+\subsection{3.6 Infeasibility}\label{infeasibility}
+
+The commitment theory is \textbf{infeasible} within the declared model
+when:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+W_{F,\Gamma}
+=
+V_F\cap\operatorname{Real}_R(\Gamma)
+=
+\varnothing.
+$}\]
+
+Nothing survives the conjunction of descriptive background, protected
+conditions, and commitment premises. This is different from uncertainty.
+It says that the commitment set cannot be realized inside the model as
+declared.
+
+\subsection{3.7 Underdetermination}\label{underdetermination}
+
+The case is \textbf{underdetermined} when premise-compatible viable
+realizations remain but the evaluation cannot responsibly return one of
+the three best-set verdicts. This may occur because:
+
+\begin{itemize}
+\tightlist
+\item
+  a relevant nonempty set has no attained minimum;
+\item
+  facts remain unsettled;
+\item
+  affected parties or protected floors are incompletely represented;
+\item
+  the horizon is unspecified;
+\item
+  the causal model is inadequate;
+\item
+  or uncertainty is too great for responsible comparison.
+\end{itemize}
+
+Ties do not by themselves create underdetermination. When a nonempty
+best set exists, ties are exactly what make mere admissibility
+distinguishable from strong warrant and exclusion.
+
+In the finite strict-partial-order regression, every nonempty candidate
+set has at least one minimum. The 4,104 empty-best cases are therefore
+\textbf{infeasible}, not underdetermined. Underdetermination belongs to
+non-attainment and model-adequacy conditions not represented by that
+finite suite.
+
+Underdetermination is not permission by default. It is a demand for
+inquiry, caution, reversible action, model comparison, or honest
+unresolved disagreement.
+
+\subsection{3.8 The inherited maximum-preservation
+clause}\label{the-inherited-maximum-preservation-clause}
+
+An earlier formulation asked whether restricting the feasible trajectory
+set by adding \(\varphi\) preserved or increased the maximum achievable
+score. But the restricted set is a subset of the original set, so its
+maximum cannot increase. Equality holds only when at least one old
+optimum remains available.
+
+Thus the maximum-preservation condition captures:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\operatorname{Argmax}(F,\Gamma)
+\cap
+\llbracket\varphi\rrbracket_R
+\neq\varnothing,
+$}\]
+
+which is existential support by an old optimum---admissibility---not
+skeptical consequence.
+
+The correction does not destroy the project. It reveals that the
+original proposal contained two valid questions and treated them as one.
+
+\subsection{3.9 Practical expansion warrant and captured
+models}\label{practical-expansion-warrant-and-captured-models}
+
+Formal consequence does not determine whether an agent may responsibly
+add a commitment. A commitment can preserve one best trajectory while:
+
+\begin{itemize}
+\tightlist
+\item
+  violating a protected floor;
+\item
+  imposing concentrated costs on others;
+\item
+  obtaining local stability through coercion;
+\item
+  depending on an artificially truncated option set;
+\item
+  externalizing harm across scales or generations;
+\item
+  or becoming safe only under an unrealistic model.
+\end{itemize}
+
+Let practical expansion warrant be written schematically as:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\mathcal W_C(\varphi\mid F,\Gamma,K,H,A,M,U).
+$}\]
+
+A commitment is responsibly adoptable only if, at minimum:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  its operative use is compatible with established fact;
+\item
+  at least one viable continuation remains;
+\item
+  no inviolable floor is violated;
+\item
+  affected parties and distributions are represented;
+\item
+  local integration is not purchased by disabling another agent's
+  agency;
+\item
+  externalized costs across scales and horizons are disclosed;
+\item
+  the option set has not been controlled so as to predetermine the
+  verdict;
+\item
+  the result is open to sufficiently independent challenge;
+\item
+  practical correction, appeal, and remedy exist where the commitment
+  acquires institutional power;
+\item
+  the result is sufficiently robust under reasonable model uncertainty;
+\item
+  the commitment remains revisable;
+\item
+  where severe irreversible harm is possible, retained option value or a
+  necessity-and-proportionality exception is supplied.
+\end{enumerate}
+
+Public specification is necessary but insufficient. It makes capture
+visible; it does not make the model contestable. The formal apparatus
+supplies a verdict structure and no protection against a captured
+viability base, ordering, option set, or affected-party model. Those
+protections come from the normative governance architecture developed in
+\emph{Foundations}, \emph{Social Dynamics}, and \emph{Ethics}.
+
+The verdicts are therefore \textbf{model-relative}. When several people
+genuinely share the same model, they can reproduce the same result. The
+formalism does not guarantee convergence across rival models, and
+transparent unresolved disagreement may be the correct endpoint.
+
+Practical expansion warrant is not a single theorem. It is a governance
+architecture for responsible adoption.
+
+\section{4. Addressability and the Boundary of the
+Formalization}\label{addressability-and-the-boundary-of-the-formalization}
+
+\subsection{4.1 Meaning exceeds formal
+addressability}\label{meaning-exceeds-formal-addressability}
+
+A theory that recognizes commitment-register meaning still needs to
+distinguish three questions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Is the utterance meaningful within a practice?
+\item
+  Is its relevant content stable enough for public criticism and
+  embedded inference?
+\item
+  Is that content representable in the Boolean realization language used
+  by the formal model?
+\end{enumerate}
+
+The questions do not have the same answer in every case. Prayer, ritual,
+poetry, myth, silence, and contemplative avowal may be meaningful
+without admitting a complete Boolean decomposition. Such cases are
+\textbf{outside the present formalization}, not thereby meaningless.
+
+\subsection{4.2 Addressable commitment
+content}\label{addressable-commitment-content}
+
+A commitment is addressable to the degree that its adoption makes a
+stable, criticizable difference to what follows. It may:
+
+\begin{itemize}
+\tightlist
+\item
+  require or forbid actions;
+\item
+  alter which reasons count;
+\item
+  organize attention;
+\item
+  change the interpretation of loss or obligation;
+\item
+  structure relationships;
+\item
+  create expectations about how the agent should proceed;
+\item
+  expose the agent to criticism if its own standards are violated;
+\item
+  and specify conditions of revision or release.
+\end{itemize}
+
+For formal treatment, those differences must be representable through
+stable realization conditions across the contexts in which the formulas
+appear.
+
+\subsection{4.3 A graded criterion}\label{a-graded-criterion}
+
+A commitment \(\varphi\) has commitment-register content to the degree
+that adding it to \(\Gamma\) changes:
+
+\begin{itemize}
+\tightlist
+\item
+  the realizable trajectory set;
+\item
+  the practical priorities or ordering;
+\item
+  the actions licensed or prohibited;
+\item
+  the reasons an agent must answer;
+\item
+  the identity or relationship undertaken;
+\item
+  or the conditions under which revision is required.
+\end{itemize}
+
+It is \textbf{formally addressable} only where enough of that structure
+can be represented without falsifying the practice.
+
+This criterion is graded. Some utterances have rich public commitment
+content. Others function mainly as ritual, aesthetic form, communal
+signal, or first-person orientation. The framework need not force all
+meaningful language into one sharply bounded formal class.
+
+\subsection{4.4 Register inheritance}\label{register-inheritance}
+
+A sentence inherits the stricter standard when it performs descriptive
+work inside a practical argument.
+
+Suppose a community says:
+
+\begin{quote}
+This treatment is divinely required because it always cures the illness.
+\end{quote}
+
+The claim about cure is descriptive. Its religious setting does not
+exempt it from evidence. If the factual premise fails, the
+action-guiding conclusion loses that support even if the community
+retains a symbolic or devotional interpretation of the practice.
+
+Register inheritance prevents a mixed utterance from borrowing
+insulation from its commitment component while continuing to do
+descriptive work.
+
+\subsection{4.5 Not verificationism}\label{not-verificationism}
+
+The account does not say that only empirically testable sentences are
+meaningful. It says that different uses answer to different standards,
+and that descriptive work cannot be hidden inside a non-descriptive
+form.
+
+Mathematics, logic, modality, normativity, ritual, poetry, myth, and
+commitment can all possess content. The formal consequence relation
+applies only to the addressable fragment for which stable realization
+conditions have been responsibly supplied.
+
+\section{5. Frege--Geach and the Boundary of the Formal
+Result}\label{fregegeach-and-the-boundary-of-the-formal-result}
+
+\subsection{5.1 The objection}\label{the-objection}
+
+Non-cognitivist and expressivist accounts face a familiar challenge. If
+a sentence does not contribute stable content when embedded, how can it
+appear in a conditional, negation, or argument without changing meaning?
+
+Consider:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If trusting God requires refusing grief, then trusting God can require
+  psychological harm.
+\item
+  Trusting God requires refusing grief.
+\item
+  Therefore trusting God can require psychological harm.
+\end{enumerate}
+
+The embedded and asserted occurrences must contribute sufficiently
+stable content for the inference not to equivocate.
+
+\subsection{5.2 What the paper assumes rather than
+explains}\label{what-the-paper-assumes-rather-than-explains}
+
+Preferential semantics begins with a language, a realization relation,
+and extensions. It presupposes that the formalized contents remain
+stable across embedding. KLM consequence does not generate compositional
+meaning and cannot, by itself, solve the Frege--Geach problem.
+
+The paper therefore adopts a narrower position.
+
+For the representable fragment, commitment contents are treated as
+stable, extension-like, and Boolean-composable. The two registers differ
+primarily in speech-act force and assessment standard, not necessarily
+in semantic type. A proposition-like content can be asserted as
+description, adopted as plan, undertaken as vow, or embedded in
+reasoning.
+
+This move avoids claiming that an unstructured attitude becomes
+compositional merely because a preferential consequence relation is
+placed above it. It also concedes a familiar criticism: assigning
+realization extensions can look like relabeling propositions. The paper
+does not claim semantic novelty here.
+
+\subsection{5.3 What the KLM layer
+contributes}\label{what-the-klm-layer-contributes}
+
+Given stable commitment contents, the formal layer asks a different
+question:
+
+\begin{quote}
+What follows defeasibly from those contents across the best viable
+realizations of a fixed evaluation model?
+\end{quote}
+
+The answer distinguishes:
+
+\begin{itemize}
+\tightlist
+\item
+  what every best realization supports;
+\item
+  what at least one supports;
+\item
+  what none supports;
+\item
+  what cannot be realized;
+\item
+  and what the model cannot yet decide.
+\end{itemize}
+
+That is a consequence architecture, not a theory of meaning.
+
+The fixed-base control matters. A countermodel shows that
+premise-responsive viability revision can violate Cautious Monotony; the
+paired control shows that the same worlds and ordering do not violate it
+when premises filter one fixed base. The formal contribution lies in
+isolating the source of failure and preserving the distinction between
+model revision and inference inside a model.
+
+\subsubsection{5.3.1 Compact countermodel and fixed-base
+control}\label{compact-countermodel-and-fixed-base-control}
+
+A three-world construction makes the distinction visible. Let
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+W=\{w_1,w_2,w_3\},
+$}\]
+
+with \(w_1\vDash b\land g\), \(w_2\vDash\neg b\land g\), and
+\(w_3\vDash b\land\neg g\). Order \(w_1\prec w_2\) and \(w_3\prec w_2\),
+leaving \(w_1\) and \(w_3\) incomparable. If the viable base is allowed
+to change with the premises,
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+V_{\varnothing}=\{w_1,w_2\},
+\qquad
+V_{\{b\}}=\{w_3\},
+$}\]
+
+then \(\varnothing\mid\!\sim_C b\) and \(\varnothing\mid\!\sim_C g\),
+but \(\{b\}\not\mid\!\sim_C g\). Cautious Monotony fails because adding
+\(b\) changes the viable base rather than merely filtering it.
+
+Under the fixed-base control, one declared \(V_F\) is held constant and
+premises act only by intersection with
+\(\operatorname{Real}_R(\Gamma)\). The same worlds and ordering then
+remain within the KLM fixed-base setting. The contrast is not a claim
+that model revision is illegitimate; it shows that revision and
+inference are different operations and cannot share one theorem without
+further proof.
+
+\subsection{5.4 Object-language conditionals and metalinguistic
+consequence}\label{object-language-conditionals-and-metalinguistic-consequence}
+
+An object-language conditional belongs to \(L_R\) and receives a
+realization extension through the adopted semantic clauses.
+
+The relation:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\Gamma\mid\!\sim_C\varphi
+$}\]
+
+is metalinguistic. It says that \(\varphi\) holds throughout the minimal
+\(\Gamma\)-realizing worlds of the fixed viability base. It is not
+itself the meaning of ``if,'' ``ought,'' ``promise,'' or any religious
+expression.
+
+Conflating the two would make preferential consequence appear to solve a
+compositionality problem it presupposes away.
+
+\subsection{5.5 Relation to expressivist and imperative
+semantics}\label{relation-to-expressivist-and-imperative-semantics}
+
+Gibbard's planning semantics, Yalcin's expressivist formalism, and work
+on imperatives show that practical or directive discourse can possess
+sophisticated logical structure without being modeled as ordinary
+descriptive assertion (Gibbard, 2003; Yalcin, 2012; Charlow, 2014a,
+2014b). They also make the relabeling question unavoidable: if practical
+contents are represented by stable sets of worlds or plans, how far do
+they differ from propositions?
+
+The present paper takes no general position capable of resolving that
+debate. It uses stable realization conditions for a limited practical
+purpose and locates its distinctive claim elsewhere: \textbf{classical
+or proposition-like content can be governed by nonmonotonic practical
+consequence rather than by one undifferentiated classical entailment
+relation.}
+
+\subsection{5.6 Scope of the result}\label{scope-of-the-result}
+
+The strongest defensible claim is:
+
+\begin{quote}
+\textbf{For commitment contents representable in a declared
+Boolean-closed language with stable realization conditions, fixed-base
+preferential semantics supplies a defeasible consequence structure that
+preserves those contents through embedded inference.}
+\end{quote}
+
+This claim concerns consequence, not the original constitution of
+meaning.
+
+The result does not cover every use of:
+
+\begin{itemize}
+\tightlist
+\item
+  ritual;
+\item
+  prayer;
+\item
+  symbol;
+\item
+  myth;
+\item
+  poetry;
+\item
+  first-person avowal;
+\item
+  contemplative utterance;
+\item
+  or embodied religious practice.
+\end{itemize}
+
+Those remain outside the formalization unless a responsible
+representation is supplied.
+
+The paper therefore does not claim to solve the general Frege--Geach
+problem as an expressivist. It assumes stable content for a bounded
+fragment and develops a practical consequence architecture over it.
+
+\section{6. Disagreement and Model
+Relativity}\label{disagreement-and-model-relativity}
+
+\subsection{6.1 Why disagreement appears
+difficult}\label{why-disagreement-appears-difficult}
+
+If commitment uses are not assessed only as ordinary descriptions, what
+are people disagreeing about? One answer says that they merely express
+different attitudes. But many practical disputes are stronger than
+difference. People accuse each other of inconsistency, evasion, cruelty,
+corruption, or failure to live by their own stated commitments.
+
+The account distinguishes several cases.
+
+\subsection{6.2 A taxonomy}\label{a-taxonomy}
+
+\subsubsection{Different commitments, correct
+verdicts}\label{different-commitments-correct-verdicts}
+
+Two agents may inhabit different commitment sets and face different
+trajectory spaces. One commitment may be admissible for one agent and
+unavailable to another without either verdict being mistaken.
+
+This is difference, not necessarily disagreement.
+
+\subsubsection{Shared commitments, conflicting
+verdicts}\label{shared-commitments-conflicting-verdicts}
+
+If two agents share the same facts, protected floors, affected scope,
+horizon, model, and ordering but disagree about whether the formal
+condition holds, at least one has misapplied the model.
+
+This is genuine resolvable disagreement.
+
+\subsubsection{Descriptive disagreement}\label{descriptive-disagreement}
+
+Parties may disagree about \(F\): what happened, what a practice causes,
+whether testimony is reliable, or whether a risk is real. Ordinary
+evidential standards apply.
+
+\subsubsection{Model disagreement}\label{model-disagreement}
+
+Parties may accept the same facts while using different causal,
+psychological, or social models. Resolution requires comparative
+explanation, prediction, intervention, or acknowledgment of uncertainty.
+
+\subsubsection{Constraint disagreement}\label{constraint-disagreement}
+
+Parties may disagree about which capacities or rights function as
+protected floors and which tradeoffs are legitimate. This is a
+substantive moral or political disagreement, not a defect that logic
+resolves automatically.
+
+\subsubsection{Ordering disagreement}\label{ordering-disagreement}
+
+Parties may rank viable trajectories differently. They must make the
+ranking explicit and defend its relation to agency, suffering, truth,
+justice, and repair.
+
+\subsubsection{Horizon disagreement}\label{horizon-disagreement}
+
+A commitment can look stabilizing over a week and destructive over five
+years. A horizon is not a neutral technical choice. It must be justified
+by the phenomenon.
+
+\subsubsection{Affected-agent
+disagreement}\label{affected-agent-disagreement}
+
+Parties may omit different people, communities, species, or future
+systems. Many apparent disagreements about ``coherence'' are
+disagreements about whose trajectory counts.
+
+\subsubsection{Practical conflict}\label{practical-conflict}
+
+Two commitments may be separately warranted yet impossible to realize
+together. The result is conflict, negotiation, boundary, or
+institutional design---not necessarily an epistemic error.
+
+\subsection{6.3 Determinacy relative to a declared
+model}\label{determinacy-relative-to-a-declared-model}
+
+The formal relation is model-relative.
+
+Given the same \(V_F\), \(\prec\), realization semantics, floors,
+affected scope, and horizon, different reasoners can reproduce the same
+verdict. This is determinate relative to shared public arguments.
+
+It is not a guarantee of intersubjective objectivity across rival
+models. Whoever controls the viability base and ordering can control the
+verdicts. An institution can omit alternatives, exclude affected people,
+or deliberately provide a coarse model that returns no verdict.
+
+Public specification makes those choices visible. It does not make them
+contestable.
+
+Contestation requires additional normative architecture:
+
+\begin{itemize}
+\tightlist
+\item
+  affected-party standing;
+\item
+  option-set integrity;
+\item
+  independent challenge;
+\item
+  protected dissent;
+\item
+  noncompensation for severe concentrated harm;
+\item
+  practical correctability;
+\item
+  and authority to revise or reject the model.
+\end{itemize}
+
+The formal relation supplies none of these by itself.
+
+\subsection{6.4 Arbitrariness constrained, not disagreement
+abolished}\label{arbitrariness-constrained-not-disagreement-abolished}
+
+The account constrains arbitrariness in several ways.
+
+First, descriptive facts remain answerable to evidence regardless of
+preference.
+
+Second, stable realization semantics and explicit inference constrain
+which conclusions follow inside a model.
+
+Third, protected floors, affected-party scope, and governance
+requirements constrain local integration purchased through domination or
+exclusion.
+
+Fourth, model revisions must be disclosed rather than smuggled in as
+premise addition.
+
+These constraints do not guarantee one final ordering. Cross-model
+disagreement may remain transparent and unresolved. Naming that limit is
+preferable to pretending the formalism adjudicates values it only
+exposes.
+
+\section{7. Asymmetric Permeability}\label{asymmetric-permeability-1}
+
+\subsection{7.1 Description to
+commitment}\label{description-to-commitment}
+
+Facts may enter commitment evaluation as constraints.
+
+If a sacred text is shown not to be an accurate geological account, a
+commitment that requires treating it as geology loses warrant in that
+use. The community may preserve the text as myth, ritual, poetry,
+covenant, or theological interpretation, but it may not use the
+attractiveness of those functions to re-establish the descriptive claim.
+
+If a healing practice is shown to cause harm, its devotional meaning
+cannot exempt it from that evidence.
+
+If a political identity depends on a false historical claim, the
+identity does not manufacture the history.
+
+\subsection{7.2 Commitment to
+description}\label{commitment-to-description}
+
+The converse evidential path is blocked.
+
+A commitment may motivate inquiry. It may suggest hypotheses, direct
+attention, sustain courage, or affect theory choice where evidence
+underdetermines alternatives. Testimony and values can reveal neglected
+objects of study. None of this makes inquiry value-free.
+
+But practical warrant does not count as evidence that a cosmology or
+causal claim is true. Commitments shape inquiry without deciding its
+descriptive results.
+
+This distinction is the line the framework commits itself to hold as
+disciplinedly as possible.
+
+\subsection{7.3 The answer to the insulation
+objection}\label{the-answer-to-the-insulation-objection}
+
+The account does not protect commitment from criticism. It relocates and
+pluralizes criticism.
+
+A commitment can fail because it:
+
+\begin{itemize}
+\tightlist
+\item
+  contradicts established fact;
+\item
+  lacks stable, addressable content for the claim being made;
+\item
+  violates protected floors;
+\item
+  requires self-deception;
+\item
+  disables agency;
+\item
+  externalizes costs;
+\item
+  forecloses revision;
+\item
+  depends on a captured model;
+\item
+  or produces trajectories rejected throughout the best set of an
+  adequately governed evaluation.
+\end{itemize}
+
+That is enough to distinguish disciplined from destructive commitment
+without pretending to know what cannot presently be known.
+
+\section{8. Transformative Commitment and Model
+Revision}\label{transformative-commitment-and-model-revision}
+
+\subsection{8.1 Why instantaneous stability is too
+conservative}\label{why-instantaneous-stability-is-too-conservative}
+
+Some warranted transformations begin with disruption.
+
+A person may accept a painful truth that their current identity cannot
+yet integrate. A religious practitioner may discover that a foundational
+historical claim is false. A patient may receive a diagnosis that
+reorganizes their life. A community may admit harm that destabilizes its
+public self-understanding.
+
+At the moment of recognition, descriptive adequacy may rise while
+integration falls. If warrant requires immediate stability, the
+framework will counsel denial precisely when truth demands
+reorganization.
+
+\subsection{8.2 Trajectory worlds}\label{trajectory-worlds}
+
+The solution is to evaluate extended trajectories.
+
+A trajectory may contain:
+
+\begin{itemize}
+\tightlist
+\item
+  temporary destabilization;
+\item
+  grief;
+\item
+  loss of role;
+\item
+  a bounded decline in functioning;
+\item
+  new support;
+\item
+  reorganization;
+\item
+  later recovery;
+\item
+  newly acquired capacities;
+\item
+  or foreclosed possibilities.
+\end{itemize}
+
+The fixed viability predicate evaluates the trajectory as a whole. The
+proposition representing adoption selects trajectories in which the
+commitment is adopted. It does not redefine the viability base merely by
+being added as a premise.
+
+\subsection{8.3 Bounded troughs}\label{bounded-troughs}
+
+A transformative trajectory should be distinguished from romanticized
+collapse.
+
+Responsible adoption requires attention to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  an inviolable viability floor;
+\item
+  the depth and duration of the trough;
+\item
+  credible recovery mechanisms;
+\item
+  evidence-sensitive expectations;
+\item
+  available lower-cost alternatives;
+\item
+  distribution of costs across affected people;
+\item
+  an expiry condition;
+\item
+  retained option value where severe harm is possible.
+\end{enumerate}
+
+No commitment becomes warranted merely because suffering can be narrated
+as growth.
+
+\subsection{8.4 When the model changes}\label{when-the-model-changes}
+
+If an analyst changes protected floors, affected-agent scope, horizon,
+causal model, or ordering in response to a commitment, the comparison is
+between different models:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+M_0
+\longrightarrow
+M_1.
+$}\]
+
+That can be necessary. Transformative commitments may reveal that the
+old model omitted a person, misunderstood a capacity, or used the wrong
+horizon.
+
+But the revision must be declared, dated, and justified. A verdict
+issued in \(M_0\) does not inherit authority in \(M_1\) without a bridge
+argument showing which facts, constraints, and order relations were
+preserved. The System P theorem does not transfer automatically to a
+non-intersective premise-responsive selection rule.
+
+A commitment must not protect itself by repeatedly redefining harm,
+agency, affected parties, or horizon and then presenting each revision
+as though it preserved the warrant of the previous model.
+
+\subsection{8.5 Commitment-trajectory
+review}\label{commitment-trajectory-review}
+
+A commitment should be reviewed not only by what it says, but by what it
+becomes.
+
+Questions include:
+
+\begin{itemize}
+\tightlist
+\item
+  What does it train the person to notice?
+\item
+  What becomes difficult to acknowledge?
+\item
+  Which emotions become forbidden?
+\item
+  Whose testimony becomes unintelligible?
+\item
+  Which authorities become immune?
+\item
+  What forms of relationship are produced?
+\item
+  Can doubt, grief, refusal, and revision still occur?
+\item
+  What happens when the commitment acquires power?
+\end{itemize}
+
+This is the practical discipline of the commitment register.
+
+\section{9. The Two Widows Revisited}\label{the-two-widows-revisited}
+
+\subsection{9.1 Scope and stipulation}\label{scope-and-stipulation}
+
+The example is schematic, conditional, non-clinical, and culturally
+non-universal.
+
+Quiet, delayed, private, or nonexpressive grief is not evidence of
+pathology or suppression. Behavioral signs alone never establish the
+inner organization of bereavement. The case stipulates that avoidance,
+brittleness, and loss of relational availability are causally linked to
+a rule that grief must be refused as doubt.
+
+The formal question is therefore:
+
+\begin{quote}
+Given the stipulated facts and declared model, how are two different
+expansions of one theological background evaluated?
+\end{quote}
+
+\subsection{9.2 Shared background}\label{shared-background}
+
+Let both women share the commitment set \(\Gamma\):
+
+\begin{itemize}
+\tightlist
+\item
+  the dead are with God;
+\item
+  death is not the end;
+\item
+  grief is not despair;
+\item
+  trust is an appropriate response to what cannot be understood.
+\end{itemize}
+
+For the formal comparison, these items enter \(\Gamma\) as commitment
+contents: trust, hope, and an orientation toward grief and death. Their
+descriptive counterparts are not placed in the established fact set
+\(F\); they remain undecided. The paper therefore does not decide
+whether the theological descriptions are true. It asks how the same
+commitment contents are inhabited, and the comparison is intended to
+hold whatever the truth of the undecided descriptions.
+
+Consider two candidate expansions:
+
+\begin{itemize}
+\tightlist
+\item
+  \(\varphi_s\): grief manifests insufficient trust and should be
+  suppressed;
+\item
+  \(\varphi_g\): grief is compatible with hope and may be fully
+  undergone.
+\end{itemize}
+
+\subsection{9.3 The declared evaluation}\label{the-declared-evaluation}
+
+A responsible model must identify at least:
+
+\begin{itemize}
+\tightlist
+\item
+  the widow herself;
+\item
+  close relationships and the mourning community;
+\item
+  affective access and flexibility;
+\item
+  factual self-contact;
+\item
+  relational availability;
+\item
+  ordinary functioning;
+\item
+  capacity for revision;
+\item
+  freedom from coercive spiritual bypassing;
+\item
+  cultural context;
+\item
+  and a multi-year horizon.
+\end{itemize}
+
+These choices are not dictated by logic. They are the substantive human
+content of the evaluation.
+
+\subsection{9.4 Suppression}\label{suppression}
+
+Suppression may perform well over a short interval. It can reduce
+visible distress, preserve role continuity, and secure communal
+approval. It may therefore remain physically possible and locally
+stabilizing.
+
+But the stipulated trajectory is different. Grief continues to organize
+avoidance outside the avowed self-understanding. The widow cannot say
+her husband's name, avoids reminders, and becomes brittle toward others
+who mourn.
+
+The case stipulates two insulated organizations:
+
+\begin{itemize}
+\tightlist
+\item
+  an avowed identity in which faith has absorbed the loss;
+\item
+  an excluded bereavement that continues to shape conduct.
+\end{itemize}
+
+Factual self-contact degrades. Relational availability narrows. The
+practice becomes less capable of recognizing its own effects.
+
+If every best viable trajectory under the declared model rejects
+\(\varphi_s\), then:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\bot}\varphi_s.
+$}\]
+
+The suppression commitment is excluded without any verdict on the
+afterlife.
+
+\subsection{9.5 Grieving with hope}\label{grieving-with-hope}
+
+The second expansion permits the loss to remain loss. Hope does not
+cancel grief; it changes the horizon within which grief is borne.
+
+If at least one best viable trajectory supports this form of mourning,
+then:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\exists}\varphi_g.
+$}\]
+
+It is admissible.
+
+If every best viable trajectory supports it relative to the declared
+model, then:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+F,\Gamma\models_C^{\forall}\varphi_g.
+$}\]
+
+It is strongly warranted.
+
+The story itself does not prove either quantification. It identifies
+dimensions a serious model would need to represent.
+
+\subsection{9.6 What the case
+establishes}\label{what-the-case-establishes}
+
+The conditional example shows four things.
+
+First, doctrinal identity does not entail practical identity.
+
+Second, sincerity does not guarantee warrant.
+
+Third, a commitment can be criticized without its metaphysical picture
+being settled.
+
+Fourth, spiritual hope can remain intact while a harmful interpretation
+of that hope is rejected.
+
+Criticism need not choose between accepting an entire doctrinal package
+and destroying the practice. Register decomposition permits repair.
+
+\section{10. Deferred Inquiry Under Resource
+Constraint}\label{deferred-inquiry-under-resource-constraint}
+
+\subsection{10.1 The difficult case}\label{the-difficult-case}
+
+Suppose an agent encounters credible evidence against a factual claim
+central to their religious or ideological community. Their livelihood,
+family, status, friendships, and practical identity are embedded in that
+community. Immediate acceptance of the evidence may not produce
+reorganization. It may produce collapse.
+
+Three responses are available:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{rationalize:} absorb the anomaly through an ad hoc
+  explanation;
+\item
+  \textbf{reorganize:} accept the evidence and rebuild the commitment
+  structure;
+\item
+  \textbf{defer:} hold the anomaly open while building the resources
+  required for responsible inquiry.
+\end{itemize}
+
+\subsection{10.2 Rationalization}\label{rationalization}
+
+Rationalization restores local fit by preventing evidence from altering
+protected identity. It changes evidential standards, invents exceptions,
+discredits sources selectively, or converts every counterexample into
+proof of persecution.
+
+The resulting stability is purchased through degraded adequacy and
+foreclosed correction. It is excluded when better viable trajectories
+remain available.
+
+\subsection{10.3 Reorganization}\label{reorganization}
+
+Reorganization is often the epistemically direct response. But an agent
+may lack the supports required to survive it.
+
+An account that commands immediate detonation of a person's social and
+material world may confuse severity with rigor. The fact that a belief
+is false does not imply that every route to releasing it is equally
+viable.
+
+\subsection{10.4 Deferral}\label{deferral}
+
+Deferral can be warranted when it means:
+
+\begin{itemize}
+\tightlist
+\item
+  not asserting the disputed claim more strongly;
+\item
+  preserving the anomaly rather than explaining it away;
+\item
+  seeking independent relationships, advice, and material support;
+\item
+  building emotional and intellectual capacity;
+\item
+  preserving a protected route of exit;
+\item
+  setting an expiry or review condition;
+\item
+  arranging review outside the community that benefits from continued
+  deferral;
+\item
+  and preparing for later reorganization.
+\end{itemize}
+
+Deferral ceases to be warranted when the conditions for inquiry are
+present, when capacity-building stops, when the expiry condition is
+indefinitely reset without independent review, or when delay continues
+to impose serious costs on others.
+
+This is not permission to believe whatever is comforting. The
+descriptive claim remains constrained by evidence. The practical
+question is how an agent can come into truthful relation with it without
+avoidable collapse.
+
+\subsection{10.5 The community's
+responsibility}\label{the-communitys-responsibility}
+
+A community that makes exit catastrophic manufactures the conditions
+under which deferral becomes rational.
+
+Such a community degrades its own epistemic integrity by:
+
+\begin{itemize}
+\tightlist
+\item
+  raising the cost of registering disconfirmation;
+\item
+  controlling relationships and resources;
+\item
+  punishing inquiry;
+\item
+  isolating members from alternative support;
+\item
+  converting social dependence into apparent conviction;
+\item
+  and certifying its own members as perpetually ``not ready'' to
+  question.
+\end{itemize}
+
+The framework can therefore return paired verdicts:
+
+\begin{itemize}
+\tightlist
+\item
+  deferral may be warranted for the individual;
+\item
+  the structure making deferral necessary may be unwarranted at the
+  collective level.
+\end{itemize}
+
+This avoids blaming the agent for responding rationally to constraint
+while refusing to launder the institution that created it.
+
+\section{11. Political Identity and the Compassion
+Corollary}\label{political-identity-and-the-compassion-corollary}
+
+\subsection{11.1 Why the political case is
+harder}\label{why-the-political-case-is-harder}
+
+Religious traditions can sometimes preserve a narrative as myth,
+covenant, ritual, or commitment after releasing a factual
+interpretation. Political claims often have less room for this move
+because they guide collective action through their descriptive content.
+
+Claims about what happened, what a group is like, what a policy does, or
+which risks are real are descriptions. Their purpose is to guide action.
+Reclassifying them as symbolic meaning may leave them unable to perform
+the political work for which they were introduced.
+
+Political identity therefore creates strong pressure toward
+rationalization when factual correction threatens community, status,
+livelihood, or belonging.
+
+\subsection{11.2 The symmetric
+diagnostic}\label{the-symmetric-diagnostic}
+
+The framework does not identify one faction as uniquely vulnerable. The
+process question applies symmetrically:
+
+\begin{quote}
+Does this community preserve or foreclose the trajectories through which
+its members could discover that it is wrong?
+\end{quote}
+
+A political community is epistemically degraded when it:
+
+\begin{itemize}
+\tightlist
+\item
+  makes disagreement socially catastrophic;
+\item
+  supplies instant anomaly-absorbing explanations;
+\item
+  applies different evidential standards to allies and opponents;
+\item
+  controls the option set;
+\item
+  punishes members who update;
+\item
+  or erases independent records and challenge channels.
+\end{itemize}
+
+Symmetry of method does \textbf{not} imply symmetry of evidence. Equal
+standards applied to unequal evidence should yield unequal verdicts.
+That is the standards working rather than failing.
+
+The truth of a community's present claim does not excuse a structure
+incapable of future correction.
+
+\subsection{11.3 Evaluating claims and evaluating
+agents}\label{evaluating-claims-and-evaluating-agents}
+
+A false claim and the person holding it require different assessments.
+
+The claim is evaluated against descriptive evidence. The agent is
+evaluated relative to their trajectory space, resources, dependencies,
+knowledge, control, and available alternatives.
+
+Two agents can hold the same false claim while occupying different
+practical positions. One may have a viable route to correction; another
+may face catastrophic loss with no support.
+
+This yields the compassion corollary:
+
+\begin{quote}
+A person may be responding to a constrained trajectory space rather than
+displaying stupidity, dishonesty, or bad character.
+\end{quote}
+
+Compassion does not change the truth value of the claim. It changes what
+responsible response requires.
+
+The person harmed by a false or oppressive commitment does not owe the
+believer education, forgiveness, reconciliation, emotional labor, or
+continued relationship. Compassion toward constrained agents must not
+become a new burden placed on those who bear the harm.
+
+\subsection{11.4 Changing the trajectory
+space}\label{changing-the-trajectory-space}
+
+Where the binding constraint is resource scarcity rather than evidential
+access, more argument may address the wrong variable.
+
+Helpful interventions can include:
+
+\begin{itemize}
+\tightlist
+\item
+  relationships outside the community;
+\item
+  material and legal support;
+\item
+  protected confidentiality;
+\item
+  a place to belong after revision;
+\item
+  slower inquiry;
+\item
+  trauma-informed support;
+\item
+  and examples of identity continuity after belief change.
+\end{itemize}
+
+\begin{quote}
+\textbf{{[}Empirical hypothesis{]}} When identity-relevant revision
+carries no viable exit, otherwise sound argument is more likely to
+generate resistance, concealment, or defensive entrenchment than when
+material, relational, and identity continuity are protected. The claim
+requires empirical testing and does not follow from the formal
+consequence relation alone.
+\end{quote}
+
+\subsection{11.5 Reflexive use}\label{reflexive-use}
+
+This analysis applies reflexively or not at all.
+
+A person who uses the framework only to explain opponents has converted
+it into another identity-protective instrument. Its first use should be
+examination of the trajectory structures surrounding one's own
+commitments.
+
+\section{12. Placement in the Philosophical
+Landscape}\label{placement-in-the-philosophical-landscape}
+
+\subsection{12.1 Kant}\label{kant}
+
+The title inherits Kant's declaration that knowledge must be limited to
+make room for faith (Kant, 1781/1787/1998, Bxxx). The present proposal
+follows the limiting impulse and changes the positive term.
+
+The aim is not to abolish knowledge. It is to deny counterfeit
+knowledge: claims of descriptive certainty where the available methods
+do not warrant it.
+
+What enters the opened space is not immunity but
+commitment---orientation undertaken without pretending that orientation
+is evidence.
+
+\subsection{12.2 Wittgenstein}\label{wittgenstein}
+
+The early Wittgenstein supplies a discipline of boundary: where
+picturing fails, one should not counterfeit description. The later
+Wittgenstein supplies an account of use: meaning is carried by
+practices, inferential roles, and forms of life (Wittgenstein,
+1921/2001, 1953/2009).
+
+The present account joins these without treating practice as
+self-validating. Use helps identify principal function; practical
+warrant leaves commitments criticizable.
+
+\subsection{12.3 Truth-apt religious
+epistemology}\label{truth-apt-religious-epistemology}
+
+Alston's account of doxastic practices and Plantinga's account of
+warranted Christian belief defend the rationality of explicitly
+truth-apt religious belief (Alston, 1991; Plantinga, 2000).
+
+The present paper does not displace those projects. It addresses a
+different question: how religious and metaphysical commitments remain
+criticizable when their principal function in a context is practical,
+existential, ritual, or identity-forming rather than the assertion of an
+evidentially settled description.
+
+\subsection{12.4 Hare, Phillips, and
+Nielsen}\label{hare-phillips-and-nielsen}
+
+Hare's \emph{blik} identifies world-orienting frameworks but lacks a
+sufficiently discriminating account of sane and insane bliks (Hare,
+1955).
+
+Phillips and Wittgensteinian philosophy of religion preserve the
+internal grammar of faith but remain exposed when grammar becomes
+insulation (Phillips, 1970).
+
+Nielsen's criticism is therefore decisive: a practice cannot be
+protected merely by declaring its standards internal (Nielsen, 1967).
+
+The present account responds by making commitment open to factual
+constraint, negative verdict, model comparison, trajectory review, and
+external governance.
+
+\subsection{12.5 Carnap and Quine}\label{carnap-and-quine}
+
+Carnap's framework questions illuminate the practical adoption of a
+linguistic or conceptual framework (Carnap, 1950). The two-register
+architecture is similarly adopted for the work it enables rather than
+derived from a neutral language outside all frameworks.
+
+Quine's holism complicates any sharp separation of isolated statements
+from wider webs of belief (Quine, 1951). The present account agrees that
+commitments and descriptions operate within networks, while retaining a
+functional distinction among the kinds of work particular utterances
+perform.
+
+\subsection{12.6 Expressivism, plans, imperatives, and
+Frege--Geach}\label{expressivism-plans-imperatives-and-fregegeach}
+
+Expressivist and plan-based accounts have developed sophisticated
+responses to embedding. Gibbard represents normative judgment through
+plans; Yalcin develops Bayesian expressivism; Charlow explores
+imperative content and argues that some versions of expressivism can
+avoid familiar Frege--Geach problems (Gibbard, 2003; Yalcin, 2012;
+Charlow, 2014a, 2014b). Schroeder provides a useful statement of the
+historical and contemporary problem (Schroeder, 2008b).
+
+This paper does not claim priority for the idea that non-descriptive or
+practical discourse can possess logical structure. Nor does it claim to
+provide a new general semantics of that discourse.
+
+Its specific proposal is to assume stable realization conditions for a
+bounded, representable commitment fragment and then use fixed-base
+nonmonotonic consequence to distinguish:
+
+\begin{itemize}
+\tightlist
+\item
+  support in every best realization;
+\item
+  support in at least one;
+\item
+  exclusion from all;
+\item
+  infeasibility;
+\item
+  and underdetermination.
+\end{itemize}
+
+The novelty, if the proposal is novel, lies in the combination and
+practical taxonomy rather than in Boolean semantics or preferential
+logic taken separately.
+
+\subsection{12.7 Brandom and
+inferentialism}\label{brandom-and-inferentialism}
+
+Inferentialism explains content through the commitments and entitlements
+constituted by practices of giving and asking for reasons (Brandom,
+1994). The present proposal shares that emphasis and adds
+trajectory-level practical evaluation.
+
+The meaning of a commitment includes its inferential role; its
+responsible adoption also depends on what kind of life and institution
+that role produces.
+
+\subsection{12.8 Price and global
+expressivism}\label{price-and-global-expressivism}
+
+Global expressivist approaches emphasize the practical functions
+language serves (Price, 2011). The two-register model is less global: it
+preserves a robust description register while recognizing commitment
+force and other non-descriptive functions.
+
+The asymmetry is deliberate. Commitment does not replace truth; it
+begins where truth alone does not settle how to live.
+
+\subsection{12.9 Moral discourse}\label{moral-discourse}
+
+The paper is not a general expressivism about morals.
+
+Moral discourse includes:
+
+\begin{itemize}
+\tightlist
+\item
+  descriptions of harm and capacity;
+\item
+  normative judgments;
+\item
+  public commitments;
+\item
+  institutional authorizations;
+\item
+  and reasons governing relationship.
+\end{itemize}
+
+The Version 0.10 Ethics framework defends substantive principles
+concerning standing, agency, welfare, rights, distribution, power,
+responsibility, and repair. The two-register architecture can decompose
+moral utterances without reducing them all to commitment speech acts.
+
+\section{13. What Commitments This Account
+Licenses}\label{what-commitments-this-account-licenses}
+
+\begin{quote}
+\textbf{Register note.} ``Licenses'' does not mean ``scientifically
+proves'' or ``logically entails.'' The commitments below are
+orientations made intelligible by the account. Facts constrain them;
+they do not establish facts. They remain answerable to the trajectories
+they generate and open to revision.
+\end{quote}
+
+\subsection{13.1 CU-COM1 --- Commitment to
+Truth}\label{cu-com1-commitment-to-truth}
+
+The first commitment is not to a religious doctrine. It is to truth.
+
+We commit to making reality more important than the identities,
+affiliations, hopes, fears, and spiritual interpretations formed around
+it.
+
+This means refusing to let what we need to be true decide what we accept
+as fact. It also means refusing the opposite error: treating the limits
+of knowledge as proof that no responsible faith, metaphysical
+interpretation, or sacred orientation is possible.
+
+\subsection{13.2 CU-COM2 --- Discipline of the Two
+Registers}\label{cu-com2-discipline-of-the-two-registers}
+
+We commit to holding the distinction between description and commitment
+as disciplinedly as possible.
+
+We will not use a commitment's beauty, usefulness, or healing power as
+evidence for its descriptive cosmology.
+
+We will not dismiss a commitment merely because it does not function as
+an empirical hypothesis.
+
+We will decompose mixed utterances so that each component answers to the
+right standard.
+
+\subsection{13.3 CU-COM3 --- Revision in Both
+Registers}\label{cu-com3-revision-in-both-registers}
+
+Descriptions remain revisable by evidence and argument.
+
+Commitments remain revisable when they:
+
+\begin{itemize}
+\tightlist
+\item
+  depend on false premises;
+\item
+  require self-deception;
+\item
+  degrade reality contact;
+\item
+  foreclose grief, doubt, or inquiry;
+\item
+  protect domination;
+\item
+  erase affected people;
+\item
+  or generate institutions incapable of correction.
+\end{itemize}
+
+No sacred commitment becomes sacred by becoming unrevisable.
+
+\subsection{13.4 The wider commitment
+horizon}\label{the-wider-commitment-horizon}
+
+The two-register discipline makes room for substantive commitment; it
+does not itself establish which commitments should be adopted. The
+Version 0.10 canonical registry now records several commitments that
+this paper helps make intellectually possible: \textbf{CU-COM14} on
+love, \textbf{CU-COM15} on meaning as discovery and participation,
+\textbf{CU-COM16} on freedom of meaning-revision, \textbf{CU-COM17} on
+redemptive possibility without justification of evil, \textbf{CU-COM18}
+on Heaven on Earth as social vocation, and \textbf{CU-COM19} on enacting
+Omega in the present.
+
+Those commitments receive their substantive arguments in the canonical
+and domain papers. This companion contributes the discipline by which
+they can be held without being disguised as descriptive knowledge: fact
+constrains them; their trajectories remain assessable; and none becomes
+immune to revision by acquiring sacred language.
+
+\subsection{13.5 Faith after counterfeit
+knowledge}\label{faith-after-counterfeit-knowledge}
+
+Faith can be understood as revisable trust: a way of proceeding under
+uncertainty without pretending uncertainty has disappeared.
+
+Such faith can orient prayer, love, service, humility, reverence, and
+endurance. It can receive a metaphysical picture without converting the
+picture into an evidential conclusion.
+
+This is faith with standards rather than faith without risk.
+
+\subsection{13.6 The practice}\label{the-practice}
+
+The two-register architecture is ultimately less a doctrine than a
+discipline.
+
+Before asserting, ask: \textbf{Am I describing?} If so, what evidence
+would count?
+
+Before committing, ask: \textbf{What does this commitment make possible,
+and what does it train me not to see?}
+
+When the two functions are mixed, separate them.
+
+When a commitment generates harm, do not defend it merely because it
+once gave meaning.
+
+When evidence destabilizes identity, build the conditions under which
+truth can be survived.
+
+When another person cannot yet revise, ask whether the barrier is
+argument or trajectory.
+
+And when the framework itself stops serving truth, revise the framework.
+
+\subsection{13.7 A concise vow}\label{a-concise-vow}
+
+\begin{quote}
+We commit not to let our commitments decide what we believe as fact.\\
+We commit not to use facts as an excuse to abandon meaning, love, or
+sacred responsibility.\\
+We commit to assess what our commitments make of us and of the
+institutions we build.\\
+We commit to revise descriptions when evidence requires it and
+commitments when truth, consequence, or compassion requires it.\\
+We commit to deny counterfeit knowledge in order to make room for
+responsible commitment.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{14. Conclusion}\label{conclusion}
+
+The philosophy of religion has often treated its central problem as a
+contest between evidence and faith. That framing misses an important
+possibility.
+
+A stable content can be used descriptively, committally, ritually,
+symbolically, or in mixed form. Description remains answerable to truth
+and evidence. Commitment remains answerable to fact, practical warrant,
+agency, consequence, correction, and repair.
+
+For the representable fragment, the paper assumes stable Boolean
+realization conditions. It does not derive them and does not solve the
+general Frege--Geach problem. Its formal contribution begins afterward:
+fixed-base preferential consequence provides a nonmonotonic structure
+for reasoning with those contents.
+
+The resulting architecture distinguishes:
+
+\begin{itemize}
+\tightlist
+\item
+  strong warrant when every best viable realization supports a
+  commitment;
+\item
+  mere admissibility when some but not all do;
+\item
+  exclusion when none do;
+\item
+  infeasibility when no premise-compatible viable realization exists;
+\item
+  underdetermination when the model cannot responsibly decide;
+\item
+  practical expansion warrant when adoption survives the wider tests of
+  fact, floors, affected agents, option sets, independent challenge,
+  horizon, uncertainty, reversibility, and revision.
+\end{itemize}
+
+The two widows show why those distinctions matter when the relevant
+facts are stipulated rather than diagnosed. Identical doctrine can
+organize lives differently. One form of hope can become a prohibition on
+grief; another can accompany mourning and deepen compassion. The
+difference is not captured by truth, evidence, or sincerity alone.
+
+The account does not prove theology. It does not reduce spiritual life
+to utility. It does not make coherence a universal scalar, and it does
+not ask logic to supply its own values. Public formalization does not
+prevent captured models; standing, option-set integrity, correctability,
+and noncompensation remain load-bearing normative requirements.
+
+The paper's distinctive proposal is more modest and more defensible than
+a general semantics of commitment:
+
+\begin{quote}
+\textbf{Stable commitment contents can be governed by defeasible rather
+than classical practical consequence, allowing responsible reasoners to
+distinguish what every good realization supports from what merely
+remains possible in one.}
+\end{quote}
+
+Kant denied knowledge to make room for faith. The present proposal
+denies counterfeit knowledge to make room for commitment---and then
+refuses to let commitment become a refuge from truth.
+
+\section{Appendix A. Formal Results and
+Scope}\label{appendix-a.-formal-results-and-scope}
+
+\subsection{A.1 Realization semantics and fixed-base
+consequence}\label{a.1-realization-semantics-and-fixed-base-consequence}
+
+Let \(L_R\) be the Boolean-closed representable commitment fragment with
+realization relation \(\Vdash_R\). Let:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+M=(W,V_F,\prec,\Vdash_R),
+$}\]
+
+with \(V_F\) and \(\prec\) fixed as premises vary. Define:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\operatorname{Real}_R(\Gamma)
+=
+\bigcap_{\gamma\in\Gamma}\llbracket\gamma\rrbracket_R,
+$}\]
+
+and:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\Gamma\mid\!\sim_C\varphi
+\quad\Longleftrightarrow\quad
+\operatorname{Min}_{\prec}
+\left(
+V_F\cap\operatorname{Real}_R(\Gamma)
+\right)
+\subseteq
+\llbracket\varphi\rrbracket_R.
+$}\]
+
+Under standard definability and smoothness conditions, the relation
+satisfies System P. The Or rule requires the Boolean clause:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\llbracket\alpha\lor\beta\rrbracket_R
+=
+\llbracket\alpha\rrbracket_R
+\cup
+\llbracket\beta\rrbracket_R.
+$}\]
+
+If the preference is ranked and every relevant nonempty definable set
+attains a minimum, the relation satisfies Rational Monotony.
+
+The theorem concerns consequence over stable contents. It does not
+supply their compositional meaning.
+
+\subsection{A.2 Model-level verdicts}\label{a.2-model-level-verdicts}
+
+Let:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+W_{F,\Gamma}
+=
+V_F\cap\operatorname{Real}_R(\Gamma),
+\qquad
+B(F,\Gamma)=\operatorname{Min}_{\prec}(W_{F,\Gamma}).
+$}\]
+
+Then:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{strong warrant:} \(B\neq\varnothing\) and
+  \(B\subseteq\llbracket\varphi\rrbracket_R\);
+\item
+  \textbf{mere admissibility:} \(B\neq\varnothing\),
+  \(B\cap\llbracket\varphi\rrbracket_R\neq\varnothing\), and
+  \(B\nsubseteq\llbracket\varphi\rrbracket_R\);
+\item
+  \textbf{exclusion:} \(B\neq\varnothing\) and
+  \(B\cap\llbracket\varphi\rrbracket_R=\varnothing\);
+\item
+  \textbf{infeasibility:} \(W_{F,\Gamma}=\varnothing\);
+\item
+  \textbf{underdetermination:} \(W_{F,\Gamma}\neq\varnothing\) but no
+  responsible best-set verdict is available because of non-attainment or
+  model inadequacy.
+\end{itemize}
+
+In finite strict partial orders, every nonempty \(W_{F,\Gamma}\) has a
+minimum. The finite regression therefore tests infeasibility but not
+non-attainment.
+
+\subsection{A.3 Classical-negation
+consequence}\label{a.3-classical-negation-consequence}
+
+With:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\llbracket\neg\varphi\rrbracket_R
+=
+W\setminus\llbracket\varphi\rrbracket_R,
+$}\]
+
+exclusion of \(\varphi\) is equivalent to strong warrant for
+\(\neg\varphi\). This is an adopted simplification. Richer distinctions
+among ceasing, suspending, abstaining, and non-applicability require a
+richer action language.
+
+\subsection{A.4 Maximum preservation}\label{a.4-maximum-preservation}
+
+Where a real-valued score is used and maxima exist:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\max_{W_{F,\Gamma\cup\{\varphi\}}}C
+\ge
+\max_{W_{F,\Gamma}}C
+$}\]
+
+can hold only as equality because the first domain is a subset of the
+second. Equality is equivalent to support by at least one old maximizer.
+It is therefore a test of credulous admissibility, not skeptical
+consequence.
+
+\subsection{A.5 Admissibility is not System
+P}\label{a.5-admissibility-is-not-system-p}
+
+The two-best-world construction in §3.4 shows that admissibility can
+fail conjunction. No System P claim is made for it.
+
+\subsection{A.6 Trajectory lifting}\label{a.6-trajectory-lifting}
+
+Replacing instantaneous worlds with trajectories preserves the abstract
+fixed-base preferential construction when:
+
+\begin{itemize}
+\tightlist
+\item
+  the trajectory-level viability base remains fixed;
+\item
+  the ordering remains fixed;
+\item
+  and the commitment premise filters trajectories by intersection.
+\end{itemize}
+
+Changing protected floors, affected-agent scope, horizon, or ordering is
+model revision.
+
+\subsection{A.7 Formal limitation and governance
+dependency}\label{a.7-formal-limitation-and-governance-dependency}
+
+The formal results do not determine:
+
+\begin{itemize}
+\tightlist
+\item
+  who counts as affected;
+\item
+  which floors are inviolable;
+\item
+  which model is adequate;
+\item
+  how uncertainty is treated;
+\item
+  which options should have been considered;
+\item
+  which ordering is normatively justified;
+\item
+  or who possesses standing to challenge the model.
+\end{itemize}
+
+Public specification gives visibility, not contestability. Responsible
+use depends on affected-party standing, option-set integrity,
+independent challenge, practical correctability, noncompensation, and
+proportional reversibility safeguards.
+
+\section{Appendix B. Revision and Audit
+Note}\label{appendix-b.-revision-and-audit-note}
+
+Version 0.10 preserves the original paper's opening case, insulation
+objection, register distinction, asymmetric permeability, disagreement
+taxonomy, reflexivity, deferred-inquiry analysis, political application,
+and compassion corollary.
+
+The first publication pass reconstructed the original formalism by:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  separating strong warrant, admissibility, exclusion,
+  underdetermination, and practical expansion warrant;
+\item
+  fixing viability and preference within every model claimed to satisfy
+  System P or Rational Monotony;
+\item
+  distinguishing maximum preservation from skeptical consequence;
+\item
+  representing transformative change inside trajectories;
+\item
+  retiring a universal scalar coherence score.
+\end{enumerate}
+
+The second publication pass incorporated the independent audit by:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  stating that the KLM layer presupposes stable content and is
+  orthogonal to compositional meaning;
+\item
+  distinguishing descriptive truth-satisfaction \(\vDash_D\) from
+  commitment realization \(\Vdash_R\);
+\item
+  reframing the registers primarily through speech-act function and
+  assessment standard;
+\item
+  narrowing the Frege--Geach claim to stable, Boolean-representable
+  commitment contents;
+\item
+  splitting infeasibility from underdetermination;
+\item
+  recording the classical-negation duality of exclusion;
+\item
+  strengthening the dependency on affected-party standing, option-set
+  integrity, independent challenge, practical correctability,
+  noncompensation, and reversibility;
+\item
+  making case verdicts visibly conditional on stipulated facts;
+\item
+  adding a non-singleton-best-set regression stratum;
+\item
+  normalizing and expanding the bibliography.
+\end{enumerate}
+
+The complete proof history, countermodels, regression results,
+independent audit, and disposition record appear in the technical
+supplement. Wave 6 authority, citation, and cross-reference changes are
+recorded in the
+\href{../supplements/Framework_Addendum_Companion_Synchronization_v0.10.md}{Companion-Paper
+Synchronization Addendum}.
+
+\section{Appendix C. Technical Supplement and
+Reproducibility}\label{appendix-c.-technical-supplement-and-reproducibility}
+
+\textbf{Released evidence package.} The current supplement is
+\href{../supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md}{10\_Denying\_Knowledge\_Technical\_Supplement\_v0.10.md}.
+Its companion evidence directory is
+\href{../evidence/10_Denying_Knowledge/README.md}{10\_Denying\_Knowledge}.
+The supplement and evidence directory expose the derivations,
+deterministic constructions, scripts, machine-readable results, source
+ledger, and audit materials referenced in this manuscript. They do not
+elevate a toy model, simulation, or reconstructed check into
+target-domain empirical validation.
+
+\section{References}\label{references}
+
+Mitchell, B. (1955). Theology and falsification. In A. Flew \& A.
+MacIntyre (Eds.), \emph{New essays in philosophical theology}. SCM
+Press.
+
+Alston, W. P. (1991). \emph{Perceiving God: The epistemology of
+religious experience}. Cornell University Press.
+
+Ayer, A. J. (1936). \emph{Language, truth and logic}. Gollancz.
+
+Brandom, R. B. (1994). \emph{Making it explicit: Reasoning,
+representing, and discursive commitment}. Harvard University Press.
+
+Carnap, R. (1950). Empiricism, semantics, and ontology. \emph{Revue
+Internationale de Philosophie, 4}(11), 20--40.
+
+Charlow, N. (2014a). The meaning of imperatives. \emph{Philosophy
+Compass, 9}(8), 540--555. \url{https://doi.org/10.1111/phc3.12151}
+
+Charlow, N. (2014b). The problem with the Frege--Geach problem.
+\emph{Philosophical Studies, 167}(3), 635--665.
+\url{https://doi.org/10.1007/s11098-013-0119-5}
+
+Clifford, W. K. (1877). The ethics of belief. \emph{The Contemporary
+Review, 29}, 289--309.
+
+Flew, A. (1955). Theology and falsification. In A. Flew \& A. MacIntyre
+(Eds.), \emph{New essays in philosophical theology} (pp.~96--99). SCM
+Press.
+
+Geach, P. T. (1960). Ascriptivism. \emph{The Philosophical Review,
+69}(2), 221--225. \url{https://doi.org/10.2307/2183506}
+
+Gibbard, A. (2003). \emph{Thinking how to live}. Harvard University
+Press.
+
+Hare, R. M. (1955). Theology and falsification. In A. Flew \& A.
+MacIntyre (Eds.), \emph{New essays in philosophical theology}
+(pp.~99--103). SCM Press.
+
+Hume, D. (2000). \emph{An enquiry concerning human understanding: A
+critical edition} (T. L. Beauchamp, Ed.). Clarendon Press. (Original
+work published 1748; final authorial edition 1777)
+
+Kant, I. (1998). \emph{Critique of pure reason} (P. Guyer \& A. W. Wood,
+Trans.). Cambridge University Press. (Original works published 1781 and
+1787)
+
+Kraus, S., Lehmann, D., \& Magidor, M. (1990). Nonmonotonic reasoning,
+preferential models and cumulative logics. \emph{Artificial
+Intelligence, 44}(1--2), 167--207.
+\url{https://doi.org/10.1016/0004-3702(90)90101-5}
+
+Lehmann, D., \& Magidor, M. (1992). What does a conditional knowledge
+base entail? \emph{Artificial Intelligence, 55}(1), 1--60.
+\url{https://doi.org/10.1016/0004-3702(92)90041-U}
+
+Nielsen, K. (1967). Wittgensteinian fideism. \emph{Philosophy, 42}(161),
+191--209. \url{https://doi.org/10.1017/S0031819100001285}
+
+Phillips, D. Z. (1970). \emph{Faith and philosophical enquiry}.
+Routledge \& Kegan Paul.
+
+Plantinga, A. (2000). \emph{Warranted Christian belief}. Oxford
+University Press.
+
+Price, H. (2011). \emph{Naturalism without mirrors}. Oxford University
+Press.
+
+Quine, W. V. O. (1951). Two dogmas of empiricism. \emph{The
+Philosophical Review, 60}(1), 20--43.
+\url{https://doi.org/10.2307/2181906}
+
+Schroeder, M. (2008a). \emph{Being for: Evaluating the semantic program
+of expressivism}. Oxford University Press.
+
+Schroeder, M. (2008b). What is the Frege--Geach problem?
+\emph{Philosophy Compass, 3}(4), 703--720.
+\url{https://doi.org/10.1111/j.1747-9991.2008.00155.x}
+
+Wisdom, J. (1945). Gods. \emph{Proceedings of the Aristotelian Society,
+45}(1), 185--206. \url{https://doi.org/10.1093/aristotelian/45.1.185}
+
+Wittgenstein, L. (2001). \emph{Tractatus logico-philosophicus} (D. F.
+Pears \& B. F. McGuinness, Trans.). Routledge. (Original work published
+1921)
+
+Wittgenstein, L. (2009). \emph{Philosophical investigations} (P. M. S.
+Hacker \& J. Schulte, Eds.; G. E. M. Anscombe, P. M. S. Hacker, \& J.
+Schulte, Trans.; 4th ed.). Wiley-Blackwell. (Original work published
+1953)
+
+Yalcin, S. (2012). Bayesian expressivism. \emph{Proceedings of the
+Aristotelian Society, 112}(2), 123--160.
+\url{https://doi.org/10.1111/j.1467-9264.2012.00329.x}
+
+\end{document}

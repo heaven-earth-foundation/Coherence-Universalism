@@ -1,0 +1,14 @@
+{
+  "publication": "Physics",
+  "source_pc": 3,
+  "target_pc": 4,
+  "source_manuscript": "/mnt/data/CU_Physics_v0.10_Publication_PC3/CU_Physics_v0.10_Publication_Candidate_3.md",
+  "source_manuscript_sha256": "8fc8b92654b8e1627acd4bbce998dacf34754a3dc9539ec487bd64631f89ca76",
+  "updated_manuscript": "CU_Physics_v0.10_Publication_Candidate_4.md",
+  "updated_manuscript_sha256": "09bb47444aa6f3ee5e6639d2c783fa733b1d88f1baf25949511d29774ce621ae",
+  "frozen_technical_supplement": "frozen/CU_Physics_v0.10_PC3_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "fe92bb332d74114ce21f73b43c8056d69aaca7621e3a57ec1cd8052d8af90a26",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 22
+}

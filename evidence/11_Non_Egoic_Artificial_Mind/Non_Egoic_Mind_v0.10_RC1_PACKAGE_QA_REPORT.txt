@@ -1,0 +1,11 @@
+NON-EGOIC MIND v0.10 RC1 PACKAGE VERIFICATION
+==============================================
+
+clean_copy: passed
+manifest_verification: passed
+qa_rerun: passed
+verification_json_byte_comparison: passed
+payload_file_count: 22
+manifest_entry_count: 20
+
+The clean-room checks establish package integrity and deterministic reproduction of the illustrative continuation-incentive grid. They do not establish consciousness, welfare, alignment, deployment safety, or legal status.

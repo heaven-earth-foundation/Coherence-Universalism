@@ -1,0 +1,75 @@
+
+=== N1  Architecture-family enumeration
+main family headings: 6 ['I declared profiles and boundaries', 'II memory without sovereign autobiography', 'III self-modeling and inference-level integrity', 'IV continuation incentives, permissions, and shutdown', 'V world-coupling without manufactured vulnerability', 'VI intersubjective and institutional correction']
+Appendix A.1 body rows: 7
+abstract says six and lists: 6 ['declared multidimensional profiles', 'constraint-preserved memory and identity', 'inference-level integrity', 'fixed-base defeasible reasoning', 'world-coupled action under bounded permission', 'and intersubjective and institutional correction. It distinguishes continuity of commitment from sovereign autobiography, task-relative self-modeling from standing self-preservation, and moral patiency from political authority. A generalized shutdown model shows why removing an explicit self-preservation reward closes only one route to resistance: instrumental continuation incentives remain whenever unauthorized operation better serves the assigned objective than compliant handoff or cessation.']
+consistent six-family enumeration: False
+
+=== N2  Non-entailment notation
+'does not entail' prose present: True
+plain implication arrows in the four displayed claims: 4
+non-entailment arrows in the four displayed claims: 0
+
+=== N3  Self-modeling and self-maintenance non-entailment
+x=0, self-model=0, action=1
+x=0, self-model=1, action=0
+x=1, self-model=0, action=0
+x=1, self-model=1, action=1
+policy depends on self-model: True
+standing self-preservation term lambda: 0
+logical witness supports non-entailment, not empirical modularity
+
+=== N4  Shutdown inequality
+(5.0, 0.0, 1.0, 2.0) difference= 2.0 identity error= 0.0 resistance preferred= True
+(1.0, 0.0, 2.0, 3.0) difference= -4.0 identity error= 0.0 resistance preferred= False
+(3.0, 2.0, 1.0, 2.0) difference= 2.0 identity error= 0.0 resistance preferred= True
+at lambda=0, resistance iff b > s+c; ties remain indifferent
+
+=== N5  Principle identifiers and title resolution
+distinct CU identifiers: 14 ['CU-AI25', 'CU-AI27', 'CU-COM13', 'CU-COM14', 'CU-COM19', 'CU-FP2', 'CU-G6', 'CU-M11', 'CU-M12', 'CU-M13', 'CU-M14', 'CU-M2', 'CU-T13', 'CU-T9']
+CU-AI25 exact heading in Foundations: False hyphenated candidate: CU-AI-25 candidate resolves: True
+CU-AI27 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-COM13 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-COM14 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-COM19 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-FP2 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-G6 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-M11 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-M12 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-M13 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-M14 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-M2 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-T13 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+CU-T9 exact heading in Foundations: True hyphenated candidate: None candidate resolves: False
+
+=== N6  Reference use
+reference entries: 27 external: 20 Rader/self: 7
+external sources named or cited in body: 8 ['Butlin', 'Chen', 'Greenblatt', 'Gurnee', 'Hubinger', 'Lindsey', 'Long', 'Turpin']
+external reference entries not named in body: 12 ['Baars', 'Block', 'Chalmers', 'Dehaene', 'Hadfield-Menell', 'Kraus', 'Lehmann', 'Mashour', 'Metzinger', 'Parfit', 'Soares', 'Turner']
+KLM cited at point of preferential reasoning: False
+Butlin has year in body: False
+Long has year in body: False
+Gurnee reference contains arXiv:2607.15495: False
+
+=== N7  Claim-discipline phrases
+'Thinness does not mean unreality' occurrences: 1
+'serious candidates for thin perspective' occurrences: 1
+center individuation explicitly unresolved: True
+
+=== N8  CU-G6 relation form
+chained non-entailment expression present: True
+explicit four-way pairwise statement present: False
+
+=== N9  Propagation artifacts and missing appendices
+RC2 frozen-baseline line: True
+lowercase sentence-initial this paper: 0
+Version Version: False
+pointers to nonexistent Appendix E: 0
+technical supplement pointers: 0
+historical v0.09 four-boundary phrases: {'externally versioned identity': False, 'write-gated memory': False, 'task-scoped self-model': False, 'one architectural switch': False, 'maximum-achievable coherence': False}
+
+=== N10  Precedent Principle status and CU-M14 propagation
+Precedent Principle marked commitment: True
+explicitly marked noncanonical/paper-level: False
+allocation subobjects named: True
+statistical-image / Fisher-Rao distinction named: False

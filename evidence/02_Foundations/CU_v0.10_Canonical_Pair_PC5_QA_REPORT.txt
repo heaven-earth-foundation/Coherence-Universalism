@@ -1,0 +1,67 @@
+CU v0.10 Canonical Publication Pair PC5 QA
+===============================================
+pass_count: 56
+failure_count: 0
+
+FAILURES
+--------
+None.
+
+PASSES
+------
+- required file exists: CU_Metaphysics_Epistemology_v0.10_Publication_Candidate_5.md
+- required file exists: CU_Foundations_v0.10_Publication_Candidate_5.md
+- required file exists: CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.json
+- required file exists: CU_v0.10_Canonical_Principle_Registry_B5_1.json
+- M&E PC5 label present
+- Foundations PC5 label present
+- M&E reconstruction label absent
+- Foundations reconstruction label absent
+- M&E Sections 1-17 present in order
+- CU-T9 present in both manuscripts
+- CU-T10 present in both manuscripts
+- CU-T11 present in both manuscripts
+- CU-T12 present in both manuscripts
+- CU-T13 present in both manuscripts
+- CU-COM1 represented in canonical pair
+- CU-COM2 represented in canonical pair
+- CU-COM3 represented in canonical pair
+- CU-COM4 represented in canonical pair
+- CU-COM5 represented in canonical pair
+- CU-COM6 represented in canonical pair
+- CU-COM7 represented in canonical pair
+- CU-COM8 represented in canonical pair
+- CU-COM9 represented in canonical pair
+- CU-COM10 represented in canonical pair
+- CU-COM11 represented in canonical pair
+- CU-COM12 represented in canonical pair
+- CU-COM13 represented in canonical pair
+- CU-COM14 represented in canonical pair
+- CU-COM15 represented in canonical pair
+- CU-COM16 represented in canonical pair
+- CU-COM17 represented in canonical pair
+- CU-COM18 represented in canonical pair
+- CU-COM19 represented in canonical pair
+- CU-B4 included in complete proposal
+- CU-CL12 included in complete proposal
+- CU-AI27 included in complete proposal
+- M&E contains exactly 64 bold numbered Mandala stages
+- M&E Mandala stages run 1-64
+- M&E Stage 64 is Coherence Universalism
+- Foundations contains complete 1-64 Mandala table
+- Foundations Stage 64 subsection present
+- M&E code fences balanced
+- M&E display math brackets balanced
+- M&E has no NUL or CR characters
+- M&E has no placeholder tokens
+- Foundations code fences balanced
+- Foundations display math brackets balanced
+- Foundations has no NUL or CR characters
+- Foundations has no placeholder tokens
+- Yi Jing book-specific traversal note present
+- Yi Jing material does not enter pre-Mandala argument
+- Reader-facing M&E omits binary station labels
+- Yi Jing figures do not enter principle registry
+- Yi Jing non-authority boundary explicit
+- machine Mandala registry contains 64 entries
+- canonical registry contains at least 220 entries

@@ -1,0 +1,59 @@
+
+=== Y1  Horizon reversal: suppression vs supported engagement (abstract; Appendix C) -- reconstruction, not the supplement's model
+short horizon, comfort-weighted    suppression 0.758  engagement 0.354  -> suppression preferred
+long horizon, function-weighted    suppression 0.527  engagement 0.658  -> engagement preferred
+
+=== Y2  Profile dominance and weighted reversal (§§2.4.1–2.4.2)
+p weakly dominates q: False  q weakly dominates p: False
+S_w1(p), S_w1(q): 8.2 7.4   S_w2(p), S_w2(q): 8.3 10.3
+
+=== Y3  Counting statements against the lists that follow them
+§2.3 says 'at least five forms'; bullets listed: 6
+§2.4 profile coordinates: 9  Frame row 11 says nine: True
+Appendix C 'fifteen governance rules': True | numbered prohibitions in §1.4: 7
+
+=== Y4  Identifiers and titles
+24 identifiers; unresolved: []
+  title differs: CU-Ψ6: Foundations 'Local-Global and Short-Long Tension' vs Psychology 'Local–Global and Short–Long Tension'
+
+=== Y5  CU-Ψ1–Ψ12 statements and statuses: Psychology Appendix A versus the Foundations registry
+CU-Ψ1   status match True  statement similarity 0.56  failure mode identical True
+   failure mode CU-Ψ2: Foundations 'Assuming internal consistency, narrative elegance, or social stability establishes descriptive truth.' | Psychology 'Assuming that internal consistency, narrative elegance, or social stability establishes descriptive truth.'
+CU-Ψ2   status match True  statement similarity 0.75  failure mode identical False
+CU-Ψ3   status match True  statement similarity 0.54  failure mode identical True
+CU-Ψ4   status match True  statement similarity 0.58  failure mode identical True
+CU-Ψ5   status match True  statement similarity 0.73  failure mode identical True
+CU-Ψ6   status match True  statement similarity 0.50  failure mode identical True
+CU-Ψ7   status match True  statement similarity 0.75  failure mode identical True
+CU-Ψ8   status match True  statement similarity 0.80  failure mode identical True
+CU-Ψ9   status match True  statement similarity 0.71  failure mode identical True
+   failure mode CU-Ψ10: Foundations 'Using attachment labels as retrospective total explanations or grounds for blame.' | Psychology 'Using attachment labels as retrospective total explanations or as grounds for blame.'
+CU-Ψ10  status match True  statement similarity 0.81  failure mode identical False
+CU-Ψ11  status match True  statement similarity 0.67  failure mode identical True
+   failure mode CU-Ψ12: Foundations 'Using social explanation to erase individual differences, biology, or person-level treatment.' | Psychology 'Using social explanation to erase individual differences, biology, or the value of person-level treatment.'
+CU-Ψ12  status match True  statement similarity 0.82  failure mode identical False
+statements identical: 0 of 12
+Ψ6 'affected person' in Foundations: True  in Psychology: False
+Ψ1 Foundations requires coordinates/dimensionality 'must be declared': True  Psychology Ψ1: False
+
+=== Y6  Stages 16–21 and CU-COM10
+[(16, True), (17, True), (18, True), (19, True), (20, True), (21, True)]
+COM10 Commitment statement identical: True
+COM10 Boundary conditions identical: True
+COM10 Revision conditions identical: True
+
+=== Y7  Cross-paper wording: the definition of ego
+Psychology §5.2: a persistent regime that treats the continuation, status, narrative, resources, or authority of a modeled self as an object of defense
+Consciousness §2.3: a persistent self-maintaining organization that treats the continuation, status, integrity, or narrative of a modeled self as an object of defense
+
+=== Y8  Propagation artifacts and supplement pointers
+sentence-initial lowercase 'this paper': 0  'RC2 remains the frozen baseline': [89]
+illustrative/horizon-reversal model described in the body (outside abstract and Appendix C): False
+consecutive horizontal rules: [1521]
+
+=== Y9  Citations against the reference list
+62 entries
+entries never cited (author-year): []
+author-year citations whose name and year appear in no entry: [('DoD', '2023')]
+entry 'U.S. Department of Veterans Affairs' cited as 'VA/DoD, 2023': True
+Salkovskis entry: Salkovskis, P. M., Sighvatsson, M. B., & Sigurdsson, J. F. (2024). How effective psychological treatments work: Mechanisms of change in cognitive behavioural therapy and beyond. *Behavioural and Cogni

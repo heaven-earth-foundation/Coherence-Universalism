@@ -1,0 +1,18 @@
+CU v0.10 Canonical Publication Candidate 5 — Package QA
+=========================================================
+
+M&E lines: 3481
+M&E words: 26402
+M&E SHA-256: 101d8b763a7aa0ae30cb84926a1eca332a9ee9b301a495afa71800eb40093a32
+
+Foundations lines: 3795
+Foundations words: 26054
+Foundations SHA-256: 0222149c6d7a6e5e5cfb6a8d627f52ba11b5292640d1197576007fba1ec47787
+
+QA report SHA-256: 7a59a7ef2bde96d8aade4fe4be0ecb4e0befb80ddf18a23cbb9c2ccca29e8b20
+Required files present: yes
+Mandala registry included: yes
+Canonical registry included: yes
+Yi Jing disposition included: yes
+
+Scope: structural, cross-reference, registry, and packaging checks. This report does not constitute external philosophical, scientific, clinical, political, or engineering validation.

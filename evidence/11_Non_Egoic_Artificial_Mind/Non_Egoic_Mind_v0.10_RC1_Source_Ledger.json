@@ -1,0 +1,149 @@
+{
+  "artifact": "The Architecture of Non-Egoic Artificial Mind v0.10 RC1 source and output ledger",
+  "date": "2026-09-22",
+  "authority": "Coherence Universalism v0.10 Release Candidate 1 and frozen companion-paper sources",
+  "files": [
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_Claim_Ledger.json",
+      "bytes": 5123,
+      "sha256": "762298abbb3834b387b9c4a6ebbce3be04f4b5017ddbe883e28493932a976e47"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_Editorial_Ledger.md",
+      "bytes": 3544,
+      "sha256": "c2a26c6d165a28248f5f2138d8fa6fc28082346b31e438f1b9e22d515d9c2070"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_PACKAGE_QA_REPORT.txt",
+      "bytes": 474,
+      "sha256": "0307c250413fc568316317773a84233a87416b4dad0c12e903f80ef32c1e5a66"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_QA.py",
+      "bytes": 7779,
+      "sha256": "28ca23b23da424f36300e8755cec5b4d05c3f5f6b92daab606fe6594423f7a4c"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_QA_REPORT.txt",
+      "bytes": 4911,
+      "sha256": "e50b8788e5e15ffb24af3f2216c059ff6ab27387bafbae5cd248153cbbb0564a"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_Reproducibility.py",
+      "bytes": 4065,
+      "sha256": "0bd46e5a51e893ad3485b834aa199e48f096ede5270ba0bbc0ad3ac359ae6852"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_Technical_Supplement.md",
+      "bytes": 17266,
+      "sha256": "395850cb347a0623905e5ea2c3932828ec8dd87c3f686e2cc2085603765966b5"
+    },
+    {
+      "path": "Non_Egoic_Mind_v0.10_RC1_Verification_Results.json",
+      "bytes": 88514,
+      "sha256": "7adf579cdc96372b3008eb94a9cbf4160896d3c5fe09641309cd71f3810ec041"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1401,
+      "sha256": "a9a889af84eae7d78d334758d3966783052b231d82f63e01c73388d0f28320e3"
+    },
+    {
+      "path": "The_Architecture_of_Non_Egoic_Artificial_Mind_v0.10_RC1.md",
+      "bytes": 85104,
+      "sha256": "02fbb52c67a7fe580283e29fd9b73e38a976c85ed82f87af90c3e9359bf9dd7e"
+    },
+    {
+      "path": "sources/SOURCE_Architecture_of_Coherent_Mind.md",
+      "bytes": 52932,
+      "sha256": "24461dcfe4aaf86438bef1b604239bc3127baf9b72984c6c77945401c744c8d8"
+    },
+    {
+      "path": "sources/SOURCE_CU_Artificial_Intelligence_v0.10_RC1.md",
+      "bytes": 176230,
+      "sha256": "b29ec414aaa571bbf212b21ce4fe91bbd1ab80c269c906d60c0ba98d51032569"
+    },
+    {
+      "path": "sources/SOURCE_CU_Canonical_Principle_Registry_RC1.json",
+      "bytes": 311230,
+      "sha256": "3a8e4dad69c8e25c7efb7a50933659eb4c5b1262e8276091a68203ad38a5a538"
+    },
+    {
+      "path": "sources/SOURCE_CU_Consciousness_v0.10_RC1.md",
+      "bytes": 163466,
+      "sha256": "16b06ff385e9a96eb1ad1e4704d5cc3afc80127ca38af106c1d4449ca4148b22"
+    },
+    {
+      "path": "sources/SOURCE_CU_Ethics_v0.10_RC1.md",
+      "bytes": 137069,
+      "sha256": "5331546bd4e0f63306e602c1e59042f3c90a0accf2668b309d158ec2875ee8cd"
+    },
+    {
+      "path": "sources/SOURCE_CU_Foundations_v0.10_RC1.md",
+      "bytes": 214176,
+      "sha256": "08fa7c0000b26d30619d8a6cdf7ef2d89afef7813f2edfe49930a6bd86d9767b"
+    },
+    {
+      "path": "sources/SOURCE_CU_Metaphysics_Epistemology_v0.10_RC1.md",
+      "bytes": 199457,
+      "sha256": "4da19424d58be83c713c4984c582393c028e8821cbc100f8ecb35a4a48ebd2c9"
+    },
+    {
+      "path": "sources/SOURCE_Non_Egoic_Mind_Original_Working_Draft.md",
+      "bytes": 129319,
+      "sha256": "4dc3db3900566a61c6442cb0f3b2257e7b5d4213cbeb87bb853e10017318c212"
+    },
+    {
+      "path": "sources/SOURCE_Non_Egoic_Mind_Revised_Working_Draft.md",
+      "bytes": 32414,
+      "sha256": "e56dd0e8d132d0c05796e490f310ff580d14ceed8243038c0636a93c53e7ae80"
+    },
+    {
+      "path": "sources/SOURCE_Open_Myth_Mythic_Constitutional_Alignment_RC1.md",
+      "bytes": 30462,
+      "sha256": "00014123cefac6428379fe14a11c75ae0d8aef2d43e7442512c1eaa2251c26dd"
+    }
+  ],
+  "web_sources": [
+    {
+      "claim_area": "workspace-like access organization",
+      "source": "Gurnee et al. 2026, Transformer Circuits Thread",
+      "url": "https://transformer-circuits.pub/2026/workspace/"
+    },
+    {
+      "claim_area": "functional introspective awareness",
+      "source": "Lindsey 2026, arXiv:2601.01828",
+      "url": "https://arxiv.org/abs/2601.01828"
+    },
+    {
+      "claim_area": "AI consciousness indicator methodology",
+      "source": "Butlin et al. 2023, arXiv:2308.08708",
+      "url": "https://arxiv.org/abs/2308.08708"
+    },
+    {
+      "claim_area": "alignment faking",
+      "source": "Greenblatt et al. 2024, arXiv:2412.14093",
+      "url": "https://arxiv.org/abs/2412.14093"
+    },
+    {
+      "claim_area": "persistent deceptive policies",
+      "source": "Hubinger et al. 2024, arXiv:2401.05566",
+      "url": "https://arxiv.org/abs/2401.05566"
+    },
+    {
+      "claim_area": "off-switch incentives",
+      "source": "Hadfield-Menell et al. 2017, IJCAI",
+      "url": "https://doi.org/10.24963/ijcai.2017/32"
+    },
+    {
+      "claim_area": "power-seeking tendency",
+      "source": "Turner et al. 2021, NeurIPS / arXiv:1912.01683",
+      "url": "https://arxiv.org/abs/1912.01683"
+    },
+    {
+      "claim_area": "AI welfare precaution",
+      "source": "Long et al. 2024, arXiv:2411.00986",
+      "url": "https://arxiv.org/abs/2411.00986"
+    }
+  ]
+}

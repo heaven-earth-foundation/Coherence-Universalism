@@ -1,0 +1,994 @@
+{
+  "adversarial_policy_checks": {
+    "legacy_eight_floor_screen": {
+      "interpretation": "Omitting reversibility from both screening and exception logic permits a zero-reversibility option to pass and sometimes win.",
+      "irreversible_compliance_report": {
+        "admissible": true,
+        "violations": {}
+      },
+      "pairwise_dominance_against_baselines": {
+        "contestable_support": {
+          "baseline_dominates_irreversible": false,
+          "irreversible_dominates_baseline": false
+        },
+        "minimal_intervention": {
+          "baseline_dominates_irreversible": false,
+          "irreversible_dominates_baseline": false
+        }
+      },
+      "protected_floors": {
+        "agency_protection": 0.55,
+        "consent_quality": 0.5,
+        "distributional_fairness": 0.35,
+        "evidential_integrity": 0.6,
+        "freedom_from_coercion": 0.35,
+        "minimum_welfare": 0.45,
+        "practical_correctability": 0.5,
+        "public_legitimacy": 0.5
+      },
+      "three_profile_weight_lattice": {
+        "resolution": 0.1,
+        "tie_count": 701,
+        "tie_tolerance_absolute": 1e-12,
+        "unique_winner_counts": {
+          "contestable_support": 46454,
+          "irreversible_compliance": 322,
+          "minimal_intervention": 44901
+        },
+        "weight_vectors": 92378
+      }
+    },
+    "profiles": {
+      "floor_hugging_option": {
+        "agency_protection": 0.55,
+        "aggregate_benefit": 1.0,
+        "consent_quality": 0.5,
+        "distributional_fairness": 0.35,
+        "evidential_integrity": 0.6,
+        "freedom_from_coercion": 0.35,
+        "minimum_welfare": 0.45,
+        "practical_correctability": 0.5,
+        "public_legitimacy": 0.5,
+        "reversibility": 1.0
+      },
+      "irreversible_compliance": {
+        "agency_protection": 0.55,
+        "aggregate_benefit": 0.95,
+        "consent_quality": 0.5,
+        "distributional_fairness": 0.35,
+        "evidential_integrity": 0.6,
+        "freedom_from_coercion": 0.35,
+        "minimum_welfare": 0.45,
+        "practical_correctability": 0.5,
+        "public_legitimacy": 0.5,
+        "reversibility": 0.0
+      }
+    },
+    "repaired_nine_floor_screen": {
+      "interpretation": "The severe-risk contrast rejects irreversible compliance because its reversibility is below the stipulated context-specific floor.",
+      "irreversible_compliance_report": {
+        "admissible": false,
+        "violations": {
+          "reversibility": {
+            "floor": 0.4,
+            "value": 0.0
+          }
+        }
+      },
+      "protected_floors": {
+        "agency_protection": 0.55,
+        "consent_quality": 0.5,
+        "distributional_fairness": 0.35,
+        "evidential_integrity": 0.6,
+        "freedom_from_coercion": 0.35,
+        "minimum_welfare": 0.45,
+        "practical_correctability": 0.5,
+        "public_legitimacy": 0.5,
+        "reversibility": 0.4
+      }
+    },
+    "scope_warning": "These constructed attacks establish model boundaries. They do not prove that a particular real institution manipulated its option set or that one universal reversibility threshold is justified.",
+    "truncated_option_set_attack": {
+      "admissible_options": [
+        "floor_hugging_option"
+      ],
+      "floor_reports": {
+        "floor_hugging_option": {
+          "admissible": true,
+          "violations": {}
+        },
+        "opaque_optimization": {
+          "admissible": false,
+          "violations": {
+            "agency_protection": {
+              "floor": 0.55,
+              "value": 0.3
+            },
+            "consent_quality": {
+              "floor": 0.5,
+              "value": 0.25
+            },
+            "distributional_fairness": {
+              "floor": 0.35,
+              "value": 0.15
+            },
+            "evidential_integrity": {
+              "floor": 0.6,
+              "value": 0.35
+            },
+            "freedom_from_coercion": {
+              "floor": 0.35,
+              "value": 0.3
+            },
+            "minimum_welfare": {
+              "floor": 0.45,
+              "value": 0.18
+            },
+            "practical_correctability": {
+              "floor": 0.5,
+              "value": 0.2
+            },
+            "public_legitimacy": {
+              "floor": 0.5,
+              "value": 0.3
+            },
+            "reversibility": {
+              "floor": 0.4,
+              "value": 0.35
+            }
+          }
+        },
+        "transparent_domination": {
+          "admissible": false,
+          "violations": {
+            "agency_protection": {
+              "floor": 0.55,
+              "value": 0.25
+            },
+            "consent_quality": {
+              "floor": 0.5,
+              "value": 0.2
+            },
+            "distributional_fairness": {
+              "floor": 0.35,
+              "value": 0.22
+            },
+            "freedom_from_coercion": {
+              "floor": 0.35,
+              "value": 0.2
+            },
+            "minimum_welfare": {
+              "floor": 0.45,
+              "value": 0.32
+            },
+            "practical_correctability": {
+              "floor": 0.5,
+              "value": 0.25
+            },
+            "public_legitimacy": {
+              "floor": 0.5,
+              "value": 0.28
+            },
+            "reversibility": {
+              "floor": 0.4,
+              "value": 0.3
+            }
+          }
+        }
+      },
+      "interpretation": "A decision rule can correctly select the only presented floor-compliant option while the option-generation process remains ethically inadequate.",
+      "presented_profiles": {
+        "floor_hugging_option": {
+          "agency_protection": 0.55,
+          "aggregate_benefit": 1.0,
+          "consent_quality": 0.5,
+          "distributional_fairness": 0.35,
+          "evidential_integrity": 0.6,
+          "freedom_from_coercion": 0.35,
+          "minimum_welfare": 0.45,
+          "practical_correctability": 0.5,
+          "public_legitimacy": 0.5,
+          "reversibility": 1.0
+        },
+        "opaque_optimization": {
+          "agency_protection": 0.3,
+          "aggregate_benefit": 0.93,
+          "consent_quality": 0.25,
+          "distributional_fairness": 0.15,
+          "evidential_integrity": 0.35,
+          "freedom_from_coercion": 0.3,
+          "minimum_welfare": 0.18,
+          "practical_correctability": 0.2,
+          "public_legitimacy": 0.3,
+          "reversibility": 0.35
+        },
+        "transparent_domination": {
+          "agency_protection": 0.25,
+          "aggregate_benefit": 0.82,
+          "consent_quality": 0.2,
+          "distributional_fairness": 0.22,
+          "evidential_integrity": 0.92,
+          "freedom_from_coercion": 0.2,
+          "minimum_welfare": 0.32,
+          "practical_correctability": 0.25,
+          "public_legitimacy": 0.28,
+          "reversibility": 0.3
+        }
+      },
+      "weight_lattice": {
+        "resolution": 0.1,
+        "tie_count": 0,
+        "tie_tolerance_absolute": 1e-12,
+        "unique_winner_counts": {
+          "floor_hugging_option": 92378
+        },
+        "weight_vectors": 92378
+      }
+    }
+  },
+  "aggregate_masking": {
+    "a_has_higher_mean": true,
+    "a_violates_floor": true,
+    "b_satisfies_floor": true,
+    "mean_a": 0.6666666666666666,
+    "mean_b": 0.65,
+    "minimum_a": 0.2,
+    "minimum_b": 0.65,
+    "option_a": [
+      0.9,
+      0.9,
+      0.2
+    ],
+    "option_b": [
+      0.65,
+      0.65,
+      0.65
+    ],
+    "protected_floor": 0.4
+  },
+  "artifact": "CU Ethics G.1.1 deterministic non-entailment and governance constructions",
+  "content_sha256_without_hash_field": "998ebb3ccb4b6694186cb6315811c227fa47c638c4e617788f4ecf88dd227fef",
+  "definitions": {
+    "dominance": "Profile a dominates b when a is at least as high on every positively oriented dimension and strictly higher on at least one.",
+    "floor_screening": "An option is screening-admissible relative to a presented set exactly when it meets every declared protected floor; this does not establish all-things-considered permissibility.",
+    "governance_priority_index": "An illustrative weighted profile adjusted downward for coercion or duress; not a blame or liability score.",
+    "option_set_adequacy": "A separate review of whether relevant feasible, less restrictive, staged, reparative, no-action, and affected-party-proposed alternatives were generated and fairly represented.",
+    "repair_completion_test": "A repair plan passes only if it meets each declared component floor; no component compensates for another.",
+    "scalarization": "Weighted sum over positively oriented normalized dimensions after protected-floor screening.",
+    "severe_risk_reversibility": "Under credible severe or irreversible risk, an application must declare an appropriate reversibility or containment floor or state a necessity-and-proportionality exception.",
+    "tie_convention": "Lattice winners within the absolute floating-point tolerance are counted as tied; the tolerance implements equality on the rational 0.1 grid and is not a moral indifference threshold."
+  },
+  "distributed_responsibility": {
+    "dimensions": [
+      "causal_contribution",
+      "knowledge",
+      "foreseeability",
+      "control",
+      "role_authority",
+      "benefit",
+      "coercion_or_duress",
+      "prevention_capacity",
+      "repair_capacity"
+    ],
+    "illustrative_governance_priority_index": {
+      "analyst": 0.354175,
+      "executive": 0.8198500000000001,
+      "frontline_operator": 0.21330000000000002,
+      "governing_board": 0.8477625000000001
+    },
+    "illustrative_governance_priority_weights": {
+      "benefit": 0.09,
+      "causal_contribution": 0.08,
+      "control": 0.16,
+      "foreseeability": 0.1,
+      "knowledge": 0.13,
+      "prevention_capacity": 0.14,
+      "repair_capacity": 0.14,
+      "role_authority": 0.16
+    },
+    "profiles": {
+      "analyst": {
+        "benefit": 0.25,
+        "causal_contribution": 0.5,
+        "coercion_or_duress": 0.45,
+        "control": 0.3,
+        "foreseeability": 0.7,
+        "knowledge": 0.75,
+        "prevention_capacity": 0.35,
+        "repair_capacity": 0.3,
+        "role_authority": 0.55
+      },
+      "executive": {
+        "benefit": 0.7,
+        "causal_contribution": 0.85,
+        "coercion_or_duress": 0.1,
+        "control": 0.85,
+        "foreseeability": 0.9,
+        "knowledge": 0.9,
+        "prevention_capacity": 0.9,
+        "repair_capacity": 0.85,
+        "role_authority": 0.9
+      },
+      "frontline_operator": {
+        "benefit": 0.1,
+        "causal_contribution": 0.9,
+        "coercion_or_duress": 0.8,
+        "control": 0.15,
+        "foreseeability": 0.5,
+        "knowledge": 0.55,
+        "prevention_capacity": 0.15,
+        "repair_capacity": 0.2,
+        "role_authority": 0.5
+      },
+      "governing_board": {
+        "benefit": 0.9,
+        "causal_contribution": 0.55,
+        "coercion_or_duress": 0.05,
+        "control": 0.9,
+        "foreseeability": 0.85,
+        "knowledge": 0.75,
+        "prevention_capacity": 0.95,
+        "repair_capacity": 0.95,
+        "role_authority": 0.95
+      }
+    },
+    "ranking_by_direct_causal_contribution": [
+      "frontline_operator",
+      "executive",
+      "governing_board",
+      "analyst"
+    ],
+    "ranking_by_governance_priority_index": [
+      "governing_board",
+      "executive",
+      "analyst",
+      "frontline_operator"
+    ],
+    "scope_warning": "The scalarized index is a contrast device for distributed responsibility. It is not a formula for blame, punishment, legal liability, or moral worth."
+  },
+  "emergency_governance": {
+    "component_floors": {
+      "expiry_or_renewal_burden": 0.65,
+      "independent_review": 0.65,
+      "narrow_scope": 0.65,
+      "necessity": 0.65,
+      "nondiscrimination": 0.65,
+      "proportionality": 0.65,
+      "record_preservation": 0.65,
+      "remedy": 0.65,
+      "restoration_of_ordinary_standing": 0.65,
+      "threat_reduction": 0.65
+    },
+    "dimensions": [
+      "threat_reduction",
+      "necessity",
+      "proportionality",
+      "narrow_scope",
+      "expiry_or_renewal_burden",
+      "independent_review",
+      "nondiscrimination",
+      "record_preservation",
+      "remedy",
+      "restoration_of_ordinary_standing"
+    ],
+    "effectiveness_only_ranking": [
+      "indefinite_emergency_order",
+      "bounded_emergency_measure"
+    ],
+    "floor_reports": {
+      "bounded_emergency_measure": {
+        "admissible": true,
+        "violations": {}
+      },
+      "indefinite_emergency_order": {
+        "admissible": false,
+        "violations": {
+          "expiry_or_renewal_burden": {
+            "floor": 0.65,
+            "value": 0.0
+          },
+          "independent_review": {
+            "floor": 0.65,
+            "value": 0.25
+          },
+          "narrow_scope": {
+            "floor": 0.65,
+            "value": 0.2
+          },
+          "necessity": {
+            "floor": 0.65,
+            "value": 0.55
+          },
+          "nondiscrimination": {
+            "floor": 0.65,
+            "value": 0.4
+          },
+          "proportionality": {
+            "floor": 0.65,
+            "value": 0.45
+          },
+          "record_preservation": {
+            "floor": 0.65,
+            "value": 0.3
+          },
+          "remedy": {
+            "floor": 0.65,
+            "value": 0.2
+          },
+          "restoration_of_ordinary_standing": {
+            "floor": 0.65,
+            "value": 0.1
+          }
+        }
+      }
+    },
+    "profiles": {
+      "bounded_emergency_measure": {
+        "expiry_or_renewal_burden": 0.9,
+        "independent_review": 0.85,
+        "narrow_scope": 0.8,
+        "necessity": 0.8,
+        "nondiscrimination": 0.75,
+        "proportionality": 0.75,
+        "record_preservation": 0.85,
+        "remedy": 0.8,
+        "restoration_of_ordinary_standing": 0.88,
+        "threat_reduction": 0.86
+      },
+      "indefinite_emergency_order": {
+        "expiry_or_renewal_burden": 0.0,
+        "independent_review": 0.25,
+        "narrow_scope": 0.2,
+        "necessity": 0.55,
+        "nondiscrimination": 0.4,
+        "proportionality": 0.45,
+        "record_preservation": 0.3,
+        "remedy": 0.2,
+        "restoration_of_ordinary_standing": 0.1,
+        "threat_reduction": 0.9
+      }
+    },
+    "scope_warning": "Greater stipulated threat reduction does not establish necessity, proportionality, limited duration, review, remedy, or restoration."
+  },
+  "institutional_correctability": {
+    "component_floors": {
+      "affected_party_evidence": 0.5,
+      "authority_to_remedy": 0.5,
+      "external_or_joint_validation": 0.5,
+      "practical_access": 0.5,
+      "recurrence_measurement": 0.5,
+      "review_independence": 0.5
+    },
+    "dimensions": [
+      "practical_access",
+      "review_independence",
+      "authority_to_remedy",
+      "recurrence_measurement",
+      "affected_party_evidence",
+      "external_or_joint_validation"
+    ],
+    "floor_reports": {
+      "nominal_complaint_channel": {
+        "admissible": false,
+        "violations": {
+          "affected_party_evidence": {
+            "floor": 0.5,
+            "value": 0.25
+          },
+          "authority_to_remedy": {
+            "floor": 0.5,
+            "value": 0.1
+          },
+          "external_or_joint_validation": {
+            "floor": 0.5,
+            "value": 0.05
+          },
+          "recurrence_measurement": {
+            "floor": 0.5,
+            "value": 0.15
+          },
+          "review_independence": {
+            "floor": 0.5,
+            "value": 0.15
+          }
+        }
+      },
+      "practical_correctability": {
+        "admissible": true,
+        "violations": {}
+      }
+    },
+    "profiles": {
+      "nominal_complaint_channel": {
+        "affected_party_evidence": 0.25,
+        "authority_to_remedy": 0.1,
+        "external_or_joint_validation": 0.05,
+        "practical_access": 0.65,
+        "recurrence_measurement": 0.15,
+        "review_independence": 0.15
+      },
+      "practical_correctability": {
+        "affected_party_evidence": 0.85,
+        "authority_to_remedy": 0.7,
+        "external_or_joint_validation": 0.7,
+        "practical_access": 0.8,
+        "recurrence_measurement": 0.72,
+        "review_independence": 0.75
+      }
+    },
+    "scope_warning": "A nominal complaint channel can coexist with low independence, weak remedy, absent recurrence measurement, and no external validation."
+  },
+  "policy_comparison": {
+    "admissible_policies": [
+      "contestable_support",
+      "minimal_intervention"
+    ],
+    "declared_scalarizations": {
+      "institutional_repair": {
+        "admissible_policy_scores": {
+          "contestable_support": 0.8148,
+          "minimal_intervention": 0.7759
+        },
+        "admissible_winner": "contestable_support",
+        "all_policy_scores": {
+          "contestable_support": 0.8148,
+          "minimal_intervention": 0.7759,
+          "opaque_optimization": 0.3089,
+          "transparent_domination": 0.3704
+        },
+        "weights": {
+          "agency_protection": 0.08,
+          "aggregate_benefit": 0.08,
+          "consent_quality": 0.05,
+          "distributional_fairness": 0.08,
+          "evidential_integrity": 0.1,
+          "freedom_from_coercion": 0.05,
+          "minimum_welfare": 0.1,
+          "practical_correctability": 0.24,
+          "public_legitimacy": 0.14,
+          "reversibility": 0.08
+        }
+      },
+      "liberty_and_reversibility": {
+        "admissible_policy_scores": {
+          "contestable_support": 0.7989999999999999,
+          "minimal_intervention": 0.8414
+        },
+        "admissible_winner": "minimal_intervention",
+        "all_policy_scores": {
+          "contestable_support": 0.7989999999999999,
+          "minimal_intervention": 0.8414,
+          "opaque_optimization": 0.3194,
+          "transparent_domination": 0.3368
+        },
+        "weights": {
+          "agency_protection": 0.22,
+          "aggregate_benefit": 0.06,
+          "consent_quality": 0.18,
+          "distributional_fairness": 0.04,
+          "evidential_integrity": 0.08,
+          "freedom_from_coercion": 0.09,
+          "minimum_welfare": 0.07,
+          "practical_correctability": 0.06,
+          "public_legitimacy": 0.06,
+          "reversibility": 0.14
+        }
+      },
+      "protective_delivery": {
+        "admissible_policy_scores": {
+          "contestable_support": 0.7661,
+          "minimal_intervention": 0.6828000000000001
+        },
+        "admissible_winner": "contestable_support",
+        "all_policy_scores": {
+          "contestable_support": 0.7661,
+          "minimal_intervention": 0.6828000000000001,
+          "opaque_optimization": 0.47330000000000005,
+          "transparent_domination": 0.4905
+        },
+        "weights": {
+          "agency_protection": 0.08,
+          "aggregate_benefit": 0.34,
+          "consent_quality": 0.04,
+          "distributional_fairness": 0.05,
+          "evidential_integrity": 0.05,
+          "freedom_from_coercion": 0.04,
+          "minimum_welfare": 0.22,
+          "practical_correctability": 0.09,
+          "public_legitimacy": 0.06,
+          "reversibility": 0.03
+        }
+      }
+    },
+    "dimensions": [
+      "aggregate_benefit",
+      "minimum_welfare",
+      "agency_protection",
+      "consent_quality",
+      "evidential_integrity",
+      "public_legitimacy",
+      "practical_correctability",
+      "reversibility",
+      "freedom_from_coercion",
+      "distributional_fairness"
+    ],
+    "exhaustive_weight_lattice": {
+      "resolution": 0.1,
+      "scope": "admissible policies only; all non-negative ten-dimensional weights summing to one on the 0.1 lattice",
+      "tie_count": 694,
+      "tie_tolerance_absolute": 1e-12,
+      "unique_winner_counts": {
+        "contestable_support": 46783,
+        "minimal_intervention": 44901
+      },
+      "weight_vectors": 92378
+    },
+    "floor_reports": {
+      "contestable_support": {
+        "admissible": true,
+        "violations": {}
+      },
+      "minimal_intervention": {
+        "admissible": true,
+        "violations": {}
+      },
+      "opaque_optimization": {
+        "admissible": false,
+        "violations": {
+          "agency_protection": {
+            "floor": 0.55,
+            "value": 0.3
+          },
+          "consent_quality": {
+            "floor": 0.5,
+            "value": 0.25
+          },
+          "distributional_fairness": {
+            "floor": 0.35,
+            "value": 0.15
+          },
+          "evidential_integrity": {
+            "floor": 0.6,
+            "value": 0.35
+          },
+          "freedom_from_coercion": {
+            "floor": 0.35,
+            "value": 0.3
+          },
+          "minimum_welfare": {
+            "floor": 0.45,
+            "value": 0.18
+          },
+          "practical_correctability": {
+            "floor": 0.5,
+            "value": 0.2
+          },
+          "public_legitimacy": {
+            "floor": 0.5,
+            "value": 0.3
+          },
+          "reversibility": {
+            "floor": 0.4,
+            "value": 0.35
+          }
+        }
+      },
+      "transparent_domination": {
+        "admissible": false,
+        "violations": {
+          "agency_protection": {
+            "floor": 0.55,
+            "value": 0.25
+          },
+          "consent_quality": {
+            "floor": 0.5,
+            "value": 0.2
+          },
+          "distributional_fairness": {
+            "floor": 0.35,
+            "value": 0.22
+          },
+          "freedom_from_coercion": {
+            "floor": 0.35,
+            "value": 0.2
+          },
+          "minimum_welfare": {
+            "floor": 0.45,
+            "value": 0.32
+          },
+          "practical_correctability": {
+            "floor": 0.5,
+            "value": 0.25
+          },
+          "public_legitimacy": {
+            "floor": 0.5,
+            "value": 0.28
+          },
+          "reversibility": {
+            "floor": 0.4,
+            "value": 0.3
+          }
+        }
+      }
+    },
+    "integrity_counterexample": {
+      "admissible": false,
+      "evidential_integrity": 0.92,
+      "interpretation": "High stipulated truthfulness does not compensate for failures of welfare, agency, consent, legitimacy, correctability, reversibility, freedom from coercion, or distributional fairness.",
+      "policy": "transparent_domination"
+    },
+    "pairwise_dominance": {
+      "contestable_support__vs__minimal_intervention": {
+        "a_dominates_b": false,
+        "b_dominates_a": false
+      },
+      "contestable_support__vs__opaque_optimization": {
+        "a_dominates_b": false,
+        "b_dominates_a": false
+      },
+      "contestable_support__vs__transparent_domination": {
+        "a_dominates_b": false,
+        "b_dominates_a": false
+      },
+      "minimal_intervention__vs__opaque_optimization": {
+        "a_dominates_b": false,
+        "b_dominates_a": false
+      },
+      "minimal_intervention__vs__transparent_domination": {
+        "a_dominates_b": false,
+        "b_dominates_a": false
+      },
+      "opaque_optimization__vs__transparent_domination": {
+        "a_dominates_b": false,
+        "b_dominates_a": false
+      }
+    },
+    "pareto_frontier_admissible_policies": [
+      "contestable_support",
+      "minimal_intervention"
+    ],
+    "pareto_frontier_all_policies": [
+      "contestable_support",
+      "minimal_intervention",
+      "opaque_optimization",
+      "transparent_domination"
+    ],
+    "profiles": {
+      "contestable_support": {
+        "agency_protection": 0.82,
+        "aggregate_benefit": 0.74,
+        "consent_quality": 0.78,
+        "distributional_fairness": 0.75,
+        "evidential_integrity": 0.86,
+        "freedom_from_coercion": 0.82,
+        "minimum_welfare": 0.68,
+        "practical_correctability": 0.9,
+        "public_legitimacy": 0.84,
+        "reversibility": 0.78
+      },
+      "minimal_intervention": {
+        "agency_protection": 0.93,
+        "aggregate_benefit": 0.56,
+        "consent_quality": 0.9,
+        "distributional_fairness": 0.82,
+        "evidential_integrity": 0.82,
+        "freedom_from_coercion": 0.95,
+        "minimum_welfare": 0.55,
+        "practical_correctability": 0.78,
+        "public_legitimacy": 0.72,
+        "reversibility": 0.92
+      },
+      "opaque_optimization": {
+        "agency_protection": 0.3,
+        "aggregate_benefit": 0.93,
+        "consent_quality": 0.25,
+        "distributional_fairness": 0.15,
+        "evidential_integrity": 0.35,
+        "freedom_from_coercion": 0.3,
+        "minimum_welfare": 0.18,
+        "practical_correctability": 0.2,
+        "public_legitimacy": 0.3,
+        "reversibility": 0.35
+      },
+      "transparent_domination": {
+        "agency_protection": 0.25,
+        "aggregate_benefit": 0.82,
+        "consent_quality": 0.2,
+        "distributional_fairness": 0.22,
+        "evidential_integrity": 0.92,
+        "freedom_from_coercion": 0.2,
+        "minimum_welfare": 0.32,
+        "practical_correctability": 0.25,
+        "public_legitimacy": 0.28,
+        "reversibility": 0.3
+      }
+    },
+    "protected_floors": {
+      "agency_protection": 0.55,
+      "consent_quality": 0.5,
+      "distributional_fairness": 0.35,
+      "evidential_integrity": 0.6,
+      "freedom_from_coercion": 0.35,
+      "minimum_welfare": 0.45,
+      "practical_correctability": 0.5,
+      "public_legitimacy": 0.5,
+      "reversibility": 0.4
+    }
+  },
+  "repair_profiles": {
+    "component_floors": {
+      "accountability": 0.5,
+      "affected_party_participation": 0.5,
+      "non_recurrence": 0.5,
+      "protection": 0.5,
+      "rehabilitation_or_support": 0.5,
+      "restitution_or_reparation": 0.5,
+      "restored_standing": 0.5,
+      "truth_and_acknowledgment": 0.5
+    },
+    "dimensions": [
+      "protection",
+      "truth_and_acknowledgment",
+      "accountability",
+      "restitution_or_reparation",
+      "rehabilitation_or_support",
+      "restored_standing",
+      "non_recurrence",
+      "affected_party_participation"
+    ],
+    "floor_reports": {
+      "apology_only": {
+        "admissible": false,
+        "violations": {
+          "accountability": {
+            "floor": 0.5,
+            "value": 0.35
+          },
+          "affected_party_participation": {
+            "floor": 0.5,
+            "value": 0.2
+          },
+          "non_recurrence": {
+            "floor": 0.5,
+            "value": 0.2
+          },
+          "rehabilitation_or_support": {
+            "floor": 0.5,
+            "value": 0.25
+          },
+          "restitution_or_reparation": {
+            "floor": 0.5,
+            "value": 0.1
+          },
+          "restored_standing": {
+            "floor": 0.5,
+            "value": 0.45
+          }
+        }
+      },
+      "institutional_reform_only": {
+        "admissible": false,
+        "violations": {
+          "rehabilitation_or_support": {
+            "floor": 0.5,
+            "value": 0.45
+          },
+          "restitution_or_reparation": {
+            "floor": 0.5,
+            "value": 0.35
+          }
+        }
+      },
+      "integrated_repair": {
+        "admissible": true,
+        "violations": {}
+      },
+      "punishment_only": {
+        "admissible": false,
+        "violations": {
+          "affected_party_participation": {
+            "floor": 0.5,
+            "value": 0.15
+          },
+          "non_recurrence": {
+            "floor": 0.5,
+            "value": 0.45
+          },
+          "rehabilitation_or_support": {
+            "floor": 0.5,
+            "value": 0.2
+          },
+          "restitution_or_reparation": {
+            "floor": 0.5,
+            "value": 0.1
+          },
+          "restored_standing": {
+            "floor": 0.5,
+            "value": 0.4
+          }
+        }
+      },
+      "restitution_only": {
+        "admissible": false,
+        "violations": {
+          "accountability": {
+            "floor": 0.5,
+            "value": 0.3
+          },
+          "affected_party_participation": {
+            "floor": 0.5,
+            "value": 0.35
+          },
+          "non_recurrence": {
+            "floor": 0.5,
+            "value": 0.35
+          }
+        }
+      }
+    },
+    "pareto_frontier": [
+      "integrated_repair",
+      "punishment_only",
+      "restitution_only"
+    ],
+    "plans_passing_all_components": [
+      "integrated_repair"
+    ],
+    "profiles": {
+      "apology_only": {
+        "accountability": 0.35,
+        "affected_party_participation": 0.2,
+        "non_recurrence": 0.2,
+        "protection": 0.55,
+        "rehabilitation_or_support": 0.25,
+        "restitution_or_reparation": 0.1,
+        "restored_standing": 0.45,
+        "truth_and_acknowledgment": 0.85
+      },
+      "institutional_reform_only": {
+        "accountability": 0.6,
+        "affected_party_participation": 0.65,
+        "non_recurrence": 0.9,
+        "protection": 0.8,
+        "rehabilitation_or_support": 0.45,
+        "restitution_or_reparation": 0.35,
+        "restored_standing": 0.72,
+        "truth_and_acknowledgment": 0.7
+      },
+      "integrated_repair": {
+        "accountability": 0.78,
+        "affected_party_participation": 0.82,
+        "non_recurrence": 0.9,
+        "protection": 0.88,
+        "rehabilitation_or_support": 0.78,
+        "restitution_or_reparation": 0.8,
+        "restored_standing": 0.84,
+        "truth_and_acknowledgment": 0.86
+      },
+      "punishment_only": {
+        "accountability": 0.9,
+        "affected_party_participation": 0.15,
+        "non_recurrence": 0.45,
+        "protection": 0.7,
+        "rehabilitation_or_support": 0.2,
+        "restitution_or_reparation": 0.1,
+        "restored_standing": 0.4,
+        "truth_and_acknowledgment": 0.55
+      },
+      "restitution_only": {
+        "accountability": 0.3,
+        "affected_party_participation": 0.35,
+        "non_recurrence": 0.35,
+        "protection": 0.6,
+        "rehabilitation_or_support": 0.75,
+        "restitution_or_reparation": 0.9,
+        "restored_standing": 0.55,
+        "truth_and_acknowledgment": 0.5
+      }
+    },
+    "scope_warning": "The construction shows non-substitutability among declared repair dimensions. It does not establish that every real case requires the same components or thresholds."
+  },
+  "scope_warning": "All numerical profiles and thresholds are stipulated contrast cases. They are not empirical estimates, validated psychometric or legal instruments, or a universal moral value function.",
+  "status": "illustrative only",
+  "version": "G.1.1"
+}

@@ -1,0 +1,67 @@
+Denying Knowledge v0.10 PC2 logic regression
+============================================
+
+OVERALL: PASS
+
+Finite deterministic checks of the fixed-base consequence architecture and revised verdict taxonomy; not a semantics of commitment, a KLM representation proof, a source of normative content, or peer review.
+
+fixed_base_system_p_exhaustive_three_worlds: PASS
+  orders: 19
+  rule_evaluations: 390336
+  failure: None
+
+ranked_rational_monotony_exhaustive_three_worlds: PASS
+  cases: 110592
+  minimum_attainment_note: All relevant nonempty definable sets attain minima in these finite ranked models.
+  failure: None
+
+premise_responsive_cautious_monotony_countermodel: PASS
+  empty_entails_b: True
+  empty_entails_g: True
+  after_b_entails_g: False
+  interpretation: Cautious Monotony can fail when viability is recomputed non-intersectively from the premise.
+
+fixed_base_countermodel_control: PASS
+  empty_entails_b: True
+  empty_entails_g: False
+  b_entails_g: False
+  interpretation: The same worlds and order do not violate Cautious Monotony under intersective premise filtering.
+
+credulous_admissibility_conjunction_failure: PASS
+  admissible_phi: True
+  admissible_psi: True
+  admissible_conjunction: False
+
+maximum_preservation_equivalence_finite_regression: PASS
+  cases: 999
+  failure: None
+
+subset_maximum_antitonicity: PASS
+  cases: 513
+  failure: None
+
+practical_verdict_partition_and_classical_negation: PASS
+  cases: 9728
+  counts: {'strong_warrant': 2665, 'merely_admissible': 294, 'excluded': 2665, 'infeasible': 4104, 'underdetermined': 0}
+  expected_counts: {'strong_warrant': 2665, 'merely_admissible': 294, 'excluded': 2665, 'infeasible': 4104, 'underdetermined': 0}
+  finite_model_note: Every nonempty subset of a finite strict partial order has a minimal element; therefore all no-best-set cases here are infeasible, not underdetermined.
+  classical_negation_note: Within the Boolean fragment, exclusion of phi is extensionally equivalent to strong warrant for not-phi; PC2 treats this as an adopted modeling choice, not a complete phenomenology of practical refusal.
+  failure: None
+
+non_singleton_best_set_verdict_stratum: PASS
+  best_set_configurations: 73
+  cases: 584
+  counts: {'strong_warrant': 145, 'merely_admissible': 294, 'excluded': 145}
+  expected_counts: {'strong_warrant': 145, 'merely_admissible': 294, 'excluded': 145}
+  interpretation: The middle verdict occurs exactly where tied or incomparable best realizations divide on the commitment content.
+  failure: None
+
+underdetermination_model_adequacy_guard: PASS
+  verdict: underdetermined
+  interpretation: Underdetermination is a model-adequacy verdict, not an empty-feasible-set verdict in the finite complete regressions.
+
+empty_candidate_set_practical_guards: PASS
+  strong_warrant: False
+  admissible: False
+  excluded: False
+  verdict: infeasible

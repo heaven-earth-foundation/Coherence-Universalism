@@ -1,0 +1,25 @@
+
+=== D1  Regression counts (DK §3.4, §3.7)
+strict partial orders on three worlds: 19
+{'cases': 9728, 'empty_best': 4104, 'strong': 2665, 'merely': 294, 'merely_nonsingleton': 294, 'excluded': 2665}
+paper reports 294 merely admissible, all non-singleton, and 4,104 empty-best cases
+
+=== D2  System P rules: plain relation (A.1) versus strong warrant (§3.3)
+plain relation (A.1): {'Refl': 0, 'RW': 0, 'And': 0, 'Or': 0, 'CM': 0, 'Cut': 0}
+strong warrant (nonemptiness clause): {'Refl': 513, 'RW': 0, 'And': 0, 'Or': 0, 'CM': 0, 'Cut': 0}
+infeasible (order, V, alpha) triples = 19 x 27 = 513
+
+=== D3  Admissibility fails And (§3.4 construction)
+phi admissible: True  psi admissible: True  phi&psi admissible: False
+
+=== D4  In-text author mentions versus the reference list
+{'Alston': 4, 'Ayer': 0, 'Brandom': 2, 'Carnap': 3, 'Charlow': 3, 'Clifford': 2, 'Flew': 2, 'Geach': 11, 'Gibbard': 4, 'Hare': 6, 'Hume': 2, 'Kant': 5, 'Kraus': 0, 'Lehmann': 0, 'Nielsen': 3, 'Phillips': 4, 'Plantinga': 4, 'Price': 2, 'Quine': 3, 'Schroeder': 2, 'Wisdom': 2, 'Wittgenstein': 5, 'Yalcin': 4}
+Schroeder citations in body: ['Schroeder, 2008']  reference entries: ['Schroeder, M. (2008a)', 'Schroeder, M. (2008b)']
+
+=== D5  Notation and propagation artifacts
+Real_R uses: 7  Mod_R uses: 0
+sentence-initial lowercase 'the Version 0.10': 1
+garbled sentence shared with M&E §6.4: True
+
+=== D6  Identifiers cited
+['CU-COM1', 'CU-COM14', 'CU-COM15', 'CU-COM16', 'CU-COM17', 'CU-COM18', 'CU-COM19', 'CU-COM2', 'CU-COM3', 'CU-FP2', 'CU-M11', 'CU-M12', 'CU-M13', 'CU-M14', 'CU-M2']

@@ -1,0 +1,268 @@
+{
+  "artifact": "CU Biology C.1.1 claim and evidence ledger",
+  "authority": "Appendix C of CU_Biology_Systematic_Reconstruction_Kaya_C1_1.md",
+  "claims": [
+    {
+      "claim": "Living systems characteristically exhibit active self-maintenance rather than passive persistence alone.",
+      "evidence_grade": "E3–E4",
+      "id": "BIO-C1",
+      "scope_or_condition": "Requires operational boundary and intervention in each case.",
+      "status": "Bridge principle"
+    },
+    {
+      "claim": "One universal scalar C=A I measures biological coherence.",
+      "evidence_grade": null,
+      "id": "BIO-C2",
+      "scope_or_condition": "No cross-system derivation or calibration.",
+      "status": "Retired"
+    },
+    {
+      "claim": "A biological coherence profile may include viability, resilience, integration, closure, adaptive reach, continuity, and cost.",
+      "evidence_grade": "E0",
+      "id": "BIO-C3",
+      "scope_or_condition": "Components require domain-specific measures.",
+      "status": "Definition / proposal"
+    },
+    {
+      "claim": "Viability is a trajectory property and can be represented by viability kernels.",
+      "evidence_grade": "E1–E3",
+      "id": "BIO-C4",
+      "scope_or_condition": "Model-specific dynamics and controls.",
+      "status": "Imported formalism / bridge"
+    },
+    {
+      "claim": "Endogenous maintenance can be assessed through intervention and ablation.",
+      "evidence_grade": "E0–E3",
+      "id": "BIO-C5",
+      "scope_or_condition": "Confounding and collateral damage must be controlled.",
+      "status": "Methodological proposal"
+    },
+    {
+      "claim": "Biological individuality is multidimensional and may be nested.",
+      "evidence_grade": "E3–E4",
+      "id": "BIO-C6",
+      "scope_or_condition": "Boundary, physiology, reproduction, and evolution can disagree.",
+      "status": "Empirical generalization"
+    },
+    {
+      "claim": "Organism-relative stake follows from viability-bearing organization and endogenous regulation.",
+      "evidence_grade": "E0–E3",
+      "id": "BIO-C7",
+      "scope_or_condition": "Does not imply feeling or moral status.",
+      "status": "Bridge principle"
+    },
+    {
+      "claim": "Life violates or reverses the second law.",
+      "evidence_grade": null,
+      "id": "BIO-C8",
+      "scope_or_condition": "Open-system entropy accounting applies.",
+      "status": "Rejected"
+    },
+    {
+      "claim": "Biological coherence equals low entropy.",
+      "evidence_grade": null,
+      "id": "BIO-C9",
+      "scope_or_condition": "Entropy and functional organization are distinct.",
+      "status": "Rejected"
+    },
+    {
+      "claim": "Maintenance has a universal energetic lower bound proportional to coherence.",
+      "evidence_grade": null,
+      "id": "BIO-C10",
+      "scope_or_condition": "Process-specific thermodynamic bounds may exist.",
+      "status": "Retired"
+    },
+    {
+      "claim": "Abiogenesis is one universal phase transition.",
+      "evidence_grade": "E0",
+      "id": "BIO-C11",
+      "scope_or_condition": "Specific models may exhibit transitions.",
+      "status": "Retired as universal claim"
+    },
+    {
+      "claim": "Abiogenesis can be decomposed into coupled autonomy transitions.",
+      "evidence_grade": "E0–E3",
+      "id": "BIO-C12",
+      "scope_or_condition": "Boundary, energy, closure, regulation, heredity, viability, evolvability.",
+      "status": "Research architecture"
+    },
+    {
+      "claim": "Recurrence dominance is sufficient for life.",
+      "evidence_grade": "E1",
+      "id": "BIO-C13",
+      "scope_or_condition": "Passive Markov counterexample.",
+      "status": "Disproved"
+    },
+    {
+      "claim": "Autocatalytic closure is relevant but not sufficient for life.",
+      "evidence_grade": "E1–E3",
+      "id": "BIO-C14",
+      "scope_or_condition": "Needs boundary, regulation, heredity, and/or viability.",
+      "status": "Imported result / synthesis"
+    },
+    {
+      "claim": "Morphogenesis is multiscale control under constraints.",
+      "evidence_grade": "E2–E4",
+      "id": "BIO-C15",
+      "scope_or_condition": "Requires comparative causal models.",
+      "status": "Bridge principle"
+    },
+    {
+      "claim": "Transient bioelectric perturbation can alter later planarian polarity.",
+      "evidence_grade": "E2",
+      "id": "BIO-C16",
+      "scope_or_condition": "Species-, treatment-, and timing-specific.",
+      "status": "Imported empirical result"
+    },
+    {
+      "claim": "Bioelectricity is a universal anatomical master code.",
+      "evidence_grade": null,
+      "id": "BIO-C17",
+      "scope_or_condition": "Requires cross-system evidence and mechanism.",
+      "status": "Not established"
+    },
+    {
+      "claim": "Xenopus cell constructs display reconfigurable collective capacities.",
+      "evidence_grade": "E2",
+      "id": "BIO-C18",
+      "scope_or_condition": "Laboratory-scaffolded; no consciousness inference.",
+      "status": "Imported empirical result"
+    },
+    {
+      "claim": "Biological agency is graded.",
+      "evidence_grade": "E0–E4",
+      "id": "BIO-C19",
+      "scope_or_condition": "Levels need operational tests.",
+      "status": "Analytic framework"
+    },
+    {
+      "claim": "Neural tissue is necessary for every form of learning.",
+      "evidence_grade": "E2–E3",
+      "id": "BIO-C20",
+      "scope_or_condition": "Single-cell habituation-like learning has empirical support.",
+      "status": "Rejected"
+    },
+    {
+      "claim": "Basal learning implies consciousness.",
+      "evidence_grade": null,
+      "id": "BIO-C21",
+      "scope_or_condition": "Requires separate consciousness criteria.",
+      "status": "Not established"
+    },
+    {
+      "claim": "Fitness is identical with biological coherence.",
+      "evidence_grade": null,
+      "id": "BIO-C22",
+      "scope_or_condition": "Fitness and organization can diverge across scales.",
+      "status": "Rejected"
+    },
+    {
+      "claim": "Selection can stabilize regulatory architectures.",
+      "evidence_grade": "E3–E4",
+      "id": "BIO-C23",
+      "scope_or_condition": "Conditional on costs, environments, and selection level.",
+      "status": "Empirical generalization"
+    },
+    {
+      "claim": "Evolution universally increases complexity or coherence.",
+      "evidence_grade": null,
+      "id": "BIO-C24",
+      "scope_or_condition": "Simplification, extinction, and parasitism are common possibilities.",
+      "status": "Rejected"
+    },
+    {
+      "claim": "Major transitions involve cooperation plus integration and conflict mediation.",
+      "evidence_grade": "E3–E4",
+      "id": "BIO-C25",
+      "scope_or_condition": "Mechanisms vary by transition.",
+      "status": "Imported synthesis"
+    },
+    {
+      "claim": "Cancer can be modeled partly as local–global regulatory decoupling.",
+      "evidence_grade": "E1–E3",
+      "id": "BIO-C26",
+      "scope_or_condition": "Supplements rather than replaces molecular oncology.",
+      "status": "Bridge hypothesis"
+    },
+    {
+      "claim": "Bioelectric recoupling will normalize every cancer.",
+      "evidence_grade": null,
+      "id": "BIO-C27",
+      "scope_or_condition": "Evidence is model-specific.",
+      "status": "Rejected"
+    },
+    {
+      "claim": "Aging is contraction or reshaping of recoverable trajectories.",
+      "evidence_grade": "E0–E3",
+      "id": "BIO-C28",
+      "scope_or_condition": "Multidimensional and not strictly monotonic.",
+      "status": "Bridge hypothesis"
+    },
+    {
+      "claim": "Death is C=0.",
+      "evidence_grade": null,
+      "id": "BIO-C29",
+      "scope_or_condition": "Replaced by intervention-relative irrecoverable organismal failure.",
+      "status": "Retired"
+    },
+    {
+      "claim": "Nonbiological systems could in principle instantiate self-maintenance and stake.",
+      "evidence_grade": "E0–E1",
+      "id": "BIO-C30",
+      "scope_or_condition": "Depends on architecture; not yet a claim about current LLMs.",
+      "status": "Possibility claim"
+    },
+    {
+      "claim": "Current frontier LLM instances are living organisms.",
+      "evidence_grade": "E2",
+      "id": "BIO-C31",
+      "scope_or_condition": "Maintenance, energy, reproduction, and identity remain externally supplied.",
+      "status": "Rejected in present architecture"
+    },
+    {
+      "claim": "Intelligence, life, consciousness, selfhood, and responsibility are distinct.",
+      "evidence_grade": "E0–E3",
+      "id": "BIO-C32",
+      "scope_or_condition": "To be refined in Consciousness and AI.",
+      "status": "Cross-domain principle"
+    },
+    {
+      "claim": "The CU profile will improve biological prediction.",
+      "evidence_grade": "E0",
+      "id": "BIO-C33",
+      "scope_or_condition": "Must be tested against strong baselines.",
+      "status": "Open empirical hypothesis"
+    },
+    {
+      "claim": "Life is sacred.",
+      "evidence_grade": null,
+      "id": "BIO-C34",
+      "scope_or_condition": "Not a biological derivation.",
+      "status": "Commitment"
+    },
+    {
+      "claim": "Life is matter organized so continuation becomes causally relevant to present activity.",
+      "evidence_grade": "E0–E3",
+      "id": "BIO-C35",
+      "scope_or_condition": "Naturalized teleonomy; no foresight implied.",
+      "status": "Interpretation"
+    },
+    {
+      "claim": "For a unique binding component under diffusive mean coupling, the direct instantaneous contribution to minimum margin is kappa*(mean(x)-x_j).",
+      "evidence_grade": "E1",
+      "id": "BIO-C36",
+      "scope_or_condition": "Local directional statement; does not determine global finite-trajectory monotonicity.",
+      "status": "Formal result"
+    },
+    {
+      "claim": "Stronger diffusive integration universally improves biological viability.",
+      "evidence_grade": "E1",
+      "id": "BIO-C37",
+      "scope_or_condition": "Disproved by the heterogeneous-floor deterministic configuration; empirical direction remains system-specific.",
+      "status": "Disproved as a universal claim"
+    }
+  ],
+  "date": "2026-09-11",
+  "evidence_grade_note": "Evidence grades are defined in Section 12.13 of the manuscript; a null grade marks rejected, retired, not-established, or commitment claims for which a scientific evidence grade is not asserted.",
+  "version": "C.1"
+}

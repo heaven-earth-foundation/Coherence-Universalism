@@ -1,0 +1,3 @@
+# Preserve the exact registry bytes recorded in the release integrity manifest.
+# -text disables line-ending conversion, including inherited eol settings.
+*.csv -text

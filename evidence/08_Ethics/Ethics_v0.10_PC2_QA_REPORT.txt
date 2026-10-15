@@ -1,0 +1,24 @@
+ETHICS PC2 SYNCHRONIZATION QA
+========================================================================
+
+passes: 14
+failures: 0
+
+PASSES
+- all prior display-math blocks remain byte-identical and in order
+- code fences are balanced
+- display-math delimiters are balanced
+- no NUL or carriage-return characters
+- canonical synchronization note present
+- required synchronization token present: Publication Candidate 2
+- required synchronization token present: Canonical Base B.5.1
+- required synchronization token present: CU-COM14
+- required synchronization token present: CU-COM17
+- required synchronization token present: CU-COM19
+- required synchronization token present: Stages 27–31
+- superseded token absent: Canonical promotion is conjunctive rather than majoritarian
+- bounded reader-facing change size (63 changed lines)
+- prior technical supplement frozen byte-for-byte
+
+FAILURES
+None.

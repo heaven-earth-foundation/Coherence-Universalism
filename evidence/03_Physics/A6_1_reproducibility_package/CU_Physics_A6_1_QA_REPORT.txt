@@ -1,0 +1,77 @@
+CU PHYSICS A.6.1 QUALITY-ASSURANCE REPORT
+Generated: September 2026
+
+FILES
+- CU_Physics_Systematic_Reconstruction_Kaya_A6_1.md: 430326 bytes; sha256 5f692e2af69684e383d0ead8538fd5b00e4ec30a79a1c85247e293773e84f2f9
+- CU_Physics_A6_Independent_Audit.md: 12539 bytes; sha256 9f3c52f62d88adbbf61da80783ae396589a55e428769c777d32fac7811af2c97
+- CU_Physics_A6_1_AUDIT_RESPONSE.md: 14466 bytes; sha256 6206cceda24ddc407fe13b3a5834adf8ad8eda1a45c3add9c117fa9e124d351c
+- CU_Physics_A6_1_CHANGELOG.md: 13988 bytes; sha256 92082540956296359c62659e022040e808a1da438e0263ac84807bf459540175
+- CU_Physics_A6_to_A6_1.patch: 49816 bytes; sha256 d7cbdfb9100fe397bed1a08f5b58d60ea484c012495706669d626bf73674bbce
+- CU_Physics_A6_1_reproducibility.py: 37556 bytes; sha256 7e84e9d3e70e33d046590cf0b7a03c4325a3ad0d390d4cb3899654a1aa50ce8f
+- CU_Physics_A6_1_verification_results.json: 26414 bytes; sha256 20aa524a40f003f3fcdc067f86e3883ba0fa4eb793056d208904fb88c4e8de6a
+- CU_Physics_A6_1_REQUIREMENTS.txt: 158 bytes; sha256 9878fe864676b3d7ad05feb25b79c60c45998dec06133c1d12956de168988fa1
+- CU_Physics_A6_1_README.md: 3566 bytes; sha256 07df94d76c1b47a454b74b20593966902f97c166ddd439a80b67823f47913f5d
+
+STRUCTURAL COUNTS
+- CU_Physics_Systematic_Reconstruction_Kaya_A6_1.md: 12153 lines; 58126 whitespace-delimited words; 448 headings
+- CU_Physics_A6_1_AUDIT_RESPONSE.md: 393 lines; 1943 whitespace-delimited words; 24 headings
+- CU_Physics_A6_1_CHANGELOG.md: 442 lines; 1819 whitespace-delimited words; 28 headings
+- CU_Physics_A6_1_README.md: 73 lines; 417 whitespace-delimited words; 7 headings
+- Manuscript display-math blocks: 794
+
+CHECKS
+- PASS: Manuscript display math balanced (794 open / 794 close)
+- PASS: Manuscript code fences balanced (0 fence lines)
+- PASS: Manuscript heading hierarchy has no jumps
+- PASS: Explicit internal section references resolve
+- PASS: Explicit appendix references resolve
+- PASS: Appendices A through L present (A,A.1,A.2,A.3,A.4,B,B.1,B.10,B.11,B.2,B.3,B.4,B.5,B.6,B.7,B.8,B.9,B.9.1,C,C.1,C.2,C.3,C.4,D,D.1,D.2,D.3,D.4,D.5,D.6,D.7,E,E.1,E.2,E.3,E.4,E.5,F,F.1,F.2,F.3,F.4,F.5,G,H,H.1,H.2,H.3,H.4,H.5,H.6,H.7,H.8,I,I.1,I.2,I.3,I.4,I.5,I.6,I.7,I.8,I.9,J,J.1,J.2,J.3,J.4,J.5,J.6,K,K.1,K.2,K.3,K.4,K.5,K.6,L,L.1,L.2,L.3,L.4,L.5)
+- PASS: Pandoc parses CU_Physics_Systematic_Reconstruction_Kaya_A6_1.md without warnings
+- PASS: Pandoc parses CU_Physics_A6_1_AUDIT_RESPONSE.md without warnings
+- PASS: Pandoc parses CU_Physics_A6_1_CHANGELOG.md without warnings
+- PASS: Pandoc parses CU_Physics_A6_1_README.md without warnings
+- PASS: Python verification script compiles
+- PASS: JSON identifies manuscript version A.6.1 (A.6.1)
+- PASS: JSON script hash matches packaged script (recorded=7e84e9d3e70e33d046590cf0b7a03c4325a3ad0d390d4cb3899654a1aa50ce8f actual=7e84e9d3e70e33d046590cf0b7a03c4325a3ad0d390d4cb3899654a1aa50ce8f)
+- PASS: All block-averaging residuals below 1e-12 (max=9.4368957093138306e-16)
+- PASS: Euclidean random wedge diagnostics have zero violations (0)
+- PASS: Fisher random wedge diagnostics have zero violations (0)
+- PASS: Euclidean two-level wedge closes below 1e-12 (4.440892098500626e-16)
+- PASS: Fisher two-level wedge closes below 1e-12 (4.440892098500626e-16)
+- PASS: Fixed-coupling threshold matches manuscript value (0.62136094364562588)
+- PASS: Fixed-coupling stationarity equation residual below 1e-12 (0.0)
+- PASS: Critical-direction objective differences have opposite signs (plus=3.197e-14, minus=-3.197e-14)
+- PASS: Uniform linear-stability threshold is 1/2 (0.5)
+- PASS: sup ||A||_F reproduced (0.586724197682029)
+- PASS: sup ||B||_F reproduced (1.0116770998626512)
+- PASS: sup Pi_F reproduced (0.5866722641091376)
+- PASS: Rest state-normalized position slope is asymptotically -2 (-1.9868184522794032)
+- PASS: Slow-manifold state-normalized position slope is asymptotically -3 (-2.9901998783749444)
+- PASS: Slow-manifold displacement-normalized position slope is asymptotically -2 (-1.9913275357868947)
+- PASS: Relative velocity slopes are asymptotically -2 (rest=-1.9893688201092874, slow=-1.9830174590716758)
+- PASS: Stale phrase absent: The rebuilt companion comparison in Appendix J is cons
+- PASS: Stale phrase absent: The companion fixed-time overdamped discrepancy scales
+- PASS: Stale phrase absent: CU_Physics_A6_reproducibility.py
+- PASS: Stale phrase absent: CU_Physics_A6_verification_results.json
+- PASS: A.6.1 Appendix L present in manuscript
+- PASS: A.6.1 patch is nonempty (49816)
+
+KEY REGENERATED RESULTS
+- Script hash recorded in JSON: 7e84e9d3e70e33d046590cf0b7a03c4325a3ad0d390d4cb3899654a1aa50ce8f
+- Maximum finite-partition residual: 9.4368957093138306e-16
+- Euclidean two-level maximum wedge width: 4.4408920985006262e-16
+- Fisher two-level maximum wedge width: 4.4408920985006262e-16
+- Fixed-coupling stationary threshold r*: 0.6213609436456259
+- Uniform linear-stability threshold: 0.5
+- sup ||A||_F: 0.586724197682029
+- sup ||B||_F: 1.011677099862651
+- sup Pi_F: 0.586672264109138
+- Rest state-normalized position slope: -1.986818452279
+- Slow-manifold state-normalized position slope: -2.990199878375
+- Slow-manifold displacement-normalized position slope: -1.991327535787
+- Rest relative-velocity slope: -1.989368820109
+- Slow-manifold relative-velocity slope: -1.983017459072
+
+INTERPRETIVE LIMIT
+All automated checks passed.
+These checks establish file integrity, parseability, internal cross-reference consistency, and reproducibility of the stated numerical diagnostics. They do not constitute human expert peer review or empirical confirmation of the physical framework. The supplied independent audit did not cover Sections 8–10, the full Madelung derivation, the wave/Madelung convergence runs, or the bibliography.

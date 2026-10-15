@@ -1,0 +1,76 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+import argparse,csv,hashlib,json,re,sys,zipfile
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+
+def sha256(p):
+    h=hashlib.sha256()
+    with p.open('rb') as f:
+        for b in iter(lambda:f.read(1024*1024),b''): h.update(b)
+    return h.hexdigest()
+
+def main():
+    ap=argparse.ArgumentParser(); ap.add_argument('--core',action='store_true'); ap.add_argument('--full',action='store_true'); ap.add_argument('--assets-dir',type=Path)
+    a=ap.parse_args(); full=a.full
+    checks=[]
+    def ck(name,cond,detail=''):
+        checks.append((name,bool(cond),detail)); print(('PASS' if cond else 'FAIL'),name,detail)
+    papers=sorted((ROOT/'papers').glob('*.md')); ck('11 papers',len(papers)==11,str(len(papers)))
+    reg=ROOT/'registries'/'CU_v0.10_Principle_Registry.csv'; rows=list(csv.DictReader(reg.open(encoding='utf-8')))
+    ids={r.get('identifier') or r.get('id') or r.get('ID') for r in rows}
+    ck('228 active registry records',len(rows)==228,str(len(rows))); ck('CU-M15 active','CU-M15' in ids)
+    fnd=(ROOT/'papers'/'02_CU_Foundations_v0.10.md').read_text(encoding='utf-8'); me=(ROOT/'papers'/'01_CU_Metaphysics_Epistemology_v0.10.md').read_text(encoding='utf-8')
+    ck('CU-M15 in Foundations','CU-M15' in fnd); ck('typed graph protocol in M&E','typed multigraph' in me.lower() or 'typed technical graph' in me.lower())
+    stages=list(csv.DictReader((ROOT/'registries'/'CU_v0.10_64_Stage_Status_Registry.csv').open(encoding='utf-8'))); ck('64 stages',len(stages)==64,str(len(stages)))
+    active='\n'.join(p.read_text(encoding='utf-8',errors='ignore') for p in papers)
+    ck('no active RC labels',not re.search(r'Release Candidate|\bRC[123]\b',active,re.I))
+    ck('no legacy compact identifiers',not re.search(r'CU-(?:CL12|AI27|AI25)\b',active))
+    ck('no mnemonic nested p subscripts',not re.search(r'p_\{[A-Z]_[a-z]\}',active))
+    # Relative markdown links.
+    bad=[]
+    for p in ROOT.rglob('*.md'):
+        txt=p.read_text(encoding='utf-8',errors='ignore')
+        for target in re.findall(r'\[[^\]]*\]\(([^)]+)\)',txt):
+            target=target.split('#',1)[0]
+            if not target or re.match(r'^[a-z]+://',target,re.I) or target.startswith('mailto:'): continue
+            if not (p.parent/target).resolve().exists(): bad.append((str(p.relative_to(ROOT)),target))
+    ck('relative Markdown links resolve',not bad,str(bad[:5]))
+    # Evidence package manifests if present.
+    for code in ('03_Physics','04_Biology'):
+        d=ROOT/'evidence'/code; ck(code+' evidence present',d.exists())
+        manifests=[m for m in list(d.rglob('*MANIFEST*'))+list(d.rglob('*.sha256')) if m.is_file()]
+        ck(code+' manifest present',bool(manifests),str([m.name for m in manifests[:3]]))
+        verified=0; bad=[]
+        for mf in manifests:
+            for line in mf.read_text(encoding='utf-8',errors='ignore').splitlines():
+                line=line.strip()
+                if not line or line.startswith('#'): continue
+                parts=line.split()
+                if len(parts)<2 or not re.fullmatch(r'[0-9a-fA-F]{64}',parts[0]): continue
+                rel=' '.join(parts[1:]).lstrip('*')
+                target=(mf.parent/rel).resolve()
+                if not target.exists():
+                    # Some manifests are rooted at the evidence package root.
+                    target=(d/rel).resolve()
+                if target.exists() and target.is_file():
+                    verified+=1
+                    if sha256(target).lower()!=parts[0].lower(): bad.append(str(target.relative_to(ROOT)))
+        ck(code+' manifest hashes verify',verified>0 and not bad,f'verified={verified}; bad={bad[:5]}')
+    if full:
+        ck('assets directory supplied',a.assets_dir is not None)
+        if a.assets_dir:
+            mf=ROOT/'release-manifests'/'MANDALA_ASSETS.sha256'; ck('Mandala manifest present',mf.exists())
+            if mf.exists():
+                missing=[]; mism=[]
+                for line in mf.read_text().splitlines():
+                    if not line.strip(): continue
+                    digest,name=line.split(None,1); name=name.strip().lstrip('*')
+                    p=a.assets_dir/name
+                    if not p.exists(): missing.append(name)
+                    elif sha256(p)!=digest: mism.append(name)
+                ck('Mandala assets present',not missing,str(missing)); ck('Mandala asset hashes',not mism,str(mism))
+    failed=[x for x in checks if not x[1]]
+    print(f'OVERALL: {len(checks)-len(failed)} PASS / {len(failed)} FAIL')
+    return 1 if failed else 0
+if __name__=='__main__': raise SystemExit(main())

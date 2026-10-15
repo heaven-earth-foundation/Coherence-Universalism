@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: For the framework cite the preferred research-release citation; for specific
+  claims cite the relevant paper listed in CITATIONS.bib. MIT applies to source code;
+  CC BY 4.0 applies to text and original figures.
+type: software
+title: 'Coherence Universalism: Source and Reproducibility Repository'
+version: 0.10.1
+authors:
+- &id001
+  family-names: Rader
+  given-names: Gaura Kiśora Dās
+license: MIT
+preferred-citation:
+  type: report
+  title: Coherence Universalism
+  version: 0.10 (distribution 0.10.1)
+  year: 2026
+  authors:
+  - *id001
+  publisher:
+    name: Heaven≡Earth Foundation
+  license: CC-BY-4.0

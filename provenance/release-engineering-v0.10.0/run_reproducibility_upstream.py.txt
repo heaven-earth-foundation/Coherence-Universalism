@@ -1,0 +1,102 @@
+"""
+Re-run every deterministic model script in the Coherence Universalism Version 0.10 release
+and compare its regenerated results with the results shipped in the release.
+
+Usage (from the repository root):
+    python scripts/run_reproducibility.py
+
+Requires Python 3.10+, NumPy, and SciPy. Each script runs in a temporary copy of its own
+directory, so the shipped results files are never overwritten. Fields that record run
+metadata (timestamps, hashes, file paths, library versions) are ignored in the comparison;
+every numerical result must agree to a relative tolerance of 1e-9.
+"""
+import json
+import shutil
+import subprocess
+import sys
+import tempfile
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+META = ("time", "date", "sha", "hash", "path", "python", "platform", "version", "numpy", "scipy")
+
+# (directory, script, shipped results files to compare)
+SUITE = [
+    ("evidence/03_Physics/A6_1_reproducibility_package", "CU_Physics_A6_1_reproducibility.py",
+     ["CU_Physics_A6_1_verification_results.json"]),
+    ("evidence/04_Biology/C1_1_reproducibility_package", "CU_Biology_C1_1_reproducibility.py",
+     ["CU_Biology_C1_1_verification_results.json"]),
+    ("evidence/08_Ethics", "CU_Ethics_v0.10_PC1_Reproducibility.py",
+     ["CU_Ethics_G1_1_verification_results.json"]),
+    ("evidence/09_Artificial_Intelligence", "CU_AI_v0.10_PC1_Reproducibility.py",
+     ["CU_AI_v0.10_PC1_Verification_Results.json"]),
+    ("evidence/10_Denying_Knowledge", "Denying_Knowledge_v0.10_PC2_Logic_Regression.py",
+     ["Denying_Knowledge_v0.10_PC2_Logic_Results.json"]),
+    ("evidence/11_Non_Egoic_Artificial_Mind", "Non_Egoic_Mind_v0.10_RC1_Reproducibility.py",
+     ["Non_Egoic_Mind_v0.10_RC1_Verification_Results.json"]),
+]
+
+
+def differences(new, old, path=""):
+    out = []
+    if isinstance(new, dict) and isinstance(old, dict):
+        for k in sorted(set(new) | set(old)):
+            if any(t in k.lower() for t in META):
+                continue
+            if k not in new or k not in old:
+                out.append(f"{path}/{k}: present in only one file")
+            else:
+                out += differences(new[k], old[k], f"{path}/{k}")
+    elif isinstance(new, list) and isinstance(old, list):
+        if len(new) != len(old):
+            out.append(f"{path}: length {len(new)} vs {len(old)}")
+        else:
+            for i, (a, b) in enumerate(zip(new, old)):
+                out += differences(a, b, f"{path}[{i}]")
+    elif isinstance(new, float) and isinstance(old, (int, float)):
+        if abs(new - old) > 1e-9 * max(1.0, abs(new), abs(old)):
+            out.append(f"{path}: {new!r} vs {old!r}")
+    elif new != old:
+        out.append(f"{path}: {new!r} vs {old!r}")
+    return out
+
+
+def main():
+    failures = 0
+    for rel, script, results in SUITE:
+        src = ROOT / rel
+        with tempfile.TemporaryDirectory() as tmp:
+            work = Path(tmp) / "run"
+            shutil.copytree(src, work, ignore=shutil.ignore_patterns(*results))
+            proc = subprocess.run([sys.executable, "-I", script], cwd=work,
+                                  capture_output=True, text=True, timeout=1800)
+            if proc.returncode != 0:
+                failures += 1
+                print(f"FAIL  {rel}/{script}: exit code {proc.returncode}\n{proc.stderr[-800:]}")
+                continue
+            for name in results:
+                regenerated = work / name
+                if not regenerated.exists():
+                    failures += 1
+                    print(f"FAIL  {rel}/{name}: not regenerated")
+                    continue
+                diff = differences(json.loads(regenerated.read_text()), json.loads((src / name).read_text()))
+                if diff:
+                    failures += 1
+                    print(f"FAIL  {rel}/{name}: {len(diff)} differences, e.g. {diff[:3]}")
+                else:
+                    print(f"PASS  {rel}/{name}")
+
+    # Information-geometry verification prints its own PASS/FAIL summary.
+    ig = subprocess.run([sys.executable, "-I", "verify_information_geometry.py"],
+                        cwd=ROOT / "research_inputs", capture_output=True, text=True, timeout=600)
+    ok = ig.returncode == 0 and "OVERALL: PASS" in ig.stdout
+    failures += not ok
+    print(f"{'PASS' if ok else 'FAIL'}  research_inputs/verify_information_geometry.py")
+
+    print(f"\n{'All reproducibility checks passed.' if not failures else f'{failures} check(s) failed.'}")
+    sys.exit(1 if failures else 0)
+
+
+if __name__ == "__main__":
+    main()

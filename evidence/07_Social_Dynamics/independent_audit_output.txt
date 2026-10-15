@@ -1,0 +1,51 @@
+
+=== Z1  §2.3 mean-versus-floor construction
+mean a = 0.6667  mean b = 0.65  min a < k: True  min b >= k: True
+'Appendix B gives the simple construction' in §2.3: True | Appendix B contains the numbers: False
+
+=== Z2  Profile coordinates and notation (§§2.1–2.2)
+12 coordinates: ['M', 'Tr', 'I', 'C', 'V', 'L', 'D', 'A_d', 'R_p', 'X_c', 'Q', 'B_e'] | text says 'first nine' and 'final three': True
+model tuple: ['A', 'X', 'E', 'U', 'F', 'K', 'G', 'P', 'R', 'N', '\\mathcal H', '\\pi', 'T', '\\mathcal O']
+profile letters reusing tuple letters: ['A_d', 'R_p', 'X_c'] | plus A_d, R_p, X_c beside tuple A, R, X; P_soc beside tuple P
+
+=== Z3  Nineteen governance rules: §2.9 versus Appendix A.5
+19 19 rules; identical: 18 | differing: [(12, 'Do not restore a universal social coherence scalar.', 'Do not restore a universal social-coherence scalar.')]
+
+=== Z4  Identifiers, statuses, and statements against Foundations
+25 identifiers; unresolved: []
+CU-S1: Appendix A verbatim True; §14.4 verbatim True; §14.4 label 'Domain authority; conditional bridge principle' | Foundations: DOMAIN-AUTHORITY CONDITIONAL SOCIAL PRINCIPLE / CANONICAL-CONDITIONAL BRIDGE PRINCIPLE
+CU-S2: Appendix A verbatim True; §14.4 verbatim True; §14.4 label 'Domain authority; conditional bridge principle' | Foundations: DOMAIN-AUTHORITY CONDITIONAL SOCIAL PRINCIPLE / EMPIRICAL BRIDGE PRINCIPLE
+CU-S3: Appendix A verbatim True; §14.4 verbatim True; §14.4 label 'Domain authority; conditional bridge principle' | Foundations: DOMAIN-AUTHORITY CONDITIONAL SOCIAL PRINCIPLE / CANONICAL-CONDITIONAL BRIDGE PRINCIPLE
+CU-S4: Appendix A verbatim True; §14.4 verbatim True; §14.4 label 'Provisional social and normative principle' | Foundations: DOMAIN-PROVISIONAL SOCIAL / NORMATIVE PRINCIPLE / EMPIRICAL-INTERPRETIVE BRIDGE PRINCIPLE
+CU-S5: Appendix A verbatim True; §14.4 verbatim True; §14.4 label 'Provisional normative bridge principle' | Foundations: DOMAIN-PROVISIONAL SOCIAL / NORMATIVE PRINCIPLE / PROVISIONAL NORMATIVE BRIDGE PRINCIPLE
+CU-CL12 statement verbatim in §13.11: True
+CU-COM11 statement in Social Dynamics (quotation marks normalized): True
+CU-COM18 statement in Social Dynamics (quotation marks normalized): True
+
+=== Z5  CU-CL12 status wording
+Appendix B calls Open Myth 'provisional': True
+Foundations CU-CL12 status: CANONICAL AS DESIGN PRINCIPLE; UNIVERSAL EMPIRICAL NECESSITY UNESTABLISHED
+Foundations CU-COM18 cross-reference: governance and related principles CU-COM5, CU-COM11, CU-CL12 (provisional), CU-G1–CU-G7
+'attractor' in Social Dynamics: [(42, ' collapse threshold, and high-coherence attractor with decl'), (118, 'does not demonstrate one high-coherence attractor or univer'), (1171, 'social-collapse sequences and competing attractor basins ma'), (1731, 'ional development; - a universal social attractor; - a gene'), (1834, 'Open-Myth names for this civilizational attractor.  This is'), (1836, 'iny. It is a family of revisable social attractors: arrange'), (1961, 'tory; - replaces universal collapse and attractor claims wi')]
+
+=== Z6  Abstract's deterministic model in the body
+'delay sweep': abstract True, body False
+'false alarm': abstract True, body False
+'three different regimes': abstract True, body False
+'polycentricity corrects': abstract True, body False
+
+=== Z7  Mandala cross-references
+Foundations stages citing CU-S, CU-CL, COM11 or COM18: [(22, 'Shared Representations'), (23, 'Plural Coordination'), (24, 'Norm Formation'), (25, 'Institutions'), (26, 'Culture and Meaning Infrastructure'), (37, 'Multi-Agent and Multi-Institution Alignment'), (41, 'Planetary Coordination'), (42, 'Civilizational Continuity and Adaptability'), (45, 'Plural Value Integration'), (49, 'Intergenerational Meaning'), (50, 'Collective Agency and Distributed Responsibility'), (51, 'Open Myth and Narrative Pluralism'), (57, 'Coherence Stewardship'), (61, 'Existential Maturity')]
+'Stage N' references in Social Dynamics: 0 | in Biology, Consciousness, Psychology: [1, 1, 1]
+
+=== Z8  Identifier formats and artifacts
+CU-CL forms used: ['CU-CL-8', 'CU-CL12'] (issue #8)
+sentence-initial lowercase 'this paper': 0  RC2 line: [92]
+
+=== Z9  Citations against the reference list
+57 entries; 7 Rader
+25 entries never cited by author and year: [('Acemoglu', '2012'), ('Anderson', '2006'), ('Bail', '2018'), ('Bellah', '2011'), ('Centola', '2018'), ('Claude', '2026'), ('Coleman', '1990'), ('Durkheim', '1912'), ('Eisenstadt', '1986'), ('Finkel', '2020'), ('Fraser', '2008'), ('Habermas', '1996'), ('Henrich', '2016'), ('Iyengar', '2019'), ('Jaspers', '1953'), ('Landemore', '2013'), ('Lorenz', '2011'), ('McCoy', '2018'), ('Okimoto', '2025'), ('Page', '2007'), ('Rawls', '1993'), ('Scott', '1998'), ('Tainter', '1988'), ('Woolley', '2010'), ('Young', '2000')]
+named without year in §12.3: ['Jaspers', 'Eisenstadt', 'Bellah']
+ILO cited as 'ILO, 2024' against entry 'International Labour Organization': True
+entry 'Claude. (2026) … unpublished working note': True  cited in body: False
+alphabetical breaks: [('Rawls', 'Rader'), ('Young', 'Claude. ')]

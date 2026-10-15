@@ -1,0 +1,22 @@
+[
+  {
+    "companion_id": "10",
+    "title": "Denying Knowledge to Make Room for Commitment",
+    "role": "active philosophical companion",
+    "owned_scope": "extended commitment-logic exposition; worked cases; finite regressions; philosophical applications",
+    "controlling_sources": "M&E; Foundations",
+    "domain_dependencies": "owning domain papers for scientific, clinical, social, ethical, and engineering claims",
+    "independent_principle_authority": "none",
+    "status": "synchronized Wave 6 companion draft"
+  },
+  {
+    "companion_id": "11",
+    "title": "The Architecture of Non-Egoic Artificial Mind",
+    "role": "active AI/consciousness architecture companion",
+    "owned_scope": "six-family synthesis; shutdown model; egoic-risk profile; research program",
+    "controlling_sources": "Foundations; M&E; Consciousness; Ethics; Artificial Intelligence; Denying Knowledge",
+    "domain_dependencies": "controlling papers retain all domain and principle authority",
+    "independent_principle_authority": "none",
+    "status": "synchronized Wave 6 companion draft"
+  }
+]

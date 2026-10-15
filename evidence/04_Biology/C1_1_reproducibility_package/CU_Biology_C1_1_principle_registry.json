@@ -1,0 +1,61 @@
+{
+  "artifact": "CU Biology C.1.1 candidate principle registry",
+  "audit_boundary": "The independent C.1 audit endorsed the manuscript with bounded repairs but did not assess CU-B1 through CU-B5 on conceptual grounds; no principle is promoted by C.1.1.",
+  "date": "2026-09-11",
+  "governance_rules": [
+    "Every biological coherence claim names the candidate unit and scale.",
+    "Every maintenance claim names the temporal horizon.",
+    "Every robustness claim names the disturbance or perturbation class.",
+    "Scalarization requires declared weights, protected floors, and aggregation rules.",
+    "Organism-relative stake is not silently promoted to phenomenal or moral value."
+  ],
+  "principles": [
+    {
+      "c1_1_candidate_status": "CANONICAL BRIDGE PRINCIPLE",
+      "domain_owner": "Biology",
+      "downstream_role": "Defines the transition from passive physical persistence to active biological self-maintenance.",
+      "foundations_b2_status": "PROVISIONAL",
+      "id": "CU-B1",
+      "name": "Active Biological Self-Maintenance",
+      "text": "A candidate living organization is not distinguished by static order or persistence alone, but by a relatively closed network of materially realized processes and constraints whose endogenous activity contributes to maintaining, repairing, reproducing, or adaptively transforming the conditions of that network's continuation. Degree and kind of autonomy are relative to a boundary, environment, perturbation class, and horizon."
+    },
+    {
+      "c1_1_candidate_status": "CANONICAL–CONDITIONAL EMPIRICAL HYPOTHESIS",
+      "domain_owner": "Biology",
+      "downstream_role": "Provides a graded biological agency bridge without identifying agency with consciousness.",
+      "foundations_b2_status": "PROVISIONAL HYPOTHESIS",
+      "id": "CU-B2",
+      "name": "Adaptive Problem Solving Beyond Fixed Programs",
+      "text": "Some living systems possess regulatory architectures that generalize beyond fixed stimulus–response mappings: they detect deviations, recruit alternative pathways, modify future responses from history, and solve novel viability-relevant problems within a bounded adaptive reach. Degree must be established through counterfactual flexibility, learning controls, and comparison with passive or preprogrammed alternatives; it does not by itself establish consciousness."
+    },
+    {
+      "c1_1_candidate_status": "CANONICAL BRIDGE PRINCIPLE",
+      "domain_owner": "Biology",
+      "downstream_role": "Constrains development, regeneration, pathology, and later social-scale uses of local–global language.",
+      "foundations_b2_status": "PROVISIONAL HYPOTHESIS",
+      "id": "CU-B3",
+      "name": "Multiscale Constraint and Local Process",
+      "text": "Biological form and function arise through local physical processes embedded in cross-scale boundary conditions, signaling networks, mechanical relations, and histories. A higher-scale constraint is explanatory when intervention on its realizing relations changes lower-scale trajectories in a way that improves prediction or control beyond local variables alone. Higher scale does not imply a new force, and global stability does not imply a unique optimizer."
+    },
+    {
+      "c1_1_candidate_status": "CANONICAL–CONDITIONAL EMPIRICAL GENERALIZATION",
+      "domain_owner": "Biology",
+      "downstream_role": "Prevents coherence from replacing fitness while retaining an organizational account of evolved control.",
+      "foundations_b2_status": "PROVISIONAL EMPIRICAL GENERALIZATION",
+      "id": "CU-B4",
+      "name": "Evolutionary Stabilization of Regulatory Architecture",
+      "text": "Evolutionary processes can stabilize, modify, or dismantle architectures of self-maintenance. Robustness, modularity, plasticity, conflict control, and adaptive reach are favored only under environments and life histories in which their reproductive benefits exceed their costs. Fitness is not identical with biological coherence, and evolution has no demonstrated universal tendency to maximize either coherence or complexity."
+    },
+    {
+      "c1_1_candidate_status": "CANONICAL BRIDGE PRINCIPLE",
+      "domain_owner": "Biology",
+      "downstream_role": "Principal bridge from biological organization to the Consciousness paper’s distinction between functional stake and phenomenal valence.",
+      "foundations_b2_status": "RESERVED",
+      "id": "CU-B5",
+      "name": "Biological Individuation and Stake",
+      "text": "A biological individual is a historically continuous, relatively bounded organization whose components are causally integrated into maintaining, repairing, reproducing, or adaptively transforming the conditions of that organization. The organization thereby establishes organism-relative stakes: conditions can be better or worse for it in virtue of their effects on its continued self-maintenance. Individuality is graded, multidimensional, and potentially nested; organism-relative stake does not by itself establish consciousness or moral status."
+    }
+  ],
+  "promotion_rule": "These entries remain candidates and do not modify Foundations B.2. Promotion requires a later synchronized registry update after domain-expert review.",
+  "version": "C.1.1"
+}

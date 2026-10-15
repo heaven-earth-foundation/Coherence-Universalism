@@ -1,0 +1,331 @@
+[
+  {
+    "paper_id": "01",
+    "paper_slug": "Metaphysics_Epistemology",
+    "evidence_kind": "independent audit",
+    "path": "audits/01_CU_v0.10_Audit_01_Metaphysics_Epistemology.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "01",
+    "paper_slug": "Metaphysics_Epistemology",
+    "evidence_kind": "audit script",
+    "path": "evidence/01_Metaphysics_Epistemology/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "01",
+    "paper_slug": "Metaphysics_Epistemology",
+    "evidence_kind": "audit output",
+    "path": "evidence/01_Metaphysics_Epistemology/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "01",
+    "paper_slug": "Metaphysics_Epistemology",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/01_Metaphysics_Epistemology_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "02",
+    "paper_slug": "Foundations",
+    "evidence_kind": "independent audit",
+    "path": "audits/02_CU_v0.10_Audit_02_Foundations.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "02",
+    "paper_slug": "Foundations",
+    "evidence_kind": "reproducibility run",
+    "path": "evidence/02_Foundations/wave4_reproducibility_run.txt",
+    "scope": "Wave 4 execution record for included deterministic or registry scripts."
+  },
+  {
+    "paper_id": "02",
+    "paper_slug": "Foundations",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/02_Foundations_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "03",
+    "paper_slug": "Physics",
+    "evidence_kind": "independent audit",
+    "path": "audits/03_CU_v0.10_Audit_03_Physics.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "03",
+    "paper_slug": "Physics",
+    "evidence_kind": "audit script",
+    "path": "evidence/03_Physics/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "03",
+    "paper_slug": "Physics",
+    "evidence_kind": "audit output",
+    "path": "evidence/03_Physics/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "03",
+    "paper_slug": "Physics",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/03_Physics_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "04",
+    "paper_slug": "Biology",
+    "evidence_kind": "independent audit",
+    "path": "audits/04_CU_v0.10_Audit_04_Biology.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "04",
+    "paper_slug": "Biology",
+    "evidence_kind": "audit script",
+    "path": "evidence/04_Biology/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "04",
+    "paper_slug": "Biology",
+    "evidence_kind": "audit output",
+    "path": "evidence/04_Biology/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "04",
+    "paper_slug": "Biology",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/04_Biology_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "05",
+    "paper_slug": "Consciousness",
+    "evidence_kind": "independent audit",
+    "path": "audits/05_CU_v0.10_Audit_05_Consciousness.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "05",
+    "paper_slug": "Consciousness",
+    "evidence_kind": "audit script",
+    "path": "evidence/05_Consciousness/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "05",
+    "paper_slug": "Consciousness",
+    "evidence_kind": "audit output",
+    "path": "evidence/05_Consciousness/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "05",
+    "paper_slug": "Consciousness",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/05_Consciousness_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "06",
+    "paper_slug": "Psychology",
+    "evidence_kind": "independent audit",
+    "path": "audits/06_CU_v0.10_Audit_06_Psychology.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "06",
+    "paper_slug": "Psychology",
+    "evidence_kind": "audit script",
+    "path": "evidence/06_Psychology/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "06",
+    "paper_slug": "Psychology",
+    "evidence_kind": "audit output",
+    "path": "evidence/06_Psychology/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "06",
+    "paper_slug": "Psychology",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/06_Psychology_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "07",
+    "paper_slug": "Social_Dynamics",
+    "evidence_kind": "independent audit",
+    "path": "audits/07_CU_v0.10_Audit_07_Social_Dynamics.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "07",
+    "paper_slug": "Social_Dynamics",
+    "evidence_kind": "audit script",
+    "path": "evidence/07_Social_Dynamics/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "07",
+    "paper_slug": "Social_Dynamics",
+    "evidence_kind": "audit output",
+    "path": "evidence/07_Social_Dynamics/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "07",
+    "paper_slug": "Social_Dynamics",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/07_Social_Dynamics_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "08",
+    "paper_slug": "Ethics",
+    "evidence_kind": "independent audit",
+    "path": "audits/08_CU_v0.10_Audit_08_Ethics.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "08",
+    "paper_slug": "Ethics",
+    "evidence_kind": "audit script",
+    "path": "evidence/08_Ethics/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "08",
+    "paper_slug": "Ethics",
+    "evidence_kind": "audit output",
+    "path": "evidence/08_Ethics/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "08",
+    "paper_slug": "Ethics",
+    "evidence_kind": "reproducibility run",
+    "path": "evidence/08_Ethics/wave4_reproducibility_run.txt",
+    "scope": "Wave 4 execution record for included deterministic or registry scripts."
+  },
+  {
+    "paper_id": "08",
+    "paper_slug": "Ethics",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/08_Ethics_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "09",
+    "paper_slug": "Artificial_Intelligence",
+    "evidence_kind": "independent audit",
+    "path": "audits/09_CU_v0.10_Audit_09_Artificial_Intelligence.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "09",
+    "paper_slug": "Artificial_Intelligence",
+    "evidence_kind": "audit script",
+    "path": "evidence/09_Artificial_Intelligence/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "09",
+    "paper_slug": "Artificial_Intelligence",
+    "evidence_kind": "audit output",
+    "path": "evidence/09_Artificial_Intelligence/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "09",
+    "paper_slug": "Artificial_Intelligence",
+    "evidence_kind": "reproducibility run",
+    "path": "evidence/09_Artificial_Intelligence/wave4_reproducibility_run.txt",
+    "scope": "Wave 4 execution record for included deterministic or registry scripts."
+  },
+  {
+    "paper_id": "09",
+    "paper_slug": "Artificial_Intelligence",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/09_Artificial_Intelligence_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "10",
+    "paper_slug": "Denying_Knowledge",
+    "evidence_kind": "independent audit",
+    "path": "audits/10_CU_v0.10_Audit_10_Denying_Knowledge.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "10",
+    "paper_slug": "Denying_Knowledge",
+    "evidence_kind": "audit script",
+    "path": "evidence/10_Denying_Knowledge/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "10",
+    "paper_slug": "Denying_Knowledge",
+    "evidence_kind": "audit output",
+    "path": "evidence/10_Denying_Knowledge/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "10",
+    "paper_slug": "Denying_Knowledge",
+    "evidence_kind": "reproducibility run",
+    "path": "evidence/10_Denying_Knowledge/wave4_reproducibility_run.txt",
+    "scope": "Wave 4 execution record for included deterministic or registry scripts."
+  },
+  {
+    "paper_id": "10",
+    "paper_slug": "Denying_Knowledge",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/10_Denying_Knowledge_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  },
+  {
+    "paper_id": "11",
+    "paper_slug": "Non_Egoic_Artificial_Mind",
+    "evidence_kind": "independent audit",
+    "path": "audits/11_CU_v0.10_Audit_11_Non_Egoic_Artificial_Mind.md",
+    "scope": "Advisory internal-coherence, formal-correctness, and sourcing review."
+  },
+  {
+    "paper_id": "11",
+    "paper_slug": "Non_Egoic_Artificial_Mind",
+    "evidence_kind": "audit script",
+    "path": "evidence/11_Non_Egoic_Artificial_Mind/independent_audit_checks.py",
+    "scope": "Script reproducing computed findings against the audited RC3 baseline."
+  },
+  {
+    "paper_id": "11",
+    "paper_slug": "Non_Egoic_Artificial_Mind",
+    "evidence_kind": "audit output",
+    "path": "evidence/11_Non_Egoic_Artificial_Mind/independent_audit_output.txt",
+    "scope": "Recorded output of the independent audit check script."
+  },
+  {
+    "paper_id": "11",
+    "paper_slug": "Non_Egoic_Artificial_Mind",
+    "evidence_kind": "reproducibility run",
+    "path": "evidence/11_Non_Egoic_Artificial_Mind/wave4_reproducibility_run.txt",
+    "scope": "Wave 4 execution record for included deterministic or registry scripts."
+  },
+  {
+    "paper_id": "11",
+    "paper_slug": "Non_Egoic_Artificial_Mind",
+    "evidence_kind": "technical supplement",
+    "path": "technical_supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_Wave4.md",
+    "scope": "Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+  }
+]

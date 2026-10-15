@@ -1,0 +1,13 @@
+RUN Physics
+PASS Physics []
+RUN Biology
+PASS Biology []
+RUN Ethics
+PASS Ethics []
+RUN Artificial Intelligence
+PASS Artificial Intelligence []
+RUN Denying Knowledge
+PASS Denying Knowledge []
+RUN Non-Egoic Mind
+PASS Non-Egoic Mind []
+OVERALL: 6/6 suites PASS; 0 FAIL; 0 SKIP

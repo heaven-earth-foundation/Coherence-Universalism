@@ -1,0 +1,61 @@
+
+=== I1  Shutdown inequality (§6.7)
+V_R - V_C > 0  <=>  lambda > s + c - b : True
+at lambda = 0: V_R - V_C = b - c - s  (> 0 iff b > s + c)
+ties (V_R = V_C) are not assigned by 'exactly when'
+
+=== I2  Two-stage reasoning (§12.14; issue #16)
+'threshold' in §12.14: False
+'probab' in §12.14: False
+'Or' in §12.14: False
+'disjunction' in §12.14: False
+'mixed' in §12.14: False
+plain relation (Min ⊆ ⟦φ⟧, no nonemptiness clause): True
+consequence symbol is '\sim' rather than '|\sim' (issue #30): True
+KLM and Lehmann–Magidor entries cited in body: []
+
+=== I3  Pointers to appendices that do not contain the cited material
+   (367, "tion concerning possible artificial welfare.  This profile appears in Appendix B's constructed comparison. It is not a universal s")
+   (421, 'ther optimization pressure made the menu narrower before evaluation.  Appendix B gives a simple proof by construction: a floor-hug')
+   (962, 'nce.  These must not be conflated.  The deterministic construction in Appendix B concerns the first two only. Let compliance have ')
+   (1145, 'public, contestable institution or an engagement-maximizing platform. Appendix B holds the model architecture fixed and changes th')
+   (1814, 'straints were treated as fixed; - and who benefits from the framing.  Appendix B shows a floor-hugging deployment becoming the uni')
+   (1827, ' can manipulate the signal; - and whether disagreement is preserved.  Appendix B provides a three-group construction. A controller')
+   (2019, 'eat the presented set as naturally complete. The option-set attack in Appendix B applies to this layer itself: a provider-controll')
+Appendix B is the revision list: # Appendix B. Major revisions from v0.09 | contains any of the cited constructions: False
+'Appendix E' referenced at: [441] | appendices present: ['Appendix A', 'Appendix B', 'Appendix C']
+twenty-four rules in A.2: 24
+
+=== I4  CU-AI principles and commitments against Foundations
+39 identifiers; unresolved: []
+CU-AI-1..26 and CU-AI27: titles and statements identical: 27 of 27
+§13.11 CU-AI27 box identical: True
+COM13 Commitment statement identical: True
+COM13 Practical expression identical: False
+COM13 Boundary conditions identical: False
+COM13 Revision conditions identical: False
+identifier forms: ['CU-AI-25', 'CU-AI-26', 'CU-AI27'] (issue #8)
+
+=== I5  Mandala stages (§§13.11, 15.11)
+stage 59: Meta-Alignment and Mythic–Constitutional Governance | matches §13.11: True
+stages 32-36: ['Engineered Sociotechnical Organization', 'Objective and Option-Set Specification', 'Artificial Capability and Agency', 'Multi-Layer Alignment', 'Responsibility and Governance Thresholds']
+
+=== I6  Status wording for mythic–constitutional alignment
+'provisional research program': [32, 2968]
+'Canonical (AI )?research and governance principle': [2393, 2911]
+
+=== I7  Propagation artifacts
+sentence/cell-initial lowercase 'this paper': [375, 441, 653, 736, 1035, 1235, 1446, 1496, 1566, 1924, 1940]
+mid-sentence 'This paper': [344]
+doubled word 'Consciousness Consciousness': [1374]
+lines containing only a backslash: [94, 2170, 2556]
+RC2 line: [101]
+cross-paper reliance on Social Dynamics model result (§2.7): True
+
+=== I8  Citations
+45 non-self entries; 20 never cited by author and year (NIST entries cited by acronym excluded): [('Bender', '2021'), ('Bommasani', '2021'), ('Butlin', '2023'), ('Claude', '2026'), ('Crawford', '2021'), ('Gebru', '2021'), ('Google', '2026'), ('Guan', '2024'), ('Ibrahim', '2026'), ('International', '2026'), ('Kirk', '2025'), ('Kraus', '1990'), ('Kwa', '2026'), ('Lehmann', '1992'), ('Mitchell', '2019'), ('Parasuraman', '1997'), ('Raji', '2020'), ('Selbst', '2019'), ('UNESCO', '2021'), ('Weizenbaum', '1976')]
+Claude (2026) working note listed: True | cited: False
+Gurnee entry carries arXiv:2607.15495: False
+
+=== I9  Appendix C's 92,378-case scalarization lattice
+C(19, 9) = 92378 = number of weight vectors on a 10-coordinate simplex at step 0.1; P_AI has 10 coordinates

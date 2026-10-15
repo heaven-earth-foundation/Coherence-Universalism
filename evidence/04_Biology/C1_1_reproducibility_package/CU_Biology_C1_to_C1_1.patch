@@ -1,0 +1,1088 @@
+--- /mnt/data/CU_Biology_C1_1_work/SOURCE_CU_Biology_C1.md	2026-09-11 18:20:56.434053350 +0000
++++ /mnt/data/CU_Biology_C1_1_work/CU_Biology_Systematic_Reconstruction_Kaya_C1_1.md	2026-09-11 18:19:28.672721165 +0000
+@@ -6,7 +6,7 @@
+ **Heaven≡Earth Foundation**  
+ **White Paper Series**
+ 
+-**Systematic Reconstruction Draft — Version C.1: Biological Individuation, Viability, and Multiscale-Regulation Audit**  
++**Systematic Reconstruction Draft — Version C.1.1: Independent-Audit Repair of Coupling, Viability, and Claim Governance**  
+ **September 2026**
+ 
+ ---
+@@ -22,9 +22,9 @@
+ 3. *Coherence Universalism: Foundations*, Systematic Reconstruction B.2, for the current principle registry and domain-ownership rules; and
+ 4. the biological literature cited here, with empirical and mathematical results distinguished from CU's synthesis of them.
+ 
+-The March 2026 Biology paper remains a historical source of questions, examples, and explanatory ambition. It is not authoritative where C.1 explicitly revises it.
++The March 2026 Biology paper remains a historical source of questions, examples, and explanatory ambition. It is not authoritative where C.1.1 explicitly revises it.
+ 
+-C.1 makes six major corrections.
++C.1.1 makes six major corrections.
+ 
+ First, it retires the claim that biological coherence is universally measured by
+ 
+@@ -44,7 +44,9 @@
+ 
+ Sixth, it returns evolution to its proper role. Coherence is not an alternative to fitness, selection, drift, inheritance, developmental bias, or ecological construction. CU Biology proposes a vocabulary for the organization on which those processes operate and for the control architectures selection can stabilize.
+ 
+-This remains a systematic working manuscript, not a publication-final review. The literature audit is selective rather than exhaustive. The numerical appendix is an illustrative control model, not evidence that living systems obey its equations.
++C.1.1 adds a bounded post-audit repair. It distinguishes the pointwise effect of diffusive coupling on a currently binding component from the global behavior of an entire controlled trajectory; identifies why the original homogeneous-floor configuration favored a positive margin trend; adds a heterogeneous-floor configuration in which the same coupling law reduces the minimum margin and crosses a viability boundary; verifies that numerical clipping is inactive; moves the five claim-governance rules from the machine-readable registry into the manuscript body; and expands the description of the 2026 *Stentor* result. The independent audit reproduced the original numerical model but did not constitute comprehensive biological or bibliographic peer review.
++
++This remains a systematic working manuscript, not a publication-final review. The literature audit is selective rather than exhaustive. The numerical appendix contains illustrative control models, not evidence that living systems obey their equations.
+ 
+ **Literature horizon:** sources published or available through 11 September 2026 were considered in this reconstruction.
+ 
+@@ -104,7 +106,7 @@
+ 13. Interpretive register and conclusion  
+ 
+ Appendix A. Formal definitions and bounded propositions  
+-Appendix B. Illustrative three-variable viability-control model  
++Appendix B. Illustrative three-variable viability-control models  
+ Appendix C. Claim and evidence ledger  
+ Appendix D. Biology principle crosswalk  
+ Appendix E. Change ledger from the March 2026 manuscript  
+@@ -113,7 +115,7 @@
+ 
+ ---
+ 
+-# Principal contributions of C.1
++# Principal contributions of C.1.1
+ 
+ 1. It defines biological coherence as a domain-specific assessment of active self-maintenance rather than as a universal substance or score.
+ 2. It replaces the universal scalar \(C=A I\) with a structured coherence profile and explicit scalarization rules.
+@@ -127,8 +129,10 @@
+ 10. It presents agency and cognition as graded capacities and separates them from consciousness.
+ 11. It distinguishes biological coherence from fitness and identifies the conditions under which selection can stabilize regulatory organization.
+ 12. It converts the paper's former generic predictions into comparative, interventionally discriminating experimental programs.
+-13. It supplies a deterministic illustrative model showing why robustness, flexibility, integration, and energetic cost need not share one optimum.
+-14. It returns the spiritual meaning of life to a designated interpretive register rather than presenting it as a biological derivation.
++13. It supplies two deterministic illustrative configurations showing that the viability effect of the same diffusive coupling law can reverse when floors, state distribution, and disturbances change.
++14. It states a five-rule governance protocol requiring every biological coherence claim to declare its unit, horizon, disturbance class, scalarization choices, and register boundary.
++15. It distinguishes designer optimization, as-if control analysis, and evolutionary selection as a corpus-wide rule for optimization language.
++16. It returns the spiritual meaning of life to a designated interpretive register rather than presenting it as a biological derivation.
+ 
+ ---
+ 
+@@ -155,7 +159,7 @@
+ 3. **Viability:** some trajectories preserve the organization while others cross failure boundaries.
+ 4. **Endogenous contribution:** the system's own organization causally enlarges the set or duration of viable trajectories.
+ 
+-Varela, Maturana, and Uribe's formulation of autopoiesis made self-production and boundary generation central to living organization. Later organizational accounts developed the idea of closure of constraints: relatively stable constraints act on underlying processes while mutually depending on and maintaining one another (Varela, Maturana, & Uribe, 1974; Mossio, Saborido, & Moreno, 2009; Montévil & Mossio, 2015). C.1 treats these as important sources rather than as settled definitions of life.
++Varela, Maturana, and Uribe's formulation of autopoiesis made self-production and boundary generation central to living organization. Later organizational accounts developed the idea of closure of constraints: relatively stable constraints act on underlying processes while mutually depending on and maintaining one another (Varela, Maturana, & Uribe, 1974; Mossio, Saborido, & Moreno, 2009; Montévil & Mossio, 2015). C.1.1 treats these as important sources rather than as settled definitions of life.
+ 
+ ## 1.3 The bridge from physics to biology
+ 
+@@ -187,7 +191,7 @@
+ 
+ ## 1.6 What would count as progress
+ 
+-C.1 succeeds scientifically only if it improves at least one of the following:
++C.1.1 succeeds scientifically only if it improves at least one of the following:
+ 
+ - **operationalization:** turning organization, integration, or stake into measurable variables;
+ - **comparison:** showing why two systems with similar output differ in robustness, autonomy, or individuality;
+@@ -227,7 +231,7 @@
+ 
+ ## 2.2 Constraint types
+ 
+-Biology uses *constraint* in several senses. C.1 distinguishes at least six.
++Biology uses *constraint* in several senses. C.1.1 distinguishes at least six.
+ 
+ ### 2.2.1 Physical constraints
+ 
+@@ -268,19 +272,19 @@
+ 
+ ## 2.4 Function without foresight
+ 
+-Biological function can be described historically, dispositionally, or organizationally. C.1 uses an organizational criterion where appropriate:
++Biological function can be described historically, dispositionally, or organizationally. C.1.1 uses an organizational criterion where appropriate:
+ 
+ > **[Definition]** A component or process has an organizational function relative to \(B\) when its causal activity contributes to maintaining one or more conditions required for the persistence or reproduction of \(B\), and the organization of \(B\) contributes to producing, repairing, regulating, or retaining that component or process.
+ 
+ This reciprocal relation grounds a limited form of teleology without future causation or conscious purpose. The heart circulates blood because that effect contributes to the organism whose development and maintenance produce a functioning heart. A stone that happens to block wind may benefit an organism but does not thereby have a biological function within it.
+ 
+-The criterion is not exhaustive. Selected-effect accounts remain important for evolutionary explanation, and artifacts have functions assigned by designers. C.1 does not force all function talk into one theory.
++The criterion is not exhaustive. Selected-effect accounts remain important for evolutionary explanation, and artifacts have functions assigned by designers. C.1.1 does not force all function talk into one theory.
+ 
+ ## 2.5 Organism-relative normativity
+ 
+ Once a candidate organization and its viability boundaries are specified, states can be evaluated relative to its continuation. A membrane rupture, loss of electrochemical gradient, or failure of repair can be *bad for the organism* in a functional sense. This is not merely the researcher's preference if the system's own regulatory processes are organized around preventing or correcting those states.
+ 
+-The word *normativity* must be scoped. C.1 distinguishes:
++The word *normativity* must be scoped. C.1.1 distinguishes:
+ 
+ - **functional normativity:** correct or defective relative to a biological function;
+ - **viability normativity:** better or worse relative to continued organization;
+@@ -301,7 +305,7 @@
+ 
+ More importantly, biological dimensions genuinely conflict. Strong coupling can improve robustness to a common shock while reducing flexibility under asymmetric environmental change. Redundancy can raise resilience while increasing energetic cost. Rapid growth can improve lineage fitness while reducing repair reserve. A scalar can still be built for a particular decision, but the weights then express a model or value choice.
+ 
+-C.1 therefore uses a structured profile and preserves Pareto incomparability where warranted.
++C.1.1 therefore uses a structured profile and preserves Pareto incomparability where warranted.
+ 
+ ## 2.7 Boundary and horizon discipline
+ 
+@@ -320,6 +324,18 @@
+ 
+ where \(B\) is the candidate system, \(\pi\) the chosen boundary and scale, \(T\) the horizon, \(\mathcal D\) the disturbance class, and \(\mathcal U\) the admissible internal and external interventions.
+ 
++### 2.7.1 Claim-governance protocol
++
++The following rules govern every biological coherence claim in this manuscript and in downstream CU papers:
++
++1. **Boundary rule:** name the candidate biological unit or units. A cell-, tissue-, organism-, lineage-, and ecosystem-level assessment may order the same process differently.
++2. **Horizon rule:** name the temporal horizon. Maintenance, resilience, adaptation, and failure are incomplete claims without a timescale.
++3. **Disturbance rule:** name the perturbation or disturbance class. Robustness under one challenge family does not imply robustness under another.
++4. **Profile rule:** declare viability floors, weights, aggregation rules, and protected dimensions whenever a profile is scalarized. A scalar ranking is a model or decision rule, not a framework-level discovery.
++5. **Register rule:** do not promote organism-relative function or stake directly into phenomenal valence, moral patiency, or ethical worth.
++
++A claim that omits these declarations should be treated as underspecified rather than silently completed by the reader. Appendix D repeats the rules because later domains inherit them.
++
+ ## 2.8 Relation to established approaches
+ 
+ CU Biology is closest to a family of approaches rather than one school:
+@@ -486,7 +502,7 @@
+ 
+ ## 3.6 Biological coherence profile
+ 
+-C.1 proposes the profile
++C.1.1 proposes the profile
+ 
+ \[
+ \mathbf C_B
+@@ -546,7 +562,7 @@
+ 
+ ## 3.8 Causal integration
+ 
+-Integration should not be inferred from correlation alone. C.1 uses **maintenance-relevant causal integration** as a family of measures.
++Integration should not be inferred from correlation alone. C.1.1 uses **maintenance-relevant causal integration** as a family of measures.
+ 
+ Let the candidate system be decomposed into modules \(X^{(1)},\ldots,X^{(n)}\). Let \(Q\) be a maintenance outcome such as survival time, recovery probability, or preserved function. One intervention-based measure is the performance loss caused by severing or scrambling cross-module relations while preserving local dynamics as closely as possible:
+ 
+@@ -610,7 +626,7 @@
+ 
+ That condition is neither necessary nor sufficient. Development can transform the relevant constraints dramatically while preserving an organism. A static counterfeit can remain close in state space without sharing causal continuity.
+ 
+-C.1 therefore treats token identity as a history-sensitive relation. Let
++C.1.1 therefore treats token identity as a history-sensitive relation. Let
+ 
+ \[
+ \mathcal R_{\mathrm{cont}}(B_t,B_{t+\Delta})
+@@ -677,7 +693,7 @@
+ 
+ ## 3.14 Failure and collapse
+ 
+-Biological failure is not one universal bifurcation. C.1 distinguishes:
++Biological failure is not one universal bifurcation. C.1.1 distinguishes:
+ 
+ - **constraint breach:** one modeled viability boundary is crossed;
+ - **functional failure:** a capacity is lost while the organism persists;
+@@ -714,7 +730,7 @@
+ - it distinguishes present performance from maintainability;
+ - and it identifies intervention points by which “self-maintenance” can be tested rather than admired.
+ 
+-Appendix A proves several bounded propositions about these objects. Appendix B provides an illustrative model in which increasing coupling improves worst-case margin but worsens flexible tracking and raises control cost, demonstrating why scalarization cannot be assumed.
++Appendix A proves several bounded propositions about these objects. Appendix B provides two illustrative configurations in which the same diffusive coupling law produces opposite viability trends, demonstrating why neither coupling nor a scalarized profile can be interpreted without declared floors, disturbances, control, and horizon.
+ 
+ ---
+ # Section 4. Biological individuality and organism-relative stake
+@@ -723,13 +739,13 @@
+ 
+ Biology routinely speaks about *the organism*, but the unit whose persistence is being explained is not always given in advance. A mammal appears comparatively straightforward until one considers its microbiota, inherited symbionts, immune tolerance, grafts, pregnancies, cancers, and continuously replaced matter. Colonial organisms, lichens, slime molds, eusocial colonies, and endosymbiotic lineages make the problem explicit: physical contact, genetic identity, reproductive alignment, metabolic dependence, and causal integration can identify different boundaries.
+ 
+-C.1 therefore treats biological individuality as an empirical model-selection problem. A proposed individual is a candidate causal unit whose boundary and internal organization explain maintenance, reproduction, adaptation, or evolutionary change better than relevant alternatives. There may be several legitimate units at different scales.
++C.1.1 therefore treats biological individuality as an empirical model-selection problem. A proposed individual is a candidate causal unit whose boundary and internal organization explain maintenance, reproduction, adaptation, or evolutionary change better than relevant alternatives. There may be several legitimate units at different scales.
+ 
+ This position avoids two opposite errors. The first is atomism: assuming that cells or organisms are fundamental individuals regardless of their dependencies. The second is indiscriminate holism: declaring an ecosystem or biosphere to be one organism because its parts interact. Interaction is ubiquitous. Individuation requires a stronger pattern of integration, common fate, regulatory dependence, or reproduction.
+ 
+ ## 4.2 Dimensions of individuality
+ 
+-No one criterion is sufficient across all cases. C.1 distinguishes at least six dimensions.
++No one criterion is sufficient across all cases. C.1.1 distinguishes at least six dimensions.
+ 
+ ### 4.2.1 Boundary individuation
+ 
+@@ -787,13 +803,13 @@
+ 
+ This profile is question-relative. A microbiome may score high in metabolic contribution but low in reproductive unity. A eusocial colony may score high in conflict mediation and collective reproduction while individual workers retain behavioral and physiological individuality. A tumor lineage can gain evolutionary individuality as it loses integration with the host organism.
+ 
+-Calling one of these entities *the* individual requires an explanatory purpose. C.1 does not force all biological questions to use the same boundary.
++Calling one of these entities *the* individual requires an explanatory purpose. C.1.1 does not force all biological questions to use the same boundary.
+ 
+ ## 4.4 Nested and overlapping organizations
+ 
+ Biological systems are nested but not perfectly hierarchical. Organelles exist within cells, cells within tissues, tissues within organisms, organisms within collectives and ecosystems. Yet horizontal gene transfer, mobile immune cells, maternal-fetal exchange, symbiosis, and ecological engineering produce overlapping causal organizations.
+ 
+-C.1 therefore replaces the image of sealed boxes with a graph or hypergraph of maintenance dependencies. A component can participate in several organizations with different strengths and timescales. The relevant question is not simply “inside or outside?” but:
++C.1.1 therefore replaces the image of sealed boxes with a graph or hypergraph of maintenance dependencies. A component can participate in several organizations with different strengths and timescales. The relevant question is not simply “inside or outside?” but:
+ 
+ - Which processes maintain this component?
+ - Which larger organization does the component help maintain?
+@@ -826,7 +842,7 @@
+ 
+ Organism-relative stake does not entail that the organism feels its state. A thermostat also has a target range in an engineered description, but its setpoint is supplied by designers and the device does not regenerate the wider organization that gives the setpoint purpose. A bacterium has a richer endogenously maintained organization, yet the existence of biological norms does not settle whether there is anything it is like to be that bacterium.
+ 
+-C.1 therefore separates:
++C.1.1 therefore separates:
+ 
+ 1. **functional normativity:** a state supports or impairs an organized capacity;
+ 2. **organism-relative stake:** the state supports or impairs the continued organization whose own processes regulate it;
+@@ -840,7 +856,7 @@
+ 
+ A biological function is often described historically—what selection favored—or organizationally—what contributes to present self-maintenance. These accounts can diverge. The heart's pumping function has both evolutionary history and current organizational contribution. A novel compensatory pathway may acquire an organizational role before selection has acted on it. A vestigial structure may retain history without substantial present contribution.
+ 
+-C.1 uses both registers explicitly.
++C.1.1 uses both registers explicitly.
+ 
+ **Historical function:** trait $z$ has function $f$ when variants producing $f$ contributed to the reproduction or persistence of ancestors in the relevant lineage.
+ 
+@@ -959,7 +975,7 @@
+ E_{\mathrm{maintain}}\ge \lambda C
+ $$
+ 
+-and a universal coherence efficiency $C/\Phi$. C.1 retires both.
++and a universal coherence efficiency $C/\Phi$. C.1.1 retires both.
+ 
+ There is no established cross-system conversion factor between energetic work and the heterogeneous components of biological coherence. The minimum work needed for a task depends on mechanism, kinetics, error tolerance, boundary conditions, driving protocol, and information processing. Real organisms also operate far from reversible limits.
+ 
+@@ -1010,7 +1026,7 @@
+ 
+ A dissipative structure can lack heredity, regulation, boundary repair, or organizational closure. Conversely, an organism may sacrifice immediate throughput to survive stress or preserve future options.
+ 
+-C.1 therefore treats far-from-equilibrium thermodynamics as necessary background and a source of mechanisms—not as a replacement for biological explanation.
++C.1.1 therefore treats far-from-equilibrium thermodynamics as necessary background and a source of mechanisms—not as a replacement for biological explanation.
+ 
+ ## 5.8 Markov blankets and statistical boundaries
+ 
+@@ -1018,7 +1034,7 @@
+ 
+ A statistical blanket is not automatically a membrane, organism, or autonomous agent. Its biological significance depends on whether the variables correspond to a maintained causal boundary, whether the partition is robust across interventions and timescales, and whether the induced dynamics contribute to viability.
+ 
+-C.1 therefore permits blanket-based models as one operationalization of $\pi$ and $G$. It does not define life as whatever admits a Markov blanket; many nonliving stochastic systems do.
++C.1.1 therefore permits blanket-based models as one operationalization of $\pi$ and $G$. It does not define life as whatever admits a Markov blanket; many nonliving stochastic systems do.
+ 
+ ## 5.9 The thermodynamic bridge principle
+ 
+@@ -1028,7 +1044,7 @@
+ 
+ ## 5.10 Failure conditions for the thermodynamic account
+ 
+-The thermodynamic part of C.1 would require revision if:
++The thermodynamic part of C.1.1 would require revision if:
+ 
+ 1. a purported maintenance process could operate indefinitely without compensating matter, energy, or entropy exchange in a closed system;
+ 2. the proposed system boundary concealed the major costs that sustain organization;
+@@ -1044,7 +1060,7 @@
+ 
+ The origin of life is often presented as a boundary between nonlife and life. Experimentally and theoretically, however, the relevant capacities are separable. A compartment can persist without metabolism. An autocatalytic network can reproduce chemical organization without a membrane. A template can copy without regulating its environment. A protocell can grow and divide while lacking open-ended heredity. A reaction network can adapt transiently without forming a lineage.
+ 
+-C.1 therefore treats abiogenesis as a **family of coupled autonomy transitions**. This separation of autonomy from open-ended evolution follows a well-established distinction in origin-of-life theory (Ruiz-Mirazo, Peretó, & Moreno, 2004). A historical origin may have crossed these transitions in a particular order, perhaps repeatedly and with reversals. The task is to explain how capacities became mutually reinforcing enough to produce a unit that maintained and reproduced its own organization under variable conditions.
++C.1.1 therefore treats abiogenesis as a **family of coupled autonomy transitions**. This separation of autonomy from open-ended evolution follows a well-established distinction in origin-of-life theory (Ruiz-Mirazo, Peretó, & Moreno, 2004). A historical origin may have crossed these transitions in a particular order, perhaps repeatedly and with reversals. The task is to explain how capacities became mutually reinforcing enough to produce a unit that maintained and reproduced its own organization under variable conditions.
+ 
+ ## 6.2 The autonomy-transition profile
+ 
+@@ -1086,7 +1102,7 @@
+ 
+ Autocatalytic-set theory studies reaction systems in which each reaction is catalyzed by molecules generated within the set and the required reactants can be built from an available food set. Reflexively autocatalytic and food-generated sets show how collective chemical closure can arise without one self-copying molecule (Hordijk, Kauffman, & Steel, 2011).
+ 
+-This is an important transition but not a sufficient definition of life. Formal autocatalysis can occur in networks that lack compartments, heritable individuality, regulation, or robust persistence. The food set and catalysts may also be externally maintained. C.1 therefore records autocatalytic closure as one axis of $\mathbf A_P$.
++This is an important transition but not a sufficient definition of life. Formal autocatalysis can occur in networks that lack compartments, heritable individuality, regulation, or robust persistence. The food set and catalysts may also be externally maintained. C.1.1 therefore records autocatalytic closure as one axis of $\mathbf A_P$.
+ 
+ ## 6.5 Energy transduction
+ 
+@@ -1180,7 +1196,7 @@
+ 
+ ## 6.12 Relation to algorithmic and informational accounts
+ 
+-Some origin-of-life theories emphasize information becoming causally efficacious, algorithmic control, or a shift from chemistry governed only by local kinetics to systems in which stored constraints influence future transformations. C.1 is compatible with this family of proposals when “information” is physically instantiated and interventionally linked to maintenance (Walker & Davies, 2013).
++Some origin-of-life theories emphasize information becoming causally efficacious, algorithmic control, or a shift from chemistry governed only by local kinetics to systems in which stored constraints influence future transformations. C.1.1 is compatible with this family of proposals when “information” is physically instantiated and interventionally linked to maintenance (Walker & Davies, 2013).
+ 
+ It adds two cautions.
+ 
+@@ -1213,7 +1229,7 @@
+ 
+ The explanatory challenge is not to choose between genes and “the whole.” Genes, proteins, mechanics, bioelectric signaling, metabolism, and tissue geometry participate in coupled control systems. The question is how these variables jointly restrict the space of developmental trajectories and how their relative causal contributions can be distinguished.
+ 
+-C.1 describes morphogenesis as **multiscale regulation of form under viability and developmental constraints**. This description is compatible with gene-regulatory networks, reaction–diffusion systems, positional information, mechanical feedback, tissue-level electrophysiology, and hybrid models. It does not postulate a separate morphogenetic substance.
++C.1.1 describes morphogenesis as **multiscale regulation of form under viability and developmental constraints**. This description is compatible with gene-regulatory networks, reaction–diffusion systems, positional information, mechanical feedback, tissue-level electrophysiology, and hybrid models. It does not postulate a separate morphogenetic substance.
+ 
+ ## 7.2 Developmental state and target sets
+ 
+@@ -1264,7 +1280,7 @@
+ 
+ For example, tissue curvature, stress, electric potential patterns, or organ-scale geometry can constrain cell migration and differentiation. This is not an extra force acting from outside physics. It is a compact description of boundary conditions and coupled relations instantiated by local interactions.
+ 
+-C.1 uses the phrase **global constraint** only in this interventionally disciplined sense. It does not infer causal power from scale alone.
++C.1.1 uses the phrase **global constraint** only in this interventionally disciplined sense. It does not infer causal power from scale alone.
+ 
+ ## 7.5 Morphogenetic integration
+ 
+@@ -1378,7 +1394,7 @@
+ 
+ But the difference is decisive. Development begins inside an inherited living organization containing membranes, metabolism, genetic systems, maternal products, cellular machinery, and an evolved environment. It does not recreate the transition from chemistry to life.
+ 
+-C.1 retains the comparison only as an interpretation:
++C.1.1 retains the comparison only as an interpretation:
+ 
+ > Development repeatedly rebuilds organismal organization from cells and inherited constraints; it does not repeat the historical origin of biological autonomy from nonliving chemistry.
+ 
+@@ -1389,7 +1405,7 @@
+ 
+ ## 7.14 Experimental predictions for development and regeneration
+ 
+-C.1 proposes the following discriminating predictions.
++C.1.1 proposes the following discriminating predictions.
+ 
+ **Prediction D1: coupling-specific basin change.** Selectively disrupting a coordination channel while preserving local viability will reduce the basin of successful target attainment or increase alternative stable outcomes. A purely local independent-cell model predicts no additional effect once local damage is controlled.
+ 
+@@ -1397,7 +1413,7 @@
+ 
+ **Prediction D3: distributed compensation.** Removal or displacement of one region will change behavior in distant regions in a direction that compensates for the global error. The null model predicts only local responses and generic wound effects.
+ 
+-**Prediction D4: tradeoff surface.** Increasing coupling will improve correction of common-mode disturbances but can impair adaptation to spatially asymmetric environments or raise energetic cost. Appendix B supplies a toy demonstration; empirical systems must establish their own surface.
++**Prediction D4: configuration-dependent coupling surface.** Increasing coupling may improve correction when a threatened component lies below the coupled mean, but it may drain a specialized high-requirement component that lies above that mean. It can also impair adaptation to spatially asymmetric environments or raise energetic cost. Appendix B supplies two toy configurations with opposite viability trends; empirical systems must establish their own surface.
+ 
+ Failure of these predictions in well-controlled systems would narrow CU's multiscale-control claims. It would not invalidate ordinary developmental biology.
+ 
+@@ -1409,7 +1425,7 @@
+ 
+ Biology contains directed behavior long before reflective choice. Bacteria move up chemical gradients, cells repair membranes, plants alter growth, immune systems update responses, and animals learn. Calling all of these either “mere mechanism” or full agency obscures the important differences.
+ 
+-C.1 treats agency as a family of capacities by which an organization detects or is differentially affected by conditions, acts through available pathways, and changes the probability of maintaining or transforming itself.
++C.1.1 treats agency as a family of capacities by which an organization detects or is differentially affected by conditions, acts through available pathways, and changes the probability of maintaining or transforming itself.
+ 
+ Agency is not a substance. It is an organization of control.
+ 
+@@ -1476,7 +1492,9 @@
+ 
+ Single-cell learning claims require careful controls because reduced response can result from fatigue, receptor adaptation, toxicity, or motor exhaustion rather than memory.
+ 
+-Experiments on *Stentor coeruleus* have provided molecular and behavioral evidence relevant to habituation-like learning and its pathways. A 2026 study identified molecular processes associated with learning in this single-celled organism, strengthening the case that non-neural cells can exhibit history-dependent behavioral modification (Rajan et al., 2026).
++Experiments on *Stentor coeruleus* have provided molecular and behavioral evidence relevant to habituation-like learning and its pathways. In a 2026 study, cycloheximide and puromycin accelerated habituation and prolonged memory retention rather than disrupting it in the familiar metazoan pattern. The study also reported maintenance of habituation memory in progeny following cell division. Its interpretation is that new protein synthesis contributes to recovery of responsiveness, while memory formation involves modification of existing, spatially distributed mechanoreceptor machinery through calcium signaling and phosphorylation (Rajan et al., 2026).
++
++These findings strengthen the case for history-dependent regulation in a non-neural single cell. They do not show that the cell uses a metazoan memory mechanism, and the inheritance result should not be inflated into a general theory of transgenerational cognition.
+ 
+ The bounded conclusion is significant:
+ 
+@@ -1546,7 +1564,7 @@
+ 
+ The free-energy principle and active inference offer mathematical accounts of systems that maintain states within characteristic bounds by minimizing variational free energy under a generative model. They connect perception, action, and homeostasis in a powerful formal language (Friston, 2013).
+ 
+-C.1 treats this as one model family, not as a theorem that every living system literally performs the same optimization. The biological content depends on identifying variables, blanket structure, generative model, action channels, timescales, and empirical predictions that distinguish the account from alternative control descriptions.
++C.1.1 treats this as one model family, not as a theorem that every living system literally performs the same optimization. The biological content depends on identifying variables, blanket structure, generative model, action channels, timescales, and empirical predictions that distinguish the account from alternative control descriptions.
+ 
+ The coherence profile can be instantiated using active-inference quantities where appropriate. It does not assume their universal sufficiency.
+ 
+@@ -1557,7 +1575,7 @@
+ 
+ ## 8.14 Transition to consciousness
+ 
+-Biology supplies embodiment, temporality, self-maintenance, organism-relative stake, and many forms of integration. These may be important determinants of the depth, unity, and valence of consciousness. But C.1 does not state that all living systems are conscious or that life is necessary for every possible perspective.
++Biology supplies embodiment, temporality, self-maintenance, organism-relative stake, and many forms of integration. These may be important determinants of the depth, unity, and valence of consciousness. But C.1.1 does not state that all living systems are conscious or that life is necessary for every possible perspective.
+ 
+ The revised Consciousness paper must decide what additional organization is sufficient for perspectival access. Current project guidance allows that nonbiological systems may realize a thin perspective through global-workspace-like routes, while biological consciousness commonly adds persistent second-order dynamics, embodied stakes, temporal binding, and valence.
+ 
+@@ -1634,7 +1652,7 @@
+ 
+ Modular architecture may permit local change without system-wide failure. Robustness can allow cryptic variation to accumulate. But excessive canalization can trap a lineage, and excessive flexibility can destroy reliable development.
+ 
+-C.1 predicts tradeoff surfaces rather than monotonic ascent.
++C.1.1 predicts tradeoff surfaces rather than monotonic ascent.
+ 
+ ## 9.6 Convergence
+ 
+@@ -1675,7 +1693,7 @@
+ 
+ Transitions in individuality can depend on ecological conditions that temporarily align lower-level interests or concentrate offspring. Once collective adaptations evolve, the collective may persist after the original scaffold changes. This creates path dependence and possible hysteresis.
+ 
+-Recent theoretical work on evolutionary transitions has shown how ecological scaffolding can stabilize collective traits through evolutionary hysteresis, so that some traits remain after initiating conditions are relaxed (Doulcier et al., 2024). C.1 treats this as a promising realization of historical continuity and changing individuation, not as evidence for a predetermined ladder.
++Recent theoretical work on evolutionary transitions has shown how ecological scaffolding can stabilize collective traits through evolutionary hysteresis, so that some traits remain after initiating conditions are relaxed (Doulcier et al., 2024). C.1.1 treats this as a promising realization of historical continuity and changing individuation, not as evidence for a predetermined ladder.
+ 
+ ## 9.10 Evolutionary memory
+ 
+@@ -1683,7 +1701,7 @@
+ 
+ An inheritance channel counts as evolutionary memory when differences persist across generations and causally affect phenotype or fitness. The term should not erase distinctions among DNA sequence, epigenetic state, constructed environment, and learned tradition.
+ 
+-C.1 therefore uses a channel-indexed representation:
++C.1.1 therefore uses a channel-indexed representation:
+ 
+ \[
+ H_{n+1}^{(k)}
+@@ -1752,7 +1770,7 @@
+ 
+ Disease is heterogeneous. It can involve infection, mutation, autoimmunity, deficiency, injury, dysregulated growth, maladaptive defense, developmental variation, or environmental mismatch. Some disease states are highly organized. Some symptoms are protective responses. Some departures from population norms are benign or valuable.
+ 
+-C.1 therefore rejects “disease = low coherence” as a diagnostic identity. A disease model must state which function, viability condition, scale, and horizon are impaired.
++C.1.1 therefore rejects “disease = low coherence” as a diagnostic identity. A disease model must state which function, viability condition, scale, and horizon are impaired.
+ 
+ The coherence profile can organize failure modes, but it cannot replace clinical taxonomy or mechanistic diagnosis.
+ 
+@@ -1814,7 +1832,7 @@
+ 
+ The immune system is often described as distinguishing self from non-self. That binary is inadequate. Organisms tolerate food, commensals, fetuses, and many foreign molecules while attacking altered self, infected cells, or damaged tissue. Immune responses depend on context, danger, tissue signals, developmental history, and regulation.
+ 
+-C.1 therefore treats immunity as **dynamic boundary governance**: a distributed system that samples, classifies, tolerates, contains, repairs, or eliminates processes relative to organism-level integrity.
++C.1.1 therefore treats immunity as **dynamic boundary governance**: a distributed system that samples, classifies, tolerates, contains, repairs, or eliminates processes relative to organism-level integrity.
+ 
+ This is not centralized judgment. It is layered control with false positives, false negatives, memory, and conflict. Autoimmunity, immune deficiency, chronic inflammation, and tumor immune escape are different failures of this governance.
+ 
+@@ -1822,7 +1840,7 @@
+ 
+ Aging should not be defined as monotonic loss of one scalar. It involves heterogeneous changes in repair, proteostasis, genomic stability, mitochondrial function, immune regulation, stem-cell capacity, intercellular signaling, reserve, and exposure history.
+ 
+-Within C.1, aging is modeled as a time-dependent contraction or reshaping of viable and recoverable trajectories:
++Within C.1.1, aging is modeled as a time-dependent contraction or reshaping of viable and recoverable trajectories:
+ 
+ \[
+ \operatorname{RViab}_{T}^{(a+\Delta a)}
+@@ -1840,7 +1858,7 @@
+ 
+ Complex systems approaching a tipping point can exhibit slower recovery, increased variance, altered correlations, or flickering among states. These signatures are not universal and can arise for other reasons.
+ 
+-C.1 proposes that multivariate loss of resilience may sometimes predict biological failure earlier than static biomarkers. The claim requires prospective out-of-sample tests against simpler baselines. A coherence label adds nothing if the same prediction is obtained from one established clinical variable.
++C.1.1 proposes that multivariate loss of resilience may sometimes predict biological failure earlier than static biomarkers. The claim requires prospective out-of-sample tests against simpler baselines. A coherence label adds nothing if the same prediction is obtained from one established clinical variable.
+ 
+ ## 10.9 Trauma and allostatic load
+ 
+@@ -1852,7 +1870,7 @@
+ 
+ ## 10.10 Death without the equation \(C=0\)
+ 
+-The original paper defined death as \(C=0\). C.1 retires that equation.
++The original paper defined death as \(C=0\). C.1.1 retires that equation.
+ 
+ Organismal death is a threshold concept whose operational criteria vary by organism, medicine, and purpose. Cells can remain alive after organismal death; tissues can be preserved; circulation can be mechanically supported; some states once considered irreversible can now be reversed.
+ 
+@@ -1905,7 +1923,7 @@
+ 
+ ## 10.14 The limits of medical interpretation
+ 
+-C.1 is not a medical decision tool. It proposes variables and comparisons for research. It does not diagnose individuals, rank lives, or prescribe treatment.
++C.1.1 is not a medical decision tool. It proposes variables and comparisons for research. It does not diagnose individuals, rank lives, or prescribe treatment.
+ 
+ Any clinical application would require validated measures, safety trials, uncertainty estimates, equitable reference populations, and governance against coercive use. The history of medicine makes this constraint non-negotiable.
+ 
+@@ -1916,7 +1934,7 @@
+ 
+ A theory of biological organization should not define life by listing features found only in familiar organisms. Synthetic systems allow individual capacities to be recombined: boundaries without heredity, replication without metabolism, control without growth, living cells without evolved anatomy, or machine regulation without organic chemistry.
+ 
+-These cases test whether C.1's variables track organization rather than biological familiarity. They also prevent two opposite prejudices:
++These cases test whether C.1.1's variables track organization rather than biological familiarity. They also prevent two opposite prejudices:
+ 
+ - **carbon chauvinism:** assuming that only naturally evolved carbon-based organisms can instantiate life-like autonomy; and
+ - **functional inflation:** calling any feedback controller or self-copying pattern alive.
+@@ -1925,7 +1943,7 @@
+ 
+ ## 11.2 Four classes of constructed system
+ 
+-C.1 distinguishes four broad classes.
++C.1.1 distinguishes four broad classes.
+ 
+ ### 11.2.1 Engineered organisms
+ 
+@@ -1988,7 +2006,7 @@
+ 
+ A synthetic cell may contain DNA, ribosomes, enzymes, and membranes derived from living systems. This does not disqualify it as a scientific achievement, but it means the experiment begins with highly evolved components.
+ 
+-C.1 recommends two labels:
++C.1.1 recommends two labels:
+ 
+ - **organizational synthesis:** assembling components into a new self-maintaining organization; and
+ - **historical synthesis:** producing the relevant components and organization through a plausible prebiotic or nonliving pathway.
+@@ -2010,7 +2028,7 @@
+ 
+ ## 11.8 Could a nonbiological system instantiate organism-relative stake?
+ 
+-C.1 does not define stake by carbon chemistry. A nonbiological system could, in principle, satisfy the organizational criterion if it:
++C.1.1 does not define stake by carbon chemistry. A nonbiological system could, in principle, satisfy the organizational criterion if it:
+ 
+ - maintains a physically realized boundary or operational identity;
+ - acquires and allocates resources;
+@@ -2220,9 +2238,9 @@
+ 
+ ### Prediction
+ 
+-Intermediate or context-dependent settings will occupy the Pareto frontier. Stronger coupling may improve common-mode robustness while impairing differentiated adaptation or raising cost.
++The direction of the viability effect will depend on the declared configuration. Stronger coupling may support a threatened low component, drain a specialized high-requirement component, impair differentiated adaptation, or raise cost. Context-dependent settings may occupy a Pareto frontier, but no universal intermediate optimum is predicted.
+ 
+-Appendix B demonstrates this possibility in a deliberately simple model. The empirical prediction is not that its numeric optimum transfers to biology, but that the tradeoff can be measured.
++Appendix B demonstrates both a favorable and an adverse viability direction in deliberately simple models. The empirical prediction is not that either numerical threshold transfers to biology, but that the direction and tradeoff surface can be measured after the unit, floors, disturbance class, controller, and horizon are fixed.
+ 
+ ## 12.7 Program P6: transitions in individuality
+ 
+@@ -2354,7 +2372,7 @@
+ 
+ ## 12.13 Evidence grades
+ 
+-C.1 recommends five evidence grades for biological claims:
++C.1.1 recommends five evidence grades for biological claims:
+ 
+ - **E0 — conceptual:** a coherent definition or possibility claim;
+ - **E1 — model:** demonstrated in a formal or computational model;
+@@ -2377,7 +2395,7 @@
+ - model-selection procedures; and
+ - machine-readable outputs.
+ 
+-The reproducibility package accompanying C.1 follows this standard for its illustrative model. Because the model is pedagogical, reproducibility establishes only that the stated numbers follow from the stated equations.
++The reproducibility package accompanying C.1.1 follows this standard for its illustrative models. Because the model is pedagogical, reproducibility establishes only that the stated numbers follow from the stated equations.
+ 
+ ## 12.15 Research priorities
+ 
+@@ -2398,7 +2416,7 @@
+ 
+ ## 13.1 The scientific conclusion
+ 
+-The scientific proposal of C.1 can be stated without metaphysical language:
++The scientific proposal of C.1.1 can be stated without metaphysical language:
+ 
+ > Living systems are open physical organizations whose internally generated constraints and regulatory processes contribute to preserving, repairing, reproducing, and adaptively transforming the conditions of their own continuation.
+ 
+@@ -2491,7 +2509,7 @@
+ 
+ ## 13.9 The revised biological rung
+ 
+-C.1 does not assign biology one fixed place in a sixty-rung historical ladder. It proposes a dependency transition:
++C.1.1 does not assign biology one fixed place in a sixty-rung historical ladder. It proposes a dependency transition:
+ 
+ \[
+ \text{physical persistence}
+@@ -2509,7 +2527,7 @@
+ 
+ ## 13.10 Final synthesis
+ 
+-The original Biology paper asked what abiogenesis, morphogenesis, and evolution have in common. C.1 gives a narrower and more defensible answer.
++The original Biology paper asked what abiogenesis, morphogenesis, and evolution have in common. C.1.1 gives a narrower and more defensible answer.
+ 
+ They are not expressions of one measured substance. They are different transformations of organized possibility:
+ 
+@@ -2788,11 +2806,53 @@
+ 
+ Viability conditions must be independently motivated, preregistered, or validated on held-out perturbations.
+ 
+-## A.15 Proposition 10: stronger coupling need not improve every profile component
++## A.15 Proposition 10: the viability effect of diffusive coupling is configuration-dependent
++
++Let the componentwise viability margins be
++
++\[
++m_i(x)=x_i-f_i,
++\qquad
++M(x)=\min_i m_i(x),
++\]
++
++and let
++
++\[
++I(x)=\operatorname*{arg\,min}_i m_i(x)
++\]
++
++be the set of binding components. For the diffusive coupling vector
++
++\[
++c_i(x)=\kappa(\bar x-x_i),
++\qquad
++\bar x=\frac{1}{n}\sum_i x_i,
++\]
++
++its one-sided directional contribution to the minimum margin is
++
++\[
++D M(x;c)
++=
++\min_{i\in I(x)}\kappa(\bar x-x_i).
++\]
++
++If the binding component is unique, \(I(x)=\{j\}\), then
++
++\[
++D M(x;c)=\kappa(\bar x-x_j).
++\]
++
++Therefore the direct instantaneous coupling contribution raises the currently binding margin when \(x_j<\bar x\), lowers it when \(x_j>\bar x\), and is zero when \(x_j=\bar x\). With several tied binding components, the directional derivative is governed by the least favorable member of the binding set.
++
++This is a local statement at a fixed state. It does not by itself determine how the global minimum over a finite controlled trajectory changes as \(\kappa\) changes, because the trajectory, controller allocation, disturbance response, time of minimum, and identity of the binding component can all change.
+ 
+-Appendix B supplies a deterministic counterexample. In that model, increasing coupling \(\kappa\) strictly improves the minimum viability margin over the tested sweep while strictly increasing control cost and late asymmetric-target error.
++In Appendix B's first configuration, all floors are equal. A unique binding component is therefore a minimum-state component and cannot lie above the mean. This predisposes the direct coupling term to support, rather than drain, the currently binding margin. The observed strict increase across the full sweep remains a property of the declared simulation, not a theorem for all homogeneous-floor controlled systems.
+ 
+-Thus no theorem permits replacing a multidimensional profile with “more integration is better.”
++In the second configuration, the third component has a much higher floor and is binding while its state lies above the mean. The same coupling law drains that component. The sampled minimum margin strictly decreases and crosses zero as \(\kappa\) increases.
++
++Thus stronger coupling need not improve viability, and no theorem permits replacing a multidimensional biological profile with “more integration is better.”
+ 
+ ## A.16 Formal boundary audit
+ 
+@@ -2845,17 +2905,18 @@
+ 
+ ---
+ 
+-# Appendix B. Illustrative three-variable viability-control model
++# Appendix B. Illustrative three-variable viability-control models
+ 
+ ## B.1 Purpose and status
+ 
+-This appendix replaces the original paper's claim that a toy simulation “validated” the biological coherence functional. The present model has a narrower purpose:
++The original paper claimed that a toy simulation “validated” a biological coherence functional. C.1.1 uses two much narrower deterministic configurations:
+ 
+-> to exhibit one explicit system in which coupling, viability margin, flexible target tracking, and control cost do not share a monotonic optimum.
++1. a homogeneous-floor configuration in which stronger coupling raises the sampled minimum margin while worsening differentiated tracking and raising control cost; and
++2. a heterogeneous-floor configuration in which the same coupling law lowers the sampled minimum margin and eventually produces a viability breach.
+ 
+-The model is deterministic, fully specified, and reproducible. It is not fitted to biological data.
++The purpose is to show that integration, viability, flexibility, and cost have no configuration-independent monotonic ordering. The models are not fitted to biological data.
+ 
+-## B.2 State variables
++## B.2 Common dynamics and the local coupling lemma
+ 
+ Let
+ 
+@@ -2863,19 +2924,7 @@
+ x(t)=(x_1(t),x_2(t),x_3(t))\in[0,1]^3
+ \]
+ 
+-represent three regulated capacities. The viability floor is
+-
+-\[
+-f=(0.24,0.24,0.24).
+-\]
+-
+-The initial state is
+-
+-\[
+-x(0)=(0.72,0.72,0.72).
+-\]
+-
+-Each variable receives baseline supply \(s\), decays at rate \(d_i x_i\), receives bounded control \(u_i\), experiences coupling toward the mean, and is exposed to deterministic perturbations:
++represent three regulated capacities. Each receives baseline supply \(s_i\), decays at rate \(d_i x_i\), receives bounded control \(u_i\), experiences coupling toward the mean, and is exposed to deterministic perturbations:
+ 
+ \[
+ \dot x_i
+@@ -2885,43 +2934,21 @@
+ +\xi_i(t).
+ \]
+ 
+-The vectors are
++For component floors \(f_i\), define
+ 
+ \[
+-s=(0.065,0.055,0.060),
+-\qquad
+-d=(0.11,0.09,0.10).
++M(x)=\min_i(x_i-f_i).
+ \]
+ 
+-## B.3 Targets and disturbances
+-
+-Before \(t=100\), the target is
++At a state with unique binding component \(j\), the direct coupling contribution to the instantaneous change of \(M\) is
+ 
+ \[
+-y^{(0)}=(0.75,0.72,0.70).
++\kappa(\bar x-x_j).
+ \]
+ 
+-At \(t=100\), it shifts asymmetrically to
++This sign test is exact at a fixed state. It is not a theorem about the global minimum generated by a family of controlled trajectories with different \(\kappa\).
+ 
+-\[
+-y^{(1)}=(0.88,0.56,0.78).
+-\]
+-
+-The asymmetric shift tests whether coupling that supports common-mode stability impairs differentiated adaptation.
+-
+-Three disturbance episodes are applied:
+-
+-\[
+-\xi(t)=
+-\begin{cases}
+-(-0.075,0,0),&20\le t<28,\\
+-(-0.035,-0.055,-0.025),&50\le t<60,\\
+-(0,0,-0.100),&82\le t<88,\\
+-(0,0,0),&\text{otherwise}.
+-\end{cases}
+-\]
+-
+-## B.4 Controller
++## B.3 Common controller and numerical method
+ 
+ The unconstrained desired control is
+ 
+@@ -2951,11 +2978,7 @@
+ u_i=B\frac{w_i}{\sum_jw_j}.
+ \]
+ 
+-This rule gives more scarce control to variables close to their viability floor while retaining target sensitivity.
+-
+-## B.5 Integration and numerical method
+-
+-The equations are stepped with forward Euler at
++Both configurations are stepped with forward Euler at
+ 
+ \[
+ \Delta t=0.01,
+@@ -2963,46 +2986,70 @@
+ T=150,
+ \]
+ 
+-and clipped to \([0,1]^3\). Forward Euler is used for transparency, not because it is the preferred integrator for biological models.
+-
+-The coupling sweep is
++using the sweep
+ 
+ \[
+ \kappa\in
+ \{0,0.02,0.05,0.10,0.15,0.25,0.40,0.80\}.
+ \]
+ 
+-## B.6 Outcome measures
++The implementation computes the unclipped next state before applying \([0,1]^3\) bounds and records every step and coordinate on which clipping would alter the trajectory.
+ 
+-The minimum viability margin is
++The outcome measures are
+ 
+ \[
+-M_{\min}
+-=
+-\min_{t,i}(x_i(t)-f_i).
++M_{\min}=\min_{t,i}(x_i(t)-f_i),
++\]
++
++\[
++J_u=\int_0^T\sum_i u_i(t)\,dt,
+ \]
+ 
+-The control cost is
++and late target RMSE over \(t\ge130\).
++
++## B.4 Configuration I: homogeneous floors and differentiated tracking
++
++The first configuration retains C.1's parameters:
+ 
+ \[
+-J_u
+-=
+-\int_0^T\sum_i u_i(t)\,dt.
++f=(0.24,0.24,0.24),
++\qquad
++x(0)=(0.72,0.72,0.72),
+ \]
+ 
+-Late target error is the root-mean-square error over \(t\ge130\):
++\[
++s=(0.065,0.055,0.060),
++\qquad
++d=(0.11,0.09,0.10).
++\]
++
++Before \(t=100\), the target is
+ 
+ \[
+-E_{\mathrm{late}}
+-=
+-\left[
+-\frac{1}{3|\mathcal T_{130}|}
+-\sum_{t\in\mathcal T_{130}}
+-\|x(t)-y^{(1)}\|_2^2
+-\right]^{1/2}.
++y^{(0)}=(0.75,0.72,0.70),
++\]
++
++and it then shifts asymmetrically to
++
++\[
++y^{(1)}=(0.88,0.56,0.78).
+ \]
+ 
+-## B.7 Results
++The deterministic disturbances are
++
++\[
++\xi(t)=
++\begin{cases}
++(-0.075,0,0),&20\le t<28,\\
++(-0.035,-0.055,-0.025),&50\le t<60,\\
++(0,0,-0.100),&82\le t<88,\\
++(0,0,0),&\text{otherwise}.
++\end{cases}
++\]
++
++Because the floors are homogeneous, a unique binding component is also a minimum-state component and is therefore at or below the mean. This explains why the direct diffusive term is favorably signed at a fixed state. It does not prove the finite-trajectory sweep result.
++
++## B.5 Configuration I results
+ 
+ | \(\kappa\) | Minimum viability margin | Total control cost | Late tracking RMSE |
+ |---:|---:|---:|---:|
+@@ -3015,52 +3062,97 @@
+ | 0.40 | 0.3305262552 | 7.6530593363 | 0.1123240184 |
+ | 0.80 | 0.3527559814 | 7.7238403844 | 0.1228401182 |
+ 
+-Across this declared sweep:
++Across this declared sweep, minimum margin, control cost, and late differentiated tracking error all strictly increase. All controller runs remain viable. Their margins lie between approximately \(0.281\) and \(0.353\), so this sweep demonstrates redistribution of slack well inside the viable region; it does not demonstrate coupling-mediated rescue from failure.
+ 
+-- minimum margin strictly increases with coupling;
+-- control cost strictly increases with coupling; and
+-- differentiated target tracking strictly worsens with coupling.
++A separate no-controller reference at \(\kappa=0\) crosses the floor at \(t=26.76\), reaches a minimum margin of \(-0.1009342470\), and remains viable for approximately \(95.69\%\) of sampled time points. This reference shows that the declared disturbance schedule can produce failure without control, but it is not part of the coupling sweep.
+ 
+-A no-controller reference at \(\kappa=0\) crosses the floor at \(t=26.76\), reaches a minimum margin of \(-0.1009342470\), and remains viable for approximately \(95.69\%\) of sampled time points.
++No clipping operation is active in any controller run.
+ 
+-## B.8 Interpretation
++## B.6 Configuration II: a specialized high-requirement component
+ 
+-The model demonstrates only logical compatibility:
++The second configuration reverses the relevant geometry while retaining the same controller and coupling law:
+ 
+ \[
+-\text{more coupling}
+-\Rightarrow
+-\text{more worst-case margin}
++f=(0.10,0.10,0.82),
++\qquad
++x(0)=(0.60,0.60,0.90),
+ \]
+ 
+-can coexist with
++\[
++s=(0.18,0.18,0.036),
++\qquad
++d=(0.30,0.30,0.04).
++\]
++
++The uncoupled natural equilibrium is
+ 
+ \[
+-\text{more coupling}
+-\Rightarrow
+-\text{worse differentiated tracking and higher cost}.
++x^*=s/d=(0.60,0.60,0.90),
+ \]
+ 
+-Therefore “more integration” cannot be assumed to improve every biological objective. An empirical study must identify the relevant perturbation and target regime.
++which is also the constant target. The third component has the highest state but only \(0.08\) of slack above its floor. A disturbance
+ 
+-The model does not show that intermediate coupling is universally optimal. Under the chosen measures, any selection among sweep points requires priorities or constraints.
++\[
++\xi(t)=(0,0,-0.020)
++\qquad
++40\le t<50
++\]
+ 
+-## B.9 Step-size sensitivity and reproducibility
++acts on that component. Because the third component is binding while remaining above the mean, positive coupling drains it toward the two low-requirement components.
+ 
+-The accompanying script `CU_Biology_C1_reproducibility.py` generates `CU_Biology_C1_verification_results.json`. It contains no stochastic sampling. Regression checks assert all monotonic relations reported above and the viability-floor crossing of the no-controller reference.
++## B.7 Configuration II results
+ 
+-Because forward Euler can introduce step-size artifacts, the complete coupling sweep was repeated at four step sizes. The table reports the minimum margin at the two endpoint couplings; at every tested step size, minimum margin, control cost, and late tracking error retain the same strict monotonic directions across the complete eight-point coupling sweep.
++| \(\kappa\) | Minimum viability margin | Viable over full horizon | First failure time | Direct coupling term at minimum |
++|---:|---:|:---:|---:|---:|
++| 0.00 | 0.0431278138 | Yes | — | 0.0000000000 |
++| 0.02 | 0.0369053152 | Yes | — | -0.0033499396 |
++| 0.05 | 0.0285644110 | Yes | — | -0.0078440606 |
++| 0.10 | 0.0167977155 | Yes | — | -0.0141911234 |
++| 0.15 | 0.0070877984 | Yes | — | -0.0194345846 |
++| 0.25 | -0.0080077450 | No | 42.01 | -0.0275950011 |
++| 0.40 | -0.0237919344 | No | 40.20 | -0.0361348902 |
++| 0.80 | -0.0470145357 | No | 0.84 | -0.0487013205 |
+ 
+-| \(\Delta t\) | Margin at \(\kappa=0\) | Margin at \(\kappa=0.80\) | All three sweep trends preserved |
+-|---:|---:|---:|:---:|
+-| 0.040 | 0.2810250082 | 0.3527054405 | Yes |
+-| 0.020 | 0.2811225312 | 0.3527390630 | Yes |
+-| 0.010 | 0.2811715052 | 0.3527559814 | Yes |
+-| 0.005 | 0.2811960446 | 0.3527644672 | Yes |
++The margin strictly decreases across the sweep and crosses zero between \(\kappa=0.15\) and \(\kappa=0.25\). At \(\kappa=0.25\) and \(0.40\), the disturbance precipitates the recorded breach. At \(\kappa=0.80\), coupling alone drains the high-floor third component below its floor before the disturbance begins.
+ 
+-The endpoint values move toward stable limits as the step size is reduced, and the qualitative tradeoff is unchanged over the tested range. This sensitivity check does not establish convergence of every trajectory feature or validate the model biologically; it only shows that the reported monotonic tradeoff is not created by the single declared step size.
++No clipping operation is active in any run. This configuration establishes a model-specific counterexample to the universal claim that stronger diffusive integration improves viability. It does not establish that biological integration generally destroys viability.
+ 
+----
++## B.8 Joint interpretation
++
++The two configurations use the same coupling operator:
++
++\[
++\kappa(\bar x-x_i).
++\]
++
++Yet their viability trends are opposite. The relevant difference is not an intrinsic moral or biological value carried by coupling. It is the declared organization of floors, states, targets, control, disturbances, and horizon.
++
++The supported conclusion is therefore:
++
++> Diffusive coupling redistributes state toward a mean. Whether that redistribution supports or undermines viability depends on which components are binding and on the larger controlled trajectory.
++
++The models do not show that intermediate coupling is universally optimal. They show why an empirical study must declare the candidate unit, protected floors, disturbance class, controller, costs, and horizon before interpreting “integration.”
++
++## B.9 Step-size sensitivity and clipping audit
++
++The complete sweeps were repeated at four forward-Euler step sizes.
++
++| \(\Delta t\) | Configuration I margin at \(\kappa=0\) | Configuration I margin at \(\kappa=0.80\) | Configuration II margin at \(\kappa=0\) | Configuration II margin at \(\kappa=0.80\) | Declared trends preserved |
++|---:|---:|---:|---:|---:|:---:|
++| 0.040 | 0.2810250082 | 0.3527054405 | 0.0431206323 | -0.0470207782 | Yes |
++| 0.020 | 0.2811225312 | 0.3527390630 | 0.0431254019 | -0.0470166205 | Yes |
++| 0.010 | 0.2811715052 | 0.3527559814 | 0.0431278138 | -0.0470145357 | Yes |
++| 0.005 | 0.2811960446 | 0.3527644672 | 0.0431290265 | -0.0470134917 | Yes |
++
++At every tested step size, Configuration I's minimum margin increases across all eight couplings and Configuration II's minimum margin decreases across all eight. Configuration I's cost and late tracking error retain their reported increasing directions. The \(\kappa=0\) viable and \(\kappa=0.25\) nonviable classification in Configuration II is also preserved.
++
++The clipping counter is zero in every default and step-size-sensitivity controller run. Thus the sign reversal is not created by saturation at the numerical bounds.
++
++## B.10 Reproducibility and limitation
++
++The accompanying script `CU_Biology_C1_1_reproducibility.py` generates `CU_Biology_C1_1_verification_results.json`. It contains no stochastic sampling. Regression checks assert both sweep directions, the adverse viability crossing, the pointwise sign recorded at each adverse minimum, step-size robustness, and zero clipping.
++
++The sensitivity checks do not prove convergence of every trajectory feature. More importantly, exact reproduction of these numbers establishes only that the outputs follow from the declared equations. It provides no empirical validation of CU Biology.
+ 
+ # Appendix C. Claim and evidence ledger
+ 
+@@ -3105,6 +3197,8 @@
+ | BIO-C33 | The CU profile will improve biological prediction. | Open empirical hypothesis | E0 | Must be tested against strong baselines. |
+ | BIO-C34 | Life is sacred. | Commitment | — | Not a biological derivation. |
+ | BIO-C35 | Life is matter organized so continuation becomes causally relevant to present activity. | Interpretation | E0–E3 | Naturalized teleonomy; no foresight implied. |
++| BIO-C36 | For a unique binding component under diffusive mean coupling, the direct instantaneous contribution to minimum margin is \(\kappa(\bar x-x_j)\). | Formal result | E1 | Local directional statement; does not determine global finite-trajectory monotonicity. |
++| BIO-C37 | Stronger diffusive integration universally improves biological viability. | Disproved as a universal claim | E1 | The heterogeneous-floor configuration supplies a deterministic counterexample; empirical direction remains system-specific. |
+ 
+ ## C.2 Literature-audit boundary
+ 
+@@ -3116,7 +3210,7 @@
+ 
+ ## D.1 Status rule
+ 
+-Foundations B.2 keeps the Biology family provisional until completion and audit of the domain reconstruction. C.1 now supplies candidate replacement wording. It does not silently edit Foundations. Promotion should occur through a later registry update after independent review.
++Foundations B.2 keeps the Biology family provisional until completion and audit of the domain reconstruction. C.1.1 supplies candidate replacement wording but does not silently edit Foundations. The independent C.1 audit endorsed the manuscript with bounded repairs while explicitly leaving the conceptual adequacy of CU-B1 through CU-B5 substantially open. Promotion should therefore occur only through a later synchronized registry update after domain-expert review.
+ 
+ ## D.2 CU-B1
+ 
+@@ -3124,11 +3218,11 @@
+ 
+ **PROVISIONAL.** Living systems actively regulate boundaries, exchange, internal variables, and repair in ways coupled to continuation.
+ 
+-### C.1 candidate wording
++### C.1.1 candidate wording
+ 
+ > **Active Biological Self-Maintenance.** A candidate living organization is not distinguished by static order or persistence alone, but by a relatively closed network of materially realized processes and constraints whose endogenous activity contributes to maintaining, repairing, reproducing, or adaptively transforming the conditions of that network's continuation. Degree and kind of autonomy are relative to a boundary, environment, perturbation class, and horizon.
+ 
+-### Recommended status after audit
++### Candidate status pending domain-expert review
+ 
+ **CANONICAL BRIDGE PRINCIPLE.** The statement is conceptual and operational; particular classifications remain empirical.
+ 
+@@ -3138,11 +3232,11 @@
+ 
+ **PROVISIONAL HYPOTHESIS.** Organisms may produce context-sensitive solutions beyond fixed responses.
+ 
+-### C.1 candidate wording
++### C.1.1 candidate wording
+ 
+ > **Adaptive Problem Solving Beyond Fixed Programs.** Some living systems possess regulatory architectures that generalize beyond fixed stimulus–response mappings: they detect deviations, recruit alternative pathways, modify future responses from history, and solve novel viability-relevant problems within a bounded adaptive reach. Degree must be established through counterfactual flexibility, learning controls, and comparison with passive or preprogrammed alternatives; it does not by itself establish consciousness.
+ 
+-### Recommended status after audit
++### Candidate status pending domain-expert review
+ 
+ **CANONICAL–CONDITIONAL EMPIRICAL HYPOTHESIS.** The graded framework is canonical; taxon-specific claims remain empirical.
+ 
+@@ -3152,11 +3246,11 @@
+ 
+ **PROVISIONAL HYPOTHESIS.** Development and homeostasis may require organism- or tissue-level target constraints.
+ 
+-### C.1 candidate wording
++### C.1.1 candidate wording
+ 
+ > **Multiscale Constraint and Local Process.** Biological form and function arise through local physical processes embedded in cross-scale boundary conditions, signaling networks, mechanical relations, and histories. A higher-scale constraint is explanatory when intervention on its realizing relations changes lower-scale trajectories in a way that improves prediction or control beyond local variables alone. Higher scale does not imply a new force, and global stability does not imply a unique optimizer.
+ 
+-### Recommended status after audit
++### Candidate status pending domain-expert review
+ 
+ **CANONICAL BRIDGE PRINCIPLE.** Specific higher-scale variables and mechanisms remain hypotheses.
+ 
+@@ -3166,11 +3260,11 @@
+ 
+ **PROVISIONAL EMPIRICAL GENERALIZATION.** Selection can preserve architectures supporting robustness, plasticity, and repair.
+ 
+-### C.1 candidate wording
++### C.1.1 candidate wording
+ 
+ > **Evolutionary Stabilization of Regulatory Architecture.** Evolutionary processes can stabilize, modify, or dismantle architectures of self-maintenance. Robustness, modularity, plasticity, conflict control, and adaptive reach are favored only under environments and life histories in which their reproductive benefits exceed their costs. Fitness is not identical with biological coherence, and evolution has no demonstrated universal tendency to maximize either coherence or complexity.
+ 
+-### Recommended status after audit
++### Candidate status pending domain-expert review
+ 
+ **CANONICAL–CONDITIONAL EMPIRICAL GENERALIZATION.** It summarizes a research relation rather than a law.
+ 
+@@ -3180,22 +3274,22 @@
+ 
+ **RESERVED.** Intended for biological individuation and stake.
+ 
+-### C.1 candidate wording
++### C.1.1 candidate wording
+ 
+ > **Biological Individuation and Stake.** A biological individual is a historically continuous, relatively bounded organization whose components are causally integrated into maintaining, repairing, reproducing, or adaptively transforming the conditions of that organization. The organization thereby establishes organism-relative stakes: conditions can be better or worse for it in virtue of their effects on its continued self-maintenance. Individuality is graded, multidimensional, and potentially nested; organism-relative stake does not by itself establish consciousness or moral status.
+ 
+-### Recommended status after audit
++### Candidate status pending domain-expert review
+ 
+ **CANONICAL BRIDGE PRINCIPLE.** This is the principal Biology-to-Consciousness bridge.
+ 
+ ## D.7 New non-numbered domain rules
+ 
+-C.1 also introduces five governance rules that need not become separate Foundations principles:
++Section 2.7.1 states five governance rules in the main argument. They need not become separate Foundations principles, but every downstream use of CU Biology should inherit them:
+ 
+-1. **Boundary rule:** every biological coherence claim names the unit.
++1. **Boundary rule:** every biological coherence claim names the candidate unit and scale.
+ 2. **Horizon rule:** every maintenance claim names the timescale.
+ 3. **Disturbance rule:** every robustness claim names the challenge class.
+-4. **Profile rule:** scalarization requires declared weights and protected floors.
++4. **Profile rule:** scalarization requires declared weights, protected floors, and aggregation rules.
+ 5. **Register rule:** organism-relative stake is not silently promoted to phenomenal or moral value.
+ 
+ ## D.8 Downstream dependencies
+@@ -3221,7 +3315,7 @@
+ - the non-identity of stability and moral legitimacy; and
+ - dependence as compatible with real individuality.
+ 
+-The AI paper should inherit:
++All downstream papers should inherit the §A.18 distinction among designer optimization, as-if control analysis, and evolutionary selection. In particular, the AI paper should inherit:
+ 
+ - separation of autonomy, intelligence, consciousness, persistent selfhood, and sovereignty;
+ - self-maintenance as a safety-relevant capability;
+@@ -3229,9 +3323,9 @@
+ 
+ ---
+ 
+-# Appendix E. Change ledger from the March 2026 manuscript
++# Appendix E. Change ledger from the March 2026 manuscript and C.1 audit
+ 
+-| Legacy element | C.1 disposition | Reason |
++| Legacy element or audit finding | C.1.1 disposition | Reason |
+ |---|---|---|
+ | Biology as coherence under constraint | Retained with operational restrictions | Central integrative question remains useful. |
+ | \(C(x)=A(x)I(x)\) as universal functional | Retired as universal; permitted as declared model | No unique derivation, units, or cross-system calibration. |
+@@ -3255,6 +3349,12 @@
+ | Xenobots as validation of CU | Recast as contrast cases | They show reconfigurable cell capacities under scaffolding. |
+ | Cancer as coherence disintegration | Recast as multilevel evolution and regulatory decoupling | Supplements rather than replaces oncology. |
+ | Simulation “validates” coherence dynamics | Replaced by deterministic pedagogical counterexample | A toy model cannot validate biology. |
++| Positive margin trend in the original toy configuration | Retained but explicitly marked configuration-dependent | Homogeneous floors make a binding component a minimum-state component, favoring a nonnegative direct diffusive contribution. |
++| Adverse effect of integration on viability | Added as a heterogeneous-floor configuration | The same coupling law drains a specialized high-requirement component and crosses its viability floor. |
++| Numerical clipping | Audited and recorded as inactive | No default or step-size-sensitivity controller run activates the clip operation. |
++| Five biological claim-governance rules | Moved from JSON into §2.7.1 | A rule governing scientific claims must appear in the manuscript, not only in package metadata. |
++| *Stentor* learning characterization | Expanded within the source's scope | Records the counterintuitive protein-synthesis result and persistence across cell division without inferring consciousness. |
++| Optimization language | §A.18 exported as a downstream corpus rule | Designer choice, as-if analysis, and evolutionary selection must not be conflated. |
+ | Evolution as coherence flow | Retired | Fitness, drift, constraints, and selection levels must remain explicit. |
+ | Fitness as coherence persistence | Rejected | Fitness and maintenance diverge. |
+ | Convergence proves constrained coherence landscape | Narrowed | Convergence supports constraints but coexists with contingency. |
+@@ -3334,9 +3434,9 @@
+ 
+ Show cell-level maintenance and reproduction increasing while tissue and organism profiles deteriorate. Avoid a moralized image of “selfish cells”; label the mechanisms.
+ 
+-## F.9 Figure 9 — Toy-model Pareto tradeoff
++## F.9 Figure 9 — Configuration-dependent coupling effects
+ 
+-Plot coupling against minimum margin, tracking error, and control cost in separate panels. Do not combine axes into one score. The plot is pedagogical, not empirical.
++Plot the two configurations in separate, clearly labeled panels. For Configuration I, plot coupling against minimum margin, tracking error, and control cost without combining the axes into one score. For Configuration II, plot coupling against minimum margin, mark the zero-margin boundary, and identify the first nonviable sweep point. The figure is pedagogical, not empirical.
+ 
+ ## F.10 Experiment templates
+ 

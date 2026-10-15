@@ -1,0 +1,75 @@
+
+=== E1  Two-stage Or counterexample (M&E §10.4) with certainty feasibility
+f(A), f(B), f(AvB): {'piA'} {'piB'} {'piM'}
+A=>g: True  B=>g: True  AvB=>g: False
+
+=== E2  Support feasibility (M&E §10.7): conjunction identity restored, disjunction not
+Pi(A v B) == Pi(A) | Pi(B): False  Pi(A v B) = ['piA', 'piB', 'piM']
+Pi(X & Y) == Pi(X) & Pi(Y) for all events: True
+
+=== E3  Verdict facts (M&E §8.3-8.4), exhaustive over 5 worlds
+exclusion == strong warrant for not-phi: True
+strong / merely admissible / excluded partition nonempty best sets: True
+no mere admissibility with a singleton best set: True
+
+=== E4  Maximum preservation == admissibility (M&E §8.5)
+True
+
+=== E5  Countermodel B.13 (premise-responsive base defeats Cautious Monotony)
+best at empty premises: {'w1'}  best after adding b: {'w3'}  CM fails: True
+
+=== E6  Block averaging (M&E §3.7): D falls by within-block squares, H rises by KL; unequal
+dD=0.252993  sum sq=0.252993  dH=0.398849  KL=0.398849
+dD=0.161507  sum sq=0.161507  dH=0.301121  KL=0.301121
+dD=0.140212  sum sq=0.140212  dH=0.340326  KL=0.340326
+
+=== E7  Mandala stages: M&E §13.14 versus the Foundations stage table
+titles identical: 64/64  statuses identical: 64/64  related lists differ at stages: [3, 25, 29, 31, 35, 63, 64]
+distinct status labels across 64 stages: 57
+
+=== E8  Identifier resolution: every CU-/PHYS- identifier cited in M&E
+138 distinct identifiers; unresolved: []
+PHYS- identifiers anywhere in Physics: 0
+PHYS-A6 items defined in Foundations (Part VI, Physics Constraint Registry): 12
+  stage  1 Pure Structure                           -> PHYS-A6.1 'Statistical differentiation is a toy proxy'
+  stage  2 Partial Separability                     -> PHYS-A6.2 'Euclidean and Fisher geometry differ'
+  stage  3 Domain-Relative Coherence Directions     -> 
+  stage  4 Lawful Transitions                       -> PHYS-A6.3 'Goldilocks conditions are plural'
+  stage  5 Ordered Histories                        -> PHYS-A6.4 'Temporal order is not temporal direction'
+  stage  6 Temporal Order and Parameterization      -> PHYS-A6.4 'Temporal order is not temporal direction'; PHYS-A6.5 'Classical hidden correlation does not force quantum theory'
+  stage  7 Rule-Governed Transformation and Computa -> PHYS-A6.4 'Temporal order is not temporal direction'
+  stage  8 Entropy and Accessibility                -> PHYS-A6.5 'Classical hidden correlation does not force quantum theory'; PHYS-A6.6 'Quantum selection is conditional'
+  stage  9 Relational Geometry and Spacetime        -> PHYS-A6.9 'Standard equations are embeddings or conditional recoveries'; PHYS-A6.10 'Accessibility geometry remains incomplete'
+  stage 10 Gravitational Dynamics                   -> PHYS-A6.10 'Accessibility geometry remains incomplete'; PHYS-A6.11 'Horizon entropy is reduced-description entropy'
+
+=== E9  §13.12 dependency tables (header 'Source node') per paper
+{'01': 1, '02': 0, '03': 0, '04': 0, '05': 0, '06': 0, '07': 0, '08': 0, '09': 0, '10': 0, '11': 0}
+
+=== E10 Double-escaped LaTeX ('\\text') per paper
+{'01': 4, '02': 8}
+
+=== E11 Revision and propagation artifacts in M&E
+'Version Version': 1
+'navigation from to': 1
+'^## Version 0\\.10 ': 1
+'\\b[01]{6}\\b': 0
+
+=== E12 Overlap with Denying Knowledge (shared 8-grams) and section word counts
+§ 1  words  1663  shared 8-grams   0%
+§ 2  words  1376  shared 8-grams   0%
+§ 3  words  1322  shared 8-grams   0%
+§ 4  words  2002  shared 8-grams   0%
+§ 5  words  1222  shared 8-grams   0%
+§ 6  words   913  shared 8-grams  17%
+§ 7  words   901  shared 8-grams  23%
+§ 8  words   840  shared 8-grams   7%
+§ 9  words  1192  shared 8-grams   1%
+§10  words   890  shared 8-grams   0%
+§11  words  1171  shared 8-grams   0%
+§12  words   990  shared 8-grams   0%
+§13  words  4798  shared 8-grams   0%
+§14  words   966  shared 8-grams   0%
+§15  words  1473  shared 8-grams   0%
+§16  words   591  shared 8-grams   0%
+§17  words   760  shared 8-grams   0%
+words in §13.14: 3102

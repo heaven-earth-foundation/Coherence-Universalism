@@ -1,0 +1,113 @@
+{
+  "papers": [
+    {
+      "paper": "01_CU_Metaphysics_Epistemology_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "02_CU_Foundations_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "03_CU_Physics_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "04_CU_Biology_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "05_CU_Consciousness_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "06_CU_Psychology_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "07_CU_Social_Dynamics_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "08_CU_Ethics_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "09_CU_Artificial_Intelligence_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "10_Denying_Knowledge_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    },
+    {
+      "paper": "11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md",
+      "same_apart_from_link_targets_and_declared_release_label": true
+    }
+  ],
+  "word_math": [
+    {
+      "file": "00_Introduction.docx",
+      "all_parts_native_math_objects": 0,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "01_Metaphysics_Epistemology.docx",
+      "all_parts_native_math_objects": 243,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "02_Foundations.docx",
+      "all_parts_native_math_objects": 56,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "03_Physics.docx",
+      "all_parts_native_math_objects": 1211,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "04_Biology.docx",
+      "all_parts_native_math_objects": 201,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "05_Consciousness.docx",
+      "all_parts_native_math_objects": 121,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "06_Psychology.docx",
+      "all_parts_native_math_objects": 49,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "07_Social_Dynamics.docx",
+      "all_parts_native_math_objects": 47,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "08_Ethics.docx",
+      "all_parts_native_math_objects": 90,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "09_Artificial_Intelligence.docx",
+      "all_parts_native_math_objects": 122,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "10_Denying_Knowledge.docx",
+      "all_parts_native_math_objects": 115,
+      "native_math_unchanged": true
+    },
+    {
+      "file": "11_Non_Egoic_Mind.docx",
+      "all_parts_native_math_objects": 67,
+      "native_math_unchanged": true
+    }
+  ],
+  "native_math_total": 2322,
+  "unchanged_evidence_files": 148,
+  "license_files_unchanged": true
+}

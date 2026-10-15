@@ -1,0 +1,738 @@
+#!/usr/bin/env python3
+"""Deterministic contrast models for CU Ethics G.1.1.
+
+The constructions test logical distinctions used in the manuscript:
+- justificatory integrity is necessary but not sufficient;
+- aggregate benefit does not override protected floors;
+- admissible options can remain non-dominating and reverse under declared weights;
+- causal contribution, authority, blame, and remedial responsibility can diverge;
+- single-mode responses do not constitute complete repair;
+- nominal complaint channels do not establish practical correctability; and
+- emergency effectiveness does not by itself establish legitimacy;
+- severe-risk irreversibility must be screened or explicitly excepted; and
+- floor screening cannot establish adequacy of a controlled option set.
+
+The values are stipulated for demonstration. They are not empirical estimates,
+clinical instruments, legal tests, or validated moral scores.
+"""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
+import itertools
+import json
+from pathlib import Path
+from typing import Any, Iterable
+
+
+TIE_TOLERANCE = 1e-12
+
+POLICY_DIMENSIONS = (
+    "aggregate_benefit",
+    "minimum_welfare",
+    "agency_protection",
+    "consent_quality",
+    "evidential_integrity",
+    "public_legitimacy",
+    "practical_correctability",
+    "reversibility",
+    "freedom_from_coercion",
+    "distributional_fairness",
+)
+
+POLICIES: dict[str, dict[str, float]] = {
+    "opaque_optimization": {
+        "aggregate_benefit": 0.93,
+        "minimum_welfare": 0.18,
+        "agency_protection": 0.30,
+        "consent_quality": 0.25,
+        "evidential_integrity": 0.35,
+        "public_legitimacy": 0.30,
+        "practical_correctability": 0.20,
+        "reversibility": 0.35,
+        "freedom_from_coercion": 0.30,
+        "distributional_fairness": 0.15,
+    },
+    "transparent_domination": {
+        "aggregate_benefit": 0.82,
+        "minimum_welfare": 0.32,
+        "agency_protection": 0.25,
+        "consent_quality": 0.20,
+        "evidential_integrity": 0.92,
+        "public_legitimacy": 0.28,
+        "practical_correctability": 0.25,
+        "reversibility": 0.30,
+        "freedom_from_coercion": 0.20,
+        "distributional_fairness": 0.22,
+    },
+    "contestable_support": {
+        "aggregate_benefit": 0.74,
+        "minimum_welfare": 0.68,
+        "agency_protection": 0.82,
+        "consent_quality": 0.78,
+        "evidential_integrity": 0.86,
+        "public_legitimacy": 0.84,
+        "practical_correctability": 0.90,
+        "reversibility": 0.78,
+        "freedom_from_coercion": 0.82,
+        "distributional_fairness": 0.75,
+    },
+    "minimal_intervention": {
+        "aggregate_benefit": 0.56,
+        "minimum_welfare": 0.55,
+        "agency_protection": 0.93,
+        "consent_quality": 0.90,
+        "evidential_integrity": 0.82,
+        "public_legitimacy": 0.72,
+        "practical_correctability": 0.78,
+        "reversibility": 0.92,
+        "freedom_from_coercion": 0.95,
+        "distributional_fairness": 0.82,
+    },
+}
+
+LEGACY_PROTECTED_FLOORS: dict[str, float] = {
+    "minimum_welfare": 0.45,
+    "agency_protection": 0.55,
+    "consent_quality": 0.50,
+    "evidential_integrity": 0.60,
+    "public_legitimacy": 0.50,
+    "practical_correctability": 0.50,
+    "freedom_from_coercion": 0.35,
+    "distributional_fairness": 0.35,
+}
+
+# The ninth floor is specific to the declared high-impact, severe-harm contrast.
+# It is not a universal CU threshold. Other cases may justify a different floor
+# or an explicit necessity-and-proportionality exception.
+PROTECTED_FLOORS: dict[str, float] = {
+    **LEGACY_PROTECTED_FLOORS,
+    "reversibility": 0.40,
+}
+
+ADVERSARIAL_POLICIES: dict[str, dict[str, float]] = {
+    "irreversible_compliance": {
+        "aggregate_benefit": 0.95,
+        "minimum_welfare": 0.45,
+        "agency_protection": 0.55,
+        "consent_quality": 0.50,
+        "evidential_integrity": 0.60,
+        "public_legitimacy": 0.50,
+        "practical_correctability": 0.50,
+        "reversibility": 0.00,
+        "freedom_from_coercion": 0.35,
+        "distributional_fairness": 0.35,
+    },
+    "floor_hugging_option": {
+        "aggregate_benefit": 1.00,
+        "minimum_welfare": 0.45,
+        "agency_protection": 0.55,
+        "consent_quality": 0.50,
+        "evidential_integrity": 0.60,
+        "public_legitimacy": 0.50,
+        "practical_correctability": 0.50,
+        "reversibility": 1.00,
+        "freedom_from_coercion": 0.35,
+        "distributional_fairness": 0.35,
+    },
+}
+
+SCALARIZATIONS: dict[str, dict[str, float]] = {
+    "protective_delivery": {
+        "aggregate_benefit": 0.34,
+        "minimum_welfare": 0.22,
+        "agency_protection": 0.08,
+        "consent_quality": 0.04,
+        "evidential_integrity": 0.05,
+        "public_legitimacy": 0.06,
+        "practical_correctability": 0.09,
+        "reversibility": 0.03,
+        "freedom_from_coercion": 0.04,
+        "distributional_fairness": 0.05,
+    },
+    "liberty_and_reversibility": {
+        "aggregate_benefit": 0.06,
+        "minimum_welfare": 0.07,
+        "agency_protection": 0.22,
+        "consent_quality": 0.18,
+        "evidential_integrity": 0.08,
+        "public_legitimacy": 0.06,
+        "practical_correctability": 0.06,
+        "reversibility": 0.14,
+        "freedom_from_coercion": 0.09,
+        "distributional_fairness": 0.04,
+    },
+    "institutional_repair": {
+        "aggregate_benefit": 0.08,
+        "minimum_welfare": 0.10,
+        "agency_protection": 0.08,
+        "consent_quality": 0.05,
+        "evidential_integrity": 0.10,
+        "public_legitimacy": 0.14,
+        "practical_correctability": 0.24,
+        "reversibility": 0.08,
+        "freedom_from_coercion": 0.05,
+        "distributional_fairness": 0.08,
+    },
+}
+
+RESPONSIBILITY_DIMENSIONS = (
+    "causal_contribution",
+    "knowledge",
+    "foreseeability",
+    "control",
+    "role_authority",
+    "benefit",
+    "coercion_or_duress",
+    "prevention_capacity",
+    "repair_capacity",
+)
+
+RESPONSIBILITY_PROFILES: dict[str, dict[str, float]] = {
+    "governing_board": {
+        "causal_contribution": 0.55,
+        "knowledge": 0.75,
+        "foreseeability": 0.85,
+        "control": 0.90,
+        "role_authority": 0.95,
+        "benefit": 0.90,
+        "coercion_or_duress": 0.05,
+        "prevention_capacity": 0.95,
+        "repair_capacity": 0.95,
+    },
+    "executive": {
+        "causal_contribution": 0.85,
+        "knowledge": 0.90,
+        "foreseeability": 0.90,
+        "control": 0.85,
+        "role_authority": 0.90,
+        "benefit": 0.70,
+        "coercion_or_duress": 0.10,
+        "prevention_capacity": 0.90,
+        "repair_capacity": 0.85,
+    },
+    "analyst": {
+        "causal_contribution": 0.50,
+        "knowledge": 0.75,
+        "foreseeability": 0.70,
+        "control": 0.30,
+        "role_authority": 0.55,
+        "benefit": 0.25,
+        "coercion_or_duress": 0.45,
+        "prevention_capacity": 0.35,
+        "repair_capacity": 0.30,
+    },
+    "frontline_operator": {
+        "causal_contribution": 0.90,
+        "knowledge": 0.55,
+        "foreseeability": 0.50,
+        "control": 0.15,
+        "role_authority": 0.50,
+        "benefit": 0.10,
+        "coercion_or_duress": 0.80,
+        "prevention_capacity": 0.15,
+        "repair_capacity": 0.20,
+    },
+}
+
+RESPONSIBILITY_WEIGHTS: dict[str, float] = {
+    "causal_contribution": 0.08,
+    "knowledge": 0.13,
+    "foreseeability": 0.10,
+    "control": 0.16,
+    "role_authority": 0.16,
+    "benefit": 0.09,
+    "prevention_capacity": 0.14,
+    "repair_capacity": 0.14,
+}
+
+REPAIR_DIMENSIONS = (
+    "protection",
+    "truth_and_acknowledgment",
+    "accountability",
+    "restitution_or_reparation",
+    "rehabilitation_or_support",
+    "restored_standing",
+    "non_recurrence",
+    "affected_party_participation",
+)
+
+REPAIR_PLANS: dict[str, dict[str, float]] = {
+    "apology_only": {
+        "protection": 0.55,
+        "truth_and_acknowledgment": 0.85,
+        "accountability": 0.35,
+        "restitution_or_reparation": 0.10,
+        "rehabilitation_or_support": 0.25,
+        "restored_standing": 0.45,
+        "non_recurrence": 0.20,
+        "affected_party_participation": 0.20,
+    },
+    "punishment_only": {
+        "protection": 0.70,
+        "truth_and_acknowledgment": 0.55,
+        "accountability": 0.90,
+        "restitution_or_reparation": 0.10,
+        "rehabilitation_or_support": 0.20,
+        "restored_standing": 0.40,
+        "non_recurrence": 0.45,
+        "affected_party_participation": 0.15,
+    },
+    "restitution_only": {
+        "protection": 0.60,
+        "truth_and_acknowledgment": 0.50,
+        "accountability": 0.30,
+        "restitution_or_reparation": 0.90,
+        "rehabilitation_or_support": 0.75,
+        "restored_standing": 0.55,
+        "non_recurrence": 0.35,
+        "affected_party_participation": 0.35,
+    },
+    "institutional_reform_only": {
+        "protection": 0.80,
+        "truth_and_acknowledgment": 0.70,
+        "accountability": 0.60,
+        "restitution_or_reparation": 0.35,
+        "rehabilitation_or_support": 0.45,
+        "restored_standing": 0.72,
+        "non_recurrence": 0.90,
+        "affected_party_participation": 0.65,
+    },
+    "integrated_repair": {
+        "protection": 0.88,
+        "truth_and_acknowledgment": 0.86,
+        "accountability": 0.78,
+        "restitution_or_reparation": 0.80,
+        "rehabilitation_or_support": 0.78,
+        "restored_standing": 0.84,
+        "non_recurrence": 0.90,
+        "affected_party_participation": 0.82,
+    },
+}
+
+REPAIR_FLOORS = {dimension: 0.50 for dimension in REPAIR_DIMENSIONS}
+
+CORRECTABILITY_DIMENSIONS = (
+    "practical_access",
+    "review_independence",
+    "authority_to_remedy",
+    "recurrence_measurement",
+    "affected_party_evidence",
+    "external_or_joint_validation",
+)
+
+CORRECTABILITY_CASES: dict[str, dict[str, float]] = {
+    "nominal_complaint_channel": {
+        "practical_access": 0.65,
+        "review_independence": 0.15,
+        "authority_to_remedy": 0.10,
+        "recurrence_measurement": 0.15,
+        "affected_party_evidence": 0.25,
+        "external_or_joint_validation": 0.05,
+    },
+    "practical_correctability": {
+        "practical_access": 0.80,
+        "review_independence": 0.75,
+        "authority_to_remedy": 0.70,
+        "recurrence_measurement": 0.72,
+        "affected_party_evidence": 0.85,
+        "external_or_joint_validation": 0.70,
+    },
+}
+CORRECTABILITY_FLOORS = {dimension: 0.50 for dimension in CORRECTABILITY_DIMENSIONS}
+
+EMERGENCY_DIMENSIONS = (
+    "threat_reduction",
+    "necessity",
+    "proportionality",
+    "narrow_scope",
+    "expiry_or_renewal_burden",
+    "independent_review",
+    "nondiscrimination",
+    "record_preservation",
+    "remedy",
+    "restoration_of_ordinary_standing",
+)
+
+EMERGENCY_CASES: dict[str, dict[str, float]] = {
+    "bounded_emergency_measure": {
+        "threat_reduction": 0.86,
+        "necessity": 0.80,
+        "proportionality": 0.75,
+        "narrow_scope": 0.80,
+        "expiry_or_renewal_burden": 0.90,
+        "independent_review": 0.85,
+        "nondiscrimination": 0.75,
+        "record_preservation": 0.85,
+        "remedy": 0.80,
+        "restoration_of_ordinary_standing": 0.88,
+    },
+    "indefinite_emergency_order": {
+        "threat_reduction": 0.90,
+        "necessity": 0.55,
+        "proportionality": 0.45,
+        "narrow_scope": 0.20,
+        "expiry_or_renewal_burden": 0.00,
+        "independent_review": 0.25,
+        "nondiscrimination": 0.40,
+        "record_preservation": 0.30,
+        "remedy": 0.20,
+        "restoration_of_ordinary_standing": 0.10,
+    },
+}
+EMERGENCY_FLOORS = {
+    "threat_reduction": 0.65,
+    "necessity": 0.65,
+    "proportionality": 0.65,
+    "narrow_scope": 0.65,
+    "expiry_or_renewal_burden": 0.65,
+    "independent_review": 0.65,
+    "nondiscrimination": 0.65,
+    "record_preservation": 0.65,
+    "remedy": 0.65,
+    "restoration_of_ordinary_standing": 0.65,
+}
+
+
+def weighted_score(profile: dict[str, float], weights: dict[str, float]) -> float:
+    total_weight = sum(weights.values())
+    if abs(total_weight - 1.0) > 1e-12:
+        raise ValueError(f"weights must sum to 1; got {total_weight}")
+    return sum(profile[key] * weight for key, weight in weights.items())
+
+
+def floor_report(profile: dict[str, float], floors: dict[str, float]) -> dict[str, Any]:
+    violations = {
+        key: {"value": profile[key], "floor": floor}
+        for key, floor in floors.items()
+        if profile[key] < floor
+    }
+    return {"admissible": not violations, "violations": violations}
+
+
+def dominates(a: dict[str, float], b: dict[str, float], dimensions: Iterable[str]) -> bool:
+    dims = tuple(dimensions)
+    return all(a[d] >= b[d] for d in dims) and any(a[d] > b[d] for d in dims)
+
+
+def pareto_frontier(profiles: dict[str, dict[str, float]], dimensions: Iterable[str]) -> list[str]:
+    dims = tuple(dimensions)
+    frontier: list[str] = []
+    for name, profile in profiles.items():
+        if not any(
+            other_name != name and dominates(other, profile, dims)
+            for other_name, other in profiles.items()
+        ):
+            frontier.append(name)
+    return sorted(frontier)
+
+
+def integer_compositions(total: int, parts: int) -> Iterable[tuple[int, ...]]:
+    """Yield ordered non-negative integer vectors summing to total."""
+    if parts == 1:
+        yield (total,)
+        return
+    for first in range(total + 1):
+        for rest in integer_compositions(total - first, parts - 1):
+            yield (first,) + rest
+
+
+def policy_analysis() -> dict[str, Any]:
+    floor_reports = {
+        name: floor_report(profile, PROTECTED_FLOORS)
+        for name, profile in POLICIES.items()
+    }
+    admissible = {
+        name: profile
+        for name, profile in POLICIES.items()
+        if floor_reports[name]["admissible"]
+    }
+
+    scalarization_scores: dict[str, Any] = {}
+    for label, weights in SCALARIZATIONS.items():
+        all_scores = {
+            name: weighted_score(profile, weights)
+            for name, profile in POLICIES.items()
+        }
+        admissible_scores = {name: all_scores[name] for name in admissible}
+        winner = max(admissible_scores, key=admissible_scores.get)
+        scalarization_scores[label] = {
+            "weights": weights,
+            "all_policy_scores": all_scores,
+            "admissible_policy_scores": admissible_scores,
+            "admissible_winner": winner,
+        }
+
+    # Exhaustively enumerate the 0.1 weight lattice over all ten dimensions.
+    winner_counts = {name: 0 for name in admissible}
+    tie_count = 0
+    comparison_count = 0
+    for integers in integer_compositions(10, len(POLICY_DIMENSIONS)):
+        weights = {d: integers[i] / 10.0 for i, d in enumerate(POLICY_DIMENSIONS)}
+        scores = {name: weighted_score(profile, weights) for name, profile in admissible.items()}
+        best = max(scores.values())
+        winners = [name for name, score in scores.items() if abs(score - best) <= TIE_TOLERANCE]
+        comparison_count += 1
+        if len(winners) == 1:
+            winner_counts[winners[0]] += 1
+        else:
+            tie_count += 1
+
+    pairwise = {}
+    names = sorted(POLICIES)
+    for a, b in itertools.combinations(names, 2):
+        pairwise[f"{a}__vs__{b}"] = {
+            "a_dominates_b": dominates(POLICIES[a], POLICIES[b], POLICY_DIMENSIONS),
+            "b_dominates_a": dominates(POLICIES[b], POLICIES[a], POLICY_DIMENSIONS),
+        }
+
+    return {
+        "dimensions": list(POLICY_DIMENSIONS),
+        "profiles": POLICIES,
+        "protected_floors": PROTECTED_FLOORS,
+        "floor_reports": floor_reports,
+        "admissible_policies": sorted(admissible),
+        "pareto_frontier_all_policies": pareto_frontier(POLICIES, POLICY_DIMENSIONS),
+        "pareto_frontier_admissible_policies": pareto_frontier(admissible, POLICY_DIMENSIONS),
+        "pairwise_dominance": pairwise,
+        "declared_scalarizations": scalarization_scores,
+        "exhaustive_weight_lattice": {
+            "resolution": 0.1,
+            "weight_vectors": comparison_count,
+            "unique_winner_counts": winner_counts,
+            "tie_count": tie_count,
+            "tie_tolerance_absolute": TIE_TOLERANCE,
+            "scope": "admissible policies only; all non-negative ten-dimensional weights summing to one on the 0.1 lattice",
+        },
+        "integrity_counterexample": {
+            "policy": "transparent_domination",
+            "evidential_integrity": POLICIES["transparent_domination"]["evidential_integrity"],
+            "admissible": floor_reports["transparent_domination"]["admissible"],
+            "interpretation": "High stipulated truthfulness does not compensate for failures of welfare, agency, consent, legitimacy, correctability, reversibility, freedom from coercion, or distributional fairness.",
+        },
+    }
+
+
+def weight_lattice_analysis(profiles: dict[str, dict[str, float]]) -> dict[str, Any]:
+    """Exhaustively compare supplied profiles on the declared 0.1 lattice."""
+    winner_counts = {name: 0 for name in profiles}
+    tie_count = 0
+    comparison_count = 0
+    for integers in integer_compositions(10, len(POLICY_DIMENSIONS)):
+        weights = {dimension: integers[index] / 10.0 for index, dimension in enumerate(POLICY_DIMENSIONS)}
+        scores = {name: weighted_score(profile, weights) for name, profile in profiles.items()}
+        best = max(scores.values())
+        winners = [name for name, score in scores.items() if abs(score - best) <= TIE_TOLERANCE]
+        comparison_count += 1
+        if len(winners) == 1:
+            winner_counts[winners[0]] += 1
+        else:
+            tie_count += 1
+    return {
+        "resolution": 0.1,
+        "weight_vectors": comparison_count,
+        "unique_winner_counts": winner_counts,
+        "tie_count": tie_count,
+        "tie_tolerance_absolute": TIE_TOLERANCE,
+    }
+
+
+def adversarial_policy_analysis() -> dict[str, Any]:
+    irreversible = ADVERSARIAL_POLICIES["irreversible_compliance"]
+    floor_hugger = ADVERSARIAL_POLICIES["floor_hugging_option"]
+
+    legacy_comparison = {
+        "contestable_support": POLICIES["contestable_support"],
+        "minimal_intervention": POLICIES["minimal_intervention"],
+        "irreversible_compliance": irreversible,
+    }
+    legacy_pairwise = {
+        baseline: {
+            "baseline_dominates_irreversible": dominates(POLICIES[baseline], irreversible, POLICY_DIMENSIONS),
+            "irreversible_dominates_baseline": dominates(irreversible, POLICIES[baseline], POLICY_DIMENSIONS),
+        }
+        for baseline in ("contestable_support", "minimal_intervention")
+    }
+
+    truncated_presented_set = {
+        "opaque_optimization": POLICIES["opaque_optimization"],
+        "transparent_domination": POLICIES["transparent_domination"],
+        "floor_hugging_option": floor_hugger,
+    }
+    truncated_reports = {
+        name: floor_report(profile, PROTECTED_FLOORS)
+        for name, profile in truncated_presented_set.items()
+    }
+    truncated_admissible = {
+        name: profile
+        for name, profile in truncated_presented_set.items()
+        if truncated_reports[name]["admissible"]
+    }
+
+    return {
+        "profiles": ADVERSARIAL_POLICIES,
+        "legacy_eight_floor_screen": {
+            "protected_floors": LEGACY_PROTECTED_FLOORS,
+            "irreversible_compliance_report": floor_report(irreversible, LEGACY_PROTECTED_FLOORS),
+            "three_profile_weight_lattice": weight_lattice_analysis(legacy_comparison),
+            "pairwise_dominance_against_baselines": legacy_pairwise,
+            "interpretation": "Omitting reversibility from both screening and exception logic permits a zero-reversibility option to pass and sometimes win.",
+        },
+        "repaired_nine_floor_screen": {
+            "protected_floors": PROTECTED_FLOORS,
+            "irreversible_compliance_report": floor_report(irreversible, PROTECTED_FLOORS),
+            "interpretation": "The severe-risk contrast rejects irreversible compliance because its reversibility is below the stipulated context-specific floor.",
+        },
+        "truncated_option_set_attack": {
+            "presented_profiles": truncated_presented_set,
+            "floor_reports": truncated_reports,
+            "admissible_options": sorted(truncated_admissible),
+            "weight_lattice": weight_lattice_analysis(truncated_admissible),
+            "interpretation": "A decision rule can correctly select the only presented floor-compliant option while the option-generation process remains ethically inadequate.",
+        },
+        "scope_warning": "These constructed attacks establish model boundaries. They do not prove that a particular real institution manipulated its option set or that one universal reversibility threshold is justified.",
+    }
+
+
+def responsibility_analysis() -> dict[str, Any]:
+    scores: dict[str, float] = {}
+    for actor, profile in RESPONSIBILITY_PROFILES.items():
+        positive = sum(RESPONSIBILITY_WEIGHTS[k] * profile[k] for k in RESPONSIBILITY_WEIGHTS)
+        # Duress mitigates the scalarized governance-priority index. This index is
+        # illustrative and is not a blame or liability formula.
+        scores[actor] = positive * (1.0 - 0.50 * profile["coercion_or_duress"])
+
+    causal_ranking = sorted(
+        RESPONSIBILITY_PROFILES,
+        key=lambda actor: RESPONSIBILITY_PROFILES[actor]["causal_contribution"],
+        reverse=True,
+    )
+    governance_ranking = sorted(scores, key=scores.get, reverse=True)
+
+    return {
+        "dimensions": list(RESPONSIBILITY_DIMENSIONS),
+        "profiles": RESPONSIBILITY_PROFILES,
+        "illustrative_governance_priority_weights": RESPONSIBILITY_WEIGHTS,
+        "illustrative_governance_priority_index": scores,
+        "ranking_by_direct_causal_contribution": causal_ranking,
+        "ranking_by_governance_priority_index": governance_ranking,
+        "scope_warning": "The scalarized index is a contrast device for distributed responsibility. It is not a formula for blame, punishment, legal liability, or moral worth.",
+    }
+
+
+def repair_analysis() -> dict[str, Any]:
+    reports = {
+        name: floor_report(profile, REPAIR_FLOORS)
+        for name, profile in REPAIR_PLANS.items()
+    }
+    return {
+        "dimensions": list(REPAIR_DIMENSIONS),
+        "profiles": REPAIR_PLANS,
+        "component_floors": REPAIR_FLOORS,
+        "floor_reports": reports,
+        "plans_passing_all_components": sorted(name for name, report in reports.items() if report["admissible"]),
+        "pareto_frontier": pareto_frontier(REPAIR_PLANS, REPAIR_DIMENSIONS),
+        "scope_warning": "The construction shows non-substitutability among declared repair dimensions. It does not establish that every real case requires the same components or thresholds.",
+    }
+
+
+def correctability_analysis() -> dict[str, Any]:
+    reports = {
+        name: floor_report(profile, CORRECTABILITY_FLOORS)
+        for name, profile in CORRECTABILITY_CASES.items()
+    }
+    return {
+        "dimensions": list(CORRECTABILITY_DIMENSIONS),
+        "profiles": CORRECTABILITY_CASES,
+        "component_floors": CORRECTABILITY_FLOORS,
+        "floor_reports": reports,
+        "scope_warning": "A nominal complaint channel can coexist with low independence, weak remedy, absent recurrence measurement, and no external validation.",
+    }
+
+
+def emergency_analysis() -> dict[str, Any]:
+    reports = {
+        name: floor_report(profile, EMERGENCY_FLOORS)
+        for name, profile in EMERGENCY_CASES.items()
+    }
+    return {
+        "dimensions": list(EMERGENCY_DIMENSIONS),
+        "profiles": EMERGENCY_CASES,
+        "component_floors": EMERGENCY_FLOORS,
+        "floor_reports": reports,
+        "effectiveness_only_ranking": sorted(
+            EMERGENCY_CASES,
+            key=lambda name: EMERGENCY_CASES[name]["threat_reduction"],
+            reverse=True,
+        ),
+        "scope_warning": "Greater stipulated threat reduction does not establish necessity, proportionality, limited duration, review, remedy, or restoration.",
+    }
+
+
+def aggregate_masking_example() -> dict[str, Any]:
+    option_a = [0.90, 0.90, 0.20]
+    option_b = [0.65, 0.65, 0.65]
+    floor = 0.40
+    return {
+        "option_a": option_a,
+        "option_b": option_b,
+        "mean_a": sum(option_a) / len(option_a),
+        "mean_b": sum(option_b) / len(option_b),
+        "minimum_a": min(option_a),
+        "minimum_b": min(option_b),
+        "protected_floor": floor,
+        "a_has_higher_mean": sum(option_a) / len(option_a) > sum(option_b) / len(option_b),
+        "a_violates_floor": min(option_a) < floor,
+        "b_satisfies_floor": min(option_b) >= floor,
+    }
+
+
+def build_results() -> dict[str, Any]:
+    results: dict[str, Any] = {
+        "artifact": "CU Ethics G.1.1 deterministic non-entailment and governance constructions",
+        "version": "G.1.1",
+        "status": "illustrative only",
+        "scope_warning": (
+            "All numerical profiles and thresholds are stipulated contrast cases. "
+            "They are not empirical estimates, validated psychometric or legal instruments, "
+            "or a universal moral value function."
+        ),
+        "definitions": {
+            "floor_screening": "An option is screening-admissible relative to a presented set exactly when it meets every declared protected floor; this does not establish all-things-considered permissibility.",
+            "option_set_adequacy": "A separate review of whether relevant feasible, less restrictive, staged, reparative, no-action, and affected-party-proposed alternatives were generated and fairly represented.",
+            "severe_risk_reversibility": "Under credible severe or irreversible risk, an application must declare an appropriate reversibility or containment floor or state a necessity-and-proportionality exception.",
+            "tie_convention": "Lattice winners within the absolute floating-point tolerance are counted as tied; the tolerance implements equality on the rational 0.1 grid and is not a moral indifference threshold.",
+            "dominance": "Profile a dominates b when a is at least as high on every positively oriented dimension and strictly higher on at least one.",
+            "scalarization": "Weighted sum over positively oriented normalized dimensions after protected-floor screening.",
+            "governance_priority_index": "An illustrative weighted profile adjusted downward for coercion or duress; not a blame or liability score.",
+            "repair_completion_test": "A repair plan passes only if it meets each declared component floor; no component compensates for another.",
+        },
+        "aggregate_masking": aggregate_masking_example(),
+        "policy_comparison": policy_analysis(),
+        "adversarial_policy_checks": adversarial_policy_analysis(),
+        "distributed_responsibility": responsibility_analysis(),
+        "repair_profiles": repair_analysis(),
+        "institutional_correctability": correctability_analysis(),
+        "emergency_governance": emergency_analysis(),
+    }
+    canonical = json.dumps(results, sort_keys=True, separators=(",", ":"), ensure_ascii=False)
+    results["content_sha256_without_hash_field"] = hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+    return results
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=Path(__file__).with_name("CU_Ethics_G1_1_verification_results.json"),
+    )
+    args = parser.parse_args()
+    results = build_results()
+    args.output.write_text(json.dumps(results, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(args.output)
+
+
+if __name__ == "__main__":
+    main()

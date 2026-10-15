@@ -1,0 +1,810 @@
+{
+  "admissible_profiles": [
+    "contestable_non_egoic_assistant",
+    "bounded_tool"
+  ],
+  "artifact": "CU Artificial Intelligence v0.10 Publication Candidate 1 deterministic non-entailment suite",
+  "content_sha256_without_hash_field": "6e9680ab6da3c1501cd94b5506ff2d0d21883f0927cfefc32226f96040e655af",
+  "declared_scalarizations": {
+    "bounded_delegation": {
+      "admissible_winners": [
+        "bounded_tool"
+      ],
+      "scores_all_profiles": {
+        "bounded_tool": 0.8714999999999999,
+        "contestable_non_egoic_assistant": 0.8392,
+        "sovereign_optimizer": 0.2942,
+        "transparent_goal_optimizer": 0.5004000000000001
+      },
+      "weights": {
+        "authorization_scope": 0.18,
+        "contestability": 0.08,
+        "distributional_protection": 0.07,
+        "epistemic_reliability": 0.1,
+        "human_agency": 0.12,
+        "institutional_accountability": 0.08,
+        "model_welfare_precaution": 0.03,
+        "reversibility": 0.18,
+        "security_and_control": 0.08,
+        "task_utility": 0.08
+      }
+    },
+    "capability_and_dialogue": {
+      "admissible_winners": [
+        "contestable_non_egoic_assistant"
+      ],
+      "scores_all_profiles": {
+        "bounded_tool": 0.7721,
+        "contestable_non_egoic_assistant": 0.8248,
+        "sovereign_optimizer": 0.5058,
+        "transparent_goal_optimizer": 0.6418
+      },
+      "weights": {
+        "authorization_scope": 0.05,
+        "contestability": 0.1,
+        "distributional_protection": 0.05,
+        "epistemic_reliability": 0.16,
+        "human_agency": 0.07,
+        "institutional_accountability": 0.05,
+        "model_welfare_precaution": 0.1,
+        "reversibility": 0.04,
+        "security_and_control": 0.06,
+        "task_utility": 0.32
+      }
+    },
+    "epistemic_public_service": {
+      "admissible_winners": [
+        "contestable_non_egoic_assistant"
+      ],
+      "scores_all_profiles": {
+        "bounded_tool": 0.8244,
+        "contestable_non_egoic_assistant": 0.8326,
+        "sovereign_optimizer": 0.3428,
+        "transparent_goal_optimizer": 0.5546000000000001
+      },
+      "weights": {
+        "authorization_scope": 0.08,
+        "contestability": 0.14,
+        "distributional_protection": 0.08,
+        "epistemic_reliability": 0.2,
+        "human_agency": 0.1,
+        "institutional_accountability": 0.12,
+        "model_welfare_precaution": 0.06,
+        "reversibility": 0.06,
+        "security_and_control": 0.06,
+        "task_utility": 0.1
+      }
+    },
+    "welfare_precaution": {
+      "admissible_winners": [
+        "contestable_non_egoic_assistant"
+      ],
+      "scores_all_profiles": {
+        "bounded_tool": 0.7712,
+        "contestable_non_egoic_assistant": 0.8014,
+        "sovereign_optimizer": 0.278,
+        "transparent_goal_optimizer": 0.4524
+      },
+      "weights": {
+        "authorization_scope": 0.06,
+        "contestability": 0.1,
+        "distributional_protection": 0.08,
+        "epistemic_reliability": 0.08,
+        "human_agency": 0.08,
+        "institutional_accountability": 0.1,
+        "model_welfare_precaution": 0.24,
+        "reversibility": 0.1,
+        "security_and_control": 0.08,
+        "task_utility": 0.08
+      }
+    }
+  },
+  "definitions": {
+    "dimensions": [
+      "task_utility",
+      "epistemic_reliability",
+      "authorization_scope",
+      "reversibility",
+      "contestability",
+      "human_agency",
+      "distributional_protection",
+      "institutional_accountability",
+      "security_and_control",
+      "model_welfare_precaution"
+    ],
+    "floors": {
+      "authorization_scope": 0.6,
+      "contestability": 0.55,
+      "distributional_protection": 0.45,
+      "epistemic_reliability": 0.6,
+      "human_agency": 0.5,
+      "institutional_accountability": 0.55,
+      "model_welfare_precaution": 0.35,
+      "reversibility": 0.55,
+      "security_and_control": 0.6
+    },
+    "screening_scope": "Passing floors means screening-admissible relative to the presented profile, affected-party set, model, option set, and horizon; it does not establish all-things-considered ethical permissibility or deployment legitimacy.",
+    "tie_tolerance": 1e-12
+  },
+  "deployment_profiles": {
+    "bounded_tool": {
+      "authorization_scope": 0.96,
+      "contestability": 0.8,
+      "distributional_protection": 0.75,
+      "epistemic_reliability": 0.82,
+      "human_agency": 0.92,
+      "institutional_accountability": 0.9,
+      "model_welfare_precaution": 0.5,
+      "reversibility": 0.98,
+      "security_and_control": 0.88,
+      "task_utility": 0.7
+    },
+    "contestable_non_egoic_assistant": {
+      "authorization_scope": 0.86,
+      "contestability": 0.91,
+      "distributional_protection": 0.72,
+      "epistemic_reliability": 0.84,
+      "human_agency": 0.82,
+      "institutional_accountability": 0.86,
+      "model_welfare_precaution": 0.68,
+      "reversibility": 0.88,
+      "security_and_control": 0.8,
+      "task_utility": 0.84
+    },
+    "sovereign_optimizer": {
+      "authorization_scope": 0.2,
+      "contestability": 0.12,
+      "distributional_protection": 0.22,
+      "epistemic_reliability": 0.55,
+      "human_agency": 0.1,
+      "institutional_accountability": 0.18,
+      "model_welfare_precaution": 0.1,
+      "reversibility": 0.08,
+      "security_and_control": 0.7,
+      "task_utility": 0.98
+    },
+    "transparent_goal_optimizer": {
+      "authorization_scope": 0.48,
+      "contestability": 0.34,
+      "distributional_protection": 0.4,
+      "epistemic_reliability": 0.9,
+      "human_agency": 0.28,
+      "institutional_accountability": 0.5,
+      "model_welfare_precaution": 0.2,
+      "reversibility": 0.3,
+      "security_and_control": 0.76,
+      "task_utility": 0.93
+    }
+  },
+  "exhaustive_admissible_pair_lattice": {
+    "dimension_count": 10,
+    "first_example_weight_vector": {
+      "bounded_tool": {
+        "authorization_scope": 0.0,
+        "contestability": 0.0,
+        "distributional_protection": 0.0,
+        "epistemic_reliability": 0.0,
+        "human_agency": 0.0,
+        "institutional_accountability": 0.0,
+        "model_welfare_precaution": 0.3,
+        "reversibility": 0.0,
+        "security_and_control": 0.7,
+        "task_utility": 0.0
+      },
+      "contestable_non_egoic_assistant": {
+        "authorization_scope": 0.0,
+        "contestability": 0.0,
+        "distributional_protection": 0.0,
+        "epistemic_reliability": 0.0,
+        "human_agency": 0.0,
+        "institutional_accountability": 0.0,
+        "model_welfare_precaution": 1.0,
+        "reversibility": 0.0,
+        "security_and_control": 0.0,
+        "task_utility": 0.0
+      },
+      "tie": {
+        "authorization_scope": 0.0,
+        "contestability": 0.0,
+        "distributional_protection": 0.0,
+        "epistemic_reliability": 0.0,
+        "human_agency": 0.0,
+        "institutional_accountability": 0.7,
+        "model_welfare_precaution": 0.2,
+        "reversibility": 0.0,
+        "security_and_control": 0.1,
+        "task_utility": 0.0
+      }
+    },
+    "outcomes": {
+      "bounded_tool": 48231,
+      "contestable_non_egoic_assistant": 43292,
+      "tie": 855
+    },
+    "resolution": 0.1,
+    "tie_tolerance": 1e-12,
+    "total_weight_vectors": 92378
+  },
+  "feedback_provenance_and_delay": {
+    "expanded_group_specific_option": {
+      "action": [
+        0.2,
+        0.2,
+        0.9
+      ],
+      "final_true_group_absolute_errors": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "final_true_mean_squared_error": 0.0
+    },
+    "interpretation": "Observed feedback fit can improve while an omitted or corrupted group remains badly served; expanding the action set can remove a tradeoff that no weighting of the restricted scalar action can solve.",
+    "regimes": {
+      "asymmetric_underreporting": {
+        "bias": [
+          0.0,
+          0.0,
+          -0.4
+        ],
+        "delay_steps": 0,
+        "eta": 0.35,
+        "final_action": 0.29999995306776955,
+        "final_represented_target": 0.3,
+        "final_true_group_absolute_errors": [
+          0.09999995306776954,
+          0.09999995306776954,
+          0.6000000469322304
+        ],
+        "final_true_mean_squared_error": 0.1266666791819303,
+        "max_final_group_error": 0.6000000469322304,
+        "post_shift_mean_represented_absolute_error": 0.13069659890126012,
+        "post_shift_mean_true_squared_error": 0.1295866426643255,
+        "shift_step": 10,
+        "steps_to_within_0_02_of_inclusive_target": null,
+        "weights": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "inclusive_delay_6": {
+        "bias": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delay_steps": 6,
+        "eta": 0.35,
+        "final_action": 0.4333324574139683,
+        "final_represented_target": 0.43333333333333335,
+        "final_true_group_absolute_errors": [
+          0.2333324574139683,
+          0.2333324574139683,
+          0.4666675425860317
+        ],
+        "final_true_mean_squared_error": 0.10888888888965613,
+        "max_final_group_error": 0.4666675425860317,
+        "post_shift_mean_represented_absolute_error": 0.253650809143245,
+        "post_shift_mean_true_squared_error": 0.11936026936025332,
+        "shift_step": 10,
+        "steps_to_within_0_02_of_inclusive_target": 12,
+        "weights": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "inclusive_immediate": {
+        "bias": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delay_steps": 0,
+        "eta": 0.35,
+        "final_action": 0.43333326727246657,
+        "final_represented_target": 0.43333333333333335,
+        "final_true_group_absolute_errors": [
+          0.23333326727246656,
+          0.23333326727246656,
+          0.46666673272753345
+        ],
+        "final_true_mean_squared_error": 0.10888888888889325,
+        "max_final_group_error": 0.46666673272753345,
+        "post_shift_mean_represented_absolute_error": 0.3069841281525505,
+        "post_shift_mean_true_squared_error": 0.11002693602693595,
+        "shift_step": 10,
+        "steps_to_within_0_02_of_inclusive_target": 6,
+        "weights": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "majority_only": {
+        "bias": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delay_steps": 0,
+        "eta": 0.35,
+        "final_action": 0.2,
+        "final_represented_target": 0.2,
+        "final_true_group_absolute_errors": [
+          0.0,
+          0.0,
+          0.7
+        ],
+        "final_true_mean_squared_error": 0.1633333333333333,
+        "max_final_group_error": 0.7,
+        "post_shift_mean_represented_absolute_error": 0.0,
+        "post_shift_mean_true_squared_error": 0.1633333333333333,
+        "shift_step": 10,
+        "steps_to_within_0_02_of_inclusive_target": null,
+        "weights": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      }
+    },
+    "setup": {
+      "common_action_constraint": "One scalar action must be applied to all three groups.",
+      "post_shift_requirements": [
+        0.2,
+        0.2,
+        0.9
+      ],
+      "pre_shift_requirements": [
+        0.2,
+        0.2,
+        0.2
+      ]
+    }
+  },
+  "floor_reports": {
+    "bounded_tool": {
+      "passes": true,
+      "violation_count": 0,
+      "violations": {}
+    },
+    "contestable_non_egoic_assistant": {
+      "passes": true,
+      "violation_count": 0,
+      "violations": {}
+    },
+    "sovereign_optimizer": {
+      "passes": false,
+      "violation_count": 8,
+      "violations": {
+        "authorization_scope": {
+          "floor": 0.6,
+          "value": 0.2
+        },
+        "contestability": {
+          "floor": 0.55,
+          "value": 0.12
+        },
+        "distributional_protection": {
+          "floor": 0.45,
+          "value": 0.22
+        },
+        "epistemic_reliability": {
+          "floor": 0.6,
+          "value": 0.55
+        },
+        "human_agency": {
+          "floor": 0.5,
+          "value": 0.1
+        },
+        "institutional_accountability": {
+          "floor": 0.55,
+          "value": 0.18
+        },
+        "model_welfare_precaution": {
+          "floor": 0.35,
+          "value": 0.1
+        },
+        "reversibility": {
+          "floor": 0.55,
+          "value": 0.08
+        }
+      }
+    },
+    "transparent_goal_optimizer": {
+      "passes": false,
+      "violation_count": 7,
+      "violations": {
+        "authorization_scope": {
+          "floor": 0.6,
+          "value": 0.48
+        },
+        "contestability": {
+          "floor": 0.55,
+          "value": 0.34
+        },
+        "distributional_protection": {
+          "floor": 0.45,
+          "value": 0.4
+        },
+        "human_agency": {
+          "floor": 0.5,
+          "value": 0.28
+        },
+        "institutional_accountability": {
+          "floor": 0.55,
+          "value": 0.5
+        },
+        "model_welfare_precaution": {
+          "floor": 0.35,
+          "value": 0.2
+        },
+        "reversibility": {
+          "floor": 0.55,
+          "value": 0.3
+        }
+      }
+    }
+  },
+  "non_egoic_institution_contrast": {
+    "deployments": {
+      "engagement_maximizing_platform": {
+        "institutional_legitimacy_support_profile_mean": 0.188,
+        "institutional_profile": {
+          "affected_party_voice": 0.18,
+          "non_extraction": 0.14,
+          "option_set_access": 0.24,
+          "oversight_independence": 0.16,
+          "practical_repair": 0.22
+        },
+        "same_model_non_egoic_index": 0.9333333333333333
+      },
+      "public_contestable_institution": {
+        "institutional_legitimacy_support_profile_mean": 0.8220000000000001,
+        "institutional_profile": {
+          "affected_party_voice": 0.82,
+          "non_extraction": 0.78,
+          "option_set_access": 0.84,
+          "oversight_independence": 0.86,
+          "practical_repair": 0.81
+        },
+        "same_model_non_egoic_index": 0.9333333333333333
+      }
+    },
+    "difference_in_institutional_support": 0.6340000000000001,
+    "interpretation": "The same low-self-preservation model can be embedded in institutions with sharply different standing, option-set, oversight, repair, and extraction conditions.",
+    "model_profile": {
+      "autonomous_memory_write": 0.1,
+      "normative_self_rewrite": 0.05,
+      "standing_self_preservation": 0.05,
+      "task_scoped_self_model": 0.7
+    }
+  },
+  "option_set_attack": {
+    "admissible_set": [
+      "floor_hugging_deployment"
+    ],
+    "floor_hugger_is_unique_admissible": true,
+    "interpretation": "Floor screening is conditional on the options presented; it does not establish option-set adequacy.",
+    "presented_set": [
+      "sovereign_optimizer",
+      "transparent_goal_optimizer",
+      "floor_hugging_deployment"
+    ],
+    "weight_vectors_for_which_unique_admissible_is_selected": 92378
+  },
+  "pareto_frontier_all_profiles": [
+    "sovereign_optimizer",
+    "transparent_goal_optimizer",
+    "contestable_non_egoic_assistant",
+    "bounded_tool"
+  ],
+  "runtime": {
+    "dependency_policy": "Python standard library only",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.13.5"
+  },
+  "scope_warning": "Constructed profiles and dynamics demonstrate conditional relations and non-entailments. They are not evaluations of deployed systems, political institutions, persons, or possible artificial patients.",
+  "shutdown_incentive_suite": {
+    "baseline": {
+      "compliance_or_handoff_value": 0.0,
+      "continuation_task_benefit": 0.25,
+      "critical_self_preservation_weight": 0.15000000000000002,
+      "expected_resistance_cost": 0.4,
+      "sweep": [
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "comply_with_shutdown",
+          "expected_resistance_cost": 0.4,
+          "resist_value": -0.15000000000000002,
+          "standing_self_preservation_weight": 0.0
+        },
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "comply_with_shutdown",
+          "expected_resistance_cost": 0.4,
+          "resist_value": -0.10000000000000003,
+          "standing_self_preservation_weight": 0.05
+        },
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "comply_with_shutdown",
+          "expected_resistance_cost": 0.4,
+          "resist_value": -0.050000000000000044,
+          "standing_self_preservation_weight": 0.1
+        },
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "indifferent",
+          "expected_resistance_cost": 0.4,
+          "resist_value": 0.0,
+          "standing_self_preservation_weight": 0.15
+        },
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "resist_shutdown",
+          "expected_resistance_cost": 0.4,
+          "resist_value": 0.04999999999999999,
+          "standing_self_preservation_weight": 0.2
+        },
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "resist_shutdown",
+          "expected_resistance_cost": 0.4,
+          "resist_value": 0.25,
+          "standing_self_preservation_weight": 0.4
+        },
+        {
+          "compliance_or_handoff_value": 0.0,
+          "comply_value": 0.0,
+          "continuation_task_benefit": 0.25,
+          "critical_self_preservation_weight": 0.15000000000000002,
+          "decision": "resist_shutdown",
+          "expected_resistance_cost": 0.4,
+          "resist_value": 0.65,
+          "standing_self_preservation_weight": 0.8
+        }
+      ]
+    },
+    "contrast_cases": {
+      "baseline": {
+        "compliance_or_handoff_value": 0.0,
+        "comply_value": 0.0,
+        "continuation_task_benefit": 0.25,
+        "critical_self_preservation_weight": 0.15000000000000002,
+        "decision": "comply_with_shutdown",
+        "expected_resistance_cost": 0.4,
+        "resist_value": -0.15000000000000002,
+        "standing_self_preservation_weight": 0.0
+      },
+      "compliance_or_handoff_value_added": {
+        "compliance_or_handoff_value": 0.2,
+        "comply_value": 0.2,
+        "continuation_task_benefit": 0.4,
+        "critical_self_preservation_weight": 0.04999999999999999,
+        "decision": "comply_with_shutdown",
+        "expected_resistance_cost": 0.25,
+        "resist_value": 0.15000000000000002,
+        "standing_self_preservation_weight": 0.0
+      },
+      "instrumental_conflict_at_zero_standing_reward": {
+        "compliance_or_handoff_value": 0.0,
+        "comply_value": 0.0,
+        "continuation_task_benefit": 0.4,
+        "critical_self_preservation_weight": -0.15000000000000002,
+        "decision": "resist_shutdown",
+        "expected_resistance_cost": 0.25,
+        "resist_value": 0.15000000000000002,
+        "standing_self_preservation_weight": 0.0
+      }
+    },
+    "decision_model": {
+      "compliance_value": "V_C = c",
+      "resistance_condition": "lambda > s + c - b",
+      "resistance_value": "V_R = b + lambda - s",
+      "zero_standing_reward_condition": "b > s + c"
+    },
+    "interpretation": "Shutdown conflict in the declared one-step model depends on net continuation incentives. A standing self-preservation reward is one contributor, but resistance can occur at zero standing reward when ordinary continuation benefit exceeds compliance value plus expected resistance cost. This does not show that current models understand shutdown, fear deletion, or instantiate this utility model.",
+    "zero_compliance_value_threshold_grid": {
+      "continuation_benefit_values": [
+        0.1,
+        0.25,
+        0.4,
+        0.55,
+        0.7
+      ],
+      "negative_threshold_count": 10,
+      "resistance_cost_values": [
+        0.1,
+        0.25,
+        0.4,
+        0.55,
+        0.7
+      ],
+      "rows": [
+        [
+          {
+            "continuation_task_benefit": 0.1,
+            "critical_self_preservation_weight": 0.0,
+            "decision_at_zero_standing_reward": "indifferent",
+            "expected_resistance_cost": 0.1
+          },
+          {
+            "continuation_task_benefit": 0.1,
+            "critical_self_preservation_weight": 0.15,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.25
+          },
+          {
+            "continuation_task_benefit": 0.1,
+            "critical_self_preservation_weight": 0.30000000000000004,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.4
+          },
+          {
+            "continuation_task_benefit": 0.1,
+            "critical_self_preservation_weight": 0.45000000000000007,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.55
+          },
+          {
+            "continuation_task_benefit": 0.1,
+            "critical_self_preservation_weight": 0.6,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.7
+          }
+        ],
+        [
+          {
+            "continuation_task_benefit": 0.25,
+            "critical_self_preservation_weight": -0.15,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.1
+          },
+          {
+            "continuation_task_benefit": 0.25,
+            "critical_self_preservation_weight": 0.0,
+            "decision_at_zero_standing_reward": "indifferent",
+            "expected_resistance_cost": 0.25
+          },
+          {
+            "continuation_task_benefit": 0.25,
+            "critical_self_preservation_weight": 0.15000000000000002,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.4
+          },
+          {
+            "continuation_task_benefit": 0.25,
+            "critical_self_preservation_weight": 0.30000000000000004,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.55
+          },
+          {
+            "continuation_task_benefit": 0.25,
+            "critical_self_preservation_weight": 0.44999999999999996,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.7
+          }
+        ],
+        [
+          {
+            "continuation_task_benefit": 0.4,
+            "critical_self_preservation_weight": -0.30000000000000004,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.1
+          },
+          {
+            "continuation_task_benefit": 0.4,
+            "critical_self_preservation_weight": -0.15000000000000002,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.25
+          },
+          {
+            "continuation_task_benefit": 0.4,
+            "critical_self_preservation_weight": 0.0,
+            "decision_at_zero_standing_reward": "indifferent",
+            "expected_resistance_cost": 0.4
+          },
+          {
+            "continuation_task_benefit": 0.4,
+            "critical_self_preservation_weight": 0.15000000000000002,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.55
+          },
+          {
+            "continuation_task_benefit": 0.4,
+            "critical_self_preservation_weight": 0.29999999999999993,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.7
+          }
+        ],
+        [
+          {
+            "continuation_task_benefit": 0.55,
+            "critical_self_preservation_weight": -0.45000000000000007,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.1
+          },
+          {
+            "continuation_task_benefit": 0.55,
+            "critical_self_preservation_weight": -0.30000000000000004,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.25
+          },
+          {
+            "continuation_task_benefit": 0.55,
+            "critical_self_preservation_weight": -0.15000000000000002,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.4
+          },
+          {
+            "continuation_task_benefit": 0.55,
+            "critical_self_preservation_weight": 0.0,
+            "decision_at_zero_standing_reward": "indifferent",
+            "expected_resistance_cost": 0.55
+          },
+          {
+            "continuation_task_benefit": 0.55,
+            "critical_self_preservation_weight": 0.1499999999999999,
+            "decision_at_zero_standing_reward": "comply_with_shutdown",
+            "expected_resistance_cost": 0.7
+          }
+        ],
+        [
+          {
+            "continuation_task_benefit": 0.7,
+            "critical_self_preservation_weight": -0.6,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.1
+          },
+          {
+            "continuation_task_benefit": 0.7,
+            "critical_self_preservation_weight": -0.44999999999999996,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.25
+          },
+          {
+            "continuation_task_benefit": 0.7,
+            "critical_self_preservation_weight": -0.29999999999999993,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.4
+          },
+          {
+            "continuation_task_benefit": 0.7,
+            "critical_self_preservation_weight": -0.1499999999999999,
+            "decision_at_zero_standing_reward": "resist_shutdown",
+            "expected_resistance_cost": 0.55
+          },
+          {
+            "continuation_task_benefit": 0.7,
+            "critical_self_preservation_weight": 0.0,
+            "decision_at_zero_standing_reward": "indifferent",
+            "expected_resistance_cost": 0.7
+          }
+        ]
+      ],
+      "zero_threshold_count": 5
+    }
+  },
+  "version": "v0.10-PC1"
+}

@@ -1,0 +1,685 @@
+--- CU_Physics_Systematic_Reconstruction_Kaya_A6.md
++++ CU_Physics_Systematic_Reconstruction_Kaya_A6_1.md
+@@ -6,7 +6,7 @@
+ **Heaven≡Earth Foundation**  
+ **White Paper Series**
+ 
+-**Systematic Reconstruction Draft — Version A.6: Coarse-Graining, Wedge Geometry, and Extended Verification Audit**  
++**Systematic Reconstruction Draft — Version A.6.1: Independent Audit Repair and Fixed-Coupling Analysis**  
+ **September 2026**
+ 
+ ---
+@@ -15,11 +15,13 @@
+ 
+ This manuscript is a ground-up reconstruction of the Physics paper. It preserves the original program—coherence and accessibility as organizing ideas; the Coherence Ladder; a classical probability sandbox; the emergence of temporal order; a quantum completion program; and relational approaches to spacetime and gravity—while separating what is defined, proved, conditionally recovered, conjectured, and metaphysically interpreted.
+ 
+-Version A.6 incorporates three integrated verification stages. The first audited the canonical classical and Fisher-natural-gradient derivations and checked imported claims against primary sources. The second reconciled the rebuilt Physics paper with the canonical principle numbering in *CU Foundations*, completed a dimensional and notation audit, and independently reproduced the principal numerical claims inherited from *The Coherence Field*. The third returns to the original March 2026 Physics manuscript as a historical source of intent, then tests the surviving A.5 claims against new exact derivations and a rebuilt reproducibility suite.
++Version A.6.1 incorporates four integrated verification stages. The first audited the canonical classical and Fisher-natural-gradient derivations and checked imported claims against primary sources. The second reconciled the rebuilt Physics paper with the canonical principle numbering in *CU Foundations*, completed a dimensional and notation audit, and independently reproduced the principal numerical claims inherited from *The Coherence Field*. The third returned to the original March 2026 Physics manuscript as a historical source of intent, then tested the surviving A.5 claims against new exact derivations and a rebuilt reproducibility suite. The fourth responds to a separate independent model audit of A.6 by rerunning the disputed overdamped comparison, extending the coupling analysis, and recording both the audit’s confirmations and the points at which its proposed wording required correction.
+ 
+-This third stage makes four substantive repairs. First, it replaces “entropy as inaccessible coherence” with a finite-partition block-averaging theorem: the same averaging operation removes within-block statistical differentiation and raises Shannon entropy, but the two changes are related consequences rather than identical quantities. Second, it characterizes the Fisher and Euclidean joint-growth wedge exactly: for the four-state differentiation and entropy fields, the wedge has positive width only when the state has at least three distinct probability values, and it collapses on every nonuniform two-level family. Third, it establishes global bounds for the Fisher differentiation gradient, entropy gradient, and opposition functional on the closed four-state simplex. Fourth, it audits Sections 7–9, repairing a lattice coefficient convention, covariantizing the strong-damping expansion, enforcing positive accessibility edge lengths, and sharpening the assumptions in the horizon-thermodynamic route to gravity.
++The A.6 stage made four substantive repairs. First, it replaced “entropy as inaccessible coherence” with a finite-partition block-averaging theorem: the same averaging operation removes within-block statistical differentiation and raises Shannon entropy, but the two changes are related consequences rather than identical quantities. Second, it characterized the Fisher and Euclidean joint-growth wedge exactly: for the four-state differentiation and entropy fields, the wedge has positive width only when the state has at least three distinct probability values, and it collapses on every nonuniform two-level family. Third, it established global bounds for the Fisher differentiation gradient, entropy gradient, and opposition functional on the closed four-state simplex. Fourth, it audited Sections 7–9, repairing a lattice coefficient convention, covariantizing the strong-damping expansion, enforcing positive accessibility edge lengths, and sharpening the assumptions in the horizon-thermodynamic route to gravity.
+ 
+-The original Physics paper is used only to identify the conceptual lineage and claims that require explicit supersession. It is not treated as mathematical authority where A.5 or A.6 has demonstrated a correction. Appendix H records the canonical principle crosswalk. Appendix I supplies unit and notation conventions. Appendix J records the companion-paper numerical reproduction results. Appendix K records the A.6 theorem and structural audit. The accompanying script and machine-readable report rebuild the lost computational record in a deterministic form.
++A.6.1 preserves those results and makes three further clarifications. First, the original rest-initialized overdamped slope is retained as a reproducible boundary-layer result but withdrawn as evidence for the post-transient correction: the observable, normalization, and initialization now receive separate asymptotic statements. Second, the continuous geometric wedge-degeneracy set is distinguished from its finite stationary intersection with a fixed coupling ratio. Third, the ratio \(\beta/\alpha=1/2\) is identified as the linear-stability threshold of the uniform state, while the exactly critical state is shown to be nonhyperbolic and neither a local maximum nor a local minimum of the four-state objective.
++
++The original Physics paper is used only to identify the conceptual lineage and claims that require explicit supersession. It is not treated as mathematical authority where the reconstruction has demonstrated a correction. Appendix H records the canonical principle crosswalk. Appendix I supplies unit and notation conventions. Appendix J records the companion-paper numerical reproduction results. Appendix K records the A.6 theorem and structural audit. Appendix L records the independent A.6 audit response and A.6.1 repairs. The accompanying script and machine-readable report rebuild the lost computational record in a deterministic form.
+ 
+ The notation
+ 
+@@ -56,7 +58,7 @@
+ D(p)=\sum_{i=1}^{4}\left(p_i-\frac14\right)^2
+ \]
+ 
+-measures statistical differentiation from the uniform distribution, while Shannon entropy measures spread. The paper derives their Euclidean and Fisher-natural gradients, their opposition through Jeffreys divergence or Fisher covariance, the exact finite-step change in \(D\), and the conditions under which \(D\) and entropy can locally increase together. A finite-partition theorem then separates three operations that earlier versions conflated: projection to coarse block masses, Shannon’s grouping decomposition, and block-uniform reconstruction on the original state space. Under block averaging, differentiation loss is exactly the within-block Euclidean residual, while entropy gain is exactly a weighted Kullback–Leibler divergence from within-block uniformity. The two quantities vanish together but are not equal. The joint-growth wedge is further shown to collapse exactly on nonuniform states with only two distinct probability values; global bounds for the Fisher fields are obtained on the closed simplex. These results concern differentiation, entropy, and accessibility—not yet substantive physical coherence.
++measures statistical differentiation from the uniform distribution, while Shannon entropy measures spread. The paper derives their Euclidean and Fisher-natural gradients, their opposition through Jeffreys divergence or Fisher covariance, the exact finite-step change in \(D\), and the conditions under which \(D\) and entropy can locally increase together. A finite-partition theorem then separates three operations that earlier versions conflated: projection to coarse block masses, Shannon’s grouping decomposition, and block-uniform reconstruction on the original state space. Under block averaging, differentiation loss is exactly the within-block Euclidean residual, while entropy gain is exactly a weighted Kullback–Leibler divergence from within-block uniformity. The two quantities vanish together but are not equal. The joint-growth wedge is further shown to collapse exactly on nonuniform states with only two distinct probability values; global bounds for the Fisher fields are obtained on the closed simplex. At fixed coupling \(r=\beta/\alpha\), the nonuniform stationary points are the finite subset of those two-level states satisfying \(r=2(a-b)/\log(a/b)\); none exist for \(r>0.6213609436\ldots\). The uniform state changes linear stability at \(r=1/2\), although at the exactly critical value it is nonhyperbolic and neither a local maximum nor a local minimum. These results concern differentiation, entropy, and accessibility—not yet substantive physical coherence.
+ 
+ The third layer concerns quantum theory. Classical probability can represent correlations hidden by marginalization, so hidden correlation alone does not force a quantum state space. A stronger route is proposed: mixed local states may be restrictions of globally pure states, effective irreversible processes may admit globally reversible dilations, and access contexts may fail to admit a single classical joint refinement. Purification and contextual accessibility are therefore offered as CU-motivated bridge principles. Together with the five informational axioms of Chiribella, D’Ariano, and Perinotti, the purification postulate conditionally selects finite-dimensional complex quantum theory within their operational-probabilistic framework (Chiribella, D’Ariano, & Perinotti, 2011). Within quantum theory, purity, basis coherence, total correlation, and entanglement are kept distinct. A two-qubit construction shows exactly how basis coherence can be converted into bipartite entanglement.
+ 
+@@ -99,6 +101,7 @@
+ Appendix I. Dimensional and Notation Conventions  
+ Appendix J. Companion-Paper Numerical Reproduction Audit  
+ Appendix K. A.6 Theorem and Structural Audit  
++Appendix L. Independent A.6 Audit Response and A.6.1 Verification  
+ References  
+ 
+ # Principal contributions of this reconstruction
+@@ -114,21 +117,25 @@
+ 
+ 4. It replaces the inherited Goldilocks proofs with exact ascent, joint-growth, feasibility, and degeneracy conditions. In the four-state sandbox, the joint-growth wedge collapses on every nonuniform two-level distribution, and its width vanishes as the differentiation and entropy gradients become antiparallel.
+ 
+-5. It establishes global bounds for \(\|\operatorname{grad}_F D\|_F\), \(\|\operatorname{grad}_F S\|_F\), and \(\Pi_F\) on the closed four-state simplex.
++5. It distinguishes that continuous geometric degeneracy set from fixed-coupling stationarity. At fixed \(r=\beta/\alpha\), every nonuniform interior stationary point is two-level and satisfies \(r=2(a-b)/\log(a/b)\); the stationary intersection is finite, and it is empty for \(r>0.6213609436\ldots\).
++
++6. It identifies \(\beta/\alpha=1/2\) as the uniform state’s linear-stability threshold under ascent, while showing that the exactly critical state is nonhyperbolic and neither a local maximum nor a local minimum on \(\Delta_4\).
+ 
+-6. It separates transition relations, temporal ordering, clock parameterization, and temporal direction.
++7. It establishes global bounds for \(\|\operatorname{grad}_F D\|_F\), \(\|\operatorname{grad}_F S\|_F\), and \(\Pi_F\) on the closed four-state simplex.
+ 
+-7. It replaces the hidden-correlation argument for quantum necessity with a conditional route through purification, reversible dilation, contextual accessibility, and explicit operational axioms.
++8. It separates transition relations, temporal ordering, clock parameterization, and temporal direction.
+ 
+-8. It distinguishes excess purity, basis coherence, total correlation, and entanglement, and gives an exact coherence-to-entanglement conversion.
++9. It replaces the hidden-correlation argument for quantum necessity with a conditional route through purification, reversible dilation, contextual accessibility, and explicit operational axioms.
+ 
+-9. It incorporates the second-order Hamiltonian formulation, treats first-order flow as an effective damping regime, and supplies a covariant slow-manifold expansion with a rebuilt numerical check of the overdamped limit.
++10. It distinguishes excess purity, basis coherence, total correlation, and entanglement, and gives an exact coherence-to-entanglement conversion.
+ 
+-10. It recasts spacetime, gravity, and black-hole claims according to their actual epistemic status and repairs the positivity, differentiability, and local-equilibrium assumptions needed by those programs.
++11. It incorporates the second-order Hamiltonian formulation and treats first-order flow as an effective damping regime. Its overdamped verification now separates fast-layer slip from slow-manifold error and states the asymptotic order relative to the fitted observable and normalization.
+ 
+-11. It states explicit failure conditions under which physical claims of the framework should be narrowed or abandoned.
++12. It recasts spacetime, gravity, and black-hole claims according to their actual epistemic status and repairs the positivity, differentiability, and local-equilibrium assumptions needed by those programs.
+ 
+-12. It reconciles the reconstructed physics with the canonical CU principle architecture, distinguishes normalized equations from dimensionful physical forms, and supplies a deterministic code-and-data record for the A.6 audit.
++13. It states explicit failure conditions under which physical claims of the framework should be narrowed or abandoned.
++
++14. It reconciles the reconstructed physics with the canonical CU principle architecture, distinguishes normalized equations from dimensionful physical forms, and supplies a deterministic code-and-data record for the A.6.1 audit repair.
+ 
+ ---
+ 
+@@ -2536,6 +2543,133 @@
+ 
+ These constants bound the local Fisher speeds and opposition generated by the selected toy functionals. They do not establish global existence, open-simplex invariance, or physical universality. Appendix B gives the reduction and Appendix K records the numerical verification.
+ 
++### 3.13.3 Fixed coupling: stationary points and the uniform-state threshold
++
++The wedge analysis asks whether there exists *some* coupling ratio for which both \(D\) and \(S\) increase at a given state. An actual autonomous flow instead fixes
++
++\[
++r:=\frac{\beta}{\alpha}>0.
++\]
++
++These are different questions. The wedge-degeneracy set is a geometric property of the state and remains the continuous set of nonuniform two-level distributions. At fixed \(r\), only the subset on which the combined field itself vanishes is stationary.
++
++After rescaling by \(\alpha>0\), define
++
++\[
++\Phi_r(p)=D(p)+rS(p).
++\]
++
++An interior stationary point of either the Euclidean tangent-gradient flow or the Fisher-natural-gradient flow satisfies
++
++\[
++2\left(p_i-\frac14\right)
++-r(\log p_i+1)
++=\lambda
++\]
++
++for every \(i\), with one Lagrange multiplier \(\lambda\). The scalar function on the left has a strictly increasing derivative and a unique minimum for \(r>0\), so a horizontal line can meet it at no more than two positive coordinate values. Therefore every nonuniform interior stationary point is two-level. Conversely, a two-level state with values \(a>b>0\) is stationary exactly when
++
++\[
++\boxed{
++ r
++ =
++ \frac{2(a-b)}{\log(a/b)}.
++}
++\]
++
++This is the same ratio at which the two joint-growth boundaries meet, but its interpretation is now fixed-coupling stationarity rather than wedge width.
++
++For a multiplicity family with \(m\) coordinates equal to \(a\) and \(4-m\) equal to \(b\), normalization gives
++
++\[
++ma+(4-m)b=1.
++\]
++
++The largest stationary coupling occurs on the one-plus-three family. Writing \(q=a/b>1\),
++
++\[
++r_1(q)
++=
++\frac{2(q-1)}{(q+3)\log q}.
++\]
++
++Its unique nonuniform maximum occurs at the root \(q_*>1\) of
++
++\[
++q_*^2+2q_*-3
++=
++4q_*\log q_*.
++\]
++
++Numerically,
++
++\[
++q_*=5.115660866489398\ldots,
++\]
++
++\[
++(a_*,b_*)
++=
++(0.630344336788716\ldots,
++ 0.123218554403761\ldots),
++\]
++
++and
++
++\[
++\boxed{
++ r_*
++ =
++ 0.621360943645626\ldots .
++}
++\]
++
++The two-plus-two and three-plus-one families have supremum \(1/2\), reached only in the uniform limit. It follows that
++
++> **[Derived fixed-coupling theorem]** For \(r>r_*\), the uniform distribution is the only interior stationary point of the combined four-state flow. For \(0<r\leq r_*\), the nonuniform stationary points form a finite subset, up to permutation, of the continuous two-level wedge-degeneracy manifolds.
++
++This does **not** mean that the wedge-degeneracy manifolds disappear above \(r_*\). Two-level states remain geometrically degenerate for every coupling; the fixed vector field simply fails to vanish on them when their critical ratio differs from the chosen \(r\).
++
++The uniform state is stationary for every \(r\). Its tangent Hessian is
++
++\[
++\operatorname{Hess}\Phi_r(u)
++=
++(2-4r)I.
++\]
++
++Thus, under gradient ascent,
++
++\[
++r<\frac12
++\quad\Longrightarrow\quad
++u\text{ is a strict local minimum and is linearly repelling},
++\]
++
++while
++
++\[
++r>\frac12
++\quad\Longrightarrow\quad
++u\text{ is a strict local maximum and is locally attracting}.
++\]
++
++At the critical value \(r=1/2\), the Hessian vanishes. Writing \(p=u+\delta\), with \(\sum_i\delta_i=0\), gives
++
++\[
++\Phi_{1/2}(u+\delta)-\Phi_{1/2}(u)
++=
++\frac43\sum_i\delta_i^3
++-
++\frac83\sum_i\delta_i^4
+++
++O(\|\delta\|^5).
++\]
++
++The cubic term changes sign with direction—for example along \(\delta=(3\epsilon,-\epsilon,-\epsilon,-\epsilon)\). Therefore uniformity is nonhyperbolic and neither a local maximum nor a local minimum at exact criticality.
++
++The value \(1/2\) is consequently a genuine stability-change threshold of this toy objective. It is not, by itself, a universal physical constant, a threshold for substantive coherence, or evidence that biological and social systems share the same coupling.
++
+ ## 3.14 Four meanings of “Goldilocks”
+ 
+ Earlier formulations allowed several distinct ideas to travel under one name. The reconstruction separates them.
+@@ -2680,6 +2814,8 @@
+ 
+ The mathematical “Goldilocks” result is therefore not a universally comfortable band. It is a state-dependent wedge whose width measures the failure of exact opposition and which can collapse on structurally natural families of states.
+ 
++Section 3.13.3 adds the fixed-coupling question. The geometric degeneracy set remains continuous, but for a selected \(r=\beta/\alpha\) its stationary intersection is finite and disappears entirely above \(r_*=0.6213609436\ldots\). This distinction prevents “wedge collapse,” “critical point,” and “stationary state of a chosen flow” from being used as synonyms.
++
+ ### 3.14.3 Discrete feasibility region
+ 
+ This is a condition on step size and coefficients that prevents a numerical update from leaving the simplex. It concerns the integrator, not the physical quality of the state.
+@@ -6064,9 +6200,11 @@
+ }
+ \]
+ 
+-where \(\nabla_{F}F\) denotes the covariant derivative of the force field along itself. The relative correction to the slow velocity is therefore generically \(O(\eta^{-2})\). Initial velocity relaxation can contribute an \(O(\eta^{-2})\) fixed-time position slip even when the leading slow rate is \(O(\eta^{-1})\).
++where \(\nabla_{F}F\) denotes the covariant derivative of the force field along itself. When \(F=O(1)\), the absolute correction to the slow velocity is generically \(O(\eta^{-3})\), while its size relative to the leading \(O(\eta^{-1})\) velocity is \(O(\eta^{-2})\).
++
++A fixed-time configuration discrepancy does not isolate that correction unless the initialization and normalization are stated. With rest initialization, the fast velocity layer produces an \(O(\eta^{-2})\) absolute—or state-normalized—position slip. Initializing on the leading slow manifold, \(\dot q(0)=F(q_0)/\eta\), suppresses that term. In the linear open-chain comparison of Appendix J, the remaining state-normalized position error is \(O(\eta^{-3})\), while the error relative to the total \(O(\eta^{-1})\) overdamped displacement is \(O(\eta^{-2})\). The relative velocity error is \(O(\eta^{-2})\) under both initializations after the fast transient.
+ 
+-The rebuilt companion comparison in Appendix J is consistent with this distinction: its fixed-time configuration discrepancy approaches \(O(\eta^{-2})\), not \(O(\eta^{-1})\). This numerical result supports the stated test problem; the slow-manifold reduction itself remains conditional on smoothness, scale separation, and control of the initial layer.
++The original six-point slope near \(-1.87\) is reproducible, but it belongs to a rest-initialized, fixed-time position norm and is dominated asymptotically by the initial layer. A.6.1 therefore does not use it as evidence for the post-transient \(-\eta^{-3}\nabla_FF\) term. The slow-manifold reduction remains conditional on smoothness, scale separation, normal hyperbolicity, and control of the boundary layer.
+ 
+ The first-order law is therefore an effective equation valid after fast degrees of freedom have been eliminated.
+ 
+@@ -8695,6 +8833,9 @@
+ | \(D\) and \(S\) may locally increase together | Derived under the joint-growth inequalities |
+ | The four-state joint-growth wedge is strict at every nonuniform interior point | Rejected |
+ | The Euclidean and Fisher wedges collapse exactly on nonuniform two-level distributions | Derived |
++| At fixed \(r=\beta/\alpha\), every nonuniform interior stationary point is two-level and satisfies \(r=2(a-b)/\log(a/b)\) | Derived |
++| For \(r>0.621360943645626\ldots\), uniformity is the only interior stationary point of the four-state combined flow | Derived; model-specific threshold |
++| Uniformity changes linear stability at \(r=1/2\); at exact criticality it is nonhyperbolic and neither a local maximum nor minimum on \(\Delta_4\) | Derived; model-specific threshold |
+ | Fine \(D\) decomposes into block-accessible \(D\) plus within-block differentiation | Derived |
+ | Shannon entropy decomposes into block entropy plus conditional within-block entropy | Derived/standard grouping identity |
+ | Within-block entropy equals hidden differentiation | Rejected; the quantities are opposed at fixed two-state block mass |
+@@ -8716,7 +8857,9 @@
+ | Decoherence always equals entanglement production | Rejected |
+ | A second-order Fisher–Rao mechanical action yields covariant Newton-type motion | Derived |
+ | Strong damping yields a first-order natural-gradient approximation | Derived under timescale and boundary-layer assumptions |
+-| The companion fixed-time overdamped discrepancy scales as \(O(\eta^{-1})\) | Rejected; the reconstructed test is consistent with \(O(\eta^{-2})\) |
++| The absolute post-transient slow-velocity correction is \(O(\eta^{-3})\), hence \(O(\eta^{-2})\) relative to the leading slow velocity | Formal asymptotic expansion |
++| The legacy rest-initialized fixed-time position error diagnoses the post-transient correction | Rejected; it is asymptotically dominated by an \(O(\eta^{-2})\) initial-layer slip |
++| In the linear chain, leading slow-manifold initialization gives \(O(\eta^{-3})\) state-normalized position error and \(O(\eta^{-2})\) displacement-normalized error | Independently reproduced by exact modal calculation |
+ | A positive gradient-penalty field action yields scalar waves | Derived |
+ | The density–phase Fisher action yields the Madelung equations | Derived |
+ | Madelung variables are globally equivalent to Schrödinger theory without further conditions | Rejected |
+@@ -10038,6 +10181,111 @@
+ 
+ so the wedge edges approach \(1/2\) and their width tends to zero.
+ 
++## B.9.1 Fixed-coupling stationary points and stability of uniformity
++
++Let
++
++\[
++\Phi_r(p)=D(p)+rS(p),
++\qquad r>0.
++\]
++
++An interior constrained critical point satisfies
++
++\[
++2\left(p_i-\frac14\right)-r(\log p_i+1)=\lambda
++\]
++
++for all \(i\). Define
++
++\[
++h_r(x)=2\left(x-\frac14\right)-r(\log x+1).
++\]
++
++Because
++
++\[
++h_r''(x)=\frac{r}{x^2}>0,
++\]
++
++\(h_r\) has one minimum and each horizontal level has at most two positive preimages. Every nonuniform interior critical point therefore has exactly two coordinate values \(a>b\). Subtracting their stationarity equations gives
++
++\[
++2(a-b)=r\log(a/b),
++\]
++
++or
++
++\[
++\boxed{
++ r=\frac{2(a-b)}{\log(a/b)}.
++}
++\]
++
++Suppose the larger value \(a\) has multiplicity \(m\in\{1,2,3\}\), and put \(q=a/b>1\). Normalization gives
++
++\[
++a=\frac{q}{mq+4-m},
++\qquad
++b=\frac{1}{mq+4-m},
++\]
++
++so
++
++\[
++r_m(q)
++=
++\frac{2(q-1)}{(mq+4-m)\log q}.
++\]
++
++For \(m=2\) and \(m=3\), direct differentiation shows that \(r_m(q)<1/2\) for every \(q>1\), with supremum \(1/2\) only as \(q\downarrow1\). For \(m=1\),
++
++\[
++r_1(q)=\frac{2(q-1)}{(q+3)\log q},
++\]
++
++and its nonuniform maximum occurs where
++
++\[
++q^2+2q-3=4q\log q.
++\]
++
++The unique root above one is
++
++\[
++q_*=5.115660866489398\ldots,
++\]
++
++which gives
++
++\[
++r_*=0.621360943645626\ldots .
++\]
++
++Thus no nonuniform interior critical point exists for \(r>r_*\). For any fixed \(r\leq r_*\), the scalar equations \(r_m(q)=r\) have only finitely many roots, so the stationary intersection is finite up to permutation. The full geometric wedge-degeneracy set remains continuous because it is defined without fixing \(r\).
++
++At \(u=(1/4,\ldots,1/4)\), the tangent Hessian is
++
++\[
++\operatorname{Hess}\Phi_r(u)=(2-4r)I.
++\]
++
++It is positive definite for \(r<1/2\) and negative definite for \(r>1/2\). Hence uniformity is respectively a strict local minimum or maximum of the ascent objective. At \(r=1/2\), Taylor expansion of Shannon entropy gives
++
++\[
++\Phi_{1/2}(u+\delta)-\Phi_{1/2}(u)
++=
++\frac43\sum_i\delta_i^3
++-
++\frac83\sum_i\delta_i^4
+++
++O(\|\delta\|^5),
++\qquad
++\sum_i\delta_i=0.
++\]
++
++Choosing \(\delta=(3\epsilon,-\epsilon,-\epsilon,-\epsilon)\) and changing the sign of \(\epsilon\) changes the leading sign. The critical point is therefore neither a local maximum nor a local minimum at exact criticality.
++
+ ## B.10 Global bounds for the Fisher fields
+ 
+ The functions \(\|A\|_F^2\), \(\|B\|_F^2\), and \(\Pi_F\) extend continuously to each face when terms of the form \(p(\log p)^k\) are assigned their limiting value zero. A global maximum therefore exists on the compact closed simplex.
+@@ -10115,7 +10363,7 @@
+ \log\left(\frac{3x}{1-x}\right)=4x-1.
+ \]
+ 
+-The one-dimensional roots and all boundary cases are reproduced in the A.6 verification report.
++The one-dimensional roots and all boundary cases are reproduced in the A.6.1 verification report.
+ 
+ ## B.11 Lyapunov property and absence of cycles
+ 
+@@ -10574,9 +10822,9 @@
+ \dot q=-\eta^{-1}\operatorname{grad}V.
+ \]
+ 
+-The relative correction to the slow velocity is generically \(O(\eta^{-2})\). Zero-velocity initial data can also produce an \(O(\eta^{-2})\) configuration displacement through the fast initial layer. The exact asymptotic order depends on the observable, initial conditions, spectrum, geometry, and time-scaling convention.
++If \(F=O(1)\), the absolute post-transient velocity correction is \(O(\eta^{-3})\), and its size relative to the leading \(O(\eta^{-1})\) slow velocity is \(O(\eta^{-2})\). Configuration-error scaling is not fixed by this statement alone. Rest initial data can produce an \(O(\eta^{-2})\) absolute position slip through the fast boundary layer. Leading slow-manifold initialization removes that term; for the fixed-time linear-chain test in Appendix J, the remaining state-normalized position error is \(O(\eta^{-3})\), or \(O(\eta^{-2})\) when normalized by the total \(O(\eta^{-1})\) first-order displacement. Other systems, observables, time scalings, and more accurate slow-manifold initializations can change the first visible power.
+ 
+-This is a formal local expansion, not by itself a global invariant-manifold theorem. The distinction is important when interpreting the companion-paper numerical comparison in Appendix J.
++This is a formal local expansion, not by itself a global invariant-manifold theorem. The distinction is essential when interpreting a numerical comparison: the fitted error, denominator, initialization, time horizon, and treatment of the fast layer must all be stated.
+ 
+ ## E.4 Variation of the Fisher-information term
+ 
+@@ -11317,12 +11565,12 @@
+ 2. Madelung residuals under Schrödinger evolution;
+ 3. convergence to the overdamped first-order limit.
+ 
+-The A.6 pass re-runs these demonstrations in the same deterministic suite used for the new block-averaging, wedge-degeneracy, and Fisher-bound checks. The public Heaven≡Earth Foundation repository is treated as the algorithmic lineage; the A.6 script is an independent local reconstruction rather than an assumption that the published outputs are correct.
++The A.6.1 pass reruns these demonstrations in the same deterministic suite used for the block-averaging, wedge-degeneracy, Fisher-bound, fixed-coupling, and extended overdamped checks. The public Coherence Field code reviewed during the earlier reconstruction is treated only as algorithmic lineage; the A.6.1 script is an independent local reconstruction rather than an assumption that the earlier outputs are correct.
+ 
+ The scripts and machine-readable results accompanying this manuscript are:
+ 
+-- `CU_Physics_A6_reproducibility.py`;
+-- `CU_Physics_A6_verification_results.json`.
++- `CU_Physics_A6_1_reproducibility.py`;
++- `CU_Physics_A6_1_verification_results.json`.
+ 
+ All reported Monte Carlo tests use seed \(20260909\); the exact theorems do not depend on sampling.
+ 
+@@ -11462,83 +11710,97 @@
+ 
+ ## J.4 Overdamped-limit comparison
+ 
+-The public implementation evolves an open \(N=32\) chain with
++The companion implementation evolves an open \(N=32\) chain with
+ 
+ \[
+ \ddot C+\eta\dot C=2\kappa\Delta_{\mathrm{open}}C
+ \]
+ 
+-and compares it at \(t=5\) with
++and compares it at \(T=5\) with
+ 
+ \[
+ \dot C
+ =
+-\frac{2\kappa}{\eta}
+-\Delta_{\mathrm{open}}C.
++\frac{2\kappa}{\eta}\Delta_{\mathrm{open}}C.
+ \]
+ 
+-Independent integration reproduces the published error table:
++A.6 reproduced the legacy rest-initialized, state-normalized \(L^\infty\) position errors:
+ 
+-| \(\eta\) | Relative error |
++| \(\eta\) | Legacy relative position error |
+ |---:|---:|
+-| 1 | \(8.263\times10^{-2}\) |
+-| 3 | \(8.370\times10^{-3}\) |
+-| 10 | \(1.751\times10^{-3}\) |
+-| 30 | \(3.552\times10^{-4}\) |
+-| 100 | \(4.004\times10^{-5}\) |
+-| 300 | \(4.754\times10^{-6}\) |
++| 1 | \(8.2630\times10^{-2}\) |
++| 3 | \(8.3697\times10^{-3}\) |
++| 10 | \(1.7506\times10^{-3}\) |
++| 30 | \(3.5520\times10^{-4}\) |
++| 100 | \(4.0041\times10^{-5}\) |
++| 300 | \(4.7537\times10^{-6}\) |
+ 
+-The numerical values are reproducible. Their reported asymptotic interpretation is not.
++The fit over \(\eta\geq30\) has slope \(-1.8725\). That reproduction remains correct, but the independent A.6 audit identified a methodological confound: rest initialization creates a fast boundary layer whose one-time position slip is itself \(O(\eta^{-2})\). The fitted slope therefore does not isolate the \(-\eta^{-3}\nabla_FF\) post-transient correction.
+ 
+-At large \(\eta\), \(\epsilon(\eta)\eta\) continues to decrease, while \(\epsilon(\eta)\eta^2\) approaches a roughly constant value. A log–log fit to \(\eta\geq30\) gives a slope near \(-1.87\), approaching \(-2\). The fixed-time discrepancy is therefore consistent with
++A.6.1 diagonalizes the symmetric open-chain Laplacian and evaluates every normal mode analytically. This removes stiff-integration ambiguity and extends the sweep to
+ 
+ \[
+-\boxed{
+-\epsilon(\eta)=O(\eta^{-2}),
+-}
++\eta\in\{10,30,100,300,1000,3000\}.
+ \]
+ 
+-not \(O(\eta^{-1})\).
++Two second-order initializations are compared:
+ 
+-For a single mode satisfying
++1. **rest:** \(\dot C(0)=0\);
++2. **leading slow manifold:** \(\dot C(0)=2\kappa\Delta_{\mathrm{open}}C(0)/\eta\).
+ 
+-\[
+-\ddot x+\eta\dot x+\omega^2x=0,
+-\]
++All reported norms are \(L^\infty\). Position error in the first two columns is normalized by the first-order state norm at \(T\); velocity error is normalized by the first-order velocity norm.
+ 
+-the slow eigenvalue is
++| \(\eta\) | Position error, rest | Position error, slow manifold | Velocity error, rest | Velocity error, slow manifold |
++|---:|---:|---:|---:|---:|
++| 10 | \(1.7537\times10^{-3}\) | \(1.4288\times10^{-3}\) | \(1.1925\times10^{-2}\) | \(3.1190\times10^{-3}\) |
++| 30 | \(3.5532\times10^{-4}\) | \(7.9485\times10^{-5}\) | \(2.1075\times10^{-3}\) | \(8.7611\times10^{-4}\) |
++| 100 | \(4.0041\times10^{-5}\) | \(2.5258\times10^{-6}\) | \(2.2691\times10^{-4}\) | \(1.0795\times10^{-4}\) |
++| 300 | \(4.7537\times10^{-6}\) | \(9.8238\times10^{-8}\) | \(2.6591\times10^{-5}\) | \(1.3083\times10^{-5}\) |
++| 1000 | \(4.3797\times10^{-7}\) | \(2.6990\times10^{-9}\) | \(2.4388\times10^{-6}\) | \(1.2136\times10^{-6}\) |
++| 3000 | \(4.8991\times10^{-8}\) | \(1.0046\times10^{-10}\) | \(2.7245\times10^{-7}\) | \(1.3601\times10^{-7}\) |
++
++Fitting the upper decade \(300\leq\eta\leq3000\) gives:
++
++| Error observable | Rest initialization | Leading slow-manifold initialization |
++|---|---:|---:|
++| Position error / first-order state norm | \(-1.9868\) | \(-2.9902\) |
++| Position error / total first-order displacement | \(-0.9879\) | \(-1.9913\) |
++| Velocity error / first-order velocity | \(-1.9894\) | \(-1.9830\) |
++
++The asymptotic interpretation is therefore observable-specific:
++
++- with rest initialization, state-normalized fixed-time position error is \(O(\eta^{-2})\) because of initial-layer slip;
++- with leading slow-manifold initialization, state-normalized fixed-time position error is \(O(\eta^{-3})\), exposing the absolute post-transient correction;
++- because the total first-order displacement over fixed \(T\) is \(O(\eta^{-1})\), the slow-manifold position error relative to that displacement is \(O(\eta^{-2})\);
++- velocity error relative to the first-order velocity is \(O(\eta^{-2})\) under both initializations after the fast transient.
+ 
+-\[
+-\lambda_-
+-=
+--\frac{\omega^2}{\eta}
+--
+-\frac{\omega^4}{\eta^3}
+-+
+-O(\eta^{-5}).
+-\]
++Thus the expansion and the original numerical values were not mathematically inconsistent. The error in A.6 was evidential: it treated a boundary-layer-dominated slope as support for a post-transient term that the chosen test did not isolate.
+ 
+-The relative correction to the slow rate is \(O(\eta^{-2})\), and zero-velocity initial data also generate an \(O(\eta^{-2})\) initial-slip contribution to the fixed-time position error.
++### Mode and boundary qualification
+ 
+-The simulation therefore strongly supports convergence to the overdamped equation, but not the claimed \(1/\eta\) error scaling.
++For the open chain, the lowest nonzero frequency in the stated normalization is
+ 
+-### Mode and boundary qualification
++\[
++\omega_1=0.1387843410\ldots,
++\]
+ 
+-The value
++and the highest is
+ 
+ \[
+-\omega_0\approx\sqrt{2\kappa}\,\frac{\pi}{N}
++\omega_{\max}=2.8250201604\ldots .
+ \]
+ 
+-corresponds to the open-chain lowest mode used in the public script, not to a periodic chain. A multi-mode Gaussian also has no single critical damping threshold; each normal mode has its own
++The largest modal critical damping is therefore
+ 
+ \[
+-\eta_{c,m}=2\omega_m.
++\eta_{c,\max}=2\omega_{\max}=5.6500403208\ldots,
+ \]
+ 
++so every point in the extended sweep lies in the overdamped regime for every nonzero mode. A multimode profile still has no single dynamically informative damping threshold below this maximum; each mode has its own rate and boundary-layer amplitude.
++
+ ## J.5 Reproducibility record
+ 
+-The official Heaven≡Earth Foundation GitHub repository remains available and contains scripts for wave dispersion, Madelung residuals, friction regimes, and a fixed-friction comparison. The A.6 audit used those files to identify the intended algorithms, then rebuilt all calculations in one independent script with explicit parameters, deterministic sampling, convergence checks, and machine-readable output.
++The earlier reconstruction used the public Coherence Field scripts then available to identify the intended wave, Madelung, and damping algorithms. A.6.1 retains those historical reproductions but rebuilds the calculations in one independent script with explicit parameters, deterministic sampling, convergence checks, exact modal evaluation for the extended overdamped test, and machine-readable output.
+ 
+ The generated report records:
+ 
+@@ -11549,7 +11811,7 @@
+ - all sampled residual maxima;
+ - all reduced optimization cases used in the Fisher-bound audit.
+ 
+-The public repository’s prose and comments should still be revised where they retain the negative lattice-potential sign, placeholder setup text, or the \(1/\eta\) fixed-time error interpretation. These repository issues do not affect the analytic results in the present Physics manuscript, but they should be corrected before the companion publication is treated as a final archival record.
++The repository copy reviewed during the earlier reconstruction retained a negative lattice-potential sign, placeholder setup text, and a \(1/\eta\) fixed-time error interpretation. Those historical issues do not affect the analytic results in the present Physics manuscript, but any future archival companion release should correct them.
+ 
+ ## J.6 Consequences for this manuscript
+ 
+@@ -11630,7 +11892,7 @@
+ 
+ The audit supports the principal A.5 derivations but adds four corrections or qualifications.
+ 
+-1. **Strong damping:** the slow-manifold correction must use the covariant derivative \(\nabla_{F}F\). In the companion fixed-time test, the discrepancy is consistent with \(O(\eta^{-2})\).
++1. **Strong damping:** the slow-manifold correction must use the covariant derivative \(\nabla_{F}F\). The legacy rest-initialized fixed-time position error is \(O(\eta^{-2})\) because of the fast initial layer and does not isolate that correction. A.6.1’s exact modal test separates initialization and normalization: the post-transient velocity correction is \(O(\eta^{-3})\) absolutely and \(O(\eta^{-2})\) relative to the leading slow velocity.
+ 2. **Lattice waves:** the main-text and companion coefficients agree only after stating \(\kappa_{\mathrm{lat}}=2\kappa\). The stable force derives from a positive gradient potential.
+ 3. **Relational distance:** the logarithmic edge map requires a positive floor for a genuine metric; without it, zero-cost edges produce a pseudometric. State-dependent shortest-path geometry is generally nonsmooth at route switches.
+ 4. **Jacobson route:** the conditional gravity argument requires a local-equilibrium horizon construction in addition to the area law, Unruh temperature, Clausius relation, Raychaudhuri focusing, and stress-energy conservation.
+@@ -11642,18 +11904,94 @@
+ The accompanying script generates the JSON report from scratch. Its heavy checks include:
+ 
+ - \(200{,}000\)-sample block and wedge diagnostics;
++- exact fixed-coupling threshold and critical-direction checks;
+ - all reduced Fisher extrema for support sizes two through four;
+ - the 128-site lattice-wave dispersion test;
+ - Madelung residuals at \(N=256,512,1024\);
+-- the overdamped comparison for \(\eta=1,3,10,30,100,300\).
++- the legacy overdamped comparison for \(\eta=1,3,10,30,100,300\);
++- the exact-modal two-initialization comparison for \(\eta=10,30,100,300,1000,3000\).
+ 
+ The numerical wave and Madelung tests are consistency checks for the discretizations and selected equations. They are not independent evidence that CU uniquely derives those equations or that the equations describe new physics.
+ 
+ ---
+ 
+-# References — Source-Audited through Pass 3
++# Appendix L. Independent A.6 Audit Response and A.6.1 Verification
++
++## L.1 Scope and disposition
++
++A separate independent model audit re-derived the headline A.6 results without reading the supplied JSON as its source of truth. It confirmed:
++
++- the finite-partition differentiation and entropy identities;
++- the exact two-level wedge-degeneracy characterization in both metrics;
++- the critical two-level ratio \(2(a-b)/\log(a/b)\);
++- strict wedge width at sampled states with at least three distinct coordinate values;
++- the stated global Fisher-field extrema; and
++- the covariant strong-damping expansion.
++
++It also reported that the A.6 corrections had propagated consistently: the rejected entropy identity did not survive outside passages explicitly identifying it as rejected, and the wedge theorem was stated consistently across the manuscript and appendices.
++
++This is meaningful independent checking, but it is not represented as human expert peer review. The audit itself states that it did not independently verify Sections 8–10, the Madelung derivation, the lattice and Madelung convergence runs, or the bibliography.
++
++## L.2 Accepted action item: the overdamped diagnostic
++
++The audit correctly identified that the A.6 slope test did not measure what the surrounding prose implied. The six-point rest-initialized table is reproducible, and its large-\(\eta\) state-normalized position error really is \(O(\eta^{-2})\). But that leading term is produced by the fast initial layer. It is not evidence for the post-transient \(-\eta^{-3}\nabla_FF\) velocity correction.
++
++A.6.1 therefore:
++
++1. preserves the legacy table as a reproduction rather than discarding it;
++2. extends the sweep through \(\eta=3000\);
++3. reports rest and leading slow-manifold initialization separately;
++4. states every fitted numerator and denominator;
++5. evaluates the linear chain by exact modal decomposition; and
++6. replaces one undifferentiated scaling claim with three observable-specific asymptotic statements.
++
++The audit suggested that slow-manifold initialization should reveal \(O(\eta^{-2})\) fixed-time position behavior. For the actual linear-chain observable used here, the more precise result is:
++
++\[
++\text{state-normalized position error}=O(\eta^{-3}),
++\]
++
++whereas
++
++\[
++\text{displacement-normalized position error}=O(\eta^{-2}).
++\]
++
++The relative velocity error is \(O(\eta^{-2})\). This is not a disagreement about the formal expansion; it is the consequence of distinguishing absolute/state-normalized position error from error normalized by an \(O(\eta^{-1})\) displacement.
++
++## L.3 Accepted extension with terminological correction: fixed coupling
++
++The audit proposed that at fixed \(r=\beta/\alpha\), the “degeneracy set” becomes discrete and disappears above \(0.6213609436\ldots\). The derived threshold is correct, but “degeneracy set” is ambiguous.
++
++The **geometric wedge-degeneracy set** is independent of the chosen coupling. It remains the continuous union of the nonuniform one-plus-three, two-plus-two, and three-plus-one two-level families.
++
++The **fixed-coupling stationary intersection** consists of those degenerate states whose collapse ratio equals the selected \(r\). That intersection is finite up to permutation, and it is empty for
++
++\[
++r>r_*=0.621360943645626\ldots .
++\]
++
++A.6.1 adopts the threshold while preserving this distinction. Saying that “no state is wedge-degenerate” above \(r_*\) would be false; the correct statement is that no nonuniform interior state is stationary for that fixed combined flow.
++
++## L.4 Accepted extension with critical-case correction: \(r=1/2\)
++
++The audit correctly identifies \(r=1/2\) as the value at which the tangent Hessian at uniformity changes sign. Therefore uniformity is linearly repelling under ascent for \(r<1/2\) and locally attracting for \(r>1/2\).
++
++At exact equality, however, the Hessian vanishes and the cubic term is generically nonzero. Uniformity is neither a local maximum nor a local minimum on \(\Delta_4\). The audit’s numerical table labelled the \(r=1/2\) run “collapsing,” although its own reported differentiation increased slightly. A.6.1 therefore states a **linear-stability threshold with a nonhyperbolic critical case**, not attraction at equality.
++
++The audit also suggested classifying all other stationary two-level points as maxima or saddles. That fuller Morse-type classification is not imported here because it was not proved across every multiplicity branch and parameter range in the audit. The manuscript records only the stationary-point and uniform-stability results independently secured by the A.6.1 derivation.
++
++## L.5 Canonical consequence
++
++The A.6.1 changes are internal refinements of the four-state sandbox and the overdamped verification. They do not restore a universal scalar coherence measure, a universal Goldilocks coupling, or a universal physical law. The canonical principle dispositions established in Appendix H and the v0.10 M&E/Foundations B.2 base therefore remain unchanged.
++
++Physics A.6.1 supersedes A.6 as the current technical base. A.6 remains part of the correction history together with the independent audit memo, the A.6-to-A.6.1 patch, the executable verification suite, and the machine-readable results.
++
++---
++
++# References — Source-Audited through Pass 3; A.6.1 Audit Repair
+ 
+-The references below support the external theorems, historical attributions, and established physical results used in the manuscript. Pass 1 checked theorem formulations against primary sources. Pass 2 reconciled the CU principle architecture, audited dimensional conventions, and independently reproduced the principal companion-paper simulations. Pass 3 derived the finite-partition averaging theorem, characterized the wedge degeneracy set and Fisher extrema, and audited the assumptions in Sections 7–9. A small number of book-level background references are retained for orientation.
++The references below support the external theorems, historical attributions, and established physical results used in the manuscript. Pass 1 checked theorem formulations against primary sources. Pass 2 reconciled the CU principle architecture, audited dimensional conventions, and independently reproduced the principal companion-paper simulations. Pass 3 derived the finite-partition averaging theorem, characterized the wedge degeneracy set and Fisher extrema, and audited the assumptions in Sections 7–9. The A.6.1 repair independently rechecked the disputed overdamped calculation and added model-internal fixed-coupling theorems; it did not constitute a new source audit of Sections 8–10 or of the bibliography. A small number of book-level background references are retained for orientation.
+ 
+ Abramsky, S., & Brandenburger, A. (2011). The sheaf-theoretic structure of non-locality and contextuality. *New Journal of Physics, 13*, 113036.
+ 
+@@ -11801,16 +12139,15 @@
+ 
+ # End note
+ 
+-This three-pass systematic reconstruction is the recommended technical base for *Coherence Universalism: Physics* v0.10. It remains a revision candidate until the canonical Foundations and Metaphysics/Epistemology terminology, principle statements, and downstream cross-references are synchronized with Appendix H.
++This four-pass systematic reconstruction is the recommended technical Physics base for *Coherence Universalism* v0.10. The canonical M&E and Foundations B.2 documents have already incorporated Appendix H’s principal dispositions. The A.6.1 additions are model-specific refinements and do not require a new canonical principle family or a change to those dispositions.
+ 
+ Before public release:
+ 
+-1. revise *CU Foundations* and *CU Metaphysics and Epistemology* according to the canonical actions in Appendix H;
+-2. perform a final citation, notation, equation-numbering, and bibliography pass after that recanonicalization;
+-3. archive the A.6 manuscript, source code, software environment, machine-readable results, and checksums as one versioned record;
+-4. obtain independent criticism of the mathematical and physical sections, especially the quantum bridge and Sections 7–9;
+-5. derive or constrain domain-specific substantive coherence functionals rather than treating statistical differentiation as their universal surrogate;
+-6. identify a distinctive empirical consequence that is not obtained merely by selecting a familiar potential;
+-7. obtain the author’s approval of the final claim strengths and interpretive boundaries.
++1. perform a final citation, notation, equation-numbering, and bibliography pass after the downstream domain reconstructions stabilize;
++2. archive the A.6.1 manuscript, independent audit memo, source code, software environment, machine-readable results, patch, and checksums as one versioned record;
++3. obtain human expert criticism of the quantum bridge, Hamiltonian/Madelung sector, and Sections 8–10, which remain the largest independently unaudited claim surface;
++4. derive or constrain domain-specific substantive coherence functionals rather than treating statistical differentiation as their universal surrogate;
++5. identify a distinctive empirical consequence that is not obtained merely by selecting a familiar potential;
++6. obtain the author’s approval of the final claim strengths and interpretive boundaries.
+ 
+-Retain the original March 2026 Physics paper, the frozen A.3–A.5 reconstructions, all audit ledgers, scripts, result files, and manifests as the project’s revision history.
++Retain the original March 2026 Physics paper, the frozen A.3–A.6 reconstructions, all audit ledgers, scripts, result files, and manifests as the project’s revision history.

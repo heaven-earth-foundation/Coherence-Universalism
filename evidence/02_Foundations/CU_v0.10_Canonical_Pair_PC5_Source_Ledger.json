@@ -1,0 +1,191 @@
+{
+  "artifact": "CU v0.10 Canonical Publication Candidate 5",
+  "date": "2026-09-19",
+  "sources": [
+    {
+      "path": "/mnt/data/_pc4_extract/CU_v0.10_Canonical_Publication_PC4/CU_Metaphysics_Epistemology_v0.10_Publication_Candidate_4.md",
+      "name": "CU_Metaphysics_Epistemology_v0.10_Publication_Candidate_4.md",
+      "sha256": "163627c6172762dfe5bccd6fdc88f84f1c0721bc30d43685578a9e2561cf2e78",
+      "role": "reader-facing predecessor"
+    },
+    {
+      "path": "/mnt/data/_pc4_extract/CU_v0.10_Canonical_Publication_PC4/CU_Foundations_v0.10_Publication_Candidate_4.md",
+      "name": "CU_Foundations_v0.10_Publication_Candidate_4.md",
+      "sha256": "0c2009f0d90bed255dc8cbfe71b5a0f9e81967cab5f5a84959d863a140453a26",
+      "role": "reader-facing predecessor"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_Metaphysics_Epistemology_Systematic_Reconstruction_Kaya_B5_1.md",
+      "name": "CU_Metaphysics_Epistemology_Systematic_Reconstruction_Kaya_B5_1.md",
+      "sha256": "e662d74b74133bd8d69b0f513deb01b1667e0e699941148c7ea7f7cbe010ef27",
+      "role": "canonical B.5.1 authority"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_Foundations_Systematic_Reconstruction_Kaya_B5_1.md",
+      "name": "CU_Foundations_Systematic_Reconstruction_Kaya_B5_1.md",
+      "sha256": "29f8c6b261397ed1c69c88c88871f7e9a1e79fbaa300cb9e03d2f560d9c9ee4d",
+      "role": "canonical B.5.1 authority"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.md",
+      "name": "CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.md",
+      "sha256": "7b529a535974b6cb828b7a2adc1b28f967e7c186995a2691189e3c342314794c",
+      "role": "Mandala registry"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/machine/CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.json",
+      "name": "CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.json",
+      "sha256": "2dc5e3c7dabfccf0c13111cf7cffbad9b6e84c9f31bd96f5a4f2fe2dbb7705a8",
+      "role": "Mandala registry"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/machine/CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.csv",
+      "name": "CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.csv",
+      "sha256": "e6422363010f79f616761ef18b2e8e3d47df5fc6c71552ce76faa97edd16f300",
+      "role": "Mandala registry"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_v0.10_Canonical_Principle_Registry_B5_1.json",
+      "name": "CU_v0.10_Canonical_Principle_Registry_B5_1.json",
+      "sha256": "bcaa9c8f1f768e5d8d08b02223541bd9bfa5bb673bf28d0762cff0be15c4b7e1",
+      "role": "principle registry or revision authority"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_v0.10_Canonical_Principle_Registry_B5_1.csv",
+      "name": "CU_v0.10_Canonical_Principle_Registry_B5_1.csv",
+      "sha256": "bd87655437ca414628266149b5412188d9676484d356068816eadf744a984540",
+      "role": "principle registry or revision authority"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_v0.10_Active_Principle_Registry_B5_1.csv",
+      "name": "CU_v0.10_Active_Principle_Registry_B5_1.csv",
+      "sha256": "4132c33c105523147867b941e84661e63f993d4bd8e25a155d2ed49c63680031",
+      "role": "principle registry or revision authority"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_v0.10_REVISION_CHARTER_Kaya_B5_1.md",
+      "name": "CU_v0.10_REVISION_CHARTER_Kaya_B5_1.md",
+      "sha256": "aaaef049e3c13f140552df022411bf65ad524833cd8e727f3ae3e22532daa38b",
+      "role": "principle registry or revision authority"
+    },
+    {
+      "path": "/mnt/data/CU_v0.10_Coherence_Mandala_B5_1_RC1/CU_v0.10_B5_1_INTEGRATION_DECISION_LOG.md",
+      "name": "CU_v0.10_B5_1_INTEGRATION_DECISION_LOG.md",
+      "sha256": "ebcbeb54442609f2456fa85582e7378261e30afbd372dd9dd0486bb736b1f537",
+      "role": "principle registry or revision authority"
+    },
+    {
+      "path": "/mnt/data/You_Are_the_Universe_.pdf",
+      "name": "You_Are_the_Universe_.pdf",
+      "sha256": "8ae6382be8ae2a7977c82a5d0985b3d47b6ae0b73ff5b8a33ef305866402ea93",
+      "role": "book source for Yi Jing traversal disposition"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "CU_Foundations_v0.10_PC5_Technical_Supplement.md",
+      "sha256": "1d5e78c048131adeff274846387f7473ef4b30603de79fc925e8382c0493b11a",
+      "bytes": 2241
+    },
+    {
+      "name": "CU_Foundations_v0.10_Publication_Candidate_5.md",
+      "sha256": "0222149c6d7a6e5e5cfb6a8d627f52ba11b5292640d1197576007fba1ec47787",
+      "bytes": 213127
+    },
+    {
+      "name": "CU_Metaphysics_Epistemology_v0.10_PC5_Technical_Supplement.md",
+      "sha256": "98ba0d356c835f2264ac0c4e5dbc6e4ef7a109ee5485c62daa041b9912fca678",
+      "bytes": 2507
+    },
+    {
+      "name": "CU_Metaphysics_Epistemology_v0.10_Publication_Candidate_5.md",
+      "sha256": "101d8b763a7aa0ae30cb84926a1eca332a9ee9b301a495afa71800eb40093a32",
+      "bytes": 199207
+    },
+    {
+      "name": "CU_v0.10_Active_Principle_Registry_B5_1.csv",
+      "sha256": "4132c33c105523147867b941e84661e63f993d4bd8e25a155d2ed49c63680031",
+      "bytes": 184927
+    },
+    {
+      "name": "CU_v0.10_B5_1_INTEGRATION_DECISION_LOG.md",
+      "sha256": "ebcbeb54442609f2456fa85582e7378261e30afbd372dd9dd0486bb736b1f537",
+      "bytes": 1630
+    },
+    {
+      "name": "CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.csv",
+      "sha256": "e6422363010f79f616761ef18b2e8e3d47df5fc6c71552ce76faa97edd16f300",
+      "bytes": 41188
+    },
+    {
+      "name": "CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.json",
+      "sha256": "2dc5e3c7dabfccf0c13111cf7cffbad9b6e84c9f31bd96f5a4f2fe2dbb7705a8",
+      "bytes": 74569
+    },
+    {
+      "name": "CU_v0.10_COHERENCE_MANDALA_64_STAGE_REGISTRY_B5_1.md",
+      "sha256": "7b529a535974b6cb828b7a2adc1b28f967e7c186995a2691189e3c342314794c",
+      "bytes": 40701
+    },
+    {
+      "name": "CU_v0.10_Canonical_Pair_PC5_Editorial_Ledger.md",
+      "sha256": "4e6c6830ad4e72b5543910137fc92ccb0440fa718a111f44f8fff71081db32cd",
+      "bytes": 1784
+    },
+    {
+      "name": "CU_v0.10_Canonical_Pair_PC5_PACKAGE_QA_REPORT.txt",
+      "sha256": "7f0c162f43b7d639d95ef642c0eeadcad5fd15043f3239fdccc463aebfc728a2",
+      "bytes": 760
+    },
+    {
+      "name": "CU_v0.10_Canonical_Pair_PC5_QA.py",
+      "sha256": "e681477c7c985d9326d5f044497a4809b8a9b457fc5b93db0e82e81a78a7ef17",
+      "bytes": 4816
+    },
+    {
+      "name": "CU_v0.10_Canonical_Pair_PC5_QA_REPORT.txt",
+      "sha256": "7a59a7ef2bde96d8aade4fe4be0ecb4e0befb80ddf18a23cbb9c2ccca29e8b20",
+      "bytes": 2563
+    },
+    {
+      "name": "CU_v0.10_Canonical_Pair_PC5_README.md",
+      "sha256": "24467e919ee7c03d4c612f645a8cf50da6e27226ea7255e58112c180769ab39c",
+      "bytes": 860
+    },
+    {
+      "name": "CU_v0.10_Canonical_Pair_PC5_Source_Ledger.json",
+      "sha256": "c83dfab31859dc6ad3fe96d619f42cacbae1ee1da17ef9f472575dac67aff390",
+      "bytes": 7946
+    },
+    {
+      "name": "CU_v0.10_Canonical_Principle_Registry_B5_1.csv",
+      "sha256": "bd87655437ca414628266149b5412188d9676484d356068816eadf744a984540",
+      "bytes": 189196
+    },
+    {
+      "name": "CU_v0.10_Canonical_Principle_Registry_B5_1.json",
+      "sha256": "bcaa9c8f1f768e5d8d08b02223541bd9bfa5bb673bf28d0762cff0be15c4b7e1",
+      "bytes": 311261
+    },
+    {
+      "name": "CU_v0.10_REVISION_CHARTER_Kaya_B5_1.md",
+      "sha256": "aaaef049e3c13f140552df022411bf65ad524833cd8e727f3ae3e22532daa38b",
+      "bytes": 5323
+    },
+    {
+      "name": "CU_v0.10_YI_JING_TRAVERSAL_DISPOSITION_RC1.md",
+      "sha256": "539154645b814c7ca16be0109bc5510957a075a908aab9b82c192c91c032b951",
+      "bytes": 2882
+    },
+    {
+      "name": "SOURCE_CU_Foundations_B5_1.md",
+      "sha256": "29f8c6b261397ed1c69c88c88871f7e9a1e79fbaa300cb9e03d2f560d9c9ee4d",
+      "bytes": 221035
+    },
+    {
+      "name": "SOURCE_CU_Metaphysics_Epistemology_B5_1.md",
+      "sha256": "e662d74b74133bd8d69b0f513deb01b1667e0e699941148c7ea7f7cbe010ef27",
+      "bytes": 199839
+    }
+  ]
+}

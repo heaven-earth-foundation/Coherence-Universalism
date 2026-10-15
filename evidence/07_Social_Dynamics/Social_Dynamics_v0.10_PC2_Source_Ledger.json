@@ -1,0 +1,14 @@
+{
+  "publication": "Social Dynamics",
+  "source_pc": 1,
+  "target_pc": 2,
+  "source_manuscript": "/mnt/data/CU_Social_Dynamics_v0.10_Publication_PC1/CU_Social_Dynamics_v0.10_Publication_Candidate_1.md",
+  "source_manuscript_sha256": "ed523499204e35d7257685f5bcc0cab56fb5a786e42991eb52ab388e0188ebde",
+  "updated_manuscript": "CU_Social_Dynamics_v0.10_Publication_Candidate_2.md",
+  "updated_manuscript_sha256": "750482cf39047f3d37805b0bba9236e4bd76cf949747583f19dbd0897d45ab00",
+  "frozen_technical_supplement": "frozen/CU_Social_Dynamics_v0.10_PC1_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "b145f34ca7fdd83c20bcbfca96f7985728acf8b7e2bc92b182830965aeded5fd",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 42
+}

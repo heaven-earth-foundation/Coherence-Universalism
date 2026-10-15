@@ -1,0 +1,64 @@
+
+=== T1  Aggregate versus floor (§8.3) and weighted reversal (§2.6)
+sum u > sum v: True | some a with y_a(u) < k_a: True | all y_a(v) >= k_a: True
+§8.3 writes the floor condition as 'min_a y_a(u) < k_a' (k indexed by the bound variable): True
+weights [0.6 0.2 0.2] {'u': 0.76, 'v': 0.56}
+weights [0.2 0.6 0.2] {'u': 0.52, 'v': 0.68}
+
+=== T2  Floor notation in §2.4
+introduces k_j: True | formula uses k_{aj}: True
+
+=== T3  Notation reuse
+ethical profile: ['S', 'A_g', 'W', 'C_n', 'D', 'J_i', 'L', 'R_a', 'U_r', 'Q', 'R_p']
+tuple: A,\Omega,U,F,K,P,R,J,\mathcal H,\pi,T,\mathcal O,\mathcal C
+bold R_a(o) responsibility profile defined: True | R_a also a P_E coordinate: True
+Tr in repair profile P_R: True
+
+=== T4  CU-E-1..18: §14.3 boxes, Appendix A, Foundations
+CU-E-15: box==Foundations False, appendix==Foundations True
+    Foundations '' -> box 'into Foundations'
+    Foundations '' -> box 'review gate'
+    Foundations 'review gate;' -> box 'to the principle;'
+    Foundations 'conflict preserves provisional status' -> box 'disagreement among required constituencies keeps the principle provisional, with dissent'
+    Foundations '' -> box 'dispositions preserved in the'
+    Foundations 'dissent.' -> box 'record.'
+CU-E-16: box==Foundations False, appendix==Foundations True
+    Foundations 'The' -> box 'An'
+    Foundations 'declare a context-appropriate' -> box 'protect'
+    Foundations 'staged-exposure,' -> box 'staged exposure,'
+    Foundations 'retained-option' -> box 'equivalent option value through a declared'
+    Foundations 'exception.' -> box 'exception that addresses safer alternatives and the harms of delay.'
+others identical in both places; Foundations statuses all provisional: True
+
+=== T5  CU-E-17 alias and CU-G6
+Foundations authority class: SUPERSEDED ALIAS | disposition: Historical or domain alias; controlling identifier is CU-G6.
+Ethics headings for CU-E-17: 2 | CU-G6 mentioned in Ethics: False
+
+=== T6  Commitments: section titles and CU-COM12 text
+CU-COM14: heading 'Love as ethical relation' | Foundations 'Love as the Ground and Aim of Conscious Life' | same: False
+CU-COM17: heading 'Redemption without justification of evil' | Foundations 'Redemptive Possibility Without Justification of Evil' | same: False
+CU-COM19: heading 'Enact Omega here' | Foundations 'Enact Omega Here' | same: False
+CU-COM12: heading 'Ethical Truthfulness and Accountability' | Foundations 'Ethical Truthfulness and Accountability' | same: True
+COM12 Commitment statement identical: True
+COM12 Practical expression identical: False
+COM12 Boundary conditions identical: False
+COM12 Revision conditions identical: False
+
+=== T7  Cross-paper: the self-deception definition and Mandala stages
+§3.1 quoted definition identical to Foundations CU-Ψ11: True
+identical to Psychology's CU-Ψ11: False | Psychology: Self-deception is a pattern of motivated, asymmetric information processing in which a person protects an iden…
+stages 27-31: [(27, True), (28, True), (29, True), (30, True), (31, True)]
+later stages named: [('Universal Moral Concern', [56]), ('Coherence Stewardship', [57]), ('Open-Ended Stability', [62]), ('Meaning Without Finality', [63]), ('Coherence Universalism', [64])]
+
+=== T8  Propagation artifacts
+sentence-initial lowercase 'the account': [459, 558, 1074, 1214, 1683, 1701, 1750, 2042]
+sentence-initial lowercase 'this account': [345, 1581]
+sentence-initial lowercase 'the analysis': [282]
+sentence-initial lowercase 'this paper': [1976]
+RC2 line: [84] | stray 'Appendix B' construction pointer: False
+twenty rules, §2.8 vs A.2: 20 20 identical: True
+
+=== T9  Citations
+61 non-self entries; 28 never cited by author and year: [('Anderson', '1999'), ('Anscombe', '1958'), ('Aristotle', '2000'), ('Forst', '2012'), ('Fricker', '2007'), ('Gilligan', '1982'), ('Habermas', '1990'), ('Held', '2006'), ('Herman', '2023'), ('Jameton', '1984'), ('Kant', '1997'), ('Korsgaard', '1996'), ('Litz', '2009'), ('Medina', '2013'), ("O'Neill", '2002'), ('Rawls', '1971'), ('Rawls', '1993'), ('Scanlon', '1998'), ('Sen', '2009'), ('Shay', '1994'), ('Smith', '2014'), ('Tronto', '1993'), ('United', '2005'), ('United', '2018'), ('United', '2020'), ('Walker', '2006'), ('World', '2025'), ('Zehr', '2002')]
+moral-injury foundations uncited: [('Litz', '2009'), ('Shay', '1994')]
+Lewis entry first author: A (source lists D. Lewis)

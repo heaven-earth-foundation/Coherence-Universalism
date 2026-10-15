@@ -1,0 +1,71 @@
+
+=== B1  Recurrence dominance (§6.8): the two-state chain satisfies the inequality with no maintenance
+P(L|L) = 0.99  P(L|N) = 0.1  inequality holds: True
+stationary distribution (L, N): [0.9091 0.0909]
+
+=== B2  Diffusive coupling can raise or lower viability (§3.16, D4, P5) -- reconstruction, not Supplement B
+A (threatened low component) [(0.0, np.float64(0.0)), (0.1, np.float64(0.835)), (0.5, np.float64(0.967)), (2.0, np.float64(0.992))]
+B (high-requirement component) [(0.0, np.float64(1.0)), (0.1, np.float64(0.22)), (0.5, np.float64(0.044)), (2.0, np.float64(0.011))]
+mean is conserved by the law dx_i/dt = k(mean - x_i); the sign of the viability effect depends on floors and state
+
+=== B3  Closure core (§3.9): strong connectivity already implies the in/out clause except for a singleton
+strongly connected digraphs on 2-4 nodes: 1625  violating the in/out clause: 0
+
+=== B4  Aging formula (§10.7): 'not a superset' is satisfied by a kernel that mostly grows
+|K(a)| = 10  |K(a+da)| = 29  K(a+da) not ⊇ K(a): True  contraction (⊊): False
+
+=== B5  Mandala stages: Biology §13.11 versus the Foundations stage table
+[(11, 'Far-From-Equilibrium Organization', 'Far-From-Equilibrium Organization', True), (12, 'Energy-Coupled Maintenance', 'Energy-Coupled Maintenance', True), (13, 'Active Biological Self-Maintenance', 'Active Biological Self-Maintenance', True), (14, 'Adaptive Problem Solving', 'Adaptive Problem Solving', True), (15, 'Life as Coupled Autonomy', 'Life as Coupled Autonomy', True)]
+stage 16 in Foundations: Representational Organization
+
+=== B6  Principle wording: section boxes vs Appendix A vs Foundations registry
+CU-B1: box==appendix False  appendix==Foundations True
+   appendix 'Degree' -> box 'The degree'
+   appendix 'are' -> box 'must be assessed'
+CU-B2: box==appendix False  appendix==Foundations True
+   appendix 'Degree' -> box 'The degree of agency'
+CU-B3: box==appendix False  appendix==Foundations True
+   appendix '' -> box 'biologically'
+CU-B4: box==appendix True  appendix==Foundations True
+CU-B5: box==appendix True  appendix==Foundations True
+section labels: [('CU-B5', 'Domain-authority bridge principle'), ('CU-B1', 'Domain-authority bridge principle'), ('CU-B3', 'Domain-authority bridge principle'), ('CU-B2', 'Domain-authority conditional empirical claim'), ('CU-B4', 'Domain-authority conditional empirical generalization')]
+Appendix A statuses: [('CU-B1', 'Domain Authority'), ('CU-B2', 'Domain Authority'), ('CU-B3', 'Domain Authority'), ('CU-B4', 'Canonical–conditional empirical generalization under the Version 0.10 canonical registry'), ('CU-B5', 'Domain Authority')]
+Foundations CU-B4 authority class / status: ['DOMAIN-AUTHORITY CONDITIONAL EMPIRICAL CLAIM', 'CANONICAL–CONDITIONAL EMPIRICAL GENERALIZATION']  registry boundary wording: ['a conditional empirical synthesis']
+
+=== B7  Identifier resolution and commitment titles
+20 identifiers; unresolved: []
+CU-COM8 statement identical to Foundations: True
+Foundations CU-COM8 cross-references: interpretations CU-T5, CU-T6; governance and related principles CU-G1, CU-G5, CU-G7
+Biology A.9 cites CU-T6: False
+§8.14 terms present in Consciousness (05): {'access organization': 6, 'perspectival anchoring': 12, 'center individuation': 10}
+§13.12 dependency tables ('Source node' header) in Biology: 0
+'description register' vs 'descriptive register': 1 1
+
+=== B8  Notation reuse (symbol -> distinct roles found)
+\mathcal U [1, 3, 1, 1, 2]
+\mathcal D [1, 2]
+\mathcal A [1, 2]
+\mathcal V [2, 1]
+A_P letters [4]
+A_P profile reuses tuple letters B,E,K,R,H,V,X: True
+evidence grades E0-E4: 5   evolution predictions E1-E6: 6
+individuality: 'at least six dimensions' stated: True  ### 4.2.x subsections: 6  profile components: 7
+
+=== B9  Propagation and formatting artifacts
+sentence-initial lowercase 'the Version 0.10': [2558]
+'$\mid$' inside math: [1153, 1155, 1170, 1170]
+RC2 frozen-baseline line: [99]
+'from to' / 'between and': []
+'Heaven–Earth' (en dash): [2572]
+'$\mid$' anywhere else in the corpus: {}
+  dollar delimiters in: # Section 4. Biological individuality and organism 46
+  dollar delimiters in: # Section 5. Thermodynamic grounding 32
+  dollar delimiters in: # Section 6. Origins of life as an autonomy transi 52
+papers using $ delimiters at all: ['04']
+Contents vs headings that differ beyond case: [(9, 'Evolution, Constraint, and Major Transitions', 'Evolution, structured possibility, and major transitions')]
+'Supplement B' references: [1429, 2337]
+
+=== B10 Citations against the reference list
+38 entries
+entries whose first author is never named in the body: []
+out of alphabetical order: [('Aubin', 'Aoki'), ('Rajan', 'Rader'), ('Walker', 'Rohner')]

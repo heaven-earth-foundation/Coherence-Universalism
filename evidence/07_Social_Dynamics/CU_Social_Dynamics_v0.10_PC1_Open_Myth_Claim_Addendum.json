@@ -1,0 +1,37 @@
+{
+  "artifact": "CU Social Dynamics v0.10 PC1 Open Myth claim addendum",
+  "authority": "Section 13 of CU_Social_Dynamics_v0.10_Publication_Candidate_1.md",
+  "status": "Publication-candidate addendum; not yet merged into the audited F.1.1 claim ledger",
+  "claims": [
+    {
+      "id": "SOC-MYTH-C1",
+      "claim": "Narrative can function as meaning and coordination infrastructure by organizing identity, expectation, sacrifice, obligation, and intergenerational action.",
+      "status": "Bridge hypothesis / bounded empirical generalization",
+      "scope_or_condition": "Does not imply that every society requires one unified myth or that narrative coordination is legitimate."
+    },
+    {
+      "id": "SOC-MYTH-C2",
+      "claim": "Narrative power can coordinate solidarity and care or coordinate exclusion, domination, and violence.",
+      "status": "Historical and social-scientific generalization",
+      "scope_or_condition": "Requires case-specific evidence concerning authorship, institutions, in-groups, out-groups, and material consequences."
+    },
+    {
+      "id": "SOC-MYTH-C3",
+      "claim": "An Open Myth should remain truth-constrained, register-explicit, plural in thick expression, participatory, contestable, revisable, open to refusal, and bounded by protected conditions.",
+      "status": "Normative design proposal",
+      "scope_or_condition": "Proposed governance conditions, not empirical necessities or a guarantee against capture."
+    },
+    {
+      "id": "SOC-MYTH-C4",
+      "claim": "The diagnosis of a contemporary mythological or narrative vacuum is an interpretive account rather than a single measured latent cause of present crises.",
+      "status": "Interpretive qualification",
+      "scope_or_condition": "Must not displace material, institutional, historical, clinical, or ecological explanation."
+    },
+    {
+      "id": "SOC-MYTH-C5",
+      "claim": "Artificial intelligence should be included in contemporary civilizational imagination as sociotechnical power and possible perspective without presuming consciousness, equality, destiny, or sovereignty.",
+      "status": "Normative and interpretive bridge",
+      "scope_or_condition": "Consciousness, welfare, responsibility, and authority require separate evidence and review."
+    }
+  ]
+}

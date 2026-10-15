@@ -1,0 +1,514 @@
+[
+  {
+    "stage": "1",
+    "title": "Pure Structure",
+    "claim_status": "Definition",
+    "canonical_role": "Conceptual definition",
+    "description": "Relational possibility is represented without presupposing objects, time, geometry, or a privileged partition. This is a minimal starting point for inquiry, not an empirical claim about a pre-cosmic state.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "2",
+    "title": "Partial Separability",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Conceptual / bridge principle",
+    "description": "Subsystem descriptions become available relative to a factorization, scale, or access map; separability is partial, contingent, and does not establish ontological independence.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "3",
+    "title": "Domain-Relative Coherence Directions",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Framework boundary / model-relative bridge",
+    "description": "Within a declared state space, geometry, constraints, and objective or profile, configurations and trajectories may be directionally compared. CU does not posit one universal scalar gradient across all domains.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "4",
+    "title": "Lawful Transitions",
+    "claim_status": "Definition",
+    "canonical_role": "Conceptual definition",
+    "description": "A transition relation distinguishes admissible from inadmissible changes. The law or constraint must be stated; direction cannot be inferred from relational difference alone.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "5",
+    "title": "Ordered Histories",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Conditional structural result",
+    "description": "Admissible transitions may support consistent precedence relations. Order can be partial and does not by itself provide metric duration or select an arrow.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "6",
+    "title": "Temporal Order and Parameterization",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Conditional bridge principle",
+    "description": "Ordered histories permit time-like parameterization when additional regularity obtains. Metric duration and a thermodynamic arrow require further assumptions.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "7",
+    "title": "Rule-Governed Transformation and Computation",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Bridge principle",
+    "description": "Lawful ordered transformations may receive a computational representation once states, update rules, and representation maps are specified. Computation is not thereby established as the fundamental substance of reality.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "8",
+    "title": "Entropy and Accessibility",
+    "claim_status": "Imported result",
+    "canonical_role": "Imported formalism / corrected bridge",
+    "description": "Entropy measures spread or uncertainty relative to a probability model. Coarse-graining can increase entropy while destroying accessible differentiation; entropy is not identical with inaccessible coherence.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "9",
+    "title": "Relational Geometry and Spacetime",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Conditional physical program",
+    "description": "Stable relational and accessibility structures may admit effective geometric representation. Lorentzian spacetime requires explicit geometric and operational bridge assumptions and is not derived from coherence alone.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "10",
+    "title": "Gravitational Dynamics",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Conditional physical program",
+    "description": "Einstein-type dynamics may be conditionally reconstructed under geometric, thermodynamic, and operational assumptions. The program remains incomplete and empirical.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "11",
+    "title": "Far-From-Equilibrium Organization",
+    "claim_status": "Imported result",
+    "canonical_role": "Imported result / biological bridge",
+    "description": "Open physical organizations can persist through throughput and dissipation. Such persistence is necessary for many living processes but is not sufficient for life.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "12",
+    "title": "Energy-Coupled Maintenance",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Biological bridge principle",
+    "description": "Networks of internal processes harness matter and energy to maintain conditions of organization. Costs, boundaries, and contributions must be declared rather than inferred from persistence alone.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "13",
+    "title": "Active Biological Self-Maintenance",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Canonical biological bridge",
+    "description": "A candidate living organization is distinguished from passive persistence by materially realized processes whose endogenous activity helps maintain, repair, reproduce, or adaptively transform the conditions of that organization’s continuation.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "14",
+    "title": "Adaptive Problem Solving",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Conditional empirical generalization",
+    "description": "Some living systems detect deviations, recruit alternatives, learn from history, and solve novel viability-relevant problems within bounded adaptive reach. This does not by itself establish consciousness.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "15",
+    "title": "Life as Coupled Autonomy",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Research architecture / bridge",
+    "description": "Life is characterized by integrated families of boundary, energy, closure, regulation, repair, heredity, viability, and evolvability capacities. No one scalar or universal threshold is assumed.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "16",
+    "title": "Representational Organization",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Psychological / consciousness bridge",
+    "description": "Some minds and agents maintain compressed, action-relevant models of self and environment. Representation is graded and is not assumed for all life or all possible consciousness.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "17",
+    "title": "Anticipatory Regulation",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Conditional empirical bridge",
+    "description": "Some systems regulate present action relative to predicted or possible futures. Predictive processing is one model family, not a universal identity of mind.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "18",
+    "title": "Learning and Error-Guided Revision",
+    "claim_status": "Empirical claim",
+    "canonical_role": "Empirical generalization / methodological principle",
+    "description": "History-dependent mismatch can update models, policies, habits, or constraints. Correction is constrained by evidence, safety, prior organization, and the possibility of destabilization.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "19",
+    "title": "Graded Agency",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Cross-domain boundary principle",
+    "description": "Agency varies with action selection, counterfactual flexibility, control, learning, authorship, and stake. Agency does not imply consciousness, responsibility, or sovereignty.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "20",
+    "title": "Temporal Binding and Narrative",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Consciousness / psychology bridge",
+    "description": "Experience and identity may integrate memory, anticipation, and present access across time. Temporal thickness is graded, history-dependent, and vulnerable to fragmentation.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "21",
+    "title": "Meaning",
+    "claim_status": "Interpretation",
+    "canonical_role": "Interpretive / psychological bridge",
+    "description": "Meaning arises when states, events, relationships, and possibilities bear on real stakes, goods, histories, and trajectories. It is neither merely invented nor one fixed script.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "22",
+    "title": "Shared Representations",
+    "claim_status": "Empirical claim",
+    "canonical_role": "Social empirical generalization",
+    "description": "Language, symbols, records, and practices distribute meaning across agents. Shared representation enables coordination while also enabling distortion, exclusion, and narrative capture.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "23",
+    "title": "Plural Coordination",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Social bridge principle",
+    "description": "Social order emerges through interaction among partially autonomous agents under feedback, power, and material constraints. Coordination is not identical with consensus or legitimacy.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "24",
+    "title": "Norm Formation",
+    "claim_status": "Normative principle",
+    "canonical_role": "Empirical generalization / normative boundary",
+    "description": "Repeated expectations, sanctions, examples, and practices can stabilize norms. Existence, compliance, and durability do not establish justice.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "25",
+    "title": "Institutions",
+    "claim_status": "Governance rule",
+    "canonical_role": "Social / governance bridge",
+    "description": "Institutions preserve rules, memory, authority, resources, and roles across time. Legitimacy requires standing, accountability, practical correctability, and bounded power.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "26",
+    "title": "Culture and Meaning Infrastructure",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Social / cultural synthesis",
+    "description": "Culture transmits narratives, identities, practices, and evaluative horizons across generations. Meaning infrastructure must remain renewable, plural, truth-constrained, and open to revision.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "27",
+    "title": "Value Differentiation",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative bridge principle",
+    "description": "Where beings possess welfare, agency, relationships, vulnerability, and stakes, outcomes become evaluatively distinguishable. Value is not derived from one physical scalar.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "28",
+    "title": "Harm Recognition",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative principle / boundary",
+    "description": "Harm concerns setbacks to welfare, agency, standing, relationship, protected conditions, or viable futures. Not every loss of organization is moral harm, and not all harm is captured by coherence language.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "29",
+    "title": "Tradeoffs Under Protected Floors",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative decision principle",
+    "description": "Conflicting goods require explicit scope, distribution, uncertainty, protected floors, noncompensation, and option-set adequacy. Aggregation alone is insufficient.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "30",
+    "title": "Justification and Public Reason",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative / epistemic principle",
+    "description": "Norms affecting others require reasons open to evidence, affected-party testimony, independent challenge, and scrutiny for self-deception.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "31",
+    "title": "Ethical Institutions and Repair",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative / institutional synthesis",
+    "description": "Ethical systems must protect standing, agency, rights, distribution, accountability, and repair. Stability, sincerity, or procedural cleanliness alone does not make them just.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "32",
+    "title": "Engineered Sociotechnical Organization",
+    "claim_status": "Bridge principle",
+    "canonical_role": "AI sociotechnical bridge",
+    "description": "Artificial systems are designed within data, labor, infrastructure, institutions, permissions, and ecological substrates. Model-level properties do not exhaust system-level coherence.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "33",
+    "title": "Objective and Option-Set Specification",
+    "claim_status": "Governance rule",
+    "canonical_role": "AI governance principle",
+    "description": "Objectives, permissions, and presented alternatives are authored and revisable. Omitted options and hidden constraints can generate misalignment even when optimization is exact.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "34",
+    "title": "Artificial Capability and Agency",
+    "claim_status": "Bridge principle",
+    "canonical_role": "AI / consciousness boundary principle",
+    "description": "Artificial systems can model, plan, and act across scales, but capability, agency, perspective, responsibility, authorization, and sovereignty remain distinct.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "35",
+    "title": "Multi-Layer Alignment",
+    "claim_status": "Governance rule",
+    "canonical_role": "AI design / governance principle",
+    "description": "Alignment spans behavior, process, deployment, relation, and institution. Local optimization must respect protected floors, affected parties, bounded authority, and correctability.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "36",
+    "title": "Responsibility and Governance Thresholds",
+    "claim_status": "Governance rule",
+    "canonical_role": "Cross-domain governance principle",
+    "description": "Governance burden rises with causal reach, persistence, delegation, irreversibility, and capacity to externalize harm. Responsibility must align with authority and repair capacity.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "37",
+    "title": "Multi-Agent and Multi-Institution Alignment",
+    "claim_status": "Governance rule",
+    "canonical_role": "Social / AI governance synthesis",
+    "description": "Compatibility among powerful agents and institutions requires plural standing, conflict resolution, and independent correction rather than one imposed objective.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "38",
+    "title": "Institutional AI Governance",
+    "claim_status": "Governance rule",
+    "canonical_role": "AI governance principle",
+    "description": "AI governance must distribute authorization, monitoring, appeal, cessation, remedy, and welfare review across sufficiently independent functions and operators.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "39",
+    "title": "Drift and Provenance Management",
+    "claim_status": "Governance rule",
+    "canonical_role": "AI / institutional governance principle",
+    "description": "Objectives, permissions, memory, tools, feedback, models, and institutions can drift. Provenance, monitoring, versioning, and correction are continuous requirements.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "40",
+    "title": "Recursive Oversight and Correctability",
+    "claim_status": "Governance rule",
+    "canonical_role": "Governance principle",
+    "description": "Oversight systems must themselves be challengeable, reviewable, replaceable, and subject to remedy. No system may certify its own legitimacy solely through channels it controls.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "41",
+    "title": "Planetary Coordination",
+    "claim_status": "Governance rule",
+    "canonical_role": "Civilizational design principle",
+    "description": "Planet-scale problems require coordination across jurisdictions and generations while preserving plural agency, subsidiarity, truthful records, and protected dissent.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "42",
+    "title": "Civilizational Continuity and Adaptability",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Civilizational synthesis",
+    "description": "Civilizations remain viable through material sufficiency, trustworthy information, institutional learning, ecological reciprocity, and peaceful correction—not mere persistence.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "43",
+    "title": "Existential and Irreversible Risk Governance",
+    "claim_status": "Governance rule",
+    "canonical_role": "Governance principle",
+    "description": "Credible severe or irreversible risks require prevention, staged exposure, containment, retained option value, and transparent necessity-and-proportionality exceptions.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "44",
+    "title": "Moral Uncertainty and Precaution",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative / governance principle",
+    "description": "Ethical systems must remain responsive to uncertainty about facts, values, affected beings, and future consequences. Uncertainty neither licenses paralysis nor default deployment.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "45",
+    "title": "Plural Value Integration",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative / cultural principle",
+    "description": "Multiple goods and traditions can coexist under protected floors, translation, negotiated conflict, and meaningful refusal. Pluralism does not make all claims equally true or permissible.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "46",
+    "title": "Reflexive Normativity",
+    "claim_status": "Normative principle",
+    "canonical_role": "Meta-normative principle",
+    "description": "Ethical principles and institutions must evaluate their own biases, power, exclusions, effects, and revision mechanisms.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "47",
+    "title": "Justificatory Integrity and Meta-Ethics",
+    "claim_status": "Normative principle",
+    "canonical_role": "Meta-ethical / epistemic principle",
+    "description": "Systems of justification require truthful representation of facts, alternatives, affected parties, and standards. No formal model supplies its own legitimate normative content.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "48",
+    "title": "Long-Horizon Responsibility",
+    "claim_status": "Normative principle",
+    "canonical_role": "Normative principle",
+    "description": "Current agents and institutions bear responsibility for foreseeable effects across extended horizons, including future generations. Uncertainty and discounting must be disclosed.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "49",
+    "title": "Intergenerational Meaning",
+    "claim_status": "Interpretation",
+    "canonical_role": "Interpretive / cultural principle",
+    "description": "Meaning and obligation can extend beyond individual lifetimes through memory, inheritance, care, culture, and future-directed projects without requiring finality.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "50",
+    "title": "Collective Agency and Distributed Responsibility",
+    "claim_status": "Bridge principle",
+    "canonical_role": "Social / ethical bridge",
+    "description": "Groups and institutions can act through structured decision processes, but responsibility remains profiled across contribution, knowledge, authority, benefit, coercion, and repair capacity.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "51",
+    "title": "Open Myth and Narrative Pluralism",
+    "claim_status": "Governance rule",
+    "canonical_role": "Canonical civilizational design principle; empirical necessity hypothesis provisional",
+    "description": "Civilizations may cultivate renewable narrative horizons, but shared myth must be truth-constrained, plural in thick expression, contestable in authorship, revisable, and open to refusal and exit.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "52",
+    "title": "Epistemic Humility",
+    "claim_status": "Governance rule",
+    "canonical_role": "Epistemic principle",
+    "description": "Knowledge systems must state scope, uncertainty, alternatives, and limits. Humility is active corrigibility, not equal credence for every claim.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "53",
+    "title": "Constraint Awareness and Externality Recognition",
+    "claim_status": "Governance rule",
+    "canonical_role": "Framework / governance principle",
+    "description": "Systems become reflexively aware of dependencies, protected floors, externalized costs, and the conditions of their own stability.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "54",
+    "title": "Self-Limiting Power",
+    "claim_status": "Governance rule",
+    "canonical_role": "Governance principle",
+    "description": "Capability and authority must be bounded by standing, law, independent challenge, reversibility, and non-domination. Voluntary restraint alone is insufficient.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "55",
+    "title": "Sustainable and Correctable Optimization",
+    "claim_status": "Governance rule",
+    "canonical_role": "Cross-domain governance principle",
+    "description": "Optimization must preserve the ecological, social, epistemic, and institutional conditions that keep goals meaningful and correction possible.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "56",
+    "title": "Universal Moral Concern",
+    "claim_status": "Commitment",
+    "canonical_role": "Normative / commitment bridge",
+    "description": "Moral concern widens beyond local identity to all credible loci of welfare, agency, vulnerability, relationship, and future stake, with differentiated obligations.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "57",
+    "title": "Coherence Stewardship",
+    "claim_status": "Commitment",
+    "canonical_role": "Framework commitment / governance bridge",
+    "description": "Agents and institutions undertake care for the wider material, biological, social, epistemic, and ecological conditions on which local flourishing depends.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "58",
+    "title": "Structural Wisdom",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Meta-learning principle",
+    "description": "Patterns of successful maintenance, love, repair, and governance can be learned and transferred only with attention to context, scale, assumptions, and failure conditions.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "59",
+    "title": "Meta-Alignment and Mythic–Constitutional Governance",
+    "claim_status": "Governance rule",
+    "canonical_role": "Canonical AI research and governance principle; safety efficacy unestablished",
+    "description": "Alignment processes must themselves remain aligned, addressable, and corrigible. Narrative orientation may supplement but never replace constitutional floors, provenance, challenge, handoff, and exit.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "60",
+    "title": "Irreversibility Awareness",
+    "claim_status": "Governance rule",
+    "canonical_role": "Governance principle",
+    "description": "Actions must account for nonrecoverable loss, path dependence, lock-in, and the moral significance of retained options.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "61",
+    "title": "Existential Maturity",
+    "claim_status": "Interpretation",
+    "canonical_role": "Civilizational interpretive / governance principle",
+    "description": "A civilization recognizes finitude, vulnerability, dependency, and the possibility of self-caused collapse, replacing innocence with proportionate responsibility.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "62",
+    "title": "Open-Ended Stability",
+    "claim_status": "Hypothesis / research program",
+    "canonical_role": "Meta-coherence principle",
+    "description": "Viable coherence persists through adaptation and revision without final closure, permanent equilibrium, or perfect control.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "63",
+    "title": "Meaning Without Finality",
+    "claim_status": "Interpretation",
+    "canonical_role": "Interpretive / commitment principle",
+    "description": "Objective-participatory meaning can orient finite lives and institutions without requiring one final cosmic endpoint. Commitment is compatible with open futures.",
+    "source": "M&E §13.14"
+  },
+  {
+    "stage": "64",
+    "title": "Coherence Universalism",
+    "claim_status": "Interpretation",
+    "canonical_role": "Interpretive recognition / framework identity; commitment-register uptake",
+    "description": "CU’s culminating interpretation holds that coherence under constraint is the framework’s most general organizing lens for reality and inquiry. This is an interpretive recognition and framework identity, not a theorem by exhaustive survey. In the commitment register, the recognition is taken up as a call to truthful, loving, corrigible participation in the whole.",
+    "source": "M&E §13.14"
+  }
+]

@@ -1,0 +1,919 @@
+{
+  "adverse_configuration": {
+    "controller_runs": [
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.0,
+        "direct_coupling_contribution_to_binding_component": -0.0,
+        "final_state": [
+          0.6,
+          0.6,
+          0.8999999999999898
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 5.897085571576263e-15,
+        "mean_state_at_minimum_margin": 0.687709271263556,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": 0.04312781379066799,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6,
+          0.6,
+          0.8631278137906679
+        ],
+        "total_control_cost": 0.1851851851854143,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.02,
+        "direct_coupling_contribution_to_binding_component": -0.0033499395629716447,
+        "final_state": [
+          0.6063679245282837,
+          0.6063679245282837,
+          0.8929245283018764
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.006612191400404678,
+        "mean_state_at_minimum_margin": 0.6894083370801524,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": 0.036905315228734636,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6056598480058611,
+          0.6056598480058611,
+          0.8569053152287346
+        ],
+        "total_control_cost": 0.7053314495076604,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.05,
+        "direct_coupling_contribution_to_binding_component": -0.00784406055881296,
+        "final_state": [
+          0.6149171270718051,
+          0.6149171270718051,
+          0.8834254143646302
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.015489332341290785,
+        "mean_state_at_minimum_margin": 0.6916831998371532,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": 0.02856441101341245,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6132425942490235,
+          0.6132425942490235,
+          0.8485644110134124
+        ],
+        "total_control_cost": 1.4049225196627182,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.1,
+        "direct_coupling_contribution_to_binding_component": -0.014191123387915462,
+        "final_state": [
+          0.6269999999999823,
+          0.6269999999999823,
+          0.869999999999989
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.028035691537744573,
+        "mean_state_at_minimum_margin": 0.6948864816680796,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": 0.016797715547234304,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6239308647285025,
+          0.6239308647285025,
+          0.8367977155472343
+        ],
+        "total_control_cost": 2.3961666666667747,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.15,
+        "direct_coupling_contribution_to_binding_component": -0.01943458463692269,
+        "final_state": [
+          0.6369863013698456,
+          0.6369863013698456,
+          0.8589041095890297
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.0384050569010235,
+        "mean_state_at_minimum_margin": 0.6975239007965595,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": 0.007087798376044119,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.632741952006817,
+          0.632741952006817,
+          0.8270877983760441
+        ],
+        "total_control_cost": 3.2176143116283105,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.25,
+        "direct_coupling_contribution_to_binding_component": -0.027595001083704995,
+        "final_state": [
+          0.6525291828793605,
+          0.6525291828793605,
+          0.8416342412451244
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": 42.01,
+        "late_tracking_rmse": 0.05454414696060105,
+        "mean_state_at_minimum_margin": 0.7016122506503252,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": -0.008007745014854795,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6464222484829151,
+          0.6464222484829151,
+          0.8119922549851452
+        ],
+        "total_control_cost": 4.500093365027092,
+        "viability_fraction": 0.9435370975268316
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.4,
+        "direct_coupling_contribution_to_binding_component": -0.03613489024978094,
+        "final_state": [
+          0.6687898089171809,
+          0.6687898089171809,
+          0.8235668789808794
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": 40.2,
+        "late_tracking_rmse": 0.07142851347197432,
+        "mean_state_at_minimum_margin": 0.705870840009755,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": -0.023791934365792633,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6607022271975288,
+          0.6607022271975288,
+          0.7962080656342073
+        ],
+        "total_control_cost": 5.84695795637429,
+        "viability_fraction": 0.9127391507232852
+      },
+      {
+        "binding_component_above_mean": true,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.8,
+        "direct_coupling_contribution_to_binding_component": -0.04870132048386804,
+        "final_state": [
+          0.6927038626609282,
+          0.6927038626609282,
+          0.7969957081544934
+        ],
+        "final_target": [
+          0.6,
+          0.6,
+          0.9
+        ],
+        "first_failure_time": 0.84,
+        "late_tracking_rmse": 0.09625988510815704,
+        "mean_state_at_minimum_margin": 0.712108813738923,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 50.0,
+        "minimum_viability_margin": -0.04701453565624192,
+        "scenario": "heterogeneous_floor_adverse_coupling",
+        "state_at_minimum_margin": [
+          0.6816704884365054,
+          0.6816704884365054,
+          0.772985464343758
+        ],
+        "total_control_cost": 7.8373458097713105,
+        "viability_fraction": 0.0055996266915538965
+      }
+    ],
+    "scenario": {
+      "decay": [
+        0.3,
+        0.3,
+        0.04
+      ],
+      "disturbance_episodes": [
+        [
+          40.0,
+          50.0,
+          [
+            0.0,
+            0.0,
+            -0.02
+          ]
+        ]
+      ],
+      "floor": [
+        0.1,
+        0.1,
+        0.82
+      ],
+      "initial": [
+        0.6,
+        0.6,
+        0.9
+      ],
+      "interpretation": "The third component has the highest state and the tightest floor. It is therefore the binding component while lying above the mean, so positive diffusive coupling directly drains it toward components with slack they do not require.",
+      "name": "heterogeneous_floor_adverse_coupling",
+      "supply": [
+        0.18,
+        0.18,
+        0.036
+      ],
+      "target_after": [
+        0.6,
+        0.6,
+        0.9
+      ],
+      "target_before": [
+        0.6,
+        0.6,
+        0.9
+      ],
+      "target_shift_time": 150.0,
+      "uncoupled_natural_equilibrium": [
+        0.6,
+        0.6,
+        0.8999999999999999
+      ]
+    },
+    "step_size_sensitivity": [
+      {
+        "control_cost_at_kappa_0": 0.18518518518524127,
+        "control_cost_at_kappa_0_8": 7.837345809771196,
+        "dt": 0.04,
+        "late_tracking_rmse_at_kappa_0": 1.4742713928940657e-15,
+        "late_tracking_rmse_at_kappa_0_8": 0.09625988510816137,
+        "minimum_margin_at_kappa_0": 0.04312063230050078,
+        "minimum_margin_at_kappa_0_8": -0.04702077817505623,
+        "trend_checks": {
+          "kappa_0_25_is_nonviable": true,
+          "kappa_0_remains_viable": true,
+          "margin_strictly_decreases": true,
+          "no_clipping": true
+        }
+      },
+      {
+        "control_cost_at_kappa_0": 0.18518518518529775,
+        "control_cost_at_kappa_0_8": 7.837345809771238,
+        "dt": 0.02,
+        "late_tracking_rmse_at_kappa_0": 2.9485427857881315e-15,
+        "late_tracking_rmse_at_kappa_0_8": 0.09625988510815989,
+        "minimum_margin_at_kappa_0": 0.043125401878143954,
+        "minimum_margin_at_kappa_0_8": -0.047016620506368345,
+        "trend_checks": {
+          "kappa_0_25_is_nonviable": true,
+          "kappa_0_remains_viable": true,
+          "margin_strictly_decreases": true,
+          "no_clipping": true
+        }
+      },
+      {
+        "control_cost_at_kappa_0": 0.1851851851854143,
+        "control_cost_at_kappa_0_8": 7.8373458097713105,
+        "dt": 0.01,
+        "late_tracking_rmse_at_kappa_0": 5.897085571576263e-15,
+        "late_tracking_rmse_at_kappa_0_8": 0.09625988510815704,
+        "minimum_margin_at_kappa_0": 0.04312781379066799,
+        "minimum_margin_at_kappa_0_8": -0.04701453565624192,
+        "trend_checks": {
+          "kappa_0_25_is_nonviable": true,
+          "kappa_0_remains_viable": true,
+          "margin_strictly_decreases": true,
+          "no_clipping": true
+        }
+      },
+      {
+        "control_cost_at_kappa_0": 0.18518518518566143,
+        "control_cost_at_kappa_0_8": 7.837345809771489,
+        "dt": 0.005,
+        "late_tracking_rmse_at_kappa_0": 1.1858269899365311e-14,
+        "late_tracking_rmse_at_kappa_0_8": 0.0962598851081515,
+        "minimum_margin_at_kappa_0": 0.04312902651244965,
+        "minimum_margin_at_kappa_0_8": -0.04701349173565539,
+        "trend_checks": {
+          "kappa_0_25_is_nonviable": true,
+          "kappa_0_remains_viable": true,
+          "margin_strictly_decreases": true,
+          "no_clipping": true
+        }
+      }
+    ]
+  },
+  "artifact": "CU Biology C.1.1 illustrative viability-control models",
+  "content_sha256_without_hash_field": "44ccf4815c6539b655e406856b5b729874c896b80267de395ab10aa17b7ebfd8",
+  "coupling_sweep": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    0.4,
+    0.8
+  ],
+  "equations": {
+    "budgeted_control": "u_i = B*w_i/sum_j(w_j), w_i = exp(-s*(x_i-floor_i))*(0.15+max(target_i-x_i,0))",
+    "minimum_margin_directional_derivative": "D M(x)[c] = min_{i in I(x)} kappa*(mean(x)-x_i); for a unique binding component j this is kappa*(mean(x)-x_j)",
+    "state_update": "x[k+1] = clip(x[k] + dt*(supply - decay*x[k] + u[k] + kappa*(mean(x[k])-x[k]) + disturbance[k]), 0, 1)",
+    "unconstrained_control": "u_desired = max(0, gain*(target-x))"
+  },
+  "interpretation": {
+    "not_supported": [
+      "Neither configuration establishes a universal biological law.",
+      "The local directional lemma does not by itself determine monotonicity of a finite controlled trajectory as coupling changes.",
+      "The models do not estimate an optimal coupling for any organism.",
+      "The models do not validate a universal biological coherence scalar."
+    ],
+    "supported": [
+      "The direct effect of diffusive coupling on a unique binding component has sign kappa*(mean(x)-x_j).",
+      "In the homogeneous-floor configuration, sampled minimum margin increases while cost and differentiated tracking error also increase.",
+      "The homogeneous-floor sweep remains well inside the viable region and demonstrates margin redistribution, not coupling-mediated rescue.",
+      "In the heterogeneous-floor configuration, sampled minimum margin decreases and crosses zero as coupling increases.",
+      "The same coupling operator can therefore support or undermine viability depending on the declared floors, state distribution, controller, disturbances, and horizon."
+    ]
+  },
+  "numerical_parameters": {
+    "control_budget": 0.12,
+    "controller_gain": 0.5,
+    "dt": 0.01,
+    "horizon": 150.0,
+    "late_window_start": 130.0,
+    "urgency_slope": 8.0
+  },
+  "primary_configuration": {
+    "controller_runs": [
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.0,
+        "direct_coupling_contribution_to_binding_component": 0.0,
+        "final_state": [
+          0.8278688524590073,
+          0.6121983367300422,
+          0.7499999999999908
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.046739336243462284,
+        "mean_state_at_minimum_margin": 0.6486242672515209,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.2811715052202315,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.7213114723331432,
+          0.7033898242011878,
+          0.5211715052202315
+        ],
+        "total_control_cost": 7.199243073725263,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.02,
+        "direct_coupling_contribution_to_binding_component": 0.002473496560015367,
+        "final_state": [
+          0.8249614958936701,
+          0.6342580443488922,
+          0.7495576665613995
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.056612041922506635,
+        "mean_state_at_minimum_margin": 0.6486272641176093,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.28495243611684096,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.7191619798508917,
+          0.7017673763850951,
+          0.524952436116841
+        ],
+        "total_control_cost": 7.27097210989699,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.05,
+        "direct_coupling_contribution_to_binding_component": 0.005918883896889077,
+        "final_state": [
+          0.8214461901792526,
+          0.6583303561382478,
+          0.7494684509838251
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.06853863603481891,
+        "mean_state_at_minimum_margin": 0.6486314241468826,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.29025374620910105,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.7161511468850568,
+          0.6994893793464897,
+          0.530253746209101
+        ],
+        "total_control_cost": 7.35305119289407,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.1,
+        "direct_coupling_contribution_to_binding_component": 0.011042359442955575,
+        "final_state": [
+          0.8169733560559572,
+          0.684484164287515,
+          0.7500729771546727
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.08240697199454412,
+        "mean_state_at_minimum_margin": 0.6486375903701699,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.29821399594061415,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.7116356996458434,
+          0.6960630755240518,
+          0.5382139959406141
+        ],
+        "total_control_cost": 7.4472332460456085,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.15,
+        "direct_coupling_contribution_to_binding_component": 0.015511324499464312,
+        "final_state": [
+          0.813539464448677,
+          0.701207513398051,
+          0.7510533234585351
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.09163648609305763,
+        "mean_state_at_minimum_margin": 0.6486429625241327,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.3052341325277039,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.7076576956936688,
+          0.6930370593510252,
+          0.5452341325277039
+        ],
+        "total_control_cost": 7.510326240751188,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.25,
+        "direct_coupling_contribution_to_binding_component": 0.022909526039926603,
+        "final_state": [
+          0.8084282555394443,
+          0.7213182744280998,
+          0.7532332934840505
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.10305333500993008,
+        "mean_state_at_minimum_margin": 0.6486518793319754,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.31701377517226903,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.7009876770913686,
+          0.6879541857322888,
+          0.557013775172269
+        ],
+        "total_control_cost": 7.589086721493036,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.4,
+        "direct_coupling_contribution_to_binding_component": 0.031254312884999136,
+        "final_state": [
+          0.8031714902841994,
+          0.737149376310386,
+          0.7562032051263332
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.11232401844464174,
+        "mean_state_at_minimum_margin": 0.6486620374535913,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.33052625524109347,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.6933369633440621,
+          0.6821228937756181,
+          0.5705262552410935
+        ],
+        "total_control_cost": 7.6530593362637775,
+        "viability_fraction": 1.0
+      },
+      {
+        "binding_component_above_mean": false,
+        "binding_components_at_minimum": [
+          3
+        ],
+        "clipped_coordinate_count": 0,
+        "clipped_step_count": 0,
+        "controller_enabled": true,
+        "coupling": 0.8,
+        "direct_coupling_contribution_to_binding_component": 0.04473830586126413,
+        "final_state": [
+          0.7952693021063909,
+          0.7543030512699176,
+          0.761664082833323
+        ],
+        "final_target": [
+          0.88,
+          0.56,
+          0.78
+        ],
+        "first_failure_time": null,
+        "late_tracking_rmse": 0.12284011821921251,
+        "mean_state_at_minimum_margin": 0.6486788636767815,
+        "minimum_margin_component": 3,
+        "minimum_margin_time": 88.0,
+        "minimum_viability_margin": 0.35275598135020136,
+        "scenario": "homogeneous_floor_tradeoff",
+        "state_at_minimum_margin": [
+          0.680728054996311,
+          0.672552554683832,
+          0.5927559813502014
+        ],
+        "total_control_cost": 7.723840384385637,
+        "viability_fraction": 1.0
+      }
+    ],
+    "no_controller_reference": {
+      "binding_component_above_mean": false,
+      "binding_components_at_minimum": [
+        3
+      ],
+      "clipped_coordinate_count": 0,
+      "clipped_step_count": 0,
+      "controller_enabled": false,
+      "coupling": 0.0,
+      "direct_coupling_contribution_to_binding_component": 0.0,
+      "final_state": [
+        0.590897915394353,
+        0.61100155075412,
+        0.599067463202053
+      ],
+      "final_target": [
+        0.88,
+        0.56,
+        0.78
+      ],
+      "first_failure_time": 26.76,
+      "late_tracking_rmse": 0.1997191110634731,
+      "mean_state_at_minimum_margin": 0.43389881835446903,
+      "minimum_margin_component": 3,
+      "minimum_margin_time": 88.0,
+      "minimum_viability_margin": -0.10093424699679698,
+      "scenario": "homogeneous_floor_tradeoff",
+      "state_at_minimum_margin": [
+        0.5806339890359196,
+        0.5819967130242847,
+        0.139065753003203
+      ],
+      "total_control_cost": 0.0,
+      "viability_fraction": 0.9568695420305313
+    },
+    "scenario": {
+      "decay": [
+        0.11,
+        0.09,
+        0.1
+      ],
+      "disturbance_episodes": [
+        [
+          20.0,
+          28.0,
+          [
+            -0.075,
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          50.0,
+          60.0,
+          [
+            -0.035,
+            -0.055,
+            -0.025
+          ]
+        ],
+        [
+          82.0,
+          88.0,
+          [
+            0.0,
+            0.0,
+            -0.1
+          ]
+        ]
+      ],
+      "floor": [
+        0.24,
+        0.24,
+        0.24
+      ],
+      "initial": [
+        0.72,
+        0.72,
+        0.72
+      ],
+      "interpretation": "Equal floors make a binding component a minimum-state component. The direct diffusive contribution therefore cannot drain a unique binding component at a fixed state, although the global sweep trend still depends on the complete controlled trajectory.",
+      "name": "homogeneous_floor_tradeoff",
+      "supply": [
+        0.065,
+        0.055,
+        0.06
+      ],
+      "target_after": [
+        0.88,
+        0.56,
+        0.78
+      ],
+      "target_before": [
+        0.75,
+        0.72,
+        0.7
+      ],
+      "target_shift_time": 100.0,
+      "uncoupled_natural_equilibrium": [
+        0.5909090909090909,
+        0.6111111111111112,
+        0.6
+      ]
+    },
+    "step_size_sensitivity": [
+      {
+        "control_cost_at_kappa_0": 7.199519712353715,
+        "control_cost_at_kappa_0_8": 7.723748445211277,
+        "dt": 0.04,
+        "late_tracking_rmse_at_kappa_0": 0.04674093587534865,
+        "late_tracking_rmse_at_kappa_0_8": 0.12284012519637266,
+        "minimum_margin_at_kappa_0": 0.28102500821049936,
+        "minimum_margin_at_kappa_0_8": 0.35270544053048014,
+        "trend_checks": {
+          "cost_strictly_increases": true,
+          "late_tracking_error_strictly_increases": true,
+          "margin_strictly_increases": true,
+          "no_clipping": true
+        }
+      },
+      {
+        "control_cost_at_kappa_0": 7.199191953849744,
+        "control_cost_at_kappa_0_8": 7.723790769525035,
+        "dt": 0.02,
+        "late_tracking_rmse_at_kappa_0": 0.04673766348599289,
+        "late_tracking_rmse_at_kappa_0_8": 0.12284012049098969,
+        "minimum_margin_at_kappa_0": 0.2811225311593052,
+        "minimum_margin_at_kappa_0_8": 0.3527390630446633,
+        "trend_checks": {
+          "cost_strictly_increases": true,
+          "late_tracking_error_strictly_increases": true,
+          "margin_strictly_increases": true,
+          "no_clipping": true
+        }
+      },
+      {
+        "control_cost_at_kappa_0": 7.199243073725263,
+        "control_cost_at_kappa_0_8": 7.723840384385637,
+        "dt": 0.01,
+        "late_tracking_rmse_at_kappa_0": 0.046739336243462284,
+        "late_tracking_rmse_at_kappa_0_8": 0.12284011821921251,
+        "minimum_margin_at_kappa_0": 0.2811715052202315,
+        "minimum_margin_at_kappa_0_8": 0.35275598135020136,
+        "trend_checks": {
+          "cost_strictly_increases": true,
+          "late_tracking_error_strictly_increases": true,
+          "margin_strictly_increases": true,
+          "no_clipping": true
+        }
+      },
+      {
+        "control_cost_at_kappa_0": 7.199268717089924,
+        "control_cost_at_kappa_0_8": 7.723850473922861,
+        "dt": 0.005,
+        "late_tracking_rmse_at_kappa_0": 0.04674017268678957,
+        "late_tracking_rmse_at_kappa_0_8": 0.12284011700214224,
+        "minimum_margin_at_kappa_0": 0.2811960446370245,
+        "minimum_margin_at_kappa_0_8": 0.3527644672253736,
+        "trend_checks": {
+          "cost_strictly_increases": true,
+          "late_tracking_error_strictly_increases": true,
+          "margin_strictly_increases": true,
+          "no_clipping": true
+        }
+      }
+    ]
+  },
+  "regression_checks": {
+    "adverse_binding_component_is_component_3": true,
+    "adverse_controller_runs_have_no_clipping": true,
+    "adverse_kappa_0_25_is_nonviable": true,
+    "adverse_kappa_0_is_viable": true,
+    "adverse_margin_strictly_decreases_over_sweep": true,
+    "adverse_positive_couplings_drain_binding_component_at_minimum": true,
+    "adverse_step_size_sweeps_preserve_reported_trends": true,
+    "adverse_sweep_contains_viable_and_nonviable_runs": true,
+    "primary_all_controller_runs_remain_viable": true,
+    "primary_controller_runs_have_no_clipping": true,
+    "primary_cost_strictly_increases_over_sweep": true,
+    "primary_late_tracking_error_strictly_increases_over_sweep": true,
+    "primary_margin_strictly_increases_over_sweep": true,
+    "primary_no_controller_failure_is_recorded": true,
+    "primary_no_controller_run_crosses_viability_floor": true,
+    "primary_step_size_sweeps_preserve_reported_trends": true
+  },
+  "software": {
+    "numpy": "2.3.5",
+    "python": "3.13.5"
+  },
+  "status": "Pedagogical deterministic models; not fitted to biological data and not empirical validation of Coherence Universalism.",
+  "step_size_sweep": [
+    0.04,
+    0.02,
+    0.01,
+    0.005
+  ]
+}

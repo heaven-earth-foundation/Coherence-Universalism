@@ -1,0 +1,39 @@
+
+=== P1  Sandbox identities (§3.7 Jeffreys, §3.9 Euler step, §3.12-3.13.2 Fisher forms)
+max error: 1.7053025658242404e-13
+  D, S at [0.05 0.25 0.25 0.45] 0.08 1.2023
+  D, S at [0.1 0.2 0.2 0.5] 0.09 1.2206
+  D, S at [0.4 0.3 0.2 0.1] 0.05 1.2799
+  D, S at [0.7 0.1 0.1 0.1] 0.27 0.9404
+
+=== P2  Wedge collapse exactly on two-level states (abstract; §3.14.2)
+two-level: [np.float64(1.0), np.float64(1.0), np.float64(1.0)]  three-level example: 0.980184
+
+=== P3  Global Fisher-field bounds on the closed simplex (§3.13.2)
+random search (incl. faces): {'A': np.float64(0.586549), 'B': np.float64(1.011336), 'Pi': np.float64(0.585669)}
+(x,y,y,y) refinement:        {'A': np.float64(0.586724197682), 'B': np.float64(1.011677099863), 'Pi': np.float64(0.586672264109)}
+paper: A 0.586724197682029  B 1.011677099862651  Pi 0.586672264109138
+sup|A|^2 = 0.34424528414562117  23/128+11*sqrt(33)/384 = 0.3442452841456206
+B root x: 0.8514952120715447
+Pi root x: 0.8202982895645353
+
+=== P4  Feasibility bound |b_i| <= log(1/eps) on the band (§3.10)
+max |b_i| / log(1/eps): 0.7381
+
+=== P5  Conservative accessibility flow (§4.11)
+D drift (Euler): 1.4e-05  Dbar nonincreasing: True  H nondecreasing: True
+
+=== P6  Fisher term variation equals the quantum potential (§7.11), and the §6 two-qubit values
+dI/drho - Q = 0
+linear entropy - sin^2(2th)/2 = 0
+
+=== P7  Citations: parenthetical citations without entries; entries never mentioned
+cited without entry: []
+entries never mentioned: ['Amari', 'Ay', 'Connes', 'Hardy', 'Jaynes', 'Masanes', 'Schlosshauer', 'Wilde']
+
+=== P8  Cross-paper: PHYS-A6 identifiers, Mandala labels, artifacts
+PHYS- identifiers in Physics: 0  defined in Foundations Part VI: 12
+Physics A.5 lists canonical stage titles: True
+Physics §1.5 rung 3 label: Comparative gradients among configurations
+Physics §1.5 rung 8 label: Directed entropy production and thermodynamic time
+sentence-initial lowercase 'the Version 0.10': 1

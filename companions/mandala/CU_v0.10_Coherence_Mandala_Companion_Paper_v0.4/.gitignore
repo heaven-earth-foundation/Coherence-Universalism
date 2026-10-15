@@ -1,0 +1,4 @@
+# These are archived, required build inputs, not disposable generated output.
+# Override the repository-root build/ ignore rule for this companion only.
+!build/
+!build/**

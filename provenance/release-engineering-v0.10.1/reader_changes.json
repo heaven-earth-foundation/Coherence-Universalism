@@ -1,0 +1,134 @@
+[
+  {
+    "file": "00_Introduction.docx",
+    "modified_ooxml_parts": [
+      "word/document.xml"
+    ],
+    "native_math_objects": 0,
+    "native_math_unchanged": true,
+    "source_sha256": "c80a7bb3fbf5398ff7ac2310b3c1240495f74bbb82b76309ee5c54a2372fcc63",
+    "output_sha256": "4d08321fca1933b1dbc841ef41a87db524ee50159d6d0ddbfd3d3fd81e88325a"
+  },
+  {
+    "file": "01_Metaphysics_Epistemology.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 243,
+    "native_math_unchanged": true,
+    "source_sha256": "655b9201d48c38d74ed38ada2da672bee6231ffd79820a23929e3815358cd837",
+    "output_sha256": "89fce11d1444a637d8a927f95bff445660bacfdacdf73ecc5e6803b2db7cfda7"
+  },
+  {
+    "file": "02_Foundations.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 56,
+    "native_math_unchanged": true,
+    "source_sha256": "86f2c4c9359adea199ec09e38ccc65bf9437d8191fab10e73ae3c49373e6cda7",
+    "output_sha256": "6e7b56e86630dfab8252adf36c962dd8843a97bd9ebcae09b0e0ef08fd52ce39"
+  },
+  {
+    "file": "03_Physics.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 1211,
+    "native_math_unchanged": true,
+    "source_sha256": "979fc6f686b3cd7e7958d83cbcba584369ff43f4dd696d717e199adcc904bba3",
+    "output_sha256": "609395d61509ecbf79d4821929144e7e0480d47f62f3c2d48e7db5ac48857fc5"
+  },
+  {
+    "file": "04_Biology.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 200,
+    "native_math_unchanged": true,
+    "source_sha256": "5331a94a7e7dc28d986e60981e3a0b94ba84d711a2309602c3c0f35775bab800",
+    "output_sha256": "f6f2fe8cbaf68ba705b6e978dd233204a46b335fe0eebbc9aa7c6f6445f49288"
+  },
+  {
+    "file": "05_Consciousness.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 121,
+    "native_math_unchanged": true,
+    "source_sha256": "6b4aaf2abf24c3bebb8b466e67ccda85928481bb75572cb94fd17796cb6253de",
+    "output_sha256": "8cfd03a82963b9c3ac9b820b15413a6ecdcc5c8acaffdaca16976b9c81bccb68"
+  },
+  {
+    "file": "06_Psychology.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 49,
+    "native_math_unchanged": true,
+    "source_sha256": "5145e30e16f6c71383b6750258cda4c95e2e77719322bd9fac8fcb7840b372e4",
+    "output_sha256": "258de78e3f74d1929ddeb2e42a8f714b7b8e52de391e47bd428c3030ff559745"
+  },
+  {
+    "file": "07_Social_Dynamics.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 47,
+    "native_math_unchanged": true,
+    "source_sha256": "94a4079a620ee260bcca49c5e842262bc531c88eb26d4c2adfdcafc70e601ab4",
+    "output_sha256": "5c4b544cce05e77c59c5743f198f6eb982147fa4610f9f542d8e1094963c7d0b"
+  },
+  {
+    "file": "08_Ethics.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 90,
+    "native_math_unchanged": true,
+    "source_sha256": "fd038409fc1bff7c91896dcc81c6113bb95c8cb99b292d9f61873e7d49c72f3e",
+    "output_sha256": "67d525199be4744e5148aa04d1319633ce3c4828ac40c73d39be1b56c39afc24"
+  },
+  {
+    "file": "09_Artificial_Intelligence.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 122,
+    "native_math_unchanged": true,
+    "source_sha256": "78f171b3cbf38b1af69f1f75ebe06d9af5da12430998ac68fbbf3b54963f25e4",
+    "output_sha256": "e342ca2485a8fedb9b5314f0356177725e432e9e38ac31c8f854a835acf0bea0"
+  },
+  {
+    "file": "10_Denying_Knowledge.docx",
+    "modified_ooxml_parts": [
+      "word/document.xml",
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 115,
+    "native_math_unchanged": true,
+    "source_sha256": "e3daadc296c10a4de747db2dd43f8b0282ef994dfdb50d7275a2fe4238da843d",
+    "output_sha256": "749fb208064ff27cfa0b6fc15f767688351de13b0134e17f16623261560a35ee"
+  },
+  {
+    "file": "11_Non_Egoic_Mind.docx",
+    "modified_ooxml_parts": [
+      "word/_rels/document.xml.rels",
+      "word/_rels/footnotes.xml.rels"
+    ],
+    "native_math_objects": 67,
+    "native_math_unchanged": true,
+    "source_sha256": "bcb147b1bf1c1cb99f53828335c377be615bf1364e717eaaa35b66522006a903",
+    "output_sha256": "82552a732a9f8ff9fe334e6e98bc22aee47d151d34d1303c33b658781000973e"
+  }
+]

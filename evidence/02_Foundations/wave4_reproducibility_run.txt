@@ -1,0 +1,10 @@
+$ /opt/pyvenv/bin/python wave4_registry_verification.py
+exit=0
+principle_records_226 PASS
+principle_ids_unique PASS
+stage_records_64 PASS
+stage_numbers_unique PASS
+foundations_has_wave4_supplement_link PASS
+stage_64_repaired_in_both PASS
+
+

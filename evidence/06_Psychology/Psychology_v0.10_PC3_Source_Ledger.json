@@ -1,0 +1,14 @@
+{
+  "publication": "Psychology",
+  "source_pc": 2,
+  "target_pc": 3,
+  "source_manuscript": "/mnt/data/CU_Psychology_v0.10_Publication_PC2/CU_Psychology_v0.10_Publication_Candidate_2.md",
+  "source_manuscript_sha256": "c5176454e2f7ce6cff82e5a29e480fe880697059d2b409fd19458d3df4872201",
+  "updated_manuscript": "CU_Psychology_v0.10_Publication_Candidate_3.md",
+  "updated_manuscript_sha256": "389d2193f6594a77d7f6121f44f499d08fe775a3f617f4d9aded950bfac2326a",
+  "frozen_technical_supplement": "frozen/CU_Psychology_v0.10_PC2_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "6a13a5e444816b6da492657c1bd14d8cf48d2deb1605716b9ff8b23a384b2599",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 46
+}

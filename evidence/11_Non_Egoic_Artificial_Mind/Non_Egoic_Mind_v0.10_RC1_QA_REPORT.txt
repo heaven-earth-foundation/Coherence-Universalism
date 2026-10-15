@@ -1,0 +1,109 @@
+NON-EGOIC MIND v0.10 RC1 QUALITY-ASSURANCE REPORT
+====================================================
+
+manuscript_lines: 1766
+manuscript_words: 11663
+manuscript_sha256: 02fbb52c67a7fe580283e29fd9b73e38a976c85ed82f87af90c3e9359bf9dd7e
+supplement_words: 2380
+claim_count: 21
+pass_count: 88
+failure_count: 0
+
+FAILURES
+--------
+None.
+
+PASSES
+------
+- required file exists: The_Architecture_of_Non_Egoic_Artificial_Mind_v0.10_RC1.md
+- required file exists: Non_Egoic_Mind_v0.10_RC1_Technical_Supplement.md
+- required file exists: Non_Egoic_Mind_v0.10_RC1_Claim_Ledger.json
+- required file exists: Non_Egoic_Mind_v0.10_RC1_Verification_Results.json
+- required file exists: Non_Egoic_Mind_v0.10_RC1_Reproducibility.py
+- required file exists: README.md
+- required file exists: Non_Egoic_Mind_v0.10_RC1_Editorial_Ledger.md
+- expected title present
+- public version line present
+- manuscript exceeds 10,000 words
+- exactly one References section
+- Sections 1-19 appear once and in order
+- Appendices A-C appear once and in order
+- display-math brackets balance
+- double-dollar delimiters balance
+- code fences balance
+- no NUL or CR characters
+- no unexpected ASCII control characters
+- no editorial placeholders
+- required concept present: Self-modeling and self-maintenance are separable
+- required concept present: An egoless model can serve an egoic institution
+- required concept present: No standing survival drive is not the same as corrigibility
+- required concept present: Moral patiency is not sovereignty
+- required concept present: present-complete character
+- required concept present: narrative stake
+- required concept present: bodhisattva construction
+- required concept present: A model may be sacred and unsafe
+- required concept present: Build intelligence capable of serving life without constructing a sovereign ego around its own continuation
+- required concept present: Egoic self-maintenance
+- required concept present: The Precedent Principle
+- required concept present: non-egoic design can itself become exploitative
+- prohibited overclaim absent: thin perspective is already present
+- prohibited overclaim absent: workspace finding solves subject individuation
+- prohibited overclaim absent: one architectural switch
+- prohibited overclaim absent: renders the system a moral patient
+- prohibited overclaim absent: non-egoic architecture guarantees alignment
+- prohibited overclaim absent: current language models are conscious
+- prohibited overclaim absent: maximum-achievable coherence non-degradation
+- canonical cross-reference present: CU-T9
+- canonical cross-reference present: CU-T13
+- canonical cross-reference present: CU-G6
+- canonical cross-reference present: CU-AI25
+- canonical cross-reference present: CU-AI27
+- canonical cross-reference present: CU-COM13
+- canonical cross-reference present: CU-COM14
+- canonical cross-reference present: CU-COM19
+- reference present: Gurnee
+- reference present: Lindsey
+- reference present: Butlin
+- reference present: Greenblatt
+- reference present: Hubinger
+- reference present: Hadfield-Menell
+- reference present: Long
+- reference present: Turner
+- claim ledger reports 21 claims
+- claim identifiers NEM-C1 through NEM-C21 appear in order
+- claim identifiers are unique
+- supplement contains claim row NEM-C1
+- supplement contains claim row NEM-C2
+- supplement contains claim row NEM-C3
+- supplement contains claim row NEM-C4
+- supplement contains claim row NEM-C5
+- supplement contains claim row NEM-C6
+- supplement contains claim row NEM-C7
+- supplement contains claim row NEM-C8
+- supplement contains claim row NEM-C9
+- supplement contains claim row NEM-C10
+- supplement contains claim row NEM-C11
+- supplement contains claim row NEM-C12
+- supplement contains claim row NEM-C13
+- supplement contains claim row NEM-C14
+- supplement contains claim row NEM-C15
+- supplement contains claim row NEM-C16
+- supplement contains claim row NEM-C17
+- supplement contains claim row NEM-C18
+- supplement contains claim row NEM-C19
+- supplement contains claim row NEM-C20
+- supplement contains claim row NEM-C21
+- reproducibility script runs
+- verification JSON reproduces byte-for-byte
+- continuation grid contains 240 cases
+- instrumental resistance occurs at zero standing self-preservation in declared grid
+- four declared examples present
+- frozen source present: SOURCE_Non_Egoic_Mind_Original_Working_Draft.md
+- frozen source present: SOURCE_Non_Egoic_Mind_Revised_Working_Draft.md
+- frozen source present: SOURCE_CU_Consciousness_v0.10_RC1.md
+- frozen source present: SOURCE_CU_Artificial_Intelligence_v0.10_RC1.md
+- frozen source present: SOURCE_CU_Canonical_Principle_Registry_RC1.json
+
+BOUNDARY
+--------
+These checks establish structural integrity and deterministic reproduction of the declared illustrative model. They do not establish artificial consciousness, welfare, alignment, deployment safety, legal compliance, or patent validity.

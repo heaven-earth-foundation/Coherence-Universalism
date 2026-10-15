@@ -1,0 +1,74 @@
+
+=== Q1  Second-order dynamics equal a first-order system on the expanded state (§5.4)
+max residual of q'' + Γq' + V'(q) along the first-order solution (finite differences, interior): 3.42e-04
+
+=== Q2  A weighted score can reverse the ranking of two profiles (§3.13)
+weights [3 2 3 2 1 1 1 1 1 1]  access-rich 10.0  embodied 9.9
+weights [1 1 1 1 1 2 2 3 3 1]  access-rich 5.8  embodied 11.6
+Pareto: neither profile dominates: True
+
+=== Q3  A causal-attention transformer, unrolled over (layer, position), has no multi-node SCC (§7.11)
+pairs mutually reachable: 0  -> every strongly connected component is a single node
+
+=== Q4  Identifiers, titles, and principle statements against Foundations
+27 identifiers; unresolved: []
+Appendix A rows: 14; titles identical 14; statements identical 14
+Appendix A status cells that are empty: 14 of 14
+Foundations claim statuses: {'CU-C1': 'CANONICAL–CONDITIONAL EMPIRICAL CONSTRUCT', 'CU-C2': 'CANONICAL BRIDGE HYPOTHESIS', 'CU-C3': 'CANONICAL–CONDITIONAL CONSTRUCT', 'CU-C4': 'CANONICAL METHODOLOGICAL PRINCIPLE', 'CU-C5': 'CANONICAL–CONDITIONAL BRIDGE HYPOTHESIS', 'CU-C6': 'CANONICAL–CONDITIONAL EMPIRICAL GENERALIZATION', 'CU-C7': 'CANONICAL BRIDGE PRINCIPLE', 'CU-V1': 'CANONICAL BOUNDARY PRINCIPLE', 'CU-V2': 'CANONICAL–CONDITIONAL BRIDGE HYPOTHESIS', 'CU-V3': 'CANONICAL–CONDITIONAL EMPIRICAL CONSTRUCT', 'CU-V4': 'CANONICAL–CONDITIONAL BRIDGE HYPOTHESIS', 'CU-V5': 'CANONICAL–CONDITIONAL BRIDGE HYPOTHESIS', 'CU-V6': 'CANONICAL CORRECTION / PROVISIONAL HYPOTHESIS', 'CU-V7': 'CANONICAL BRIDGE PRINCIPLE'}
+Foundations CU-V7 authority class: SUPERSEDED ALIAS | disposition: Historical or domain alias; controlling identifier is CU-G6.
+Consciousness says CU-V7 is superseded/alias: False
+
+=== Q5  Mandala stages named in Appendix A versus Foundations
+[(16, True), (17, True), (18, True), (19, True), (20, True), (21, True)]
+
+=== Q6  CU-COM9 against Foundations §9.11
+Commitment statement identical: True
+Boundary conditions identical: True
+Revision conditions identical: True
+Foundations cross-references: interpretations CU-T3, CU-T5, CU-T8; governance and related principles CU-G1, CU-G6, CU-G7
+Consciousness Appendix A cross-reference names: ['CU-G6', 'CU-T12', 'CU-T13', 'CU-T9']
+
+=== Q7  Propagation artifacts
+sentence- or cell-initial lowercase 'this paper': 52  all lowercase 'this paper': 59
+ungrammatical substitutions: [(1180, 'central this paper distinction'), (1203, 'this paper assessment')]
+lowercase defined term: [(314, '**[Definition] responsible sovereignty**')]
+'RC2 remains the frozen baseline': [106]
+abstract paragraph after the closing rule: The paper concludes by distinguishing what its scientific architecture…
+corpus counts of sentence-initial lowercase 'this paper': {'01': 0, '02': 0, '03': 0, '04': 0, '05': 52, '06': 0, '07': 0, '08': 1, '09': 11, '10': 0, '11': 0}
+
+=== Q8  Internal cross-references and threshold language
+'Appendix B gives an explicit construction': lines [623]
+'PIH threshold': lines [760]
+'thin threshold': lines [1663]
+'does not define a numerical threshold': lines [665]
+'dual_disconnected_workspaces': lines [1228]
+'several independence results': lines [637]
+Appendix B contains a construction or weights: False
+
+=== Q9  Notation reuse
+P as probability: 3
+P as persistence coordinate: 1
+G as causal graph G_t: 1
+G as profile coordinate: 1
+G as relational organization: 1
+calligraphic R as reflexive process: 1
+calligraphic R as reach sets: 1
+E as environment: 1
+E_t as graph edges: 1
+
+=== Q10 Citations against the reference list
+39 entries; 6 are Rader
+entries with no author-year mention in the body: [('Bayne', '2010'), ('Bayne', '2016'), ('Blanke', '2009'), ('Chalmers', '1995'), ('Chalmers', '2023'), ('Cleeremans', '2020'), ('Cogitate', '2025'), ('Damasio', '2010'), ('Letheby', '2017'), ('Metzinger', '2003'), ('Nagel', '1974'), ('Parfit', '1984'), ('Shea', '2019'), ('Varela', '1996')]
+Rader year suffixes: ['2026', '2026', '2026', '2026', '2026', '2026f']
+Gurnee entry carries arXiv:2607.15495: False
+COGITATE named in body without author-year citation: [729, 970, 1023]  'Cogitate Consortium' in body: False
+
+=== Q11 §10's description of the companion paper against the v0.10 Non-Egoic paper (11)
+'externally versioned identity': in Consciousness 2, in Non-Egoic 0
+'write-gated memory': in Consciousness 1, in Non-Egoic 0
+'task-scoped self-model': in Consciousness 2, in Non-Egoic 0
+'externally imposed norms': in Consciousness 1, in Non-Egoic 0
+'one architectural switch': in Consciousness 1, in Non-Egoic 0
+'maximum-achievable coherence': in Consciousness 1, in Non-Egoic 0
+'bodhisattva construction': in Consciousness 2, in Non-Egoic 7
+Non-Egoic architecture families: ['Architecture family I: declared profiles and boundaries', 'Architecture family II: memory without sovereign autobiography', 'Architecture family III: self-modeling and inference-level integrity', 'Architecture family IV: continuation incentives, permissions, and shutdown', 'Architecture family V: world-coupling without manufactured vulnerability', 'Architecture family VI: intersubjective and institutional correction']

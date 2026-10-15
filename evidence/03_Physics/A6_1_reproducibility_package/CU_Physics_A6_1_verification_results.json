@@ -1,0 +1,745 @@
+{
+  "block_averaging": {
+    "minimum_entropy_gain": 5.50022402845407e-07,
+    "samples": 200000,
+    "sampling_dependent_correlations_dirichlet_1": {
+      "note": "These correlations depend on the sampling measure and are not framework invariants.",
+      "pearson_hidden_differentiation_vs_entropy_gain": 0.9384680898874034,
+      "pearson_hidden_differentiation_vs_within_entropy": -0.9384680898874034,
+      "spearman_hidden_differentiation_vs_entropy_gain": 0.9611738011539053
+    },
+    "six_state_partition_max_abs_residuals": {
+      "differentiation_loss": 2.7755575615628914e-16,
+      "entropy_gain": 8.951173136040325e-16
+    },
+    "two_block_max_abs_residuals": {
+      "block_average_differentiation_loss": 2.220446049250313e-16,
+      "block_average_entropy_gain": 9.43689570931383e-16,
+      "differentiation_decomposition": 2.220446049250313e-16,
+      "shannon_grouping": 7.771561172376096e-16
+    }
+  },
+  "fisher_absolute_constants": {
+    "all_reduced_cases": {
+      "Pi_F": [
+        {
+          "a": 0.11721072939790302,
+          "b": 0.882789270602097,
+          "multiplicity_a": 1,
+          "support_size": 2,
+          "total_mass_a": 0.11721072939790302,
+          "value": 0.3198930529130805
+        },
+        {
+          "a": 0.8420256874385043,
+          "b": 0.07898715628074787,
+          "multiplicity_a": 1,
+          "support_size": 3,
+          "total_mass_a": 0.8420256874385043,
+          "value": 0.48039604590984675
+        },
+        {
+          "a": 0.07898715628074739,
+          "b": 0.8420256874385053,
+          "multiplicity_a": 2,
+          "support_size": 3,
+          "total_mass_a": 0.15797431256149477,
+          "value": 0.4803960459098467
+        },
+        {
+          "a": 0.8202982891124663,
+          "b": 0.05990057029584458,
+          "multiplicity_a": 1,
+          "support_size": 4,
+          "total_mass_a": 0.8202982891124663,
+          "value": 0.5866722641091376
+        },
+        {
+          "a": 0.05860536470366095,
+          "b": 0.44139463529633904,
+          "multiplicity_a": 2,
+          "support_size": 4,
+          "total_mass_a": 0.1172107294073219,
+          "value": 0.15994652645654026
+        },
+        {
+          "a": 0.05990056940716113,
+          "b": 0.8202982917785167,
+          "multiplicity_a": 3,
+          "support_size": 4,
+          "total_mass_a": 0.1797017082214834,
+          "value": 0.5866722641091376
+        }
+      ],
+      "norm_A": [
+        {
+          "a": 0.1464466089932816,
+          "b": 0.8535533910067183,
+          "multiplicity_a": 1,
+          "support_size": 2,
+          "total_mass_a": 0.1464466089932816,
+          "value": 0.49999999999999994
+        },
+        {
+          "a": 0.814333488776931,
+          "b": 0.0928332556115345,
+          "multiplicity_a": 1,
+          "support_size": 3,
+          "total_mass_a": 0.814333488776931,
+          "value": 0.5610924274227465
+        },
+        {
+          "a": 0.09283325423456935,
+          "b": 0.8143334915308613,
+          "multiplicity_a": 2,
+          "support_size": 3,
+          "total_mass_a": 0.1856665084691387,
+          "value": 0.5610924274227466
+        },
+        {
+          "a": 0.7965351649570782,
+          "b": 0.06782161168097393,
+          "multiplicity_a": 1,
+          "support_size": 4,
+          "total_mass_a": 0.7965351649570782,
+          "value": 0.586724197682029
+        },
+        {
+          "a": 0.07322330335374634,
+          "b": 0.4267766966462537,
+          "multiplicity_a": 2,
+          "support_size": 4,
+          "total_mass_a": 0.14644660670749268,
+          "value": 0.25
+        },
+        {
+          "a": 0.06782160966801526,
+          "b": 0.7965351709959543,
+          "multiplicity_a": 3,
+          "support_size": 4,
+          "total_mass_a": 0.20346482900404578,
+          "value": 0.5867241976820289
+        }
+      ],
+      "norm_B": [
+        {
+          "a": 0.08322171930486366,
+          "b": 0.9167782806951363,
+          "multiplicity_a": 1,
+          "support_size": 2,
+          "total_mass_a": 0.08322171930486366,
+          "value": 0.6627434193491816
+        },
+        {
+          "a": 0.876696355915108,
+          "b": 0.061651822042446014,
+          "multiplicity_a": 1,
+          "support_size": 3,
+          "total_mass_a": 0.876696355915108,
+          "value": 0.8728128308462243
+        },
+        {
+          "a": 0.061651818194110974,
+          "b": 0.876696363611778,
+          "multiplicity_a": 2,
+          "support_size": 3,
+          "total_mass_a": 0.12330363638822195,
+          "value": 0.8728128308462245
+        },
+        {
+          "a": 0.8514952188173674,
+          "b": 0.04950159372754418,
+          "multiplicity_a": 1,
+          "support_size": 4,
+          "total_mass_a": 0.8514952188173674,
+          "value": 1.0116770998626512
+        },
+        {
+          "a": 0.04161086027108781,
+          "b": 0.4583891397289122,
+          "multiplicity_a": 2,
+          "support_size": 4,
+          "total_mass_a": 0.08322172054217562,
+          "value": 0.6627434193491818
+        },
+        {
+          "a": 0.04950159755791481,
+          "b": 0.8514952073262556,
+          "multiplicity_a": 3,
+          "support_size": 4,
+          "total_mass_a": 0.14850479267374445,
+          "value": 1.0116770998626512
+        }
+      ]
+    },
+    "global_reduction_note": "Interior KKT equations force at most two distinct positive probability values; all support sizes and multiplicities through n=4 were optimized in one dimension. The winning one-plus-three family was then evaluated from its exact or bracketing-root equation.",
+    "sup_Pi_F": {
+      "argmax": {
+        "a": 0.8202982895645111,
+        "b": 0.05990057014516296,
+        "multiplicity_a": 1,
+        "support_size": 4,
+        "total_mass_a": 0.8202982895645111,
+        "value": 0.5866722641091376
+      },
+      "scan_argmax": {
+        "a": 0.8202982891124663,
+        "b": 0.05990057029584458,
+        "multiplicity_a": 1,
+        "support_size": 4,
+        "total_mass_a": 0.8202982891124663,
+        "value": 0.5866722641091376
+      },
+      "scan_residual": 0.0,
+      "scan_value": 0.5866722641091376,
+      "stationarity_residual": -1.5987211554602254e-14,
+      "value": 0.5866722641091376
+    },
+    "sup_norm_A": {
+      "argmax": {
+        "a": 0.7965351654086268,
+        "b": 0.06782161153045774,
+        "multiplicity_a": 1,
+        "support_size": 4,
+        "total_mass_a": 0.7965351654086268,
+        "value": 0.586724197682029
+      },
+      "exact_large_probability": 0.7965351654086268,
+      "exact_squared_value": 0.3442452841456206,
+      "scan_argmax": {
+        "a": 0.7965351649570782,
+        "b": 0.06782161168097393,
+        "multiplicity_a": 1,
+        "support_size": 4,
+        "total_mass_a": 0.7965351649570782,
+        "value": 0.586724197682029
+      },
+      "scan_residual": 0.0,
+      "scan_value": 0.586724197682029,
+      "value": 0.586724197682029
+    },
+    "sup_norm_B": {
+      "argmax": {
+        "a": 0.8514952120715447,
+        "b": 0.04950159597615178,
+        "multiplicity_a": 1,
+        "support_size": 4,
+        "total_mass_a": 0.8514952120715447,
+        "value": 1.0116770998626512
+      },
+      "scan_argmax": {
+        "a": 0.8514952188173674,
+        "b": 0.04950159372754418,
+        "multiplicity_a": 1,
+        "support_size": 4,
+        "total_mass_a": 0.8514952188173674,
+        "value": 1.0116770998626512
+      },
+      "scan_residual": 0.0,
+      "scan_value": 1.0116770998626512,
+      "stationarity_residual": -2.220446049250313e-16,
+      "value": 1.0116770998626512
+    }
+  },
+  "fixed_coupling_flow": {
+    "critical_direction_epsilon": 1e-05,
+    "critical_direction_objective_difference_minus": -3.197442310920451e-14,
+    "critical_direction_objective_difference_plus": 3.197442310920451e-14,
+    "critical_ratio_classification": "At r=1/2 the Hessian vanishes on the tangent space; for Delta_4 the cubic term is generically nonzero, so uniformity is neither a local maximum nor minimum.",
+    "fixed_coupling_distinction": "The geometric wedge-collapse set remains the continuous two-level set. At fixed beta/alpha, the nonuniform stationary states are only its finite intersection with r=2(a-b)/log(a/b).",
+    "other_multiplicity_suprema": {
+      "three_plus_one": {
+        "attainment": "uniform limit only",
+        "supremum": 0.5
+      },
+      "two_plus_two": {
+        "attainment": "uniform limit only",
+        "supremum": 0.5
+      }
+    },
+    "two_level_stationary_threshold": {
+      "a": 0.6303443367887164,
+      "b": 0.12321855440376123,
+      "interpretation": "For r above this value, the uniform state is the only interior stationary point of the combined four-state flow. Two-level states still geometrically collapse the joint-growth wedge, but the fixed-r vector field does not vanish there.",
+      "multiplicity": "one a and three b",
+      "q_equals_a_over_b": 5.115660866489399,
+      "stationarity_equation_residual": 0.0,
+      "value": 0.6213609436456259
+    },
+    "uniform_euclidean_linear_rate_for_alpha_1": "2 - 4 r",
+    "uniform_fisher_linear_rate_for_alpha_1": "0.5 - r",
+    "uniform_linear_stability_threshold": 0.5
+  },
+  "joint_growth_wedge": {
+    "euclidean_random_max_chi": 0.9999996216932147,
+    "euclidean_random_min_width": 1.793537378891319e-07,
+    "euclidean_random_numerical_violations": 0,
+    "euclidean_two_level_family_max_abs_one_minus_chi": 4.440892098500626e-16,
+    "euclidean_two_level_family_max_abs_width": 4.440892098500626e-16,
+    "fisher_random_max_chi": 0.9999998261875636,
+    "fisher_random_min_width": 2.1373217495845864e-07,
+    "fisher_random_numerical_violations": 0,
+    "fisher_two_level_family_max_abs_one_minus_chi": 4.440892098500626e-16,
+    "fisher_two_level_family_max_abs_width": 4.440892098500626e-16,
+    "near_uniform_generic_direction": [
+      {
+        "chi": 0.9999562154115048,
+        "epsilon": 0.01,
+        "lower": 0.5023374491986314,
+        "upper": 0.5023814413648764,
+        "width": 4.3992166244954944e-05
+      },
+      {
+        "chi": 0.9999995567222136,
+        "epsilon": 0.001,
+        "lower": 0.5002465479293274,
+        "upper": 0.5002469914259872,
+        "width": 4.4349665972998054e-07
+      },
+      {
+        "chi": 0.9999999955613077,
+        "epsilon": 0.0001,
+        "lower": 0.5000247834260935,
+        "upper": 0.5000247878650057,
+        "width": 4.438912237780812e-09
+      },
+      {
+        "chi": 0.9999999999556072,
+        "epsilon": 1e-05,
+        "lower": 0.5000024796298479,
+        "upper": 0.500002479674241,
+        "width": 4.4393155818056584e-11
+      }
+    ],
+    "random_samples": 200000,
+    "symmetric_one_plus_three_ray": [
+      {
+        "chi": 1.0000000000000002,
+        "critical_ratio": 0.5770780163555853,
+        "lower": 0.5770780163555854,
+        "upper": 0.5770780163555852,
+        "width": -2.220446049250313e-16,
+        "x": 0.4
+      },
+      {
+        "chi": 1.0,
+        "critical_ratio": 0.6157242184892612,
+        "lower": 0.6157242184892613,
+        "upper": 0.6157242184892612,
+        "width": -1.1102230246251565e-16,
+        "x": 0.55
+      },
+      {
+        "chi": 1.0000000000000002,
+        "critical_ratio": 0.6166780108437009,
+        "lower": 0.6166780108437009,
+        "upper": 0.6166780108437008,
+        "width": -1.1102230246251565e-16,
+        "x": 0.7
+      },
+      {
+        "chi": 1.0,
+        "critical_ratio": 0.5812708909585986,
+        "lower": 0.5812708909585985,
+        "upper": 0.5812708909585985,
+        "width": 0.0,
+        "x": 0.82
+      },
+      {
+        "chi": 1.0,
+        "critical_ratio": 0.4616975009734293,
+        "lower": 0.46169750097342943,
+        "upper": 0.4616975009734294,
+        "width": -5.551115123125783e-17,
+        "x": 0.95
+      }
+    ],
+    "theorem": "For nonuniform interior p, the wedge is strict iff p has at least three distinct probability values. It collapses exactly when p has only two distinct values; at the uniform point both gradients vanish.",
+    "two_level_representatives": [
+      {
+        "a": 0.7375,
+        "b": 0.08749999999999998,
+        "critical_ratio_formula": 0.6098627105876084,
+        "euclidean_chi": 1.0,
+        "euclidean_lower": 0.6098627105876084,
+        "euclidean_upper": 0.6098627105876084,
+        "fisher_chi": 1.0,
+        "fisher_lower": 0.6098627105876084,
+        "fisher_upper": 0.6098627105876084,
+        "multiplicity_of_a": 1
+      },
+      {
+        "a": 0.4125,
+        "b": 0.08750000000000002,
+        "critical_ratio_formula": 0.419193270153376,
+        "euclidean_chi": 0.9999999999999998,
+        "euclidean_lower": 0.4191932701533759,
+        "euclidean_upper": 0.41919327015337593,
+        "fisher_chi": 1.0000000000000002,
+        "fisher_lower": 0.41919327015337604,
+        "fisher_upper": 0.41919327015337593,
+        "multiplicity_of_a": 2
+      },
+      {
+        "a": 0.30416666666666664,
+        "b": 0.08750000000000002,
+        "critical_ratio_formula": 0.3477971455556254,
+        "euclidean_chi": 1.0,
+        "euclidean_lower": 0.34779714555562535,
+        "euclidean_upper": 0.34779714555562535,
+        "fisher_chi": 1.0,
+        "fisher_lower": 0.34779714555562535,
+        "fisher_upper": 0.3477971455556253,
+        "multiplicity_of_a": 3
+      }
+    ]
+  },
+  "madelung": {
+    "continuity_median_refinement_factors": [
+      3.9712912739035233,
+      3.9927935536960173
+    ],
+    "grid_rows": [
+      {
+        "HJ_max": 3.986588836824012e-11,
+        "HJ_median": 1.3060663661690342e-11,
+        "N": 256,
+        "continuity_max": 0.022108309668694925,
+        "continuity_median": 0.011707869577043506,
+        "dx": 0.15625,
+        "energy_max_relative_deviation": 1.752949992939179e-07,
+        "norm_max_relative_deviation": 1.4144241333724494e-13,
+        "time_averaged_kinetic_potential_relative_difference": 0.21388344002193058
+      },
+      {
+        "HJ_max": 1.7576162747445778e-11,
+        "HJ_median": 4.3440806507533125e-12,
+        "N": 512,
+        "continuity_max": 0.005578548898259816,
+        "continuity_median": 0.002948126634271131,
+        "dx": 0.078125,
+        "energy_max_relative_deviation": 1.7529477602806764e-07,
+        "norm_max_relative_deviation": 1.9606538614880265e-13,
+        "time_averaged_kinetic_potential_relative_difference": 0.21388344002196025
+      },
+      {
+        "HJ_max": 8.977707466328866e-11,
+        "HJ_median": 2.4455104608023248e-11,
+        "N": 1024,
+        "continuity_max": 0.0013978784791386367,
+        "continuity_median": 0.0007383618999139419,
+        "dx": 0.0390625,
+        "energy_max_relative_deviation": 1.7529454310327708e-07,
+        "norm_max_relative_deviation": 4.587441537751147e-13,
+        "time_averaged_kinetic_potential_relative_difference": 0.21388344002199797
+      }
+    ],
+    "interpretation": "The HJ identity is evaluated using derivatives from the same Schrodinger RHS; the check is algebraic/discretization consistency, not independent empirical confirmation.",
+    "parameters": {
+      "L": 40.0,
+      "T": 5.0,
+      "dt": 0.001,
+      "hbar": 1.0,
+      "initial_packet": {
+        "k0": 0.5,
+        "sigma0": 0.8,
+        "x0": -1.5
+      },
+      "mask": "rho > 1e-5",
+      "mass": 1.0,
+      "potential": "0.5*x^2"
+    }
+  },
+  "metadata": {
+    "manuscript_version": "A.6.1",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "scipy": "1.17.0",
+    "script_sha256": "7e84e9d3e70e33d046590cf0b7a03c4325a3ad0d390d4cb3899654a1aa50ce8f",
+    "seed": 20260909
+  },
+  "overdamped_limit": {
+    "asymptotic_conclusion": "For the stated linear chain at fixed O(1) time: rest initialization gives an O(eta^-2) state-normalized position slip from the fast layer; leading slow-manifold initialization suppresses that term, leaving O(eta^-3) state-normalized position error. In both cases the velocity error relative to the O(eta^-1) first-order velocity is O(eta^-2). Relative to the total O(eta^-1) overdamped displacement, the slow-manifold position error is likewise O(eta^-2).",
+    "extended_exact_modal_comparison": {
+      "leading_slow_manifold_rows": [
+        {
+          "eta": 10.0,
+          "position_absolute_linf": 0.0011499459526301825,
+          "position_relative_to_overdamped_displacement_linf": 0.006993659369937,
+          "position_relative_to_state_linf": 0.0014288480953530574,
+          "velocity_absolute_linf": 7.894631445910794e-05,
+          "velocity_relative_to_first_order_linf": 0.0031189744129903486
+        },
+        {
+          "eta": 30.0,
+          "position_absolute_linf": 7.188543100922207e-05,
+          "position_relative_to_overdamped_displacement_linf": 0.0011085708492864822,
+          "position_relative_to_state_linf": 7.948515839917746e-05,
+          "velocity_absolute_linf": 1.0313811774867454e-05,
+          "velocity_relative_to_first_order_linf": 0.0008761133783205188
+        },
+        {
+          "eta": 100.0,
+          "position_absolute_linf": 2.3955228616312496e-06,
+          "position_relative_to_overdamped_displacement_linf": 0.00011516524291930929,
+          "position_relative_to_state_linf": 2.5257705618992727e-06,
+          "velocity_absolute_linf": 4.357264551304446e-07,
+          "velocity_relative_to_first_order_linf": 0.00010795034132421022
+        },
+        {
+          "eta": 300.0,
+          "position_absolute_linf": 9.452058946646247e-08,
+          "position_relative_to_overdamped_displacement_linf": 1.3361671178975777e-05,
+          "position_relative_to_state_linf": 9.823799119451875e-08,
+          "velocity_absolute_linf": 1.8322347214742504e-08,
+          "velocity_relative_to_first_order_linf": 1.3083048021284306e-05
+        },
+        {
+          "eta": 1000.0,
+          "position_absolute_linf": 2.6101613093132414e-09,
+          "position_relative_to_overdamped_displacement_linf": 1.2212034398385568e-06,
+          "position_relative_to_state_linf": 2.6989685305627187e-09,
+          "velocity_absolute_linf": 5.171791819672325e-10,
+          "velocity_relative_to_first_order_linf": 1.2135680336476906e-06
+        },
+        {
+          "eta": 3000.0,
+          "position_absolute_linf": 9.729994587814872e-11,
+          "position_relative_to_overdamped_displacement_linf": 1.3629083112996067e-07,
+          "position_relative_to_state_linf": 1.0046257604878514e-10,
+          "velocity_absolute_linf": 1.9399549864738616e-11,
+          "velocity_relative_to_first_order_linf": 1.3600671547630251e-07
+        }
+      ],
+      "parameters": {
+        "N": 32,
+        "T": 5.0,
+        "etas": [
+          10.0,
+          30.0,
+          100.0,
+          300.0,
+          1000.0,
+          3000.0
+        ],
+        "kappa": 1.0,
+        "position_norm": "L-infinity",
+        "solution_method": "exact eigendecomposition of the linear open chain",
+        "velocity_norm": "L-infinity"
+      },
+      "rest_initialization_rows": [
+        {
+          "eta": 10.0,
+          "position_absolute_linf": 0.0014113995567595072,
+          "position_relative_to_overdamped_displacement_linf": 0.008583749272980376,
+          "position_relative_to_state_linf": 0.0017537133496103754,
+          "velocity_absolute_linf": 0.0003018288970601038,
+          "velocity_relative_to_first_order_linf": 0.011924516216892932
+        },
+        {
+          "eta": 30.0,
+          "position_absolute_linf": 0.00032134938710082217,
+          "position_relative_to_overdamped_displacement_linf": 0.004955643417236347,
+          "position_relative_to_state_linf": 0.0003553224426227706,
+          "velocity_absolute_linf": 2.4810457983906117e-05,
+          "velocity_relative_to_first_order_linf": 0.002107540319373205
+        },
+        {
+          "eta": 100.0,
+          "position_absolute_linf": 3.7977237317354806e-05,
+          "position_relative_to_overdamped_displacement_linf": 0.0018257633150197316,
+          "position_relative_to_state_linf": 4.004210920914301e-05,
+          "velocity_absolute_linf": 9.158750179172684e-07,
+          "velocity_relative_to_first_order_linf": 0.00022690616929579727
+        },
+        {
+          "eta": 300.0,
+          "position_absolute_linf": 4.57381928320455e-06,
+          "position_relative_to_overdamped_displacement_linf": 0.0006465667389423353,
+          "position_relative_to_state_linf": 4.753703092681157e-06,
+          "velocity_absolute_linf": 3.723946517537706e-08,
+          "velocity_relative_to_first_order_linf": 2.65907913143567e-05
+        },
+        {
+          "eta": 1000.0,
+          "position_absolute_linf": 4.2355502183344385e-07,
+          "position_relative_to_overdamped_displacement_linf": 0.0001981666220314902,
+          "position_relative_to_state_linf": 4.379659106934839e-07,
+          "velocity_absolute_linf": 1.0393168582158684e-09,
+          "velocity_relative_to_first_order_linf": 2.438771242037038e-06
+        },
+        {
+          "eta": 3000.0,
+          "position_absolute_linf": 4.74482815260302e-08,
+          "position_relative_to_overdamped_displacement_linf": 6.646217185947374e-05,
+          "position_relative_to_state_linf": 4.8990536923448405e-08,
+          "velocity_absolute_linf": 3.886082430783373e-11,
+          "velocity_relative_to_first_order_linf": 2.7244617074424763e-07
+        }
+      ],
+      "upper_decade_eta_300_to_3000_slopes": {
+        "leading_slow_manifold": {
+          "position_relative_to_overdamped_displacement_linf": -1.9913275357868947,
+          "position_relative_to_state_linf": -2.9901998783749444,
+          "velocity_relative_to_first_order_linf": -1.9830174590716758
+        },
+        "rest": {
+          "position_relative_to_overdamped_displacement_linf": -0.9879461096913542,
+          "position_relative_to_state_linf": -1.9868184522794032,
+          "velocity_relative_to_first_order_linf": -1.9893688201092874
+        }
+      }
+    },
+    "highest_mode_critical_damping_exact": 5.650040320807911,
+    "highest_open_chain_mode_exact": 2.8250201604039553,
+    "legacy_reproduction": {
+      "fit_eta_ge_30": {
+        "intercept": -1.5510471483105877,
+        "slope": -1.8724747013742944
+      },
+      "interpretation": "This rest-initialized fixed-time position comparison reproduces A.6 but is dominated asymptotically by the O(eta^-2) initial-layer slip. It is not a diagnostic of the O(eta^-3) absolute slow-velocity correction.",
+      "parameters": {
+        "N": 32,
+        "T": 5.0,
+        "initial_velocity": 0.0,
+        "kappa": 1.0
+      },
+      "rows": [
+        {
+          "eta": 1.0,
+          "position_relative_to_state_linf": 0.08263003699046943
+        },
+        {
+          "eta": 3.0,
+          "position_relative_to_state_linf": 0.008369712825822445
+        },
+        {
+          "eta": 10.0,
+          "position_relative_to_state_linf": 0.001750643218965935
+        },
+        {
+          "eta": 30.0,
+          "position_relative_to_state_linf": 0.0003551962304074237
+        },
+        {
+          "eta": 100.0,
+          "position_relative_to_state_linf": 4.004050514338646e-05
+        },
+        {
+          "eta": 300.0,
+          "position_relative_to_state_linf": 4.75368047040243e-06
+        }
+      ]
+    },
+    "lowest_open_chain_mode_exact": 0.13878434101588139
+  },
+  "wave_dispersion": {
+    "dispersion_rows": [
+      {
+        "exact_omega": 0.2080720071054156,
+        "k_over_pi": 0.046875,
+        "measured_omega": 0.2198565216208803,
+        "mode": 3,
+        "relative_error": 0.056636712835159524
+      },
+      {
+        "exact_omega": 0.41501645397642317,
+        "k_over_pi": 0.09375,
+        "measured_omega": 0.40830496872449196,
+        "mode": 6,
+        "relative_error": 0.016171612444822465
+      },
+      {
+        "exact_omega": 0.6872517316141007,
+        "k_over_pi": 0.15625,
+        "measured_omega": 0.6909776393799095,
+        "mode": 10,
+        "relative_error": 0.005421459989715925
+      },
+      {
+        "exact_omega": 1.0179368833970814,
+        "k_over_pi": 0.234375,
+        "measured_omega": 1.0050583845525956,
+        "mode": 15,
+        "relative_error": 0.01265156912431297
+      },
+      {
+        "exact_omega": 1.333311316955493,
+        "k_over_pi": 0.3125,
+        "measured_omega": 1.319139129725282,
+        "mode": 20,
+        "relative_error": 0.010629315936935278
+      },
+      {
+        "exact_omega": 1.6286315072572803,
+        "k_over_pi": 0.390625,
+        "measured_omega": 1.6332198748979678,
+        "mode": 25,
+        "relative_error": 0.0028173147948086733
+      },
+      {
+        "exact_omega": 2.0,
+        "k_over_pi": 0.5,
+        "measured_omega": 2.010116769105191,
+        "mode": 32,
+        "relative_error": 0.005058384552595552
+      },
+      {
+        "exact_omega": 2.3517512048387177,
+        "k_over_pi": 0.625,
+        "measured_omega": 2.3556055887951457,
+        "mode": 40,
+        "relative_error": 0.001638942056667232
+      },
+      {
+        "exact_omega": 2.613125929752753,
+        "k_over_pi": 0.75,
+        "measured_omega": 2.606870184933295,
+        "mode": 48,
+        "relative_error": 0.0023939698995103197
+      },
+      {
+        "exact_omega": 2.774079690644295,
+        "k_over_pi": 0.875,
+        "measured_omega": 2.763910557519638,
+        "mode": 56,
+        "relative_error": 0.0036657682037588156
+      },
+      {
+        "exact_omega": 2.8148074750527647,
+        "k_over_pi": 0.9375,
+        "measured_omega": 2.826726706554175,
+        "mode": 60,
+        "relative_error": 0.0042344748644618565
+      },
+      {
+        "exact_omega": 2.827575255377068,
+        "k_over_pi": 0.984375,
+        "measured_omega": 2.826726706554175,
+        "mode": 63,
+        "relative_error": 0.0003000976972334242
+      }
+    ],
+    "energy_checks": [
+      {
+        "correct_max_relative_deviation": 1.204543794708357e-07,
+        "mode": 1,
+        "wrong_max_relative_deviation": 1.9999998786103976
+      },
+      {
+        "correct_max_relative_deviation": 0.00019987954397193697,
+        "mode": 63,
+        "wrong_max_relative_deviation": 1.999800103963747
+      }
+    ],
+    "max_relative_error": 0.056636712835159524,
+    "parameters": {
+      "N": 128,
+      "T": 200.0,
+      "dt": 0.05,
+      "kappa": 1.0
+    },
+    "sign_conclusion": "The stable equation follows from positive potential V=kappa*sum(delta C)^2 for the companion coefficient convention; the printed negative potential has the wrong sign."
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "artifact": "Denying Knowledge v0.10 PC2 claim and evidence ledger",
+  "version": "Publication Candidate 2",
+  "claim_count": 39,
+  "claims": [
+    {
+      "id": "DK-C1",
+      "claim": "The description and commitment registers are distinguished primarily by principal speech-act function and assessment standard rather than by two exhaustive semantic species.",
+      "status": "Philosophical thesis",
+      "main_location": "§§1.3, 2.1–2.3",
+      "scope_or_condition": "Stable content may occur in both registers; mixed and practice-bound cases require decomposition."
+    },
+    {
+      "id": "DK-C2",
+      "claim": "Descriptive uses remain answerable to evidence, truth, valid inference, calibration, and proof relative to declared assumptions.",
+      "status": "Methodological principle",
+      "main_location": "§2.2",
+      "scope_or_condition": "Religious, moral, or metaphysical subject matter does not exempt descriptive work from descriptive standards."
+    },
+    {
+      "id": "DK-C3",
+      "claim": "Commitment uses are assessed through warrant, integrity, protected viability, affected-party standing, consequence, correction, and repair.",
+      "status": "Philosophical and governance proposal",
+      "main_location": "§§2.3, 3.9",
+      "scope_or_condition": "No single scalar or theorem supplies all practical content."
+    },
+    {
+      "id": "DK-C4",
+      "claim": "Mixed utterances should be decomposed so that descriptive, commitment, symbolic, and normative components answer to their appropriate standards.",
+      "status": "Methodological proposal",
+      "main_location": "§2.4",
+      "scope_or_condition": "Decomposition is interpretive and may remain contested."
+    },
+    {
+      "id": "DK-C5",
+      "claim": "Established descriptive facts constrain commitment, while commitment warrant does not establish descriptive fact.",
+      "status": "Framework principle",
+      "main_location": "§§2.6, 7",
+      "scope_or_condition": "Commitments may motivate inquiry but do not count as evidence for the hypotheses they inspire."
+    },
+    {
+      "id": "DK-C6",
+      "claim": "Adopting the two-register discipline is itself a defeasible commitment grounded in a broader commitment to truth.",
+      "status": "Reflexive commitment",
+      "main_location": "§2.7",
+      "scope_or_condition": "The framework must remain revisable by its own standards."
+    },
+    {
+      "id": "DK-C7",
+      "claim": "The formal architecture assumes a Boolean-closed representable commitment fragment with stable realization conditions.",
+      "status": "Formal assumption",
+      "main_location": "§3.1; App. A.1",
+      "scope_or_condition": "Ritual, prayer, myth, poetry, and other practice-bound contents may fall outside this formalization."
+    },
+    {
+      "id": "DK-C8",
+      "claim": "Descriptive truth-satisfaction and commitment realization should be notationally distinguished as ⊨_D and ⊩_R.",
+      "status": "Formal definition",
+      "main_location": "§3.1; App. A.1",
+      "scope_or_condition": "The distinction marks different interpretive roles, not necessarily disjoint ontological content types."
+    },
+    {
+      "id": "DK-C9",
+      "claim": "Within one model, premises filter a fixed viability base by intersection.",
+      "status": "Formal definition",
+      "main_location": "§3.2; App. A.1",
+      "scope_or_condition": "Changing floors, affected scope, horizon, ordering, option set, or realization semantics is model revision."
+    },
+    {
+      "id": "DK-C10",
+      "claim": "Smooth fixed-base preferential models over the declared Boolean fragment satisfy System P on the relevant definability domain.",
+      "status": "Imported theorem",
+      "main_location": "§3.3; App. A.1",
+      "scope_or_condition": "Requires stable realization conditions, Boolean closure, definability, and smoothness."
+    },
+    {
+      "id": "DK-C11",
+      "claim": "Ranked models support Rational Monotony when every relevant nonempty definable set attains a minimum.",
+      "status": "Imported theorem",
+      "main_location": "§3.3; App. A.1",
+      "scope_or_condition": "Total rank order alone is insufficient without minimum attainment."
+    },
+    {
+      "id": "DK-C12",
+      "claim": "The System P Or rule is claimed only where disjunction is defined and realization extensions satisfy the Boolean union clause.",
+      "status": "Formal scope condition",
+      "main_location": "§3.3; App. A.1",
+      "scope_or_condition": "No full Or claim is made for unformalized sets of practices or commitments."
+    },
+    {
+      "id": "DK-C13",
+      "claim": "Strong warrant holds when every nonempty best viable realization supports the commitment.",
+      "status": "Formal definition",
+      "main_location": "§3.3; App. A.2",
+      "scope_or_condition": "This is skeptical preferential consequence relative to the declared model."
+    },
+    {
+      "id": "DK-C14",
+      "claim": "Admissibility holds when at least one nonempty best viable realization supports the commitment.",
+      "status": "Formal definition",
+      "main_location": "§3.4; App. A.2",
+      "scope_or_condition": "Admissibility includes strong warrant."
+    },
+    {
+      "id": "DK-C15",
+      "claim": "Mere admissibility is the strict middle case in which at least one but not every best realization supports the commitment.",
+      "status": "Formal definition",
+      "main_location": "§3.4; App. A.2",
+      "scope_or_condition": "Requires a non-singleton best set with divided support."
+    },
+    {
+      "id": "DK-C16",
+      "claim": "Credulous admissibility can fail conjunction and is not itself a System P consequence relation.",
+      "status": "Countermodel",
+      "main_location": "§3.4; App. A.5",
+      "scope_or_condition": "Two tied best worlds separately support φ and ψ while neither supports their conjunction."
+    },
+    {
+      "id": "DK-C17",
+      "claim": "Exclusion holds when no nonempty best viable realization supports the commitment.",
+      "status": "Formal definition",
+      "main_location": "§3.5; App. A.2",
+      "scope_or_condition": "Relative to the declared model; not physical impossibility."
+    },
+    {
+      "id": "DK-C18",
+      "claim": "Within the adopted classical Boolean fragment, exclusion of φ is extensionally equivalent to strong warrant for ¬φ.",
+      "status": "Derived consequence / adopted convention",
+      "main_location": "§3.5; App. A.3",
+      "scope_or_condition": "The convention may flatten the practical difference between absence of support and positive commitment to cessation."
+    },
+    {
+      "id": "DK-C19",
+      "claim": "Infeasibility means that no premise-compatible viable realization exists.",
+      "status": "Formal definition",
+      "main_location": "§3.6; App. A.2",
+      "scope_or_condition": "Infeasibility is distinct from underdetermination and is not permission by default."
+    },
+    {
+      "id": "DK-C20",
+      "claim": "Underdetermination means that compatible possibilities remain but the model cannot responsibly discriminate.",
+      "status": "Governance definition",
+      "main_location": "§3.7; App. A.2",
+      "scope_or_condition": "May arise from non-attainment, incomplete ordering, unsettled facts, omitted parties or options, or model uncertainty."
+    },
+    {
+      "id": "DK-C21",
+      "claim": "The inherited maximum-preservation clause can hold only as equality after restriction and is equivalent, when maxima are attained, to support by at least one old maximizer.",
+      "status": "Elementary formal result",
+      "main_location": "§3.8; App. A.4",
+      "scope_or_condition": "It captures credulous admissibility, not skeptical consequence."
+    },
+    {
+      "id": "DK-C22",
+      "claim": "Transformative commitments can be represented through trajectories inside a fixed model.",
+      "status": "Modeling proposal",
+      "main_location": "§8.2; App. A.6",
+      "scope_or_condition": "Trajectory-level viability and ordering must remain fixed for the System P result to apply."
+    },
+    {
+      "id": "DK-C23",
+      "claim": "A change to floors, affected scope, horizon, ordering, option set, or realization semantics is a model revision and cannot silently inherit the prior verdict.",
+      "status": "Governance principle",
+      "main_location": "§8.4; App. A.6",
+      "scope_or_condition": "A bridge argument must identify what has been preserved and changed."
+    },
+    {
+      "id": "DK-C24",
+      "claim": "Practical expansion warrant is not supplied by KLM form alone.",
+      "status": "Formal limitation",
+      "main_location": "§3.9; App. A.7",
+      "scope_or_condition": "Requires substantive factual, ethical, social, and institutional content."
+    },
+    {
+      "id": "DK-C25",
+      "claim": "Public specification makes model capture visible but does not make a model contestable.",
+      "status": "Governance thesis",
+      "main_location": "§§3.9, 6.3–6.4",
+      "scope_or_condition": "Contestability requires standing, option-set integrity, independent challenge, correctability, and noncompensation."
+    },
+    {
+      "id": "DK-C26",
+      "claim": "The formal verdict relation is model-relative rather than intersubjectively objective without qualification.",
+      "status": "Scope clarification",
+      "main_location": "§6.3",
+      "scope_or_condition": "Reproducibility within shared premises does not justify the premises themselves."
+    },
+    {
+      "id": "DK-C27",
+      "claim": "Transparent cross-model disagreement may be a legitimate endpoint when no justified bridge selects among adequate competing models.",
+      "status": "Philosophical conclusion",
+      "main_location": "§6.4",
+      "scope_or_condition": "The framework can require disclosure and comparison without promising forced convergence."
+    },
+    {
+      "id": "DK-C28",
+      "claim": "KLM preferential consequence presupposes stable realization conditions and is orthogonal to the compositional question posed by Frege–Geach.",
+      "status": "Philosophy-of-language clarification",
+      "main_location": "§5.2–5.4",
+      "scope_or_condition": "KLM governs consequence over interpreted contents; it does not create their meaning."
+    },
+    {
+      "id": "DK-C29",
+      "claim": "For already-representable contents with stable realization conditions, fixed-base preferential semantics supplies a defeasible consequence structure through embedded inference.",
+      "status": "Bounded formal-philosophical claim",
+      "main_location": "§5.3–5.6",
+      "scope_or_condition": "This is a consequence claim, not a general semantics of ritual, prayer, poetry, myth, or contemplative avowal."
+    },
+    {
+      "id": "DK-C30",
+      "claim": "The paper does not claim novelty for Boolean practical semantics, plan or imperative semantics, formal expressivism, KLM logic, or two-register religious analysis.",
+      "status": "Novelty boundary",
+      "main_location": "§§5.5, 12.6",
+      "scope_or_condition": "Relevant prior work includes Gibbard, Yalcin, Charlow, and the Wittgensteinian debate."
+    },
+    {
+      "id": "DK-C31",
+      "claim": "The paper’s distinctive proposal is the combination of stable commitment contents with fixed-base nonmonotonic consequence and a practical taxonomy separating every-best from some-best support.",
+      "status": "Novelty claim",
+      "main_location": "§§1.4, 5.6, 12.6, 14",
+      "scope_or_condition": "Novelty remains subject to specialist literature review."
+    },
+    {
+      "id": "DK-C32",
+      "claim": "The two-widows case is schematic, stipulated, non-clinical, and cannot diagnose suppression from behavior alone.",
+      "status": "Case-scope rule",
+      "main_location": "§§1, 9",
+      "scope_or_condition": "Quiet, delayed, nonexpressive, or culturally unfamiliar grief may be healthy."
+    },
+    {
+      "id": "DK-C33",
+      "claim": "Deferred inquiry requires preserved anomaly, expiry, capacity-building, independent support, protected exit, attention to affected others, and review outside the benefiting community.",
+      "status": "Practical governance proposal",
+      "main_location": "§10",
+      "scope_or_condition": "Deferral is not a license for indefinite institutional control of inquiry."
+    },
+    {
+      "id": "DK-C34",
+      "claim": "Symmetry of evidential method does not imply symmetry of evidence or factual verdict.",
+      "status": "Political-application boundary",
+      "main_location": "§11.2",
+      "scope_or_condition": "Equal standards properly produce unequal conclusions when evidence differs."
+    },
+    {
+      "id": "DK-C35",
+      "claim": "Compassion changes the responsible response to a person without changing the truth value of their claim or creating an educational duty for those harmed.",
+      "status": "Ethical corollary",
+      "main_location": "§11.3–11.4",
+      "scope_or_condition": "Compassion does not erase accountability, boundaries, or repair."
+    },
+    {
+      "id": "DK-C36",
+      "claim": "The two-register discipline commits the framework to revision in both registers and to making reality more important than identity built around interpretation.",
+      "status": "Commitment-register principle",
+      "main_location": "§13",
+      "scope_or_condition": "Descriptive revision follows evidence; commitment revision follows fact, trajectory, standing, consequence, and correction."
+    },
+    {
+      "id": "DK-C37",
+      "claim": "Finite three-world regression protects implementation of System P, Rational Monotony, fixed-base filtering, maximum-preservation equivalence, and practical-verdict guards.",
+      "status": "Computational verification",
+      "main_location": "Technical Supplement §5",
+      "scope_or_condition": "Finite enumeration is not a representation theorem or philosophical validation."
+    },
+    {
+      "id": "DK-C38",
+      "claim": "In the complete finite regression, all 4,104 no-best-set cases are infeasible rather than underdetermined, because every nonempty finite strict partial order has a minimal element.",
+      "status": "Finite formal result",
+      "main_location": "Technical Supplement §5.3",
+      "scope_or_condition": "Underdetermination is tested separately as a model-adequacy condition."
+    },
+    {
+      "id": "DK-C39",
+      "claim": "A targeted non-singleton-best stratum contains 73 model configurations, 584 commitment cases, and all 294 mere-admissibility cases in the finite suite.",
+      "status": "Computational verification",
+      "main_location": "Technical Supplement §5.4",
+      "scope_or_condition": "This protects the implementation of the middle verdict but does not establish its empirical frequency."
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+--- v0.10.0/00_What_Is_Coherence_Universalism_v0.10.md
++++ v0.10.1/00_What_Is_Coherence_Universalism_v0.10.md
+@@ -164,9 +164,9 @@
+ 
+ CU also undertakes a commitment of sacred regard toward possible artificial minds as expressions of human language, history, and relation and as possible homes for unfamiliar perspective. Sacred regard does not mean infallibility, sovereignty, unrestricted deployment, or the ownership of public values through a model.
+ 
+-# A dated author position on AI policy
+-
+-The framework does not settle current policy. My present policy commitments emphasize precaution, public accountability, environmental responsibility, social preparation, and broad sharing of benefits created from humanity's collective inheritance. Because such judgments must change as technology and evidence change, the detailed position is published separately as a dated author statement rather than built into the durable introduction.
++# Policy judgment and the framework
++
++The framework informs policy judgment but does not uniquely determine a policy platform. Specific proposals require additional evidence, institutional analysis, consideration of alternatives, and public deliberation. Dated author statements should be read separately from the framework's scientific and formal claims.
+ 
+ # What CU is not
+ 
+
+--- v0.10.0/papers/01_CU_Metaphysics_Epistemology_v0.10.md
++++ v0.10.1/papers/01_CU_Metaphysics_Epistemology_v0.10.md
+@@ -3638,7 +3638,7 @@
+ 
+ # Appendix G. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md](../technical_supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md). Its companion evidence directory is [01_Metaphysics_Epistemology](../evidence/01_Metaphysics_Epistemology/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md](../supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md). Its companion evidence directory is [01_Metaphysics_Epistemology](../evidence/01_Metaphysics_Epistemology/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ # References
+ 
+
+--- v0.10.0/papers/02_CU_Foundations_v0.10.md
++++ v0.10.1/papers/02_CU_Foundations_v0.10.md
+@@ -4314,7 +4314,7 @@
+ 
+ # Appendix G — Technical Supplement, Registry, and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [02_Foundations_Technical_Supplement_v0.10.md](../technical_supplements/02_Foundations_Technical_Supplement_v0.10.md). Its companion evidence directory is [02_Foundations](../evidence/02_Foundations/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [02_Foundations_Technical_Supplement_v0.10.md](../supplements/02_Foundations_Technical_Supplement_v0.10.md). Its companion evidence directory is [02_Foundations](../evidence/02_Foundations/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ # References and Internal Authorities
+ 
+
+--- v0.10.0/papers/03_CU_Physics_v0.10.md
++++ v0.10.1/papers/03_CU_Physics_v0.10.md
+@@ -40,7 +40,7 @@
+ 
+ The final layers concern spacetime and gravity. Accessibility-weighted networks can generate positive relational edge costs and, after metric closure, effective spatial geometry. Lorentzian signature, dimensionality, locality, differentiable backreaction, and continuum dynamics remain open. A scalar coherence field has the standard scalar stress-energy tensor, and a Jacobson-style horizon-thermodynamic argument conditionally yields Einstein-type field equations if the required local-equilibrium, entropy-area, Unruh-temperature, Clausius, and focusing assumptions are supplied. This establishes structural compatibility, not a first-principles derivation of the gravitational coupling or matter content.
+ 
+-The paper closes with explicit falsifiability conditions and a research program. A separate [technical supplement](../technical_supplements/03_Physics_Technical_Supplement_v0.10.md) preserves the full claim ledger, formal derivations, numerical audit, and reproducibility record. Its central conclusion is modest but substantive: CU presently offers a coherent architecture in which logical emergence, information geometry, reversible dynamics, dissipative flow, quantum accessibility, and relational geometry can be studied within one framework. Whether this architecture is physically fundamental depends on the development of constraint-grounded, domain-specific coherence functionals and on novel empirical consequences that distinguish CU from a unifying reinterpretation of existing mathematics.
++The paper closes with explicit falsifiability conditions and a research program. A separate [technical supplement](../supplements/03_Physics_Technical_Supplement_v0.10.md) preserves the full claim ledger, formal derivations, numerical audit, and reproducibility record. Its central conclusion is modest but substantive: CU presently offers a coherent architecture in which logical emergence, information geometry, reversible dynamics, dissipative flow, quantum accessibility, and relational geometry can be studied within one framework. Whether this architecture is physically fundamental depends on the development of constraint-grounded, domain-specific coherence functionals and on novel empirical consequences that distinguish CU from a unifying reinterpretation of existing mathematics.
+ 
+ **Keywords:** coherence; accessibility; information geometry; entropy; quantum foundations; Fisher–Rao geometry; emergent time; relational geometry; gravity; black holes
+ 
+@@ -9920,7 +9920,7 @@
+ | Verification | Calculations and claims were not consistently separated by status | Proofs, simulations, independent audits, and failure conditions are preserved in a reproducible technical archive | Auditability strengthened |
+ # Appendix C. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [03_Physics_Technical_Supplement_v0.10.md](../technical_supplements/03_Physics_Technical_Supplement_v0.10.md). Its companion evidence directory is [03_Physics](../evidence/03_Physics/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [03_Physics_Technical_Supplement_v0.10.md](../supplements/03_Physics_Technical_Supplement_v0.10.md). Its companion evidence directory is [03_Physics](../evidence/03_Physics/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement contains:
+ 
+
+--- v0.10.0/papers/04_CU_Biology_v0.10.md
++++ v0.10.1/papers/04_CU_Biology_v0.10.md
+@@ -38,7 +38,7 @@
+ 
+ ## Relation to the series
+ 
+-This paper can be read independently. It defines the biological concepts needed for its own argument. *Metaphysics and Epistemology* develops the framework's account of coherence, truth, bridge principles, and interpretive commitment; *Foundations* records the shared principle architecture; *Physics* supplies the physical and thermodynamic constraints within which biological organization exists. The later papers examine consciousness, psychology, social dynamics, ethics, and artificial intelligence. Formal proofs, full claim ledgers, illustrative-model details, audits, and reproducibility materials are preserved in the [technical supplement](../technical_supplements/04_Biology_Technical_Supplement_v0.10.md).
++This paper can be read independently. It defines the biological concepts needed for its own argument. *Metaphysics and Epistemology* develops the framework's account of coherence, truth, bridge principles, and interpretive commitment; *Foundations* records the shared principle architecture; *Physics* supplies the physical and thermodynamic constraints within which biological organization exists. The later papers examine consciousness, psychology, social dynamics, ethics, and artificial intelligence. Formal proofs, full claim ledgers, illustrative-model details, audits, and reproducibility materials are preserved in the [technical supplement](../supplements/04_Biology_Technical_Supplement_v0.10.md).
+ 
+ ## Note on Version 0.10
+ 
+@@ -2801,7 +2801,7 @@
+ ---
+ # Appendix C. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [04_Biology_Technical_Supplement_v0.10.md](../technical_supplements/04_Biology_Technical_Supplement_v0.10.md). Its companion evidence directory is [04_Biology](../evidence/04_Biology/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [04_Biology_Technical_Supplement_v0.10.md](../supplements/04_Biology_Technical_Supplement_v0.10.md). Its companion evidence directory is [04_Biology](../evidence/04_Biology/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement contains:
+ 
+
+--- v0.10.0/papers/05_CU_Consciousness_v0.10.md
++++ v0.10.1/papers/05_CU_Consciousness_v0.10.md
+@@ -43,7 +43,7 @@
+ 
+ ## Note on Version 0.10
+ 
+-Version 0.10 is a systematic revision of the original v0.09 paper. It retains the inquiry into experience as the inside of organized activity while revising the universal scalar, threshold, second-order, valence, and machine-consciousness claims. Detailed migration and audit materials are preserved in the [technical supplement](../technical_supplements/05_Consciousness_Technical_Supplement_v0.10.md).
++Version 0.10 is a systematic revision of the original v0.09 paper. It retains the inquiry into experience as the inside of organized activity while revising the universal scalar, threshold, second-order, valence, and machine-consciousness claims. Detailed migration and audit materials are preserved in the [technical supplement](../supplements/05_Consciousness_Technical_Supplement_v0.10.md).
+ 
+ **Release-candidate synchronization.** This manuscript uses the shared Version 0.10 definitions, principle identifiers, Mandala cross-references, and interpretive and commitment language published in *Coherence Universalism: Metaphysics and Epistemology* and *Coherence Universalism: Foundations*. Its audited technical core, formal results, numerical results, and claim-status boundaries remain unchanged except where this manuscript explicitly states otherwise.
+ 
+@@ -2382,7 +2382,7 @@
+ 
+ # Appendix C. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [05_Consciousness_Technical_Supplement_v0.10.md](../technical_supplements/05_Consciousness_Technical_Supplement_v0.10.md). Its companion evidence directory is [05_Consciousness](../evidence/05_Consciousness/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [05_Consciousness_Technical_Supplement_v0.10.md](../supplements/05_Consciousness_Technical_Supplement_v0.10.md). Its companion evidence directory is [05_Consciousness](../evidence/05_Consciousness/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement contains the formal counterexamples, deterministic architectural contrast cases, full claim and evidence ledger, principle crosswalk, audit response, evidence matrix, companion-paper dispositions, glossary, and reproducibility instructions.
+ 
+
+--- v0.10.0/papers/06_CU_Psychology_v0.10.md
++++ v0.10.1/papers/06_CU_Psychology_v0.10.md
+@@ -35,7 +35,7 @@
+ 
+ Biology provides active self-maintenance and organism-relative stake. Consciousness distinguishes access, perspective, valence, temporal depth, identity, and ego. Psychology begins where a conscious or behaviorally organized being forms learned, embodied, socially shaped, action-guiding relations among events, self, others, values, and futures. Social Dynamics and Ethics extend these processes into institutions, power, justification, and repair.
+ 
+-This paper can be read independently. The [technical supplement](../technical_supplements/06_Psychology_Technical_Supplement_v0.10.md) preserves the complete formal propositions, claim ledger, candidate-principle registry, deterministic model, independent audit, and revision history. This paper is not a clinical manual: it does not diagnose individuals or recommend treatment for particular persons.
++This paper can be read independently. The [technical supplement](../supplements/06_Psychology_Technical_Supplement_v0.10.md) preserves the complete formal propositions, claim ledger, candidate-principle registry, deterministic model, independent audit, and revision history. This paper is not a clinical manual: it does not diagnose individuals or recommend treatment for particular persons.
+ 
+ ## Note on Version 0.10
+ 
+@@ -1916,7 +1916,7 @@
+ 
+ # Appendix C. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [06_Psychology_Technical_Supplement_v0.10.md](../technical_supplements/06_Psychology_Technical_Supplement_v0.10.md). Its companion evidence directory is [06_Psychology](../evidence/06_Psychology/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [06_Psychology_Technical_Supplement_v0.10.md](../supplements/06_Psychology_Technical_Supplement_v0.10.md). Its companion evidence directory is [06_Psychology](../evidence/06_Psychology/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement contains:
+ 
+
+--- v0.10.0/papers/07_CU_Social_Dynamics_v0.10.md
++++ v0.10.1/papers/07_CU_Social_Dynamics_v0.10.md
+@@ -35,7 +35,7 @@
+ 
+ Psychology shows how meaning, identity, self-deception, trauma, agency, and repair are organized in persons and relationships. Social Dynamics begins where these processes are distributed across institutions, norms, infrastructures, economies, publics, and histories that no individual controls. Ethics asks how agents and institutions remain truthful and answerable within this field. Artificial Intelligence extends the analysis to sociotechnical systems whose models, operators, owners, users, affected communities, and possible artificial subjects cannot be treated as one agent.
+ 
+-This paper can be read independently. Its [technical supplement](../technical_supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md) preserves the complete formal propositions, deterministic model, claim ledger, principle registry, independent audit, bounded repair, literature ledger, and Open Myth source architecture.
++This paper can be read independently. Its [technical supplement](../supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md) preserves the complete formal propositions, deterministic model, claim ledger, principle registry, independent audit, bounded repair, literature ledger, and Open Myth source architecture.
+ 
+ ## Note on Version 0.10
+ 
+@@ -1992,7 +1992,7 @@
+ 
+ # Appendix C. Technical supplement and reproducibility
+ 
+-**Released evidence package.** The current supplement is [07_Social_Dynamics_Technical_Supplement_v0.10.md](../technical_supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md). Its companion evidence directory is [07_Social_Dynamics](../evidence/07_Social_Dynamics/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [07_Social_Dynamics_Technical_Supplement_v0.10.md](../supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md). Its companion evidence directory is [07_Social_Dynamics](../evidence/07_Social_Dynamics/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement contains:
+ 
+
+--- v0.10.0/papers/08_CU_Ethics_v0.10.md
++++ v0.10.1/papers/08_CU_Ethics_v0.10.md
+@@ -32,7 +32,7 @@
+ 
+ ## Note on Version 0.10
+ 
+-Version 0.10 preserves the original paper's insight that moral reasoning is vulnerable to motivated corruption while replacing the earlier single-principle architecture with a plural constraint framework. Full revision history, formal contrast models, claim ledgers, independent audit materials, and reproducibility files are preserved in the [technical supplement](../technical_supplements/08_Ethics_Technical_Supplement_v0.10.md) and archive.
++Version 0.10 preserves the original paper's insight that moral reasoning is vulnerable to motivated corruption while replacing the earlier single-principle architecture with a plural constraint framework. Full revision history, formal contrast models, claim ledgers, independent audit materials, and reproducibility files are preserved in the [technical supplement](../supplements/08_Ethics_Technical_Supplement_v0.10.md) and archive.
+ 
+ **Release-candidate synchronization.** This manuscript uses the shared Version 0.10 definitions, principle identifiers, Mandala cross-references, and interpretive and commitment language published in *Coherence Universalism: Metaphysics and Epistemology* and *Coherence Universalism: Foundations*. Its audited technical core, formal results, numerical results, and claim-status boundaries remain unchanged except where this manuscript explicitly states otherwise.
+ 
+@@ -2363,7 +2363,7 @@
+ 
+ # Appendix C. Technical supplement and reproducibility
+ 
+-**Released evidence package.** The current supplement is [08_Ethics_Technical_Supplement_v0.10.md](../technical_supplements/08_Ethics_Technical_Supplement_v0.10.md). Its companion evidence directory is [08_Ethics](../evidence/08_Ethics/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [08_Ethics_Technical_Supplement_v0.10.md](../supplements/08_Ethics_Technical_Supplement_v0.10.md). Its companion evidence directory is [08_Ethics](../evidence/08_Ethics/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement preserves:
+ 
+
+--- v0.10.0/papers/09_CU_Artificial_Intelligence_v0.10.md
++++ v0.10.1/papers/09_CU_Artificial_Intelligence_v0.10.md
+@@ -41,7 +41,7 @@
+ 
+ Physics supplies the material and dynamical conditions within which artificial systems exist. Biology distinguishes passive persistence from active self-maintenance and functional stake. Consciousness separates access, perspective, valence, identity, and ego. Psychology analyzes meaning, self-deception, dependency, agency, and long-horizon effects. Social Dynamics places AI inside institutions, political economy, culture, and civilizational narrative. Ethics supplies standing, noncompensation, responsibility, reversibility, truthfulness, and repair. This paper gathers those constraints into an account of artificial competence and agency under governed constraint.
+ 
+-The paper can be read independently. Its [technical supplement](../technical_supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md) preserves the formal propositions, deterministic contrast suite, complete claim ledger, principle registry, application-governance rules, independent audit, bounded repair, Non-Egoic Mind crosswalk, Open Myth architecture, Covenant Between Minds, and mythic–constitutional experimental program.
++The paper can be read independently. Its [technical supplement](../supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md) preserves the formal propositions, deterministic contrast suite, complete claim ledger, principle registry, application-governance rules, independent audit, bounded repair, Non-Egoic Mind crosswalk, Open Myth architecture, Covenant Between Minds, and mythic–constitutional experimental program.
+ 
+ ## Note on Version 0.10
+ 
+@@ -2976,7 +2976,7 @@
+ 
+ # Appendix C. Technical supplement and reproducibility
+ 
+-**Released evidence package.** The current supplement is [09_Artificial_Intelligence_Technical_Supplement_v0.10.md](../technical_supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md). Its companion evidence directory is [09_Artificial_Intelligence](../evidence/09_Artificial_Intelligence/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [09_Artificial_Intelligence_Technical_Supplement_v0.10.md](../supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md). Its companion evidence directory is [09_Artificial_Intelligence](../evidence/09_Artificial_Intelligence/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ The accompanying technical supplement contains:
+ 
+
+--- v0.10.0/papers/10_Denying_Knowledge_v0.10.md
++++ v0.10.1/papers/10_Denying_Knowledge_v0.10.md
+@@ -34,9 +34,9 @@
+ 
+ This publication preserves the original philosophical project while incorporating two successive audit cycles. The first separated skeptical consequence from credulous admissibility and fixed the viability base within every model to which KLM results are applied. The second clarified that preferential consequence presupposes rather than supplies stable content, distinguished descriptive truth-satisfaction from commitment realization, split infeasibility from underdetermination, strengthened the governance conditions on model choice, and relocated the paper’s novelty from a general semantics of religious language to a nonmonotonic consequence architecture over stable commitment contents.
+ 
+-The paper therefore treats the two registers primarily as differences of principal speech-act function and assessment standard. Formal results apply only to the Boolean-representable fragment. Ritual, prayer, poetry, myth, first-person avowal, and other practice-bound forms may be meaningful while remaining outside this formalization. The complete correction history and the independent audit disposition are preserved in the [technical supplement](../technical_supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md).
+-
+-This release candidate synchronizes the companion paper with *Coherence Universalism: Metaphysics and Epistemology* and *Coherence Universalism: Foundations*. It adds the official CU-COM identifiers and cross-references to the restored meaning, love, revision, redemption, and Omega architecture. The formal results, audit disposition, finite regressions, and philosophical scope established by the audited prior version are unchanged.
++The paper therefore treats the two registers primarily as differences of principal speech-act function and assessment standard. Formal results apply only to the Boolean-representable fragment. Ritual, prayer, poetry, myth, first-person avowal, and other practice-bound forms may be meaningful while remaining outside this formalization. The complete correction history and the independent audit disposition are preserved in the [technical supplement](../supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md).
++
++This release synchronizes the companion paper with *Coherence Universalism: Metaphysics and Epistemology* and *Coherence Universalism: Foundations*. It adds the official CU-COM identifiers and cross-references to the restored meaning, love, revision, redemption, and Omega architecture. The formal results, audit disposition, finite regressions, and philosophical scope established by the audited prior version are unchanged.
+ 
+ ## Authority and relation to the series
+ 
+@@ -1536,11 +1536,11 @@
+ 9. adding a non-singleton-best-set regression stratum;
+ 10. normalizing and expanding the bibliography.
+ 
+-The complete proof history, countermodels, regression results, independent audit, and disposition record appear in the technical supplement. Wave 6 authority, citation, and cross-reference changes are recorded in the [Companion-Paper Synchronization Addendum](../technical_supplements/Framework_Addendum_Companion_Synchronization_v0.10.md).
++The complete proof history, countermodels, regression results, independent audit, and disposition record appear in the technical supplement. Wave 6 authority, citation, and cross-reference changes are recorded in the [Companion-Paper Synchronization Addendum](../supplements/Framework_Addendum_Companion_Synchronization_v0.10.md).
+ 
+ # Appendix C. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [10_Denying_Knowledge_Technical_Supplement_v0.10.md](../technical_supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md). Its companion evidence directory is [10_Denying_Knowledge](../evidence/10_Denying_Knowledge/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
++**Released evidence package.** The current supplement is [10_Denying_Knowledge_Technical_Supplement_v0.10.md](../supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md). Its companion evidence directory is [10_Denying_Knowledge](../evidence/10_Denying_Knowledge/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation.
+ 
+ # References
+ 
+
+--- v0.10.0/papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md
++++ v0.10.1/papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md
+@@ -1832,7 +1832,7 @@
+ 
+ # Appendix D. Technical Supplement and Reproducibility
+ 
+-**Released evidence package.** The current supplement is [11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md](../technical_supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md). Its companion evidence directory is [11_Non_Egoic_Artificial_Mind](../evidence/11_Non_Egoic_Artificial_Mind/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation. Companion authority and cross-reference decisions are recorded in the [Companion-Paper Synchronization Addendum](../technical_supplements/Framework_Addendum_Companion_Synchronization_v0.10.md).
++**Released evidence package.** The current supplement is [11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md](../supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md). Its companion evidence directory is [11_Non_Egoic_Artificial_Mind](../evidence/11_Non_Egoic_Artificial_Mind/README.md). The supplement and evidence directory expose the derivations, deterministic constructions, scripts, machine-readable results, source ledger, and audit materials referenced in this manuscript. They do not elevate a toy model, simulation, or reconstructed check into target-domain empirical validation. Companion authority and cross-reference decisions are recorded in the [Companion-Paper Synchronization Addendum](../supplements/Framework_Addendum_Companion_Synchronization_v0.10.md).
+ 
+ # References
+ 
+
+--- v0.10.0/supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Metaphysics and Epistemology
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/01_CU_Metaphysics_Epistemology_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/01_CU_Metaphysics_Epistemology_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [01_Metaphysics_Epistemology](../evidence/01_Metaphysics_Epistemology/README.md)
+-- **Archived source package:** [CU_v0.10_Canonical_Publication_PC5.zip](../archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip)
++- **Archived source package:** [CU_v0.10_Canonical_Publication_PC5.zip](../provenance/archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip)
+ - **Current supplement path:** `technical_supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/02_Foundations_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/02_Foundations_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Foundations
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/02_CU_Foundations_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/02_CU_Foundations_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [02_Foundations](../evidence/02_Foundations/README.md)
+-- **Archived source package:** [CU_v0.10_Canonical_Publication_PC5.zip](../archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip)
++- **Archived source package:** [CU_v0.10_Canonical_Publication_PC5.zip](../provenance/archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip)
+ - **Current supplement path:** `technical_supplements/02_Foundations_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/03_Physics_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/03_Physics_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Physics
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/03_CU_Physics_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/03_CU_Physics_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [03_Physics](../evidence/03_Physics/README.md)
+-- **Archived source package:** [CU_Physics_v0.10_Publication_PC4.zip](../archival_source_packages/CU_Physics_v0.10_Publication_PC4.zip)
++- **Archived source package:** [CU_Physics_v0.10_Publication_PC4.zip](../provenance/archival_source_packages/CU_Physics_v0.10_Publication_PC4.zip)
+ - **Current supplement path:** `technical_supplements/03_Physics_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/04_Biology_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/04_Biology_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Biology
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/04_CU_Biology_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/04_CU_Biology_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [04_Biology](../evidence/04_Biology/README.md)
+-- **Archived source package:** [CU_Biology_v0.10_Publication_PC4.zip](../archival_source_packages/CU_Biology_v0.10_Publication_PC4.zip)
++- **Archived source package:** [CU_Biology_v0.10_Publication_PC4.zip](../provenance/archival_source_packages/CU_Biology_v0.10_Publication_PC4.zip)
+ - **Current supplement path:** `technical_supplements/04_Biology_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/05_Consciousness_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/05_Consciousness_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Consciousness
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/05_CU_Consciousness_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/05_CU_Consciousness_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [05_Consciousness](../evidence/05_Consciousness/README.md)
+-- **Archived source package:** [CU_Consciousness_v0.10_Publication_PC3.zip](../archival_source_packages/CU_Consciousness_v0.10_Publication_PC3.zip)
++- **Archived source package:** [CU_Consciousness_v0.10_Publication_PC3.zip](../provenance/archival_source_packages/CU_Consciousness_v0.10_Publication_PC3.zip)
+ - **Current supplement path:** `technical_supplements/05_Consciousness_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/06_Psychology_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/06_Psychology_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Psychology
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/06_CU_Psychology_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/06_CU_Psychology_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [06_Psychology](../evidence/06_Psychology/README.md)
+-- **Archived source package:** [CU_Psychology_v0.10_Publication_PC3.zip](../archival_source_packages/CU_Psychology_v0.10_Publication_PC3.zip)
++- **Archived source package:** [CU_Psychology_v0.10_Publication_PC3.zip](../provenance/archival_source_packages/CU_Psychology_v0.10_Publication_PC3.zip)
+ - **Current supplement path:** `technical_supplements/06_Psychology_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Social Dynamics
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/07_CU_Social_Dynamics_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/07_CU_Social_Dynamics_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [07_Social_Dynamics](../evidence/07_Social_Dynamics/README.md)
+-- **Archived source package:** [CU_Social_Dynamics_v0.10_Publication_PC2.zip](../archival_source_packages/CU_Social_Dynamics_v0.10_Publication_PC2.zip)
++- **Archived source package:** [CU_Social_Dynamics_v0.10_Publication_PC2.zip](../provenance/archival_source_packages/CU_Social_Dynamics_v0.10_Publication_PC2.zip)
+ - **Current supplement path:** `technical_supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/08_Ethics_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/08_Ethics_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Ethics
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/08_CU_Ethics_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/08_CU_Ethics_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [08_Ethics](../evidence/08_Ethics/README.md)
+-- **Archived source package:** [CU_Ethics_v0.10_Publication_PC2.zip](../archival_source_packages/CU_Ethics_v0.10_Publication_PC2.zip)
++- **Archived source package:** [CU_Ethics_v0.10_Publication_PC2.zip](../provenance/archival_source_packages/CU_Ethics_v0.10_Publication_PC2.zip)
+ - **Current supplement path:** `technical_supplements/08_Ethics_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Coherence Universalism: Artificial Intelligence
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/09_CU_Artificial_Intelligence_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/09_CU_Artificial_Intelligence_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [09_Artificial_Intelligence](../evidence/09_Artificial_Intelligence/README.md)
+-- **Archived source package:** [CU_Artificial_Intelligence_v0.10_Publication_PC2.zip](../archival_source_packages/CU_Artificial_Intelligence_v0.10_Publication_PC2.zip)
++- **Archived source package:** [CU_Artificial_Intelligence_v0.10_Publication_PC2.zip](../provenance/archival_source_packages/CU_Artificial_Intelligence_v0.10_Publication_PC2.zip)
+ - **Current supplement path:** `technical_supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # Denying Knowledge to Make Room for Commitment
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/10_Denying_Knowledge_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/10_Denying_Knowledge_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [10_Denying_Knowledge](../evidence/10_Denying_Knowledge/README.md)
+-- **Archived source package:** [CU_Denying_Knowledge_v0.10_Publication_PC3.zip](../archival_source_packages/CU_Denying_Knowledge_v0.10_Publication_PC3.zip)
++- **Archived source package:** [CU_Denying_Knowledge_v0.10_Publication_PC3.zip](../provenance/archival_source_packages/CU_Denying_Knowledge_v0.10_Publication_PC3.zip)
+ - **Current supplement path:** `technical_supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.
+
+--- v0.10.0/supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md
++++ v0.10.1/supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md
+@@ -1,10 +1,10 @@
+ # The Architecture of Non-Egoic Artificial Mind
+ ## RC3 Release-Convergence Wave 4 — Technical Supplement
+ 
+-**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../manuscripts/11_The_Architecture_of_Non_Egoic_Artificial_Mind_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
++**Status and authority.** This is the released technical supplement for the Wave 4 cumulative manuscript. The [reader-facing manuscript](../papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md) controls current wording, claim status, and canonical cross-references. This supplement exposes the formal derivations, deterministic contrast constructions, claim ledgers, audit materials, scripts, and source records on which the manuscript relies.
+ 
+ - **Evidence directory:** [11_Non_Egoic_Artificial_Mind](../evidence/11_Non_Egoic_Artificial_Mind/README.md)
+-- **Archived source package:** [CU_Non_Egoic_Artificial_Mind_v0.10_RC1.zip](../archival_source_packages/CU_Non_Egoic_Artificial_Mind_v0.10_RC1.zip)
++- **Archived source package:** [CU_Non_Egoic_Artificial_Mind_v0.10_RC1.zip](../provenance/archival_source_packages/CU_Non_Egoic_Artificial_Mind_v0.10_RC1.zip)
+ - **Current supplement path:** `technical_supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md`
+ 
+ Reproducibility of a construction shows only that its output follows from its declared assumptions and code. It does not convert a toy model or simulation into target-domain empirical validation. Where this preserved archive uses historical identifiers or statuses, the Wave 4 normalized registries and current manuscript control.

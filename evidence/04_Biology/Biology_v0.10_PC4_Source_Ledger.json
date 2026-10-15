@@ -1,0 +1,14 @@
+{
+  "publication": "Biology",
+  "source_pc": 3,
+  "target_pc": 4,
+  "source_manuscript": "/mnt/data/CU_Biology_v0.10_Publication_PC3/CU_Biology_v0.10_Publication_Candidate_3.md",
+  "source_manuscript_sha256": "071e0e374f71c9863e145bc430443620a7fd402a587e597313335e7d6a5d7515",
+  "updated_manuscript": "CU_Biology_v0.10_Publication_Candidate_4.md",
+  "updated_manuscript_sha256": "f6a3e157d4c7a013f95b4cc59be6bb42b38c2f504e8fb3078da025926497c32a",
+  "frozen_technical_supplement": "frozen/CU_Biology_v0.10_PC3_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "2f0bc2699787c1f780e1a7df6f856870f13d16ad117ecbe47a5b01466c4a9bf3",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 22
+}

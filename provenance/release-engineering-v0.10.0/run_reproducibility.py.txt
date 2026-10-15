@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+import os,subprocess,sys,time
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+# Curated executable suites. Missing optional files are reported, not fabricated.
+patterns=[
+ ('Physics',['evidence/03_Physics/**/cu_physics*.py','evidence/03_Physics/**/run*.py']),
+ ('Biology',['evidence/04_Biology/**/cu_biology*.py','evidence/04_Biology/**/run*.py']),
+ ('Ethics',['evidence/08_Ethics/**/*deterministic*.py']),
+ ('AI',['evidence/09_Artificial_Intelligence/**/*deterministic*.py']),
+ ('Denying Knowledge',['evidence/10_Denying_Knowledge/**/*regression*.py']),
+ ('Non-Egoic',['evidence/11_Non_Egoic/**/*reproduc*.py']),
+]
+seen=set(); failures=[]; ran=[]
+for label,pats in patterns:
+    candidates=[]
+    for pat in pats: candidates.extend(ROOT.glob(pat))
+    candidates=[p for p in candidates if p.is_file() and p not in seen and p.name not in ('run_reproducibility.py','verify_release.py')]
+    if not candidates:
+        print('SKIP',label,'no curated script found'); continue
+    # Run the shortest path candidate first; most packages expose one controlling runner.
+    candidates.sort(key=lambda p:(len(p.parts),p.name))
+    p=candidates[0]; seen.add(p); print('RUN',label,p.relative_to(ROOT)); t=time.time()
+    cp=subprocess.run([sys.executable,str(p)],cwd=p.parent,text=True,capture_output=True,timeout=300)
+    print(cp.stdout); print(cp.stderr,file=sys.stderr)
+    ran.append((label,str(p.relative_to(ROOT)),cp.returncode,time.time()-t))
+    if cp.returncode: failures.append((label,p,cp.returncode))
+print('SUMMARY')
+for r in ran: print(r)
+if failures: print('FAILURES',failures); raise SystemExit(1)
+print('OVERALL: PASS')

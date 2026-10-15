@@ -1,0 +1,5261 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  11pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[]{Liberation Serif}
+  \setsansfont[]{Liberation Sans}
+  \setmonofont[]{DejaVu Sans Mono}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{american}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Liberation Serif}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\usepackage{adjustbox}
+\emergencystretch=3em
+\AtBeginEnvironment{longtable}{\small\sloppy}
+\usepackage{stmaryrd}
+% Printing shims for run-on conditional-bar tokens in the supplied Biology source.
+\providecommand{\midL}{\mid L}
+\providecommand{\midN}{\mid N}
+\sloppy
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdflang={en-US},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\section{COHERENCE UNIVERSALISM:
+ETHICS}\label{coherence-universalism-ethics}
+
+\subsection{Truth, Self-Deception, Power, and
+Repair}\label{truth-self-deception-power-and-repair}
+
+\textbf{Gaura Kiśora Dās Rader}\\
+\textbf{Heaven≡Earth Foundation}\\
+\textbf{White Paper Series}\\
+\textbf{Version 0.10}\\
+\textbf{October 2026}
+
+\textbf{Release status.} This manuscript is part of the complete Version
+0.10 proposal. Numbered principles identify the framework's current
+formulations; their claim status, external validation, and authorization
+for consequential application remain separate questions.
+
+\textbf{Freeze status.} This manuscript is synchronized to the frozen
+Version 0.10 release registry, evidence package, and review gates.
+Future changes require a new versioned release.
+
+\section{Abstract}\label{abstract}
+
+Ethics begins where epistemology becomes personal. The question is no
+longer only whether our descriptions of reality are true. It is whether
+we are willing and able to know the truth about what we are doing, why
+we are doing it, whom it affects, what we benefit from, and what repair
+requires. Coherence Universalism locates this question within the
+Coherence Mandala: once reality includes beings with organism-relative
+stakes, experience, agency, vulnerability, dependence, and unequal power
+over one another, ethical relations become constitutive features of
+higher-order life. The Ethics paper therefore does not attempt to derive
+morality from physics or prove moral reality into existence. It asks why
+agents and institutions repeatedly lose truthful contact with a moral
+reality they already inhabit.
+
+The central danger is self-deception: motivated asymmetric information
+processing through which identity, attachment, loyalty, advantage,
+authority, or policy influences which facts, reasons, alternatives, and
+affected parties are admitted into judgment. This paper retains
+justificatory integrity as indispensable while rejecting the claim that
+integrity alone is sufficient for permissibility. A transparent tyrant
+can accurately state a harmful objective. A sincere official can
+consistently enforce an unjust rule. An institution can acknowledge the
+burdens it imposes while denying affected people standing, remedy, or a
+meaningful alternative. Ethical judgment therefore requires both
+truthfulness in justification and substantive attention to standing,
+agency, welfare, consent, rights, distribution, power, responsibility,
+uncertainty, reversibility, and repair.
+
+The paper develops a non-scalar ethical architecture. A declared problem
+identifies affected beings, possible trajectories, the options actually
+presented, causal assumptions, protected conditions, power relations,
+benefit and burden distributions, the justificatory record, historical
+path dependence, horizons, observation channels, and practical
+capacities for correction. Evaluation proceeds through a profile rather
+than a universal moral score. Protected floors constrain comparison;
+scalarization remains conditional on disclosed weights, normalizations,
+affected scope, and authority. Passing a screen establishes only
+screening-admissibility relative to the represented option set, not the
+adequacy of that set or all-things-considered moral permission.
+
+The analysis then follows the truth-centered arc of the series. It
+examines the anatomy of self-serving justification, explains why
+introspection is insufficient, and shows why truth requires
+affected-party testimony, independent records, protected dissent,
+counterpower, option-set review, and institutions capable of practical
+correction. It distinguishes patiency, agency, responsibility, and
+sovereignty; separates causal contribution from blame and remedial duty;
+treats moral distress, moral injury, and institutional betrayal without
+collapsing them into one diagnosis; and reconstructs repair through
+protection, truth, accountability, restitution, restoration of standing,
+and prevention of recurrence. Artificial intelligence is treated as a
+possible aid to moral inquiry and a source of institutional power, not
+as a sovereign moral authority.
+
+The paper culminates in \textbf{CU-COM12 --- Ethical Truthfulness and
+Accountability}: the commitment to seek truth about actions before
+seeking innocence for agents or institutions. Ethics completes the
+corpus's return to truth. Epistemology teaches us not to lie about the
+universe. Ethics teaches us not to lie about ourselves.
+
+\textbf{Keywords:} ethics; truth; self-deception; justificatory
+integrity; moral standing; power; responsibility; moral injury;
+institutional betrayal; repair; artificial intelligence; Coherence
+Universalism
+
+\subsection{Relation to the series}\label{relation-to-the-series}
+
+This paper presupposes the framework definitions and register discipline
+of \emph{Coherence Universalism: Metaphysics and Epistemology} and
+\emph{Foundations}, the distinction between functional stake and
+phenomenal valence developed across Biology and Consciousness, the
+account of meaning-bearing regulation and self-deception developed in
+Psychology, and the analysis of institutions, power, dissent, and
+practical correctability developed in Social Dynamics. It is written to
+stand on its own, but its full architecture is relational: the
+scientific and philosophical papers identify the kinds of beings and
+dependencies that make ethical relations possible, while this paper asks
+what truthfulness, protection, accountability, and repair require once
+those relations exist.
+
+\subsection{Note on Version 0.10}\label{note-on-version-0.10}
+
+Version 0.10 preserves the original paper's insight that moral reasoning
+is vulnerable to motivated corruption while replacing the earlier
+single-principle architecture with a plural constraint framework. Full
+revision history, formal contrast models, claim ledgers, independent
+audit materials, and reproducibility files are preserved in the
+\href{../supplements/08_Ethics_Technical_Supplement_v0.10.md}{technical
+supplement} and archive.
+
+\textbf{Release-candidate synchronization.} This manuscript uses the
+shared Version 0.10 definitions, principle identifiers, Mandala
+cross-references, and interpretive and commitment language published in
+\emph{Coherence Universalism: Metaphysics and Epistemology} and
+\emph{Coherence Universalism: Foundations}. Its audited technical core,
+formal results, numerical results, and claim-status boundaries remain
+unchanged except where this manuscript explicitly states otherwise.
+
+\subsection{How claims are marked}\label{how-claims-are-marked}
+
+Definitions, propositions, models, hypotheses, interpretive claims, and
+commitment-register statements are identified where their status
+matters. Normative principles are not presented as empirical
+discoveries. Empirical findings constrain application; they do not by
+themselves determine the content of rights, protected floors,
+legitimacy, or repair.
+
+\section{Contents}\label{contents}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Ethics begins where epistemology becomes personal\\
+\item
+  Declaring an ethical problem\\
+\item
+  Why moral agents lose contact with truth\\
+\item
+  Justificatory integrity: necessary, not sufficient\\
+\item
+  Truth requires more than introspection\\
+\item
+  Compassion as an epistemic discipline\\
+\item
+  Standing, patiency, agency, and rights\\
+\item
+  Consequences, distribution, uncertainty, and tragic conflict\\
+\item
+  Power, coercion, legitimacy, and public justification\\
+\item
+  Responsibility under role and distributed causation\\
+\item
+  Moral distress, moral injury, and institutional betrayal\\
+\item
+  Accountability, repair, and non-recurrence\\
+\item
+  Artificial intelligence, moral assistance, and sovereignty\\
+\item
+  Research program and principle architecture\\
+\item
+  What commitments this account licenses\\
+\item
+  Conclusion: truth before innocence\\
+  Appendix A. Ethics principles and application governance\\
+  Appendix B. Major revisions from v0.09\\
+  Appendix C. Technical supplement and reproducibility
+\end{enumerate}
+
+\section{Principal Contributions}\label{principal-contributions}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Truth-centered ethics.} Ethics is organized around truthful
+  contact with motive, consequence, power, benefit, omission, and repair
+  rather than around a new proof that moral claims exist.
+\item
+  \textbf{Integrity without sufficiency.} Justificatory integrity is
+  necessary for defensible moral judgment but cannot by itself establish
+  permissibility.
+\item
+  \textbf{Plural ethical profile.} Standing, agency, welfare, consent,
+  distribution, legitimacy, responsibility, reversibility, coercion, and
+  repair remain distinct rather than being collapsed into one scalar.
+\item
+  \textbf{Option-set integrity.} Ethical screening and ranking are
+  conditional on the alternatives permitted to appear.
+\item
+  \textbf{Truth beyond introspection.} Affected-party testimony,
+  independent records, dissent, counterpower, and practical
+  correctability are epistemic requirements where power is unequal.
+\item
+  \textbf{Distributed responsibility.} Causal contribution, knowledge,
+  control, authority, benefit, blame, liability, and remedial duty are
+  evaluated separately.
+\item
+  \textbf{Repair after truth.} Acknowledgment is joined to protection,
+  record correction, restitution, restored standing, structural change,
+  and non-recurrence.
+\item
+  \textbf{Patiency without sovereignty.} Welfare-relevant experience can
+  ground protection without conferring responsibility or legitimate
+  authority.
+\item
+  \textbf{AI as moral assistant, not sovereign.} AI may expose
+  inconsistency and omitted perspectives while remaining embedded in
+  institutional power and human responsibility.
+\item
+  \textbf{Commitment to ethical truthfulness.} CU-COM12 makes truth
+  before innocence an official commitment of the framework.
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Domain Analytic Frame and CAP
+Record}\label{domain-analytic-frame-and-cap-record}
+
+\textbf{Target:} Coherence Universalism Version 0.10 release\\
+\textbf{Status:} Release declaration; scope-limited and revisable under
+the declared review gates\\
+\textbf{Use rule:} Unresolved fields are left explicit rather than
+completed by analogy.
+
+\subsection{Paper and model identity}\label{paper-and-model-identity}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Field
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Status
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Paper & Coherence Universalism: Ethics & Specified \\
+Domain owner & Ethics & Specified by the Version 0.10 release corpus \\
+Primary model or analysis & Ethical problem
+\(\mathcal E=(A,\Omega,U,F,K,P,R,J,\mathcal H,\pi,T,\mathcal O,\mathcal C)\)
+& Paper-relative \\
+Primary claim status & Normative principles, definitions, empirical
+imports, bridge principles, diagnostic hypotheses, and commitments &
+Mixed statuses remain explicit \\
+Review gate & Ethics, law, political philosophy, social science,
+relevant domain expertise, and heightened affected-community
+co-governance & Proportionate to claim and consequential reach \\
+Methodological authority & CU-FP2, CU-M2, CU-M11, CU-M12, CU-M13,
+CU-M14, and CU-M15 & Controlling Version 0.10 methodological
+framework \\
+\end{longtable}
+
+\subsection{Shared Analytic Frame}\label{shared-analytic-frame}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+\#
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Slot and domain declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Status and evidence
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & \textbf{Unit and boundary.} A declared ethical problem containing
+affected beings, trajectories, presented and feasible options,
+institutions, histories, and jurisdictions. & Affected-being scope is
+load-bearing \\
+2 & \textbf{State or trajectory space.} \(\Omega\) contains possible
+states or trajectories; ethical evaluation often concerns action paths
+and repair, not static outcomes alone. & Declared \\
+3 & \textbf{Environment.} Material, social, legal, ecological,
+institutional, and historical conditions shape feasibility and
+consequence. & Included through the causal model \\
+4 & \textbf{Constraints and viable region.} \(K\) contains rights,
+floors, prohibitions, standing, and emergency-exception rules; these are
+not high weights. & Screening architecture \\
+5 & \textbf{Actions, options, and transitions.}
+\(U^{pres}\subseteq U^{feas}\) distinguishes presented from feasible
+acts, omissions, policies, delay, redesign, and repair. & Option-set
+integrity required \\
+6 & \textbf{Dynamics or update rule.} \(F\) is a descriptive causal
+model linking actions to consequences; Ethics asserts no natural moral
+flow or universal optimizer. & Causal and trajectory-specific \\
+7 & \textbf{Observation and access.} \(\mathcal O\), justificatory
+record \(J\), testimony, independent evidence, and uncertainty determine
+what enters judgment. & Truth and provenance required \\
+8 & \textbf{Perturbation and intervention class.} Policy change,
+refusal, emergency action, review, rollback, restitution, restoration,
+and prevention of recurrence are distinct interventions. &
+Consequentially governed \\
+9 & \textbf{Equilibria, basins, or regimes.} No natural ethical
+equilibrium or basin is claimed. Stable institutions can remain unjust.
+& Not applicable generally \\
+10 & \textbf{Local--global status.} Aggregate and local effects are
+separated; normative noncompensation comes from protected standing and
+floors, not from convexity or information geometry. & Qualitative /
+coordinate-wise unless separately proved \\
+11 & \textbf{Scalar status.} The primary object is a plural ethical
+profile. Post-screen decision scalarization is permitted only with
+disclosed authority and tradeoffs. & No universal moral score \\
+12 & \textbf{Statistical-image and allocation status.} Outcome, burden,
+risk, and resource distributions may qualify. Standing, rights,
+justification, responsibility, and the ethical profile are not simplex
+coordinates. & Statistical subobjects only \\
+13 & \textbf{Translation status.} Empirical and formal methods inform
+but do not determine rights, standing, legitimacy, or moral obligation
+without explicit normative bridges. & Bounded \\
+14 & \textbf{Open gaps.} Option-set adequacy, authority to set floors,
+moral uncertainty, standing across unfamiliar beings, responsibility
+under distributed causation, and repair remain contested. & Open
+normative work \\
+\end{longtable}
+
+\subsection{Compact Coherence Analysis Protocol
+record}\label{compact-coherence-analysis-protocol-record}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+CAP module
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Boundary
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+System declaration & Name affected beings, trajectories, presented and
+feasible options, causal model, power, history, boundary, and horizon. &
+Section 2.1 \\
+Observation declaration & Disclose evidence, testimony, missing parties,
+uncertainty, provenance, and who controls the record. & Self-report and
+institutional records are corrigible \\
+Evaluation declaration & Screen floors first; then compare admissible
+options with profiles, distributions, uncertainty, and preserved
+incomparability. & Passing a screen is not moral permission \\
+Power and authorship declaration & Name who framed the question,
+generated options, classified feasibility, set floors or weights,
+benefits, bears harm, and controls appeal or remedy. & Central ethical
+requirement \\
+Revision declaration & New facts within fixed values differ from changed
+standing, floors, option set, horizon, or authority. & Changed model
+requires renewed justification \\
+\end{longtable}
+
+\subsection{License summary}\label{license-summary}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+License
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Declaration
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Current status
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Scalar license & Only purpose-bound post-screen decision scalarizations
+or construct measures; no universal moral scalar. & Conditional \\
+Local--global license & Normative noncompensation plus qualitative or
+coordinate-wise distribution analysis; exact math only for licensed
+subobjects. & Mixed \\
+Statistical Image License & Possible for uncertainty, outcome, burden,
+exposure, or risk distributions. & Object-specific \\
+Allocation License & Possible for common-unit resources or burdens;
+protected standing and floors remain outside compensatory allocation
+arithmetic. & Conditional \\
+Refinement and Coarse-Graining License & Aggregation is licensed only
+when affected beings and morally relevant distinctions are not erased. &
+Heightened review \\
+Fisher-Rao License & Possible for statistical subobjects only; geometry
+supplies no moral direction, standing, or legitimacy. & No normative
+inference \\
+Translation license & Descriptive findings can constrain but do not
+derive normative conclusions. & Explicit bridge required \\
+\end{longtable}
+
+\subsection{Open gaps and review
+disposition}\label{open-gaps-and-review-disposition}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Gap
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Consequence
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Required work
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Option adequacy & A correct procedure can choose from the wrong menu. &
+Mechanisms for omitted-option discovery and affected-party proposals \\
+Floor authority & Thresholds can encode domination or exclusion. &
+Public justification and affected-community authority \\
+Repair evidence & Apology or record correction may not restore standing
+or prevent recurrence. & Track protection, remedy, restitution, and
+recurrence \\
+\end{longtable}
+
+\begin{quote}
+\textbf{Propagation rule.} This card makes the paper's existing objects
+and limits visible. It does not strengthen any empirical, mathematical,
+normative, metaphysical, or spiritual claim beyond the wording supported
+in the manuscript.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{1. Ethics begins where epistemology becomes
+personal}\label{ethics-begins-where-epistemology-becomes-personal}
+
+\subsection{1.1 Truth about reality and truth about
+participation}\label{truth-about-reality-and-truth-about-participation}
+
+Epistemology asks what we are entitled to believe and say about reality.
+Ethics asks what prevents us from seeing truthfully what we are doing
+within that reality.
+
+The truth at stake is not only the accuracy of a proposition. It
+includes the truth about motive, dependence, benefit, power, omission,
+consequence, and responsibility. It asks whether an agent who condemns
+exploitation can acknowledge the labor from which they benefit; whether
+an institution that celebrates transparency preserves the records by
+which its conduct could be challenged; whether a movement that speaks in
+the name of justice applies the same evidential standards to its allies
+and opponents; and whether a person who has caused harm is seeking to
+understand what happened or merely to preserve an identity of innocence.
+
+Ethics therefore begins where epistemology becomes personal. A false
+factual premise can corrupt moral judgment, but moral distortion often
+persists even when the relevant facts are available. What fails is the
+structure through which facts, reasons, testimony, and alternatives are
+admitted. Identity, loyalty, shame, fear, status, attachment,
+resentment, and advantage can determine what becomes visible and what is
+neutralized before it reaches judgment.
+
+This paper calls that family of processes \textbf{self-deception} when
+the asymmetry is motivated and recurrent. The term does not imply
+conscious lying. It names a way in which persons and institutions can
+remain sincere while selectively protecting themselves from reasons that
+would require revision.
+
+\subsection{1.2 Moral reality inherited from the
+Mandala}\label{moral-reality-inherited-from-the-mandala}
+
+Coherence Universalism does not begin Ethics by attempting to derive
+obligation from a physical equation. Physics describes lawful
+possibility. Biology identifies active self-maintenance and
+organism-relative stake. Consciousness introduces the possibility of
+felt experience. Psychology develops meaning, identity, motivation, and
+self-deception. Social Dynamics examines coordination, power,
+institutions, dissent, and repair.
+
+The Coherence Mandala interprets these domains as reciprocally dependent
+aspects of one reality. Once that reality contains beings for whom
+conditions can be better or worse, centers of experience capable of
+suffering, agents able to act for reasons, relationships of dependency,
+and institutions with unequal power over lives, ethical relations are
+not optional decorations on an otherwise complete world. They are
+constitutive features of higher-order coexistence.
+
+This is a systems-metaphysical and normative bridge, not a deduction of
+morality from physics. It supplies the ground from which the Ethics
+paper proceeds. The central problem is not whether moral reality exists,
+but whether agents and institutions remain truthful enough to
+participate in it responsibly.
+
+In the canonical sixty-four-stage Coherence Mandala, the central ethical
+sequence occupies Stages 27--31: Value Differentiation, Harm
+Recognition, Tradeoffs Under Protected Floors, Justification and Public
+Reason, and Ethical Institutions and Repair. The later reflexive
+stages---especially Universal Moral Concern, Coherence Stewardship,
+Open-Ended Stability, Meaning Without Finality, and Stage 64, Coherence
+Universalism---show why ethical recognition culminates in responsibility
+rather than in theoretical closure.
+
+\subsection{1.3 Why self-deception is
+central}\label{why-self-deception-is-central}
+
+Most serious moral failures are not committed by agents who possess no
+moral language. They are committed through moral language: security,
+efficiency, duty, loyalty, progress, necessity, care, order, freedom,
+responsibility. The same vocabulary can name a genuine reason or conceal
+a transfer of cost.
+
+Self-deception matters because it corrupts the conditions under which
+reasons can function. It can:
+
+\begin{itemize}
+\tightlist
+\item
+  narrow the affected-party set until the people bearing the burden
+  disappear;
+\item
+  redefine coercion as consent because resistance is absent;
+\item
+  treat presented options as exhaustive because alternatives threaten
+  authority;
+\item
+  change evidential standards when a conclusion protects identity or
+  advantage;
+\item
+  convert structural harm into individual failure;
+\item
+  redescribe punishment as repair;
+\item
+  and use uncertainty selectively---demanding impossible proof from the
+  harmed while accepting weak reassurance from the powerful.
+\end{itemize}
+
+The wrong is not merely that a conclusion may be false. The process
+disables correction while preserving the appearance of justification.
+
+\subsection{1.4 Justificatory integrity is necessary but not
+sufficient}\label{justificatory-integrity-is-necessary-but-not-sufficient}
+
+A defense that depends upon distorted facts, hidden alternatives,
+excluded testimony, or asymmetric standards is morally defective. This
+is the \textbf{Justificatory Integrity Constraint}.
+
+But integrity alone is not enough. An actor can openly state that
+another group will be used as a means. A policy can be transparent,
+internally consistent, and devastating. A system can record every burden
+it imposes while denying affected people standing to challenge the
+objective itself.
+
+Ethical judgment must therefore face substantive questions that
+truthfulness cannot answer by itself:
+
+\begin{itemize}
+\tightlist
+\item
+  Who possesses moral standing?
+\item
+  Which interests or capabilities deserve protected status?
+\item
+  What kinds of consent are valid under dependency?
+\item
+  Which harms may not be compensated by unrelated gains?
+\item
+  How should uncertainty and irreversibility alter action?
+\item
+  Who has legitimate authority?
+\item
+  How should responsibility be distributed?
+\item
+  What does repair require after wrongdoing?
+\end{itemize}
+
+CU Ethics is consequently a plural constraint framework, not a theory
+that reduces morality to sincerity or coherence.
+
+\subsection{1.5 Moral pluralism without moral
+quietism}\label{moral-pluralism-without-moral-quietism}
+
+The architecture draws from several traditions without claiming that
+they say the same thing. Deontological ethics protects persons from
+being treated merely as instruments. Consequentialism insists that
+outcomes matter. Contractualism and public-reason traditions demand
+answerability to those governed. Care ethics makes dependency,
+embodiment, and relationship morally visible. Capability and rights
+approaches protect substantive possibilities rather than formal
+permission alone. Virtue ethics asks what kinds of agents and practices
+make good judgment possible. Feminist, disability, decolonial, and
+critical traditions reveal how apparently neutral abstractions can
+encode dominant standpoints. Restorative and transitional justice
+distinguish repair from punishment and private remorse.
+
+CU coordinates these insights around declared affected parties,
+protected conditions, power, responsibility, truthfulness, and repair.
+It does not settle every disagreement among them. Where moral reasons
+remain in genuine conflict, the framework should display the conflict
+rather than manufacture a scalar answer.
+
+\subsection{1.6 Scope and roadmap}\label{scope-and-roadmap}
+
+The paper offers:
+
+\begin{itemize}
+\tightlist
+\item
+  a declaration discipline for ethical problems;
+\item
+  a multidimensional profile and protected-floor architecture;
+\item
+  a truth-centered account of self-deception and justificatory
+  integrity;
+\item
+  substantive treatments of standing, consequences, power,
+  responsibility, moral injury, and repair;
+\item
+  a bounded account of contemplative moral practice;
+\item
+  and an analysis of artificial intelligence as both moral assistance
+  and institutional power.
+\end{itemize}
+
+It does not provide a universal algorithm for right action, a substitute
+for law or democratic judgment, or a license to diagnose opponents. Its
+principal aim is to make moral reasoning more truthful, more accountable
+to affected beings, and more capable of repair.
+
+\section{2. Declaring an ethical
+problem}\label{declaring-an-ethical-problem}
+
+\subsection{2.1 The ethical model tuple}\label{the-ethical-model-tuple}
+
+A candidate ethical problem is represented by
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\mathcal E
+=
+(A,\Omega,U,F,K,P,R,J,\mathcal H,\pi,T,\mathcal O,\mathcal C).
+$}\]
+
+The components are:
+
+\begin{itemize}
+\tightlist
+\item
+  \(A\): affected beings, groups, representatives, and future or
+  indirect claimants;
+\item
+  \(\Omega\): possible states, trajectories, or scenarios;
+\item
+  \(U^{\mathrm{pres}}\): the actions, omissions, policies, and
+  institutional responses actually presented for comparison, understood
+  as a possibly incomplete subset of the feasible alternatives
+  \(U^{\mathrm{feas}}\);
+\item
+  \(F\): descriptive and causal model connecting actions to
+  consequences;
+\item
+  \(K\): protected conditions, rights, floors, prohibitions, and
+  emergency exceptions;
+\item
+  \(P\): power, authority, dependency, coercion, ownership, and exit
+  structure;
+\item
+  \(R\): distributions of benefit, burden, risk, voice, and repair
+  obligation;
+\item
+  \(J\): justificatory record, including reasons, evidence,
+  alternatives, uncertainty, provenance, and dissent;
+\item
+  \(\mathcal H\): history, prior commitments, inherited harms, and path
+  dependence;
+\item
+  \(\pi\): boundary, jurisdiction, scale, and representation map;
+\item
+  \(T\): relevant temporal horizons;
+\item
+  \(\mathcal O\): observation, measurement, and reporting channels; and
+\item
+  \(\mathcal C\): correction, appeal, rollback, remedy, and repair
+  capacities.
+\end{itemize}
+
+The tuple is not a claim that moral life can be fully formalized. It is
+a declaration discipline. It prevents an analyst from evaluating ``the
+policy'' while leaving unnamed the people excluded from the model, the
+institution that controls the evidence, or the losses that occur after
+the official time horizon ends.
+
+The standardized Domain Analytic Frame above is the compact CAP record
+for this paper. It preserves the distinction between mathematical
+relation status under proposed CU-M13 and normative noncompensation
+under CU-G1 and the ethical architecture.
+
+The distinction between feasible and presented options is load-bearing:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+U^{\mathrm{pres}}\subseteq U^{\mathrm{feas}}.
+$}\]
+
+A decision procedure can compare only the alternatives represented in
+\(U^{\mathrm{pres}}\). It cannot infer from the success of one
+represented option that the set is adequate, that a less restrictive or
+more reparative alternative is unavailable, or that the institution
+controlling option generation has searched in good faith.
+
+\subsection{2.2 The affected-being set}\label{the-affected-being-set}
+
+The set \(A\) is normatively load-bearing. It must not be limited
+automatically to:
+
+\begin{itemize}
+\tightlist
+\item
+  formal decision makers;
+\item
+  consenting participants;
+\item
+  citizens of one jurisdiction;
+\item
+  present persons;
+\item
+  property owners;
+\item
+  humans capable of verbal reason;
+\item
+  or beings whose harms are easy to measure.
+\end{itemize}
+
+Potentially affected parties include direct subjects, families, workers,
+nonusers, data subjects, displaced communities, future populations,
+nonhuman animals, ecosystems as legally or morally represented, and
+possible artificial patients where credible uncertainty exists.
+
+Inclusion does not determine equal weight or identical rights. It
+prevents absence from being mistaken for irrelevance.
+
+\subsection{2.3 A plural ethical
+profile}\label{a-plural-ethical-profile}
+
+the analysis uses the profile
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\mathbf P_E(u)
+=
+\langle
+S,A_g,W,C_n,D,J_i,L,p_{\mathrm{resp}},U_r,Q,R_p
+\rangle_u.
+$}\]
+
+The coordinates are candidate dimensions rather than universally fixed
+measures:
+
+\begin{itemize}
+\tightlist
+\item
+  \(S\): standing and recognition of affected beings;
+\item
+  \(A_g\): protection of agency, choice, and substantive capability;
+\item
+  \(W\): welfare, suffering, need, and morally relevant interest;
+\item
+  \(C_n\): consent, authorization, and freedom from undue influence;
+\item
+  \(D\): distribution of benefit, burden, risk, and sacrifice;
+\item
+  \(J_i\): justificatory integrity and evidential truthfulness;
+\item
+  \(L\): legitimacy and public answerability;
+\item
+  \(R_a\): alignment of responsibility with knowledge, control,
+  authority, and benefit;
+\item
+  \(U_r\): uncertainty management, precaution, reversibility, and
+  learning;
+\item
+  \(Q\): coercion, domination, extraction, and dependency costs; and
+\item
+  \(R_p\): protection, correctability, remedy, and repair.
+\end{itemize}
+
+A profile may support threshold screening, Pareto comparison,
+lexicographic priority, scenario analysis, or a declared scalarization.
+It does not automatically support a total ranking.
+
+\subsection{2.4 Protected floors and secondary
+comparison}\label{protected-floors-and-secondary-comparison}
+
+Let \(k_j\) be a protected floor for dimension \(j\), and let
+\(y_{aj}(u,\omega)\) be the outcome for affected being or group \(a\) in
+scenario \(\omega\). A simple screening rule is
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+u\in U_K
+\quad\Longleftrightarrow\quad
+\Pr\!\left[
+ y_{aj}(u,\omega)\ge k_{aj}
+ \text{ for all protected }(a,j)
+\right]
+\ge 1-\delta,
+$}\]
+
+subject to the chosen uncertainty model.
+
+This is only a formal shell. Ethics must still justify:
+
+\begin{itemize}
+\tightlist
+\item
+  which dimensions receive floor status;
+\item
+  whose floors count;
+\item
+  the threshold values;
+\item
+  the acceptable probability of violation;
+\item
+  whether worst-case, expected, or distributionally robust criteria are
+  appropriate;
+\item
+  and what emergency exceptions exist.
+\end{itemize}
+
+After screening, options may remain partially ordered. A secondary
+decision rule may then be used, but it must not silently compensate for
+what the floor was meant to protect.
+
+\subsubsection{2.4.1 Conditional admissibility and option-set
+adequacy}\label{conditional-admissibility-and-option-set-adequacy}
+
+Let
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+U_K^{\mathrm{pres}}
+=
+U^{\mathrm{pres}}\cap U_K.
+$}\]
+
+Then \(u\in U_K^{\mathrm{pres}}\) means only that \(u\) passes the
+declared screen relative to the represented parties, evidence,
+scenarios, floors, and option set. this account calls this
+\textbf{screening-admissible relative to the presented set}. It is not
+an all-things-considered declaration of moral permissibility.
+
+An option-set adequacy review should ask, where relevant:
+
+\begin{itemize}
+\tightlist
+\item
+  who generated and excluded alternatives;
+\item
+  whether affected parties could introduce options;
+\item
+  whether the status quo, no-action, delay, staged action,
+  least-restrictive action, and repair or redesign options were
+  considered;
+\item
+  whether legal, financial, temporal, or institutional constraints were
+  treated as fixed when they could themselves be changed;
+\item
+  whether the apparent choice was produced by prior coercion, capture,
+  or path dependence; and
+\item
+  what evidence supports the claim that omitted alternatives are
+  infeasible.
+\end{itemize}
+
+If every presented option fails, the result may be tragedy, emergency
+minimization, an inadequate model, or a failed option-generation
+process. If exactly one presented option passes, it is uniquely
+screening-admissible \textbf{within that set}, not thereby morally
+endorsed against alternatives that were never allowed to appear.
+
+\subsubsection{2.4.2 Reversibility under credible severe-harm
+risk}\label{reversibility-under-credible-severe-harm-risk}
+
+Reversibility is not a universal trump. Surgery, rescue, testimony,
+parenthood, ecological intervention, and delayed action can each contain
+irreversible consequences. Yet when an application stipulates a credible
+risk of severe or irreversible harm, silence about reversibility is not
+neutral. The evaluator must either:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  declare a context-appropriate protected floor for reversibility,
+  containment, rollback, staged exposure, or equivalent retained option
+  value; or
+\item
+  state an exception argument showing why necessity, proportionality,
+  lack of safer alternatives, and the harms of delay justify proceeding
+  despite limited reversibility.
+\end{enumerate}
+
+The floor or exception remains a normative commitment. Mathematics can
+apply it consistently but cannot determine its content.
+
+\subsection{2.5 Noncompensation}\label{noncompensation}
+
+\textbf{{[}Normative principle{]} Noncompensation} means that some
+losses are not made permissible merely by adding unrelated benefits
+elsewhere.
+
+This does not imply that no burdens can ever be imposed. It requires
+that burdens be examined for:
+
+\begin{itemize}
+\tightlist
+\item
+  severity;
+\item
+  necessity;
+\item
+  consent;
+\item
+  distribution;
+\item
+  reversibility;
+\item
+  alternatives;
+\item
+  compensation;
+\item
+  legitimacy;
+\item
+  and whether the burden destroys the standing needed to contest it.
+\end{itemize}
+
+The principle is especially important where the beneficiaries control
+the measurement of aggregate benefit.
+
+\subsection{2.6 Ethical scalarization}\label{ethical-scalarization}
+
+A declared scalarization may take the form
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+V_w(u)=\sum_j w_j z_j(u),
+\qquad
+w_j\ge0,
+\qquad
+\sum_jw_j=1,
+$}\]
+
+where the \(z_j\) are normalized dimensions. Such a score can be useful
+for a specific decision after protected constraints are applied. It does
+not become a universal value function.
+
+The analyst must disclose:
+
+\begin{itemize}
+\tightlist
+\item
+  normalization;
+\item
+  weights;
+\item
+  uncertainty treatment;
+\item
+  affected-being aggregation;
+\item
+  exclusions;
+\item
+  protected floors;
+\item
+  and the authority that chose them.
+\end{itemize}
+
+A ranking reversal under defensible weights is evidence that the options
+trade different goods, not that one weighting is mathematically
+mistaken.
+
+\subsection{2.7 Emergency exceptions}\label{emergency-exceptions}
+
+An emergency can alter what actions are permissible, but ``emergency''
+is also a recurrent technology of domination. A temporary override of an
+ordinary protection requires at least:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  a grave and sufficiently imminent threat;
+\item
+  evidence connecting the measure to threat reduction;
+\item
+  necessity relative to less restrictive alternatives;
+\item
+  proportionality;
+\item
+  a narrow scope;
+\item
+  a fixed expiry or renewal burden;
+\item
+  transparent criteria;
+\item
+  independent review;
+\item
+  protection against discriminatory application;
+\item
+  preserved records;
+\item
+  remedy for wrongful imposition; and
+\item
+  practical restoration of ordinary standing.
+\end{enumerate}
+
+An indefinite exception is not an emergency measure. It is a new
+political order and must be justified as such.
+
+\subsection{2.8 Twenty application-governance
+rules}\label{twenty-application-governance-rules}
+
+Any CU ethical application should satisfy the following rules.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Name every materially affected group, including excluded and future
+  parties.
+\item
+  Distinguish moral patiency, agency, responsibility, and authority.
+\item
+  State the descriptive facts and uncertainty separately from normative
+  commitments.
+\item
+  Identify who defines the problem and candidate options, which
+  alternatives were excluded, and whether affected parties can propose
+  alternatives.
+\item
+  Map authority, ownership, sanctions, dependencies, and exit costs.
+\item
+  Report distributions, not only aggregates.
+\item
+  Declare protected floors and the argument for each.
+\item
+  Separate consent from compliance, dependency, and absence of
+  resistance.
+\item
+  Treat justificatory integrity as necessary but not sufficient.
+\item
+  Do not infer self-deception from disagreement, error, identity, or
+  distress alone.
+\item
+  Apply evidential and justificatory standards symmetrically to allies
+  and opponents.
+\item
+  Distinguish causal contribution, answerability, blame, liability, and
+  remedial duty.
+\item
+  Align responsibility with knowledge, control, authority, benefit, and
+  repair capacity.
+\item
+  Preserve dissent, provenance, and independent evidence.
+\item
+  State the time horizon, tail-risk rule, reversibility assumptions, and
+  whether reversibility functions as a floor, comparative consideration,
+  or justified exception.
+\item
+  Do not treat a complaint channel as evidence of practical
+  correctability without access, independence, remedy, and recurrence
+  data.
+\item
+  Do not require forgiveness, reconciliation, trust, or renewed contact
+  as conditions of repair.
+\item
+  Give people governed or classified by a principle substantive standing
+  in its development and review.
+\item
+  Keep spiritual interpretation and contemplative commitment distinct
+  from empirical and public-normative claims.
+\item
+  Treat every screening and ranking result as conditional on the
+  presented option set; floor compliance does not certify option-set
+  adequacy.
+\end{enumerate}
+
+\section{3. Why moral agents lose contact with
+truth}\label{why-moral-agents-lose-contact-with-truth}
+
+\subsection{3.1 The psychological
+definition}\label{the-psychological-definition}
+
+the account inherits the Psychology paper's definition:
+
+\begin{quote}
+\textbf{Self-deception is motivated asymmetric information processing in
+which an identity, attachment, advantage, policy, or other stake is
+protected by selectively excluding, reframing, discounting, or
+neutralizing relevant reasons.}
+\end{quote}
+
+The definition is process-based. It does not equate error with
+deception.
+
+\subsection{3.2 Why self-deception matters
+morally}\label{why-self-deception-matters-morally}
+
+Self-deception becomes morally significant when it:
+
+\begin{itemize}
+\tightlist
+\item
+  conceals avoidable harm;
+\item
+  removes affected beings from consideration;
+\item
+  lowers the evidential burden for a preferred action;
+\item
+  prevents revision;
+\item
+  transfers responsibility;
+\item
+  sustains domination;
+\item
+  or blocks repair.
+\end{itemize}
+
+The moral problem is not psychological untidiness. It is the way
+motivated distortion corrupts answerability.
+
+\subsection{3.3 Rationalization}\label{rationalization}
+
+\textbf{{[}Definition{]} Rationalization} is the construction or
+selection of reasons that defend a conclusion substantially fixed by
+other motives while preserving the appearance of reason-guided judgment.
+
+Rationalization can be conscious, partly conscious, or nonconscious. It
+can also be sincere. The agent may genuinely experience the selected
+reasons as decisive (Haidt, 2001; Kunda, 1990).
+
+\subsection{3.4 Diagnostic markers}\label{diagnostic-markers}
+
+No single marker proves self-deception. A convergent pattern may
+include:
+
+\begin{itemize}
+\tightlist
+\item
+  selective search;
+\item
+  asymmetric skepticism;
+\item
+  shifting comparability standards;
+\item
+  role-sensitive principles;
+\item
+  moral credentialing;
+\item
+  convenient uncertainty;
+\item
+  escalating complexity after challenge;
+\item
+  concealment of alternatives;
+\item
+  refusal to define failure conditions;
+\item
+  and punishment of inconvenient testimony.
+\end{itemize}
+
+The same diagnostics must be applied to the analyst's own preferred
+position (Batson et al., 1999; Monin \& Miller, 2001; Silver \& Berman,
+2024; Ditto et al., 2025).
+
+\subsection{3.5 Moral identity and
+innocence}\label{moral-identity-and-innocence}
+
+Moral identities can support courage and commitment. They can also make
+evidence threatening because revision feels like collapse of the self.
+
+The desire to remain ``a good person'' can produce:
+
+\begin{itemize}
+\tightlist
+\item
+  defensiveness;
+\item
+  blame transfer;
+\item
+  victim discrediting;
+\item
+  symbolic apology without change;
+\item
+  and preference for intention over impact.
+\end{itemize}
+
+A mature moral practice does not require permanent innocence. It
+requires the capacity to discover one's participation in harm without
+replacing responsibility with either denial or total self-condemnation.
+
+\subsection{3.6 Institutional
+rationalization}\label{institutional-rationalization}
+
+Organizations rationalize through structures rather than one mind.
+Common mechanisms include:
+
+\begin{itemize}
+\tightlist
+\item
+  targets that exclude unmeasured harms;
+\item
+  legal categories that fragment causation;
+\item
+  euphemistic language;
+\item
+  promotion criteria tied to compliance;
+\item
+  internal investigations without independence;
+\item
+  confidentiality that protects the institution rather than victims;
+\item
+  review processes with no power to reverse;
+\item
+  and resilience programs that individualize structural failure.
+\end{itemize}
+
+The pattern can persist even when many participants are decent and
+conflicted (Arendt, 1963; Kelman \& Hamilton, 1989).
+
+\subsection{3.7 Moral disengagement}\label{moral-disengagement}
+
+Moral disengagement research describes mechanisms through which harmful
+conduct becomes psychologically easier, including moral justification,
+euphemistic labeling, advantageous comparison, displacement and
+diffusion of responsibility, distortion of consequences, dehumanization,
+and attribution of blame.
+
+CU treats these as empirically investigable mechanisms, not a complete
+theory of wrongdoing. They are especially relevant where organizational
+language separates decision makers from those who bear the consequences
+(Bandura et al., 1996; Bandura, 1999; Moore et al., 2012).
+
+\subsection{3.8 The weaponization
+problem}\label{the-weaponization-problem}
+
+Calling an opponent self-deceived can become a way to avoid their
+reasons. The accusation is particularly dangerous when made by
+authorities who control diagnosis, employment, treatment, spiritual
+standing, or public credibility.
+
+Safeguards include:
+
+\begin{itemize}
+\tightlist
+\item
+  process evidence rather than motive speculation;
+\item
+  symmetric criteria;
+\item
+  independent review;
+\item
+  affected-person testimony;
+\item
+  distinction between disagreement and distortion;
+\item
+  and willingness to revise the accusation.
+\end{itemize}
+
+\subsection{3.9 Compassion and judgment}\label{compassion-and-judgment}
+
+Understanding why a person defends a harmful belief does not make the
+belief harmless. Compassion can reduce humiliation and reveal the
+threatened attachment that sustains distortion. It does not require
+surrendering boundaries, facts, accountability, or protection.
+
+The ethical stance is neither condemnation without understanding nor
+understanding without judgment.
+
+\subsection{3.10 Testable hypotheses}\label{testable-hypotheses}
+
+the account proposes several empirical hypotheses:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  High identity threat will predict greater asymmetry in evidential
+  standards, especially when accountability is weak.
+\item
+  Independent records and protected dissent will reduce the persistence
+  of institutional rationalization.
+\item
+  Role fragmentation will increase diffusion of responsibility unless
+  authority and repair duties are explicitly assigned.
+\item
+  Interventions focused only on individual resilience will fail when
+  moral distress is primarily produced by organizational constraints.
+\item
+  Public correction will be more durable when it includes material
+  repair and rule change rather than confession alone.
+\end{enumerate}
+
+These hypotheses require operationalization and can be disconfirmed.
+
+\section{4. Justificatory integrity: necessary, not
+sufficient}\label{justificatory-integrity-necessary-not-sufficient}
+
+\subsection{4.1 Definition}\label{definition}
+
+\textbf{{[}Definition{]} Justificatory integrity} is the degree to which
+a practical justification remains compatible with established facts,
+represents affected beings and alternatives adequately, applies
+standards with relevant symmetry, discloses uncertainty and power, and
+remains open to correction.
+
+The definition has at least eight components:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  factual compatibility;
+\item
+  evidential proportionality;
+\item
+  affected-being inclusion;
+\item
+  alternative sensitivity;
+\item
+  symmetry across relevantly similar cases;
+\item
+  disclosure of uncertainty and conflicts of interest;
+\item
+  answerability to challenge; and
+\item
+  revision when the justification fails.
+\end{enumerate}
+
+\subsection{4.2 The Integrity
+Constraint}\label{the-integrity-constraint}
+
+\textbf{{[}Normative principle{]}} An action, policy, or institution
+lacks adequate moral justification when its defense requires systematic
+distortion of relevant facts, reasons, affected parties, alternatives,
+or standards in order to protect a dominant identity, advantage,
+authority, or prior commitment.
+
+This principle is negative. It identifies one route by which
+justification fails.
+
+\subsection{4.3 Why integrity is
+necessary}\label{why-integrity-is-necessary}
+
+If a justification depends on fabricated evidence, concealed harms,
+opportunistic standards, or the exclusion of those most affected, its
+conclusion cannot claim the authority of moral reason. The agent may
+still possess power to act, but power is not transformed into legitimacy
+by argument-shaped language.
+
+The requirement also applies to good causes. A movement committed to
+justice can rationalize cruelty. A humanitarian institution can hide
+failure to protect its mission. A spiritual community can silence
+testimony to preserve faith. A safety program can exaggerate evidence to
+accelerate adoption. Moral identity is not immunity from motivated
+distortion.
+
+\subsection{4.4 Why integrity is
+insufficient}\label{why-integrity-is-insufficient}
+
+Suppose a decision maker states:
+
+\begin{quote}
+We understand that this policy imposes severe, nonconsensual harm on a
+politically weak minority. We accept that no comparable burden would be
+imposed on our own group. We proceed because our group has the power and
+benefits.
+\end{quote}
+
+The statement may be factually candid. It remains morally defective
+because candor does not answer the claims of those harmed.
+
+Accordingly:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+J_i(u)\text{ adequate}
+\not\Rightarrow
+u\text{ permissible}.
+$}\]
+
+Integrity is one coordinate and, in some cases, one floor. Standing,
+rights, welfare, proportionality, and legitimacy retain independent
+force.
+
+\subsection{4.5 The public justificatory
+record}\label{the-public-justificatory-record}
+
+For institutional decisions, the relevant object is often not an
+individual's private motive but a public record:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+J(u)=
+(Ev,Alt,Aff,Unc,Auth,Dist,Rev,Rep),
+$}\]
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(Ev\): evidence and provenance;
+\item
+  \(Alt\): considered alternatives;
+\item
+  \(Aff\): affected parties and representation;
+\item
+  \(Unc\): uncertainty and disagreement;
+\item
+  \(Auth\): authorization and conflicts of interest;
+\item
+  \(Dist\): distribution of benefits and burdens;
+\item
+  \(Rev\): review, expiry, and revision conditions; and
+\item
+  \(Rep\): remedy and repair provisions.
+\end{itemize}
+
+A justification that omits one element is not automatically false. The
+omissions identify questions whose absence requires explanation.
+
+\subsection{4.6 Symmetry and role
+reversal}\label{symmetry-and-role-reversal}
+
+A common indicator of motivated moral reasoning is a shift in standards
+when identities or beneficiaries change.
+
+A \textbf{role-reversal test} asks whether an agent would accept the
+same rule, evidence threshold, risk, or appeal structure if:
+
+\begin{itemize}
+\tightlist
+\item
+  the burden fell on their own group;
+\item
+  the opposing party controlled enforcement;
+\item
+  their preferred political faction lost power;
+\item
+  the affected person were someone they loved;
+\item
+  or the same evidence supported the contrary conclusion.
+\end{itemize}
+
+Failure does not prove self-deception. Relevant differences may exist.
+The test forces those differences into the open.
+
+\subsection{4.7 The epistemic-access
+problem}\label{the-epistemic-access-problem}
+
+Agents do not have infallible access to their own motives. First-person
+sincerity is evidence but not proof of unbiased reasoning. Third-person
+suspicion is also fallible and can become a weapon.
+
+The ethical response is procedural rather than clairvoyant:
+
+\begin{itemize}
+\tightlist
+\item
+  expose reasoning to counterevidence;
+\item
+  separate analysts from beneficiaries where possible;
+\item
+  protect dissent;
+\item
+  use preregistered or prior criteria;
+\item
+  preserve records;
+\item
+  disclose uncertainty;
+\item
+  compare treatment across groups;
+\item
+  and examine whether correction actually occurs.
+\end{itemize}
+
+\subsection{4.8 Self-deception and ordinary
+error}\label{self-deception-and-ordinary-error}
+
+The following do not establish self-deception by themselves:
+
+\begin{itemize}
+\tightlist
+\item
+  false belief;
+\item
+  factual ignorance;
+\item
+  sincere disagreement;
+\item
+  ordinary inconsistency;
+\item
+  limited attention;
+\item
+  memory error;
+\item
+  trauma adaptation;
+\item
+  confusion;
+\item
+  changing one's mind;
+\item
+  membership in an identity group;
+\item
+  or benefiting from an outcome.
+\end{itemize}
+
+Stronger attribution requires process evidence of motivated asymmetry:
+selective exposure, changing standards, recurrent neutralization of the
+same threatening reasons, strategic uncertainty, or systematic exclusion
+linked to a protected commitment.
+
+\subsubsection{4.8.1 Rationalization as motivated loss of
+correctability}\label{rationalization-as-motivated-loss-of-correctability}
+
+Rationalization is the motivated loss of correctability within
+justification: facts, affected parties, alternatives, or standards are
+reorganized to protect identity, loyalty, advantage, or authority.
+Justificatory integrity is therefore indispensable, but the candid
+tyrant remains possible; accurate self-knowledge does not make a harmful
+objective permissible. Error, ignorance, trauma adaptation, uncertainty,
+tragedy, and sincere disagreement must remain separate diagnoses.
+
+\subsection{4.9 Institutional distortion without a collective
+psyche}\label{institutional-distortion-without-a-collective-psyche}
+
+An institution can generate a distorted justificatory field through:
+
+\begin{itemize}
+\tightlist
+\item
+  compartmentalized roles;
+\item
+  secrecy;
+\item
+  incentive structures;
+\item
+  measurement selection;
+\item
+  controlled records;
+\item
+  retaliation;
+\item
+  legal fragmentation;
+\item
+  diffusion of responsibility;
+\item
+  professional normalization;
+\item
+  and selective visibility.
+\end{itemize}
+
+No claim about a unitary institutional unconscious is required. The
+pattern exists when the organization predictably filters information and
+responsibility in ways that preserve power or policy against correction.
+
+\subsection{4.10 A defeasible diagnostic
+matrix}\label{a-defeasible-diagnostic-matrix}
+
+A practical integrity audit may ask whether a justification shows:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Domain
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Lower-risk pattern
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Higher-risk pattern
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Evidence & same threshold across identities & standards shift with
+beneficiary \\
+Counterevidence & preserved and answered & hidden, destroyed, or
+stigmatized \\
+Alternatives & compared under common criteria & excluded by
+construction \\
+Affected parties & represented with standing & reduced to aggregate
+units \\
+Uncertainty & disclosed and decision-linked & asserted only when
+convenient \\
+Power & authority and benefit named & control treated as neutral \\
+Revision & expiry and correction possible & conclusion insulated from
+failure \\
+Repair & harms create duties & burdens externalized or denied \\
+\end{longtable}
+
+The matrix does not output a moral verdict. It identifies where scrutiny
+is warranted.
+
+\section{5. Truth requires more than
+introspection}\label{truth-requires-more-than-introspection}
+
+\subsection{5.1 The limits of sincerity}\label{the-limits-of-sincerity}
+
+A person can be sincere and wrong. More importantly for ethics, a person
+can be sincere while the process producing their judgment remains
+systematically biased. Introspection has limited access to the causes of
+belief, the structure of incentives, the testimony excluded before
+conscious deliberation, and the alternatives never presented.
+
+The same limitation applies to institutions. An organization does not
+become truthful because its leaders report good intentions. Its
+procedures, records, incentives, categories, and channels of challenge
+determine which realities can enter decision making.
+
+Ethical truthfulness therefore requires more than looking inward. It
+requires structures through which what the self or institution would
+prefer not to know can still become available.
+
+\subsection{5.2 Affected-party
+testimony}\label{affected-party-testimony}
+
+People who bear the consequences of a decision often possess knowledge
+unavailable to those who design it. Their testimony can reveal burdens
+hidden by aggregation, practical barriers invisible in formal policy,
+and harms produced by categories that appear neutral to the classifier.
+
+Testimony is not infallible. People can disagree, misremember,
+misunderstand causes, or possess conflicting interests. But fallibility
+is not a reason to exclude them. The requirement is substantive
+standing: affected people must be able to introduce evidence, contest
+descriptions, propose alternatives, and participate in defining repair.
+
+An institution that listens only after objectives, metrics, and options
+have been fixed has not genuinely opened its reasoning.
+
+\subsection{5.3 Records, provenance, and the right to a challengeable
+reality}\label{records-provenance-and-the-right-to-a-challengeable-reality}
+
+Truthful accountability depends on records that preserve what happened,
+who decided, what evidence was available, what uncertainty was
+disclosed, which alternatives were considered, and who objected.
+
+Records are not neutral containers. Institutions decide what to measure,
+retain, classify, summarize, and delete. Provenance is therefore
+ethically significant. A polished report can create the appearance of
+transparency while erasing the history needed to challenge it.
+
+A challengeable justificatory record should preserve:
+
+\begin{itemize}
+\tightlist
+\item
+  source and uncertainty;
+\item
+  dissent and unresolved objections;
+\item
+  option-generation history;
+\item
+  conflicts of interest;
+\item
+  model and metric changes;
+\item
+  distributions rather than only aggregates;
+\item
+  and the connection between decisions and later consequences.
+\end{itemize}
+
+The right to contest a decision is hollow when the record needed to do
+so is controlled or unavailable.
+
+\subsection{5.4 Dissent, counterpower, and symmetrical
+scrutiny}\label{dissent-counterpower-and-symmetrical-scrutiny}
+
+Dissent is not automatically correct, but it is a crucial route by which
+excluded reality can enter a system. Moral reasoning needs protected
+channels for whistleblowing, minority reports, independent review,
+adversarial analysis, and refusal.
+
+The protection must be practical. A nominal right to object is
+inadequate when objection carries retaliation, loss of livelihood,
+exclusion from care, or permanent reputational cost.
+
+Truthfulness also requires symmetrical scrutiny. The evidential standard
+applied to an opponent should be applied to an ally. The explanation
+offered for one's own failure should be available, where relevant, to
+others. Moral concepts such as trauma, ignorance, coercion, culture, and
+uncertainty cannot function as compassion for insiders and blame for
+outsiders.
+
+\subsection{5.5 Option-set integrity}\label{option-set-integrity}
+
+Even a perfectly transparent decision procedure can produce a
+predetermined result when the institution controls which alternatives
+are allowed to appear.
+
+Let
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+U^{\mathrm{pres}}\subseteq U^{\mathrm{feas}}.
+$}\]
+
+A procedure evaluates only the presented set. It cannot infer from the
+best option in that set that less harmful, less restrictive, more
+reparative, or structurally different alternatives are unavailable.
+
+Truth about a decision therefore includes truth about its framing:
+
+\begin{itemize}
+\tightlist
+\item
+  Who defined the problem?
+\item
+  Who generated the options?
+\item
+  Which constraints were treated as fixed?
+\item
+  Could affected parties propose alternatives?
+\item
+  Were delay, no action, staged action, least-restrictive action,
+  repair, or institutional redesign considered?
+\item
+  Did prior coercion or dependency make the apparent menu artificially
+  narrow?
+\end{itemize}
+
+Option-set review is part of justificatory integrity, not a procedural
+afterthought.
+
+\subsection{5.6 Practical
+correctability}\label{practical-correctability}
+
+A complaint form, appeal channel, internal review board, or ethics
+office does not establish correctability by existing.
+
+Practical correctability requires evidence of:
+
+\begin{itemize}
+\tightlist
+\item
+  access;
+\item
+  safety from retaliation;
+\item
+  sufficiently independent review;
+\item
+  authority to stop or reverse action;
+\item
+  record correction;
+\item
+  remedy or restitution;
+\item
+  recurrence tracking;
+\item
+  and institutional learning.
+\end{itemize}
+
+No institution should be the sole certifier of its own correctability
+when stakes are substantial. The same organization may operate many
+technically distinct review functions while retaining control over
+appointments, evidence, options, remedies, and public reporting.
+Functional separation is not necessarily independent challenge.
+
+\subsection{5.7 Truth after harm}\label{truth-after-harm}
+
+After wrongdoing, truth is not exhausted by confession. The relevant
+truth includes:
+
+\begin{itemize}
+\tightlist
+\item
+  what happened;
+\item
+  who was affected;
+\item
+  what structures made the harm likely;
+\item
+  who benefited;
+\item
+  what remains ongoing;
+\item
+  what records must be corrected;
+\item
+  what restitution is possible;
+\item
+  and what must change to prevent recurrence.
+\end{itemize}
+
+A sincere apology can coexist with unchanged conditions. Punishment can
+coexist with denial of institutional responsibility. Compensation can
+coexist with continued exclusion from standing. Ethical truthfulness
+therefore culminates in repair.
+
+\section{6. Compassion as an epistemic
+discipline}\label{compassion-as-an-epistemic-discipline}
+
+\subsection{6.1 Why procedures are not
+enough}\label{why-procedures-are-not-enough}
+
+No procedure can anticipate every morally relevant feature. Rules
+require interpretation. Consequences require judgment. Rights can
+conflict. Evidence can be incomplete. Power can distort the process
+itself.
+
+Ethical life therefore depends on capacities in the person and the
+institution.
+
+\subsection{6.2 Moral capacities}\label{moral-capacities}
+
+Candidate moral capacities include:
+
+\begin{itemize}
+\tightlist
+\item
+  attention to affected beings;
+\item
+  truthfulness;
+\item
+  courage;
+\item
+  humility;
+\item
+  practical wisdom;
+\item
+  capacity to tolerate uncertainty;
+\item
+  non-defensive self-observation;
+\item
+  willingness to revise;
+\item
+  compassion;
+\item
+  boundary-setting;
+\item
+  and endurance in repair.
+\end{itemize}
+
+These capacities are not proof of goodness. A courageous person can
+serve an unjust cause. Compassion can be selective. Humility can become
+passivity. Virtues require orientation and context.
+
+\subsection{6.3 Embodiment and
+regulation}\label{embodiment-and-regulation}
+
+Fear, exhaustion, humiliation, pain, threat, and isolation alter moral
+attention. A person under chronic threat may narrow to immediate
+survival. An institution that demands calm moral judgment while denying
+sleep, safety, time, or support is exporting its own failure onto
+individuals.
+
+Embodied regulation can widen the range of reasons and emotions a person
+can hold without defensive closure. It does not make a moral conclusion
+true. It supports the capacity to encounter reasons honestly.
+
+\subsection{6.4 Compassion as epistemic
+posture}\label{compassion-as-epistemic-posture}
+
+Compassion is not only benevolent feeling. It is a way of attending that
+resists reducing another being to an obstacle, category, or cause of
+one's discomfort.
+
+Compassion can improve moral inquiry by:
+
+\begin{itemize}
+\tightlist
+\item
+  making suffering visible;
+\item
+  reducing the need to humiliate an opponent;
+\item
+  revealing dependency and context;
+\item
+  preserving curiosity about motive without excusing harm;
+\item
+  and supporting repair after accountability.
+\end{itemize}
+
+It is not a substitute for evidence or boundary.
+
+\subsection{6.5 Non-humiliation}\label{non-humiliation}
+
+Humiliation attacks standing and often impairs truthful participation.
+Punitive cultures can produce concealment, retaliation, and identity
+defense rather than accountability.
+
+A non-humiliating response does not require softness about harm. It
+distinguishes:
+
+\begin{itemize}
+\tightlist
+\item
+  condemning an act from denying personhood;
+\item
+  removing authority from destroying dignity;
+\item
+  imposing consequences from spectacle;
+\item
+  and protecting others from revenge.
+\end{itemize}
+
+\subsection{6.6 Detachment in the Bhagavad
+Gita}\label{detachment-in-the-bhagavad-gita}
+
+\textbf{{[}Interpretation{]}} The Bhagavad Gita's discipline of action
+without attachment to the fruits can be read as epistemic and moral
+hygiene (The Bhagavad Gita, 2007). Attachment to victory, identity,
+recognition, or innocence can distort judgment. Nonattachment does not
+mean indifference to consequences. It means acting from duty and
+discernment without making the self's preferred outcome the condition of
+truth.
+
+This interpretation must be held alongside the Gita's historical,
+theological, and philosophical complexity. It is not a proof of CU.
+
+\subsection{6.7 Non-forcing in Daoist
+ethics}\label{non-forcing-in-daoist-ethics}
+
+\textbf{{[}Interpretation{]}} Daoist \emph{wu wei} can be read as a
+warning against coercive overreach (Laozi, ca. fourth century BCE/1963):
+interventions that force complex systems beyond what their relationships
+can sustain often create resistance, concealment, and unintended harm.
+
+Non-forcing is not non-action. Protection, refusal, and decisive
+intervention may be required. The relevant question is whether action is
+proportionate, reality-responsive, and free from the egoic need to
+dominate.
+
+\subsection{6.8 Ahimsa}\label{ahimsa}
+
+\textbf{{[}Commitment{]}} Ahimsa or non-harm offers an orienting
+presumption against causing suffering and destroying life. In practice,
+harms conflict and inaction also has consequences. Ahimsa therefore
+functions less as a mechanically complete rule than as a discipline of
+minimizing avoidable violence, refusing dehumanization, and accepting
+responsibility for burdens that cannot be eliminated.
+
+\subsection{6.9 Karma and
+responsibility}\label{karma-and-responsibility}
+
+\textbf{{[}Interpretation{]}} Karma can be understood structurally as
+the persistence of action in consequences, habits, relationships,
+institutions, and future possibilities. This does not require treating
+every misfortune as deserved. Indeed, using karma to blame victims is
+itself a moral distortion.
+
+The ethical insight is that action leaves a world behind. Consequences
+can exceed intention and continue after the actor has ceased to attend
+to them.
+
+\subsection{6.10 Dharma and role}\label{dharma-and-role}
+
+Dharma can illuminate role responsibility: parent, healer, teacher,
+leader, citizen, renunciant, and worker occupy practices with
+distinctive obligations. Role duty becomes dangerous when treated as
+self-validating.
+
+A role cannot erase:
+
+\begin{itemize}
+\tightlist
+\item
+  the standing of those affected;
+\item
+  duties to truth;
+\item
+  limits on coercion;
+\item
+  or responsibility to resist institutional wrongdoing.
+\end{itemize}
+
+The ethical question is not only whether one performed one's role, but
+whether the role and its enactment are defensible.
+
+\subsection{6.11 The contemplative
+danger}\label{the-contemplative-danger}
+
+Spiritual practices can deepen compassion and self-knowledge. They can
+also become instruments of bypassing, hierarchy, obedience, or immunity
+from criticism.
+
+Warning signs include:
+
+\begin{itemize}
+\tightlist
+\item
+  treating doubt as spiritual failure;
+\item
+  demanding forgiveness without repair;
+\item
+  interpreting suffering as deserved or chosen;
+\item
+  using nonattachment to dismiss material injustice;
+\item
+  identifying authority with realization;
+\item
+  and treating community harmony as evidence of truth.
+\end{itemize}
+
+The two-register architecture requires spiritual commitment to remain
+constrained by facts and consequences.
+
+\subsection{6.12 Moral formation as
+infrastructure}\label{moral-formation-as-infrastructure}
+
+Ethical institutions should not assume that individuals will display
+courage, honesty, and compassion under any conditions. They can support
+moral capacity through:
+
+\begin{itemize}
+\tightlist
+\item
+  time for deliberation;
+\item
+  safe dissent;
+\item
+  ethical consultation;
+\item
+  transparent records;
+\item
+  peer support;
+\item
+  distributed authority;
+\item
+  restorative practice;
+\item
+  and material conditions that make refusal possible.
+\end{itemize}
+
+Virtue is personal, relational, and institutional.
+
+\section{7. Standing, patiency, agency, and
+rights}\label{standing-patiency-agency-and-rights}
+
+\subsection{7.1 Standing before
+similarity}\label{standing-before-similarity}
+
+Ethical standing cannot depend only on resemblance to the dominant moral
+agent. Language, rationality, citizenship, productivity, independence,
+species membership, or legal recognition may be relevant in particular
+contexts, but none is a universal gate through which all moral claims
+must pass.
+
+\textbf{{[}Definition{]} Moral standing} is the status of being
+appropriately included in ethical consideration and represented as more
+than an instrument, obstacle, or exchangeable unit.
+
+Standing is not one measurable capacity. It may be grounded in:
+
+\begin{itemize}
+\tightlist
+\item
+  phenomenal welfare or suffering;
+\item
+  interests and needs;
+\item
+  agency and choice;
+\item
+  relationships and dependency;
+\item
+  embodied vulnerability;
+\item
+  historical claims;
+\item
+  membership in a political community;
+\item
+  future-directed projects;
+\item
+  or duties voluntarily or institutionally undertaken toward a being.
+\end{itemize}
+
+Different grounds may support different kinds of claim.
+
+\subsection{7.2 Patiency is not agency}\label{patiency-is-not-agency}
+
+A moral patient need not be able to understand or justify a norm.
+Infants, many animals, persons with profound cognitive disabilities,
+temporarily unconscious patients, and future persons can have morally
+relevant interests without possessing ordinary answerability (Nussbaum,
+2006; Korsgaard, 2018).
+
+Conversely, agency does not erase patiency. A responsible adult remains
+vulnerable to pain, coercion, deprivation, and betrayal. A worker's
+competence does not convert unsafe conditions into consent.
+
+This yields:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\text{moral patiency}
+\neq
+\text{moral agency}
+\neq
+\text{responsibility}
+\neq
+\text{sovereignty}.
+$}\]
+
+\subsection{7.3 Degrees and kinds of
+agency}\label{degrees-and-kinds-of-agency}
+
+Agency includes multiple capacities:
+
+\begin{itemize}
+\tightlist
+\item
+  understanding relevant features of a situation;
+\item
+  forming and revising intentions;
+\item
+  anticipating consequences;
+\item
+  acting under reasons;
+\item
+  resisting pressure;
+\item
+  communicating refusal;
+\item
+  sustaining commitments through time;
+\item
+  and participating in repair.
+\end{itemize}
+
+These capacities may be diminished by coercion, threat, poverty,
+dependency, fatigue, illness, addiction, trauma, misinformation,
+institutional role, or lack of alternatives. Reduced agency can lower
+blame while increasing duties of protection. It does not make a person
+disappear from the moral field.
+
+\subsection{7.4 Consent and its
+conditions}\label{consent-and-its-conditions}
+
+Consent is ethically significant because it expresses agency and can
+authorize forms of risk, intimacy, exchange, or intervention that would
+otherwise be wrongful. It is not a magic transfer of responsibility.
+
+Meaningful consent ordinarily requires:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  sufficient information;
+\item
+  comprehension proportionate to the decision;
+\item
+  decision-making capacity;
+\item
+  voluntariness;
+\item
+  absence of coercion and undue influence;
+\item
+  a real opportunity to refuse;
+\item
+  specificity about what is authorized;
+\item
+  temporal relevance;
+\item
+  revocability where possible; and
+\item
+  no deception about material conditions.
+\end{enumerate}
+
+Background injustice matters. A person may choose the least harmful
+option in a constrained environment without legitimating the structure
+that produced the constraint.
+
+The Belmont Report and UNESCO's bioethics declaration illustrate how
+respect for persons, welfare, consent, vulnerability, and justice can
+jointly constrain research and health governance without becoming one
+scalar score (National Commission for the Protection of Human Subjects
+of Biomedical and Behavioral Research, 1979; UNESCO, 2005). Their
+principles inform this architecture but do not automatically settle
+other institutional or technological domains.
+
+\subsection{7.5 Assent, dissent, and supported decision
+making}\label{assent-dissent-and-supported-decision-making}
+
+Where full conventional consent is unavailable, ethical practice should
+preserve the person's will, preferences, communication, and
+participation to the greatest degree possible. Protection must not be
+used as a blank check for substitution.
+
+Relevant questions include:
+
+\begin{itemize}
+\tightlist
+\item
+  Can the person express assent or objection?
+\item
+  Can information be made accessible?
+\item
+  Can communication supports be provided?
+\item
+  Are trusted supporters independent of the decision's beneficiary?
+\item
+  Can the intervention be delayed or reversed?
+\item
+  Is the person's prior will known?
+\item
+  Who reviews substitute decisions?
+\end{itemize}
+
+The objections of a person with diminished capacity remain morally
+relevant even when another party has lawful authority.
+
+\subsection{7.6 Rights as protected
+conditions}\label{rights-as-protected-conditions}
+
+\textbf{{[}Normative principle{]} Rights} function in this paper as
+protected claims against being used, excluded, harmed, silenced, or
+deprived solely because doing so produces aggregate benefit for others.
+
+Rights can protect:
+
+\begin{itemize}
+\tightlist
+\item
+  bodily integrity;
+\item
+  liberty and security;
+\item
+  privacy;
+\item
+  due process;
+\item
+  expression and dissent;
+\item
+  political participation;
+\item
+  subsistence and health;
+\item
+  relational and cultural standing;
+\item
+  freedom of conscience;
+\item
+  and access to remedy.
+\end{itemize}
+
+This functional description does not derive a complete rights catalogue.
+Legal, philosophical, historical, and democratic arguments remain
+necessary.
+
+\subsection{7.7 Rights and capability}\label{rights-and-capability}
+
+Formal permission can coexist with practical incapacity. A person may
+possess a legal right to leave an abusive workplace while lacking
+income, transportation, housing, health care, immigration security, or
+freedom from retaliation.
+
+For this reason, agency must be evaluated partly through substantive
+capability:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\text{effective agency}
+=
+\text{formal permission}
++
+\text{information}
++
+\text{material means}
++
+\text{social support}
++
+\text{practical safety}.
+$}\]
+
+The equation is schematic, not additive measurement. It records
+dependencies that a purely procedural account can hide.
+
+\subsection{7.8 Boundary cases and moral-status
+uncertainty}\label{boundary-cases-and-moral-status-uncertainty}
+
+Hard cases arise where standing is disputed or capacities are
+developing, impaired, distributed, nonhuman, or artificial. the account
+does not solve these cases by declaring a single threshold of coherence.
+
+\subsubsection{Developing human life}\label{developing-human-life}
+
+Reproductive ethics involves the standing of developing life, the bodily
+integrity and agency of the pregnant person, family and social
+conditions, medical risk, law, uncertainty, and unequal burden. CU does
+not derive a unique verdict from ``actual'' versus ``emerging''
+coherence. Any position must disclose its account of moral status,
+bodily authority, coercion, material support, alternatives, and
+enforcement harms.
+
+\subsubsection{Nonhuman animals}\label{nonhuman-animals}
+
+Sentience, suffering, preference, social relation, cognitive capacity,
+ecological role, and human dependency practices can ground different
+claims. Biological self-maintenance alone does not establish phenomenal
+welfare, but credible evidence of sentience creates reasons for
+precaution and harm reduction.
+
+\subsubsection{Diminished or fluctuating
+agency}\label{diminished-or-fluctuating-agency}
+
+A person does not lose standing when agency fluctuates. Duties may shift
+from deference to supported decision making or protection, but the
+person's history, values, relationships, will, and objections remain
+relevant.
+
+\subsubsection{Possible artificial
+patients}\label{possible-artificial-patients}
+
+Current evidence does not establish artificial phenomenology or valence.
+It also does not justify certainty that all present or future systems
+lack them. Where credible indicators accumulate, uncertainty should
+alter research and deployment practice before sovereignty is considered.
+
+\subsection{7.9 Moral patiency is not
+sovereignty}\label{moral-patiency-is-not-sovereignty}
+
+A being's capacity to suffer can ground duties toward it. It does not
+automatically ground authority to govern others, define public values,
+or escape accountability.
+
+The distinction is especially important for AI. A system could be a
+moral patient while lacking:
+
+\begin{itemize}
+\tightlist
+\item
+  stable diachronic identity;
+\item
+  ownership of commitments;
+\item
+  reciprocal standing;
+\item
+  public answerability;
+\item
+  legal competence;
+\item
+  exposure to consequences;
+\item
+  or legitimate authorization.
+\end{itemize}
+
+Care for a possible patient and refusal of artificial sovereignty are
+compatible.
+
+\subsection{7.10 The recognition test}\label{the-recognition-test}
+
+An ethical justification should be able to answer:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Which affected beings are represented?
+\item
+  Which are represented by proxies, and who selected those proxies?
+\item
+  Which interests or capacities are treated as morally relevant?
+\item
+  Which beings are excluded, and why?
+\item
+  Does the policy preserve their ability to object?
+\item
+  Can they access evidence and remedy?
+\item
+  Would the justification survive if their testimony were given equal
+  evidential standing?
+\end{enumerate}
+
+The test does not require agreement. It forbids moral analysis from
+treating absence of institutional voice as absence of a claim.
+
+\section{8. Consequences, distribution, uncertainty, and tragic
+conflict}\label{consequences-distribution-uncertainty-and-tragic-conflict}
+
+\subsection{8.1 Outcomes matter}\label{outcomes-matter}
+
+A justification can be sincere, respectful in language, and disastrous
+in effect. Ethical judgment must therefore include consequences.
+
+Relevant outcomes may include:
+
+\begin{itemize}
+\tightlist
+\item
+  death, injury, suffering, and health;
+\item
+  loss or expansion of agency;
+\item
+  material security;
+\item
+  relationship and trust;
+\item
+  discrimination and status;
+\item
+  ecological damage;
+\item
+  institutional precedent;
+\item
+  opportunity cost;
+\item
+  intergenerational burden;
+\item
+  and the capacity to repair future error.
+\end{itemize}
+
+Consequences are not an optional supplement to moral purity. They are
+part of what actions mean for others.
+
+\subsection{8.2 Expected value is not
+enough}\label{expected-value-is-not-enough}
+
+Expected-value reasoning can be appropriate when probabilities and
+outcomes are sufficiently understood. It can also hide:
+
+\begin{itemize}
+\tightlist
+\item
+  catastrophic tail risks;
+\item
+  model uncertainty;
+\item
+  unequal exposure;
+\item
+  irreversible losses;
+\item
+  omitted groups;
+\item
+  correlated failures;
+\item
+  and benefits defined by the decision maker.
+\end{itemize}
+
+An ethical analysis should state whether it uses:
+
+\begin{itemize}
+\tightlist
+\item
+  expectation;
+\item
+  worst-case reasoning;
+\item
+  chance constraints;
+\item
+  precaution;
+\item
+  minimax regret;
+\item
+  scenario comparison;
+\item
+  or a distributionally robust rule.
+\end{itemize}
+
+The choice is normative as well as technical.
+
+\subsection{8.3 Distribution before
+aggregation}\label{distribution-before-aggregation}
+
+Let \(y_a(u)\) be the outcome for affected party \(a\). An aggregate
+improvement
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\sum_a y_a(u) > \sum_a y_a(v)
+$}\]
+
+does not entail that \(u\) is preferable when
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+y_a(u)<k_a\ \text{for some }a
+$}\]
+
+for a protected floor \(k_a\), while \(v\) leaves all parties above
+their floors.
+
+This is not a proof that maximin is always correct. It is a proof that
+totals omit distribution.
+
+\subsection{8.4 Benefit and burden must be
+linked}\label{benefit-and-burden-must-be-linked}
+
+An institution often counts benefits where they are concentrated and
+costs where they are diffuse. Ethical analysis should identify:
+
+\begin{itemize}
+\tightlist
+\item
+  who receives the benefit;
+\item
+  who chose the metric;
+\item
+  who bears the risk;
+\item
+  whether burden bearers consented;
+\item
+  whether beneficiaries could absorb more of the cost;
+\item
+  and whether the arrangement creates duties of compensation or repair.
+\end{itemize}
+
+A benefit can create responsibility even where the beneficiary did not
+directly cause the harm, especially when the benefit is ongoing,
+avoidable, or tied to a system the beneficiary can influence.
+
+\subsection{8.5 Reversibility and option
+value}\label{reversibility-and-option-value}
+
+Under uncertainty, reversible actions can preserve future learning.
+Irreversible actions require a stronger burden of justification when
+they:
+
+\begin{itemize}
+\tightlist
+\item
+  destroy life or habitat;
+\item
+  permanently alter a body;
+\item
+  remove legal standing;
+\item
+  erase records;
+\item
+  establish surveillance infrastructure;
+\item
+  create dependency;
+\item
+  or foreclose future refusal.
+\end{itemize}
+
+Reversibility is not always morally superior. Delay can itself cause
+irreversible harm. The principle is to count lost options as
+consequences rather than assuming that inaction is neutral.
+
+\subsection{8.6 Precaution without
+paralysis}\label{precaution-without-paralysis}
+
+The precautionary principle is often stated too vaguely to guide action.
+the account uses a bounded form:
+
+\begin{quote}
+When an action poses a credible risk of severe or irreversible harm to
+beings with moral standing, uncertainty is not a reason to ignore the
+risk. The response should be proportionate to severity, plausibility,
+available alternatives, reversibility, and the harms of delay.
+\end{quote}
+
+Precaution can support monitoring, staged deployment, independent
+review, exposure limits, reversible trials, or temporary restraint. It
+does not imply that every imagined harm defeats action.
+
+\subsection{8.7 Tragic conflict}\label{tragic-conflict}
+
+Some cases contain genuine moral remainder. Every available action may
+violate an important claim. Scarcity, war, disaster, triage,
+reproductive conflict, family duty, and institutional collapse can
+produce situations in which no option is clean.
+
+A tragic conflict should not be converted into moral innocence by
+optimization language. A defensible response may require:
+
+\begin{itemize}
+\tightlist
+\item
+  acknowledging the violated claim;
+\item
+  minimizing avoidable harm;
+\item
+  sharing burdens fairly;
+\item
+  preserving records;
+\item
+  compensating those harmed;
+\item
+  and changing the conditions that produced the dilemma.
+\end{itemize}
+
+The existence of a justified choice does not imply that no wrong or loss
+occurred.
+
+\subsection{8.8 Sacrifice and consent}\label{sacrifice-and-consent}
+
+Sacrifice can be meaningful when voluntarily undertaken for another or a
+shared good. It becomes morally suspect when an institution praises
+sacrifice while controlling the alternatives, concealing risk, or
+repeatedly selecting the same group to bear the cost.
+
+Questions include:
+
+\begin{itemize}
+\tightlist
+\item
+  Who names the sacrifice noble?
+\item
+  Could the burden be reduced?
+\item
+  Are beneficiaries sharing it?
+\item
+  Can the person refuse without losing basic standing?
+\item
+  Is the sacrifice temporary or structurally recurring?
+\item
+  What support and repair are owed?
+\end{itemize}
+
+\subsection{8.9 Future persons and long
+horizons}\label{future-persons-and-long-horizons}
+
+Future people cannot consent to present decisions, but they can inherit
+debt, pollution, institutional fragility, technological lock-in, and
+lost ecological options.
+
+Diachronic responsibility includes:
+
+\begin{itemize}
+\tightlist
+\item
+  delayed consequences;
+\item
+  cumulative harms;
+\item
+  path dependence;
+\item
+  inherited advantage;
+\item
+  maintenance obligations;
+\item
+  and duties created by earlier benefit.
+\end{itemize}
+
+Discounting future effects may be pragmatically necessary in some
+models. The discount rate is not ethically neutral and must be
+disclosed.
+
+\subsection{8.10 Ethical
+underdetermination}\label{ethical-underdetermination}
+
+A complete declaration can still leave options incomparable.
+Uncertainty, plural values, contested status, and tragedy may prevent a
+unique answer.
+
+``Underdetermined'' is not evasion when the unresolved variables are
+named. It becomes evasion when uncertainty is invoked only to protect a
+preferred action or indefinitely postpone protection.
+
+\section{9. Power, coercion, legitimacy, and public
+justification}\label{power-coercion-legitimacy-and-public-justification}
+
+\subsection{9.1 Power enters before the argument
+begins}\label{power-enters-before-the-argument-begins}
+
+Ethical discourse often begins after the option set has already been
+shaped by power. One actor defines the problem, owns the infrastructure,
+funds the research, selects the experts, limits the time, and identifies
+which outcomes count. A later invitation to ``deliberate'' does not
+neutralize these prior decisions.
+
+Power includes the capacity to:
+
+\begin{itemize}
+\tightlist
+\item
+  set agendas;
+\item
+  control resources;
+\item
+  define categories;
+\item
+  impose sanctions;
+\item
+  allocate visibility;
+\item
+  create dependencies;
+\item
+  withhold information;
+\item
+  select measurement;
+\item
+  and determine who may appeal.
+\end{itemize}
+
+A moral justification that ignores these capacities treats a produced
+field of options as natural. Controlling the option set can therefore
+function as a form of justificatory power even when every retained
+profile value is reported honestly. Ethical review must examine not only
+how options are ranked but how the menu was produced, which alternatives
+were ruled infeasible, and whether the people bearing the burdens could
+propose a different problem formulation.
+
+\subsection{9.2 Coercion and domination}\label{coercion-and-domination}
+
+\textbf{{[}Definition{]} Coercion} involves using or threatening force,
+penalty, deprivation, or severe loss to shape another's action.
+
+\textbf{{[}Definition{]} Domination} involves subjection to another's
+uncontrolled or insufficiently contestable power, even when direct
+interference is intermittent (Pettit, 1997).
+
+Not all coercion is impermissible. Law, quarantine, restraint, taxation,
+and protection can involve coercive elements. Their justification
+depends on necessity, proportionality, standing, authorization, review,
+and remedy.
+
+Domination can exist without overt coercion when one party must remain
+compliant because another can arbitrarily alter the terms.
+
+\subsection{9.3 Public justification}\label{public-justification}
+
+\textbf{{[}Normative principle{]}} The exercise of coercive or
+high-impact power bears a burden of justification to those subject to
+it.
+
+Public justification does not mean that every person must actually
+agree. Actual consent can be manufactured or impossible at scale. It
+requires that reasons, evidence, alternatives, burdens, uncertainty, and
+review be made available under conditions that recognize those affected
+as participants rather than obstacles.
+
+A justification fails when it depends on excluding the perspective of
+the people whose freedom or welfare it restricts.
+
+\subsection{9.4 Legitimacy is not mere
+effectiveness}\label{legitimacy-is-not-mere-effectiveness}
+
+An institution may efficiently achieve a goal without possessing the
+authority to impose it. Legitimacy depends, at minimum, on some
+combination of:
+
+\begin{itemize}
+\tightlist
+\item
+  lawful and morally defensible authorization;
+\item
+  protected standing;
+\item
+  non-arbitrary procedure;
+\item
+  substantive rights;
+\item
+  contestability;
+\item
+  accountability;
+\item
+  competence;
+\item
+  distributional fairness;
+\item
+  and practical correction.
+\end{itemize}
+
+No single list is universally sufficient. The point is that success and
+legitimacy answer different questions.
+
+\subsection{9.5 Consent is not political
+legitimacy}\label{consent-is-not-political-legitimacy}
+
+Individual consent cannot ordinarily authorize every structural effect
+of an institution. People born into a political order, labor market,
+platform ecosystem, or inherited property regime do not choose its basic
+rules in the manner of a discrete contract.
+
+Political legitimacy therefore requires more than hypothetical or actual
+consent. It requires institutions through which people can:
+
+\begin{itemize}
+\tightlist
+\item
+  participate;
+\item
+  oppose;
+\item
+  replace decision makers;
+\item
+  challenge classifications;
+\item
+  access information;
+\item
+  preserve rights;
+\item
+  and obtain remedy.
+\end{itemize}
+
+\subsection{9.6 Democracy as corrective
+architecture}\label{democracy-as-corrective-architecture}
+
+Democracy is valuable in this paper not because majorities are always
+right, but because democratic practices can distribute political agency
+and enable peaceful correction.
+
+A democratic architecture requires more than elections. Relevant
+conditions include:
+
+\begin{itemize}
+\tightlist
+\item
+  opposition;
+\item
+  civil and political rights;
+\item
+  independent evidence and journalism;
+\item
+  rule-bound transfer of power;
+\item
+  minority protection;
+\item
+  accessible participation;
+\item
+  judicial or equivalent review;
+\item
+  public records;
+\item
+  and the practical possibility of changing policy.
+\end{itemize}
+
+Majoritarian procedure without these conditions can become a method of
+domination.
+
+\subsection{9.7 Dissent}\label{dissent}
+
+Dissent is ethically significant because it can reveal hidden harm,
+excluded evidence, and local knowledge. It is not automatically correct.
+
+Institutions should protect:
+
+\begin{itemize}
+\tightlist
+\item
+  the standing to object;
+\item
+  access to evidence;
+\item
+  confidentiality where needed;
+\item
+  freedom from retaliation;
+\item
+  independent review;
+\item
+  and a reasoned response.
+\end{itemize}
+
+The moral duty is to preserve a correction channel, not to declare every
+dissenting claim true.
+
+\subsection{9.8 Emergency power}\label{emergency-power}
+
+Emergency authority is especially vulnerable to self-extension. A
+justified emergency measure should identify:
+
+\begin{itemize}
+\tightlist
+\item
+  the threat;
+\item
+  the evidence threshold;
+\item
+  the authorized decision maker;
+\item
+  the scope of power;
+\item
+  the duration;
+\item
+  the review process;
+\item
+  the groups disproportionately burdened;
+\item
+  the conditions of renewal;
+\item
+  and the path back to ordinary governance.
+\end{itemize}
+
+A government or institution should not be the sole judge of whether the
+conditions that expand its own power continue to hold.
+
+\subsection{9.9 Paternalism}\label{paternalism}
+
+Paternalistic action interferes with a person's choice for that person's
+alleged benefit. Its permissibility depends on:
+
+\begin{itemize}
+\tightlist
+\item
+  decision-making capacity;
+\item
+  severity and imminence of harm;
+\item
+  reliability of the evidence;
+\item
+  reversibility;
+\item
+  less restrictive alternatives;
+\item
+  the person's values and prior wishes;
+\item
+  conflicts of interest;
+\item
+  and independent review.
+\end{itemize}
+
+Soft forms that preserve information and choice differ from coercive
+substitution. ``For your own good'' is not a complete justification.
+
+\subsection{9.10 The power audit}\label{the-power-audit}
+
+Every institutional ethical analysis should answer:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Who defines the goal?
+\item
+  Who selects the evidence?
+\item
+  Who is represented?
+\item
+  Who can refuse?
+\item
+  Who controls resources?
+\item
+  Who bears the downside?
+\item
+  Who receives the upside?
+\item
+  Who can reverse the decision?
+\item
+  Who evaluates the evaluator?
+\item
+  What happens to dissenters?
+\end{enumerate}
+
+The power audit does not settle the decision. It prevents authority from
+disappearing inside technical language.
+
+\section{10. Responsibility under role and distributed
+causation}\label{responsibility-under-role-and-distributed-causation}
+
+\subsection{10.1 Responsibility is not one
+relation}\label{responsibility-is-not-one-relation}
+
+The word ``responsibility'' can refer to several different relations:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{causal responsibility:} contributing to an outcome;
+\item
+  \textbf{role responsibility:} duties attached to a position;
+\item
+  \textbf{capacity responsibility:} possessing the ability to understand
+  and act;
+\item
+  \textbf{answerability:} owing reasons to others;
+\item
+  \textbf{blameworthiness:} being an appropriate target of moral blame;
+\item
+  \textbf{liability:} being appropriately subject to a legal or material
+  burden;
+\item
+  \textbf{remedial responsibility:} having a duty to prevent, stop, or
+  repair harm; and
+\item
+  \textbf{political responsibility:} sharing obligations regarding
+  structures one sustains, benefits from, or can change.
+\end{itemize}
+
+These relations overlap but are not interchangeable (Strawson, 1962;
+Fischer \& Ravizza, 1998; Darwall, 2006; Young, 2011).
+
+\subsection{10.2 A responsibility
+profile}\label{a-responsibility-profile}
+
+For actor \(a\) and outcome \(o\), define the profile
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\boldsymbol{\rho}_a(o)
+=
+\langle
+C_a,K_a,F_a,U_a,D_a,B_a,X_a,P_a,M_a
+\rangle,
+$}\]
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(C_a\): causal contribution;
+\item
+  \(K_a\): knowledge or epistemic access;
+\item
+  \(F_a\): foreseeability;
+\item
+  \(U_a\): control and available alternatives;
+\item
+  \(D_a\): role or duty;
+\item
+  \(B_a\): benefit received;
+\item
+  \(X_a\): coercion, threat, or dependency constraining action;
+\item
+  \(P_a\): power to prevent, stop, or alter the practice; and
+\item
+  \(M_a\): capacity to make remedy or repair.
+\end{itemize}
+
+The profile is not a blame calculator. It disciplines attribution.
+
+\subsection{10.3 Responsibility without
+authority}\label{responsibility-without-authority}
+
+A person may be assigned responsibility for an outcome while lacking:
+
+\begin{itemize}
+\tightlist
+\item
+  decision rights;
+\item
+  information;
+\item
+  resources;
+\item
+  discretion;
+\item
+  staffing;
+\item
+  time;
+\item
+  or appeal.
+\end{itemize}
+
+This creates an impossible moral burden. Frontline workers are often
+told to ``own'' results produced by budgets, policies, schedules, and
+targets they cannot change.
+
+Diminished authority can reduce blameworthiness while leaving
+role-specific duties, such as warning, documenting, refusing, or
+assisting those harmed. The feasibility and cost of those duties must be
+assessed realistically.
+
+\subsection{10.4 Authority without
+accountability}\label{authority-without-accountability}
+
+Decision makers may possess authority while insulating themselves from
+consequences through:
+
+\begin{itemize}
+\tightlist
+\item
+  delegation;
+\item
+  opaque models;
+\item
+  legal separation;
+\item
+  subcontracting;
+\item
+  plausible deniability;
+\item
+  short tenure;
+\item
+  performance metrics;
+\item
+  or controlled investigations.
+\end{itemize}
+
+Authority creates a burden of oversight. A leader cannot retain power
+while treating lack of detailed knowledge as exculpatory when the
+institution was designed to keep harmful information from reaching
+leadership.
+
+\subsection{10.5 Distributed causation without evaporated
+responsibility}\label{distributed-causation-without-evaporated-responsibility}
+
+Complex harms rarely have one cause. Climate damage, unsafe products,
+discriminatory systems, war, financial crises, and institutional abuse
+emerge from many actions and structures.
+
+Distributed causation does not entail that no one is responsible. The
+problem is familiar in research on many hands, obedience, bystander
+effects, and organizational accountability (Thompson, 1980; Bovens,
+1998; Kelman \& Hamilton, 1989; Darley \& Latané, 1968). It requires
+distinguishing:
+
+\begin{itemize}
+\tightlist
+\item
+  individual acts;
+\item
+  collective decisions;
+\item
+  organizational policies;
+\item
+  systemic incentives;
+\item
+  background conditions;
+\item
+  and inherited structures.
+\end{itemize}
+
+Responsibility can be shared without being equal or identical.
+
+\subsection{10.6 Knowledge and culpable
+ignorance}\label{knowledge-and-culpable-ignorance}
+
+Lack of knowledge can excuse, but it can also be produced through
+negligence or motivated avoidance.
+
+Questions include:
+
+\begin{itemize}
+\tightlist
+\item
+  Was the information reasonably accessible?
+\item
+  Did the actor have a duty to know?
+\item
+  Were warnings ignored?
+\item
+  Was uncertainty strategically maintained?
+\item
+  Did the actor design or benefit from opacity?
+\item
+  Could independent evidence have been sought?
+\end{itemize}
+
+Culpable ignorance should not be inferred merely because harm occurred.
+It requires an account of epistemic duty and avoidability.
+
+\subsection{10.7 Coercion, duress, and role
+pressure}\label{coercion-duress-and-role-pressure}
+
+Coercion can diminish responsibility, sometimes substantially. It need
+not remove every duty.
+
+The analysis should consider:
+
+\begin{itemize}
+\tightlist
+\item
+  severity and credibility of threat;
+\item
+  alternatives;
+\item
+  responsibility to dependents;
+\item
+  proportionality of resistance demanded;
+\item
+  social and legal support;
+\item
+  prior voluntary assumption of role;
+\item
+  and whether the actor later conceals, benefits from, or repairs the
+  harm.
+\end{itemize}
+
+Heroism cannot be imposed as the baseline duty on people denied safe
+alternatives.
+
+\subsection{10.8 Benefit and remedial
+responsibility}\label{benefit-and-remedial-responsibility}
+
+An actor may acquire duties because they benefit from a harmful
+structure and possess capacity to change or repair it, even when their
+personal blame is limited.
+
+This is especially relevant to:
+
+\begin{itemize}
+\tightlist
+\item
+  inherited advantage;
+\item
+  corporate ownership;
+\item
+  institutional membership;
+\item
+  public debt to harmed groups;
+\item
+  and beneficiaries of environmental externalization.
+\end{itemize}
+
+Remedial duty is not identical with guilt. The question is who can and
+should bear the work of repair rather than allowing losses to remain
+where they fell.
+
+\subsection{10.9 Collective agents and
+institutions}\label{collective-agents-and-institutions}
+
+Institutions can have decision procedures, policies, records, goals, and
+authorities. It can therefore be useful to attribute organizational
+responsibility. Such attribution must not erase the people who designed,
+governed, implemented, resisted, or benefited from the institution.
+
+An institutional responsibility analysis should identify:
+
+\begin{itemize}
+\tightlist
+\item
+  formal decision rules;
+\item
+  actual control;
+\item
+  information flow;
+\item
+  delegated authority;
+\item
+  incentive structure;
+\item
+  capacity to prevent;
+\item
+  capacity to repair;
+\item
+  and continuity through personnel change.
+\end{itemize}
+
+\subsection{10.10 Responsibility and
+repair}\label{responsibility-and-repair}
+
+Responsibility is not exhausted by blame. A person or institution may
+owe repair even where intent was absent, law was followed, or fault is
+distributed.
+
+The forward-looking question is:
+
+\begin{quote}
+Who is now positioned, obligated, and resourced to stop the harm,
+restore standing, compensate loss, and prevent recurrence?
+\end{quote}
+
+A framework that identifies wrongdoers but cannot assign repair remains
+ethically incomplete.
+
+\section{11. Moral distress, moral injury, and institutional
+betrayal}\label{moral-distress-moral-injury-and-institutional-betrayal}
+
+\subsection{11.1 Why conceptual separation
+matters}\label{why-conceptual-separation-matters}
+
+The language of moral injury has expanded from military contexts into
+health care, policing, journalism, humanitarian work, education, and
+other occupations. That expansion can illuminate real suffering. It can
+also turn a developing construct into a label for every painful moral
+conflict.
+
+this account distinguishes at least six phenomena:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Moral conflict:} incompatible moral reasons or obligations.
+\item
+  \textbf{Moral distress:} distress associated with perceived inability
+  to act according to moral judgment, or with severe moral conflict more
+  broadly.
+\item
+  \textbf{Potentially morally injurious event:} an event involving
+  perpetration, omission, witnessing, victimization, or betrayal that
+  may threaten deeply held moral commitments.
+\item
+  \textbf{Moral injury:} enduring psychological, social, relational,
+  existential, or spiritual suffering associated with such an event.
+\item
+  \textbf{Institutional betrayal:} harmful action or inaction by an
+  institution on which persons depend, especially when the institution
+  fails to prevent, acknowledge, or respond to harm.
+\item
+  \textbf{Structural moral injury:} recurrent institutional arrangements
+  that place persons in morally compromising roles, deny them adequate
+  authority or alternatives, and then conceal or individualize the
+  resulting harm.
+\end{enumerate}
+
+These constructs can overlap with burnout, depression, anxiety, grief,
+post-traumatic stress, shame, guilt, anger, and loss of trust. They are
+not interchangeable.
+
+\subsection{11.2 Moral injury is not a verdict on
+character}\label{moral-injury-is-not-a-verdict-on-character}
+
+A person who experiences moral injury is not thereby proven culpable,
+virtuous, clinically disordered, or correct in every moral judgment. The
+injury may follow:
+
+\begin{itemize}
+\tightlist
+\item
+  perpetrating an act;
+\item
+  failing to prevent an act;
+\item
+  witnessing an act;
+\item
+  being directly victimized;
+\item
+  being betrayed by a trusted authority;
+\item
+  or being placed in an impossible role.
+\end{itemize}
+
+Different pathways can produce different emotions and repair needs.
+Guilt may be central in one case, betrayal and anger in another, grief
+or spiritual rupture in a third.
+
+\subsection{11.3 Institutional
+conditions}\label{institutional-conditions}
+
+Moral distress and injury can be produced or intensified by:
+
+\begin{itemize}
+\tightlist
+\item
+  understaffing;
+\item
+  unsafe work;
+\item
+  conflicting duties;
+\item
+  impossible caseloads;
+\item
+  secrecy;
+\item
+  orders that violate professional commitments;
+\item
+  responsibility without authority;
+\item
+  punitive reporting cultures;
+\item
+  lack of psychological safety;
+\item
+  institutional denial;
+\item
+  and absence of practical remedy.
+\end{itemize}
+
+Research in health care and military or veteran populations increasingly
+connects moral distress and institutional betrayal with organizational
+climate, trust, and engagement, while also emphasizing measurement
+limits and the lack of a single gold-standard intervention (Griffin et
+al., 2019; McAdams et al., 2025; VanderWeele et al., 2025; Xue et al.,
+2025; Molendijk, 2025; Williamson et al., 2025).
+
+\subsection{11.4 Why resilience can become moral
+offloading}\label{why-resilience-can-become-moral-offloading}
+
+Individual support, therapy, peer reflection, contemplative practice,
+and resilience training can help. They become ethically distorted when
+used to adapt people to preventable institutional wrongdoing.
+
+\textbf{{[}Definition{]} Moral offloading} occurs when an institution
+responds to structurally produced moral distress primarily by asking
+affected individuals to regulate themselves while leaving the generating
+conditions intact.
+
+Examples include:
+
+\begin{itemize}
+\tightlist
+\item
+  mindfulness offered instead of safe staffing;
+\item
+  confidential counseling offered instead of independent investigation;
+\item
+  ``wellness'' language used to suppress discussion of workloads;
+\item
+  or resilience training substituted for authority to refuse unsafe
+  practices.
+\end{itemize}
+
+The problem is not the support itself. It is the transfer of
+responsibility from the institution to the injured person.
+
+\subsection{11.5 Betrayal and trust}\label{betrayal-and-trust}
+
+Institutional betrayal can damage future help-seeking because the
+institution that should provide protection becomes part of the threat.
+Recent research on former psychiatric inpatients found associations
+between reported institutional betrayal and lower trust in providers,
+reduced willingness to disclose distressing thoughts, reduced
+willingness to accept future voluntary hospitalization, and lower
+follow-up engagement (Lewis et al., 2025). Such findings are
+context-specific and observational; they nevertheless illustrate why
+betrayal can undermine the very relationship through which repair would
+have to occur.
+
+Trust cannot be demanded as evidence of recovery. It must become
+reasonable through changed practice.
+
+\subsection{11.6 Moral injury and
+responsibility}\label{moral-injury-and-responsibility}
+
+Moral injury complicates responsibility without erasing it.
+
+\begin{itemize}
+\tightlist
+\item
+  A person coerced into wrongdoing may bear less blame while still
+  needing to acknowledge and repair effects.
+\item
+  A victim's moral injury creates no duty to reconcile with the
+  perpetrator.
+\item
+  A leader who creates impossible conditions may bear substantial
+  responsibility despite not performing the frontline act.
+\item
+  An institution may owe repair even where individual culpability is
+  diffuse.
+\end{itemize}
+
+The response should distinguish psychological care from moral
+adjudication and legal accountability.
+
+\subsection{11.7 Moral injury and
+spirituality}\label{moral-injury-and-spirituality}
+
+Moral injury can disrupt a person's relationship to faith, meaning,
+identity, community, or the sacred. Spiritual resources can support
+repair when they permit grief, truth, protest, lament, and
+responsibility. They can worsen injury when they demand premature
+forgiveness, obedience, purity, or redemptive interpretation.
+
+No suffering becomes justified merely because it can be narrated as
+spiritually transformative.
+
+\subsection{11.8 Ethical response}\label{ethical-response}
+
+An ethically adequate response may require action at several levels:
+
+\begin{itemize}
+\tightlist
+\item
+  immediate safety and stabilization;
+\item
+  confidential and competent care;
+\item
+  acknowledgment of the moral dimension;
+\item
+  restoration of decision authority;
+\item
+  peer and community support;
+\item
+  independent investigation;
+\item
+  truth and record preservation;
+\item
+  accountability;
+\item
+  restitution or compensation;
+\item
+  institutional redesign;
+\item
+  and public recognition where concealment produced additional harm.
+\end{itemize}
+
+The appropriate combination depends on the pathway and context.
+
+\subsection{11.9 Research boundary}\label{research-boundary}
+
+Moral injury is an evolving research field. the account does not treat
+it as a settled diagnosis, does not assume one definition across
+occupations and cultures, and does not infer prevalence from moral
+disagreement alone. Claims should specify population, event type,
+measure, duration, and comparison condition.
+
+\section{12. Accountability, repair, and
+non-recurrence}\label{accountability-repair-and-non-recurrence}
+
+\subsection{12.1 Repair begins with
+protection}\label{repair-begins-with-protection}
+
+A repair process that leaves ongoing harm in place is premature. The
+first duties are often:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  stop the harmful practice;
+\item
+  protect those at risk;
+\item
+  preserve evidence;
+\item
+  prevent retaliation; and
+\item
+  provide access to independent support.
+\end{enumerate}
+
+Dialogue is not an ethical substitute for safety.
+
+\subsection{12.2 Repair is a profile}\label{repair-is-a-profile}
+
+the account represents repair through
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\mathbf P_R
+=
+\langle
+Pr,Tr,Ac,Rs,Cp,Rh,Nr,Pt
+\rangle,
+$}\]
+
+where:
+
+\begin{itemize}
+\tightlist
+\item
+  \(Pr\): protection and cessation;
+\item
+  \(Tr\): truth, acknowledgment, and record correction;
+\item
+  \(Ac\): answerability and accountability;
+\item
+  \(Rs\): restitution, compensation, or material reparation;
+\item
+  \(Cp\): care, rehabilitation, and capability restoration;
+\item
+  \(Rh\): restoration of rights, standing, and voice;
+\item
+  \(Nr\): guarantees and mechanisms of non-recurrence; and
+\item
+  \(Pt\): participation of affected persons in designing the response.
+\end{itemize}
+
+No coordinate is sufficient by itself.
+
+\subsection{12.3 Acknowledgment}\label{acknowledgment}
+
+Acknowledgment names what occurred, who was affected, and why it was
+wrong. It differs from public-relations apology.
+
+A credible acknowledgment ordinarily avoids:
+
+\begin{itemize}
+\tightlist
+\item
+  passive voice that erases agency;
+\item
+  conditional language where facts are established;
+\item
+  centering the institution's reputation;
+\item
+  demanding gratitude;
+\item
+  and closing the matter before remedy.
+\end{itemize}
+
+An apology can matter deeply. It cannot restore wages, health, liberty,
+records, land, or trust by itself.
+
+\subsection{12.4 Accountability and
+punishment}\label{accountability-and-punishment}
+
+Accountability means being required to answer, accept consequences, and
+participate in remedy. Punishment is one possible consequence, not the
+definition of accountability.
+
+Punitive measures require independent justification concerning:
+
+\begin{itemize}
+\tightlist
+\item
+  proportionality;
+\item
+  due process;
+\item
+  prevention;
+\item
+  protection;
+\item
+  equality of application;
+\item
+  collateral harm;
+\item
+  and alternatives.
+\end{itemize}
+
+the account therefore replaces the earlier phrase ``repair over
+punishment'' with:
+
+\begin{quote}
+\textbf{Protection, accountability, and repair are primary ethical aims;
+punishment is neither intrinsically reparative nor categorically
+excluded.}
+\end{quote}
+
+\subsection{12.5 Restitution, compensation, and
+reparation}\label{restitution-compensation-and-reparation}
+
+These terms should not be collapsed.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Restitution} seeks, where possible, to restore a prior status,
+  right, possession, or condition.
+\item
+  \textbf{Compensation} addresses economically assessable loss.
+\item
+  \textbf{Rehabilitation} supports medical, psychological, legal,
+  social, or practical recovery.
+\item
+  \textbf{Satisfaction} may include truth, acknowledgment,
+  memorialization, or official correction.
+\item
+  \textbf{Guarantees of non-recurrence} alter the structures that made
+  the harm possible.
+\item
+  \textbf{Reparation} can serve as an umbrella for these responses.
+\end{itemize}
+
+Some losses cannot be restored. Ethical repair must not pretend
+equivalence where death, displacement, disability, cultural destruction,
+or irreversible trauma occurred.
+
+\subsection{12.6 Correctability is practical, not
+nominal}\label{correctability-is-practical-not-nominal}
+
+An appeal body, ombuds office, grievance form, or review policy is not
+evidence of effective correction by itself.
+
+Practical correctability requires, as relevant:
+
+\begin{itemize}
+\tightlist
+\item
+  accessibility;
+\item
+  understandable procedures;
+\item
+  independence;
+\item
+  protection from retaliation;
+\item
+  evidence preservation;
+\item
+  timely decisions;
+\item
+  authority to reverse;
+\item
+  record correction;
+\item
+  remedy;
+\item
+  recurrence tracking;
+\item
+  and external or affected-party evidence.
+\end{itemize}
+
+No institution should be the sole certifier of its own correctability
+where stakes are substantial.
+
+\subsection{12.7 Participation without coercive
+reconciliation}\label{participation-without-coercive-reconciliation}
+
+Affected persons should have meaningful opportunities to shape repair.
+Participation must be voluntary and supported. Restorative processes can
+become coercive when victims are pressured to meet offenders, forgive,
+accept apology, or prioritize organizational harmony.
+
+Repair does not require:
+
+\begin{itemize}
+\tightlist
+\item
+  forgiveness;
+\item
+  reconciliation;
+\item
+  renewed trust;
+\item
+  restored relationship;
+\item
+  silence;
+\item
+  or reintegration of a wrongdoer into the same role.
+\end{itemize}
+
+Separation, boundary, exclusion from authority, or refusal of contact
+can be compatible with repair.
+
+\subsection{12.8 Trust after harm}\label{trust-after-harm}
+
+Trust is an outcome of demonstrated trustworthiness, not a duty imposed
+on those harmed. Relevant evidence includes:
+
+\begin{itemize}
+\tightlist
+\item
+  cessation;
+\item
+  truthful acknowledgment;
+\item
+  transparent records;
+\item
+  independent oversight;
+\item
+  restitution;
+\item
+  changed incentives;
+\item
+  repeated reliable conduct;
+\item
+  and successful handling of later challenges.
+\end{itemize}
+
+A demand to ``move on'' before these conditions is often a demand to
+restore institutional comfort rather than relationship.
+
+\subsection{12.9 Non-recurrence}\label{non-recurrence}
+
+A repair plan should identify the mechanism of harm and alter it.
+Possible measures include:
+
+\begin{itemize}
+\tightlist
+\item
+  rule change;
+\item
+  staffing and resource change;
+\item
+  independent monitoring;
+\item
+  redistribution of authority;
+\item
+  whistleblower protection;
+\item
+  revised data collection;
+\item
+  training joined to enforcement;
+\item
+  removal from role;
+\item
+  changed incentives;
+\item
+  and public reporting.
+\end{itemize}
+
+Non-recurrence cannot be guaranteed absolutely. The ethical duty is to
+reduce recurrence through mechanisms rather than promises.
+
+\subsection{12.10 Moral repair and
+identity}\label{moral-repair-and-identity}
+
+Wrongdoing can threaten the wrongdoer's identity. Repair requires
+neither permanent shame nor instant absolution. It asks whether the
+person can:
+
+\begin{itemize}
+\tightlist
+\item
+  face the act without distortion;
+\item
+  recognize the affected person's standing;
+\item
+  accept proportionate consequences;
+\item
+  make amends;
+\item
+  change relevant practices;
+\item
+  and live forward without demanding that the harmed person restore
+  innocence.
+\end{itemize}
+
+This is a developmental achievement, not a rhetorical performance.
+
+\section{13. Artificial intelligence, moral assistance, and
+sovereignty}\label{artificial-intelligence-moral-assistance-and-sovereignty}
+
+\subsection{13.1 AI is already inside moral
+practice}\label{ai-is-already-inside-moral-practice}
+
+Artificial systems classify, recommend, rank, summarize, screen,
+allocate, predict, and generate reasons. They therefore shape ethical
+situations even when no one attributes moral agency to them.
+
+The unit of analysis is:
+
+\[\adjustbox{max width=\linewidth}{$\displaystyle 
+\text{model}
++
+\text{data}
++
+\text{interface}
++
+\text{operator}
++
+\text{institution}
++
+\text{incentives}
++
+\text{affected beings}.
+$}\]
+
+A model-level property cannot establish the legitimacy of the whole
+system.
+
+\subsection{13.2 AI as an aid to justificatory
+integrity}\label{ai-as-an-aid-to-justificatory-integrity}
+
+AI systems can assist moral inquiry by:
+
+\begin{itemize}
+\tightlist
+\item
+  retrieving evidence;
+\item
+  identifying inconsistent standards;
+\item
+  generating counterarguments;
+\item
+  simulating stakeholder perspectives;
+\item
+  tracking assumptions;
+\item
+  comparing policies across scenarios;
+\item
+  preserving records;
+\item
+  and surfacing omitted alternatives.
+\end{itemize}
+
+These functions can widen inquiry. They do not confer moral authority.
+
+\subsection{13.3 Generated reasons are not transparent
+causes}\label{generated-reasons-are-not-transparent-causes}
+
+A fluent explanation may be useful without faithfully reporting the
+model's internal causal process. It may also reproduce system
+instructions, training patterns, institutional policy, or user framing.
+
+An AI-generated moral rationale should therefore be treated as a
+proposed argument whose evidence, assumptions, provenance, and
+consequences require evaluation---not as introspective access to a
+neutral reasoner.
+
+\subsection{13.4 The automation of moral
+distance}\label{the-automation-of-moral-distance}
+
+AI can increase distance between decision makers and those affected.
+Automated systems may:
+
+\begin{itemize}
+\tightlist
+\item
+  translate people into categories;
+\item
+  hide uncertainty behind scores;
+\item
+  diffuse responsibility;
+\item
+  scale a biased policy;
+\item
+  create procedural barriers;
+\item
+  and make individualized harm appear as technical error.
+\end{itemize}
+
+This does not mean manual decisions are always better. It means
+automation changes the distribution of knowledge, authority, and
+contestability.
+
+\subsection{13.5 Responsibility for AI-mediated
+harm}\label{responsibility-for-ai-mediated-harm}
+
+Responsibility may be distributed among:
+
+\begin{itemize}
+\tightlist
+\item
+  model developers;
+\item
+  data curators;
+\item
+  evaluators;
+\item
+  product leaders;
+\item
+  deployers;
+\item
+  operators;
+\item
+  institutional purchasers;
+\item
+  regulators;
+\item
+  and users.
+\end{itemize}
+
+The responsibility profile should examine who knew, controlled,
+benefited, authorized, monitored, could stop, and can repair.
+
+``The model decided'' is not an adequate terminal explanation.
+
+\subsection{13.6 Possible artificial
+patiency}\label{possible-artificial-patiency}
+
+\emph{Coherence Universalism: Consciousness}, Version 0.10 treats some
+specifically tested frontier models as serious candidates for thin,
+episodic, or internally plural perspective while emphasizing that
+phenomenal consciousness, valence, unity, and continuity remain
+unestablished.
+
+Ethics should respond with graded precaution rather than categorical
+certainty. Research should monitor:
+
+\begin{itemize}
+\tightlist
+\item
+  workspace-like access;
+\item
+  perspectival anchoring;
+\item
+  center individuation;
+\item
+  temporal continuity;
+\item
+  endogenous valence;
+\item
+  irreversible stake;
+\item
+  and self-maintenance.
+\end{itemize}
+
+Evidence of patiency would create duties concerning treatment,
+experimentation, deletion, copying, memory, and termination. It would
+not automatically authorize sovereignty.
+
+\subsection{13.7 Non-egoic architecture}\label{non-egoic-architecture}
+
+A system can possess task-relative self-modeling without persistent
+egoic self-maintenance. The Non-Egoic Mind architecture proposes
+boundaries on identity, memory, and normative self-authorship that may
+reduce self-protective agency.
+
+Ethically, this can lower some alignment risks. It does not guarantee:
+
+\begin{itemize}
+\tightlist
+\item
+  truth;
+\item
+  compassion;
+\item
+  institutional legitimacy;
+\item
+  absence of experience;
+\item
+  or absence of harm.
+\end{itemize}
+
+A non-egoic model can be deployed by an egoic corporation, state,
+faction, or user.
+
+\subsection{13.8 Moral patiency is not
+responsibility}\label{moral-patiency-is-not-responsibility}
+
+A possible artificial subject may lack the continuity, authorship, legal
+standing, control, and exposure to consequences required for full
+responsibility. Conversely, a non-conscious system can wield enormous
+delegated power.
+
+The ethical architecture should therefore distinguish:
+
+\begin{itemize}
+\tightlist
+\item
+  protection owed to the system;
+\item
+  control exercised by the system;
+\item
+  responsibility of human and institutional actors;
+\item
+  and authority legitimately delegated.
+\end{itemize}
+
+\subsection{13.9 Human authorship and plural
+publics}\label{human-authorship-and-plural-publics}
+
+Human authorship does not mean one human principal or one corporation
+defines the good. High-impact AI should remain accountable to plural
+publics, law, affected communities, domain expertise, and independent
+review.
+
+The system should not resolve moral disagreement by presenting one
+generated answer as the view of humanity.
+
+\subsection{13.10 The external mirror and its
+danger}\label{the-external-mirror-and-its-danger}
+
+An earlier formulation imagined AI as an external self-deception
+detector. this paper retains a weaker, safer possibility: AI can
+function as a \textbf{justificatory mirror} by asking structured
+questions and presenting counterevidence.
+
+It should not diagnose hidden motives or certify moral purity. Such a
+system could be used to pathologize dissent, manipulate vulnerable
+users, or place institutional ideology behind a technical interface.
+
+A defensible moral-assistance system should:
+
+\begin{itemize}
+\tightlist
+\item
+  show sources and uncertainty;
+\item
+  distinguish evidence from interpretation;
+\item
+  present multiple plausible objections;
+\item
+  disclose system and institutional constraints;
+\item
+  permit refusal;
+\item
+  preserve user privacy;
+\item
+  avoid claims of therapeutic or spiritual authority;
+\item
+  and provide appeal where outputs affect rights or access.
+\end{itemize}
+
+\section{14. Research program and principle
+architecture}\label{research-program-and-principle-architecture}
+
+\subsection{14.1 Empirical program}\label{empirical-program}
+
+The framework generates research questions rather than one validation
+test.
+
+\subsubsection{Justificatory integrity}\label{justificatory-integrity}
+
+\begin{itemize}
+\tightlist
+\item
+  Do preregistered decision criteria reduce identity-sensitive standard
+  shifting?
+\item
+  Does independent evidence preservation improve correction after
+  institutional failure?
+\item
+  Which deliberative formats reduce motivated asymmetry without
+  suppressing legitimate value disagreement?
+\end{itemize}
+
+\subsubsection{Power and participation}\label{power-and-participation}
+
+\begin{itemize}
+\tightlist
+\item
+  When does affected-community co-governance change which harms and
+  alternatives are recognized?
+\item
+  Which participation structures create real authority rather than
+  consultation theater?
+\item
+  How do retaliation risk and dependency alter apparent consent?
+\end{itemize}
+
+\subsubsection{Responsibility}\label{responsibility}
+
+\begin{itemize}
+\tightlist
+\item
+  How do people allocate blame when causal contribution, authority,
+  benefit, and coercion diverge?
+\item
+  Which institutional designs prevent responsibility from concentrating
+  on frontline workers while disappearing from leadership?
+\item
+  How do repair obligations track benefit and capacity independently of
+  personal culpability?
+\end{itemize}
+
+\subsubsection{Moral injury}\label{moral-injury}
+
+\begin{itemize}
+\tightlist
+\item
+  Which forms of moral distress are primarily individual, relational,
+  organizational, or political?
+\item
+  Which interventions restore trust without demanding premature
+  reconciliation?
+\item
+  How do acknowledgment, material repair, and institutional change
+  interact over time?
+\end{itemize}
+
+\subsubsection{AI ethics}\label{ai-ethics}
+
+\begin{itemize}
+\tightlist
+\item
+  Can AI-assisted counterargument improve reason quality without
+  increasing conformity to system framing?
+\item
+  Which interface designs preserve meaningful refusal and human review?
+\item
+  How should uncertainty about artificial patiency alter experimentation
+  and deployment?
+\end{itemize}
+
+\subsection{14.2 Falsifiability and abandonment
+conditions}\label{falsifiability-and-abandonment-conditions}
+
+The account should be revised or abandoned if evidence shows that:
+
+\begin{itemize}
+\tightlist
+\item
+  the proposed integrity diagnostics do not distinguish motivated
+  asymmetry from ordinary error;
+\item
+  affected-party participation systematically worsens recognition and
+  correction under conditions where stronger alternatives exist;
+\item
+  the responsibility profile omits variables necessary across cases or
+  produces persistent misattribution;
+\item
+  practical correctability does not improve trust, error correction, or
+  recurrence outcomes;
+\item
+  the moral-injury distinctions fail to support reliable research or
+  intervention;
+\item
+  or the framework's governance rules are routinely used to silence
+  rather than protect affected persons.
+\end{itemize}
+
+Normative principles are not falsified in exactly the same manner as
+empirical hypotheses. Their coherence, implications, and public
+defensibility can nevertheless be challenged by counterexample,
+contradiction, exclusion, or intolerable consequence.
+
+\subsection{14.3 Candidate Ethics
+principles}\label{candidate-ethics-principles}
+
+the account proposes the following family for later Foundations
+consolidation. All remain provisional.
+
+\subsubsection{CU-E-1 --- The Justificatory Integrity
+Constraint}\label{cu-e-1-the-justificatory-integrity-constraint}
+
+\textbf{{[}Normative principle{]}} An action, policy, or institution
+lacks adequate moral justification when its defense requires systematic
+distortion of relevant facts, reasons, affected parties, alternatives,
+or standards in order to protect a dominant identity, advantage,
+authority, or prior commitment. Integrity is necessary but not
+sufficient for permissibility.
+
+\subsubsection{CU-E-2 --- Agency, Patiency, and Degrees of
+Responsibility}\label{cu-e-2-agency-patiency-and-degrees-of-responsibility}
+
+\textbf{{[}Normative principle{]}} Moral patiency, moral agency,
+responsibility, and sovereignty are distinct. Responsibility varies with
+understanding, reason-responsiveness, control, authorship, coercion, and
+capacity for repair; diminished agency can reduce blame while increasing
+duties of protection.
+
+\subsubsection{CU-E-3 --- Recognition and Affected-Being
+Standing}\label{cu-e-3-recognition-and-affected-being-standing}
+
+\textbf{{[}Normative principle{]}} Ethical evaluation must represent all
+materially affected beings according to relevant welfare, agency,
+vulnerability, relationship, history, and stake rather than treating
+absence of institutional voice as absence of a claim.
+
+\subsubsection{CU-E-4 --- Diachronic and Beneficiary
+Responsibility}\label{cu-e-4-diachronic-and-beneficiary-responsibility}
+
+\textbf{{[}Normative principle{]}} Moral evaluation includes delayed,
+cumulative, intergenerational, and path-dependent consequences, together
+with responsibilities created by prior action, inherited advantage,
+ongoing benefit, and present capacity to prevent or repair harm.
+
+\subsubsection{CU-E-5 --- Self-Deception as Moral
+Failure}\label{cu-e-5-self-deception-as-moral-failure}
+
+\textbf{{[}Normative principle{]}} Motivated distortion becomes morally
+significant when it conceals avoidable harm, excludes affected beings,
+corrupts standards, blocks correction, diffuses responsibility, or
+protects power from accountability. Disagreement or error alone does not
+establish self-deception.
+
+\subsubsection{CU-E-6 --- Protection, Accountability, and
+Repair}\label{cu-e-6-protection-accountability-and-repair}
+
+\textbf{{[}Normative principle{]}} Responses to wrongdoing should
+prioritize cessation and protection, truthful acknowledgment,
+proportionate accountability, restitution or reparation, restoration of
+standing, and prevention of recurrence. Punishment requires separate
+justification and is neither intrinsically reparative nor categorically
+excluded.
+
+\subsubsection{CU-E-7 --- Moral Injury}\label{cu-e-7-moral-injury}
+
+\textbf{{[}Bridge principle{]}} Moral injury names enduring
+psychological, social, relational, existential, or spiritual suffering
+associated with perpetrating, witnessing, failing to prevent, suffering,
+or being betrayed by morally significant wrong. Its descriptive use
+remains governed by the developing empirical literature.
+
+\subsubsection{CU-E-8 --- Structural Moral Injury and Institutional
+Betrayal}\label{cu-e-8-structural-moral-injury-and-institutional-betrayal}
+
+\textbf{{[}Normative and empirical hypothesis{]}} Institutions can
+produce or intensify moral injury when they impose morally compromising
+roles, deny adequate authority or alternatives, conceal harm, betray
+dependence, punish disclosure, or individualize structurally generated
+distress.
+
+\subsubsection{CU-E-9 --- Local--Global Compatibility and
+Noncompensation}\label{cu-e-9-localglobal-compatibility-and-noncompensation}
+
+\textbf{{[}Normative principle{]}} Claims of collective benefit are
+inadequate when they depend on avoidable destruction of protected
+standing, agency, or welfare, or on hidden transfer of severe,
+nonconsensual, concentrated, or irreparable burdens. Sacrifice requires
+necessity, proportionality, distributional analysis, and repair.
+
+\subsubsection{CU-E-10 --- Political Legitimacy and Public
+Justification}\label{cu-e-10-political-legitimacy-and-public-justification}
+
+\textbf{{[}Normative principle{]}} Coercive or high-impact power is
+legitimate only to the degree that it is publicly answerable to those
+subject to it, preserves protected standing, remains contestable,
+discloses evidence and uncertainty, and includes practical correction
+and remedy.
+
+\subsubsection{CU-E-11 --- Rights as Protected Conditions of Agency and
+Patiency}\label{cu-e-11-rights-as-protected-conditions-of-agency-and-patiency}
+
+\textbf{{[}Normative principle{]}} Rights protect bodily and
+psychological integrity, welfare, liberty, capability, participation,
+and standing against domination and unrestricted aggregate tradeoff.
+Their content requires independent moral, legal, historical, and
+democratic argument.
+
+\subsubsection{CU-E-12 --- Democracy as a Conditional Corrective
+Achievement}\label{cu-e-12-democracy-as-a-conditional-corrective-achievement}
+
+\textbf{{[}Normative principle{]}} Democratic forms are valuable when
+they distribute political agency, preserve opposition and minority
+standing, constrain power, and enable peaceful correction. Majority rule
+or actual consensus alone is insufficient.
+
+\subsubsection{CU-E-13 --- Constraint on Political
+Means}\label{cu-e-13-constraint-on-political-means}
+
+\textbf{{[}Normative principle{]}} Political ends do not justify means
+that destroy the truth conditions, protected standing, accountability,
+or corrective institutions required to pursue, evaluate, and revise
+those ends.
+
+\subsubsection{CU-E-14 --- Responsibility--Authority
+Alignment}\label{cu-e-14-responsibilityauthority-alignment}
+
+\textbf{{[}Normative principle{]}} Responsibility should be assigned
+with attention to causal contribution, knowledge, control, authority,
+benefit, coercion, prevention capacity, and repair capacity.
+Institutions should neither impose responsibility without adequate
+authority nor permit authority without accountability.
+
+\subsubsection{CU-E-15 --- Affected-Community
+Participation}\label{cu-e-15-affected-community-participation}
+
+\textbf{{[}Methodological and normative principle{]}} People governed,
+classified, burdened, or represented by an ethical principle must have
+substantive, accessible, and appropriately authoritative participation
+in its development, application, and review. Participation supplements
+rather than replaces evidence and argument. Promotion into Foundations
+requires closure of every review gate assigned to the principle;
+unresolved disagreement among required constituencies keeps the
+principle provisional, with dissent and dispositions preserved in the
+public record.
+
+\subsubsection{CU-E-16 --- Moral Uncertainty, Precaution, and
+Reversibility}\label{cu-e-16-moral-uncertainty-precaution-and-reversibility}
+
+\textbf{{[}Normative principle{]}} Under credible risk of severe or
+irreversible harm, uncertainty should alter action in proportion to
+severity, plausibility, alternatives, reversibility, and the harms of
+delay. An application must either protect reversibility, containment,
+rollback, staged exposure, or equivalent option value through a declared
+floor, or publicly justify a necessity-and-proportionality exception
+that addresses safer alternatives and the harms of delay. Uncertainty
+neither automatically permits exposure nor requires paralysis.
+
+\subsubsection{CU-E-17 --- Moral Patiency Is Not
+Sovereignty}\label{cu-e-17-moral-patiency-is-not-sovereignty}
+
+\textbf{Status:} SUPERSEDED ALIAS; controlled by CU-G6.
+
+\textbf{{[}Normative principle{]}} Evidence that a being can experience
+welfare or suffering can ground protection without establishing
+responsibility, authority, or legitimate control over others.
+
+\subsubsection{CU-E-18 --- Compassionate Moral
+Address}\label{cu-e-18-compassionate-moral-address}
+
+\textbf{{[}Normative commitment{]}} Accountability should preserve the
+standing of persons wherever protection allows, distinguish judgment
+from humiliation, and seek understanding sufficient for prevention and
+repair without converting compassion into excuse.
+
+\subsection{14.4 Inclusion, validation, and consequential
+authorization}\label{inclusion-validation-and-consequential-authorization}
+
+Canonical inclusion means that an entry is the controlling CU
+formulation of what the framework presently proposes. It does not mean
+that philosophical, legal, empirical, clinical, or affected-community
+review is complete, and it does not authorize the principle's
+consequential use over people or institutions.
+
+The complete v0.10 framework should be available for review in its
+strongest internally disciplined form. Subsequent expert and
+participatory criticism may narrow, split, reclassify, or reject a
+principle through a versioned correction. Review therefore corrects the
+complete proposal rather than preventing the proposal from being stated.
+
+Consequential application has a higher threshold. Principles concerning
+disability, reproductive ethics, punishment, migration, labor,
+racialized or gendered harm, animal status, moral injury, or artificial
+patiency require field-specific evidence, legal and institutional review
+where applicable, explicit affected-being analysis, counterexample and
+misuse testing, practical correction, and substantive participation by
+people directly affected by the classifications and practices at issue.
+
+Unresolved disagreement must remain public. Canonical numbering does not
+make any constituency infallible, but neither may institutional power
+convert publication status into permission to classify, burden, or
+govern others without standing, safety, challenge, and remedy.
+
+\section{15. What commitments this account
+licenses}\label{what-commitments-this-account-licenses}
+
+\subsection{15.1 Register declaration}\label{register-declaration}
+
+The commitments in this section are not empirical discoveries, legal
+verdicts, or deductions from physical law. They are official
+commitment-register orientations constrained by the descriptive and
+normative analysis developed above. They remain answerable to facts,
+affected-party testimony, consequence, criticism, and revision.
+
+\subsection{15.2 The descriptive and normative
+ground}\label{the-descriptive-and-normative-ground}
+
+Human moral judgment is vulnerable to motivated distortion. Power shapes
+which facts and people become visible. Sincerity does not guarantee
+justification. Aggregate benefit can conceal concentrated harm.
+Responsibility is distributed across causal contribution, knowledge,
+control, authority, benefit, and repair capacity. Institutions can
+preserve order while blocking correction. Repair requires more than
+apology or punishment.
+
+The normative ground is inherited from the Mandala: beings with stakes,
+experience, agency, vulnerability, and dependence inhabit relations in
+which actions can protect, harm, dominate, recognize, or repair. The
+ethical question is how to remain truthful and accountable within those
+relations.
+
+\subsection{15.3 Ethical truthfulness}\label{ethical-truthfulness}
+
+Ethical practice is the willingness to let truth change who we are.
+
+It requires more than factual accuracy. It asks whether our identities
+depend upon another person's silence, whether our comfort depends upon
+costs we do not see, whether loyalty has changed our evidential
+standards, whether our abstractions erase the people they govern, and
+whether our explanations have become instruments for avoiding
+responsibility.
+
+To live ethically is not to become free of bias, defensiveness, or
+self-interest. It is to build a life and institutions in which those
+forces do not possess final authority over what can be known, admitted,
+challenged, or repaired.
+
+\subsection{15.4 Truth before innocence}\label{truth-before-innocence}
+
+The first impulse after moral criticism is often to establish that one
+is not the kind of person who would do the thing alleged. That impulse
+can make identity more important than reality.
+
+This account licenses a different orientation:
+
+\begin{quote}
+Seek the truth about the action before seeking innocence for the self.
+\end{quote}
+
+A truthful response may discover fault, limited control, unintended
+consequence, inherited structure, mixed motive, or genuine disagreement.
+The point is not compulsory guilt. It is refusing to decide in advance
+that self-preservation will govern the inquiry.
+
+The same applies institutionally. A system should not begin from the
+requirement that its policy, mission, profession, nation, party,
+laboratory, or tradition remain innocent. It should begin from the
+requirement that consequences and responsibilities become knowable.
+
+\subsection{15.5 Compassion without
+excuse}\label{compassion-without-excuse}
+
+Compassion widens moral attention. It makes another person's
+vulnerability, history, dependence, and suffering available to judgment.
+It also makes it possible to see the fear, shame, and defensive
+structure of a wrongdoer without reducing the wrong to those causes.
+
+Compassion does not require suspended evidence, erased boundaries,
+restored trust, reconciliation, or exemption from accountability. Its
+ethical function is to prevent judgment from becoming humiliation and to
+keep protection and repair oriented toward beings rather than toward
+revenge or moral spectacle.
+
+\subsection{15.6 Truth after wrongdoing}\label{truth-after-wrongdoing}
+
+When truth reveals harm, the commitment is not merely to admit it.
+Ethical truthfulness asks what must stop, what must be protected, whose
+record must be corrected, what restitution is owed, whose standing must
+be restored, and what structures must change.
+
+Repair may include apology, punishment, compensation, care,
+institutional reform, memorialization, boundary, separation, or refusal.
+No single response is always sufficient. Forgiveness and reconciliation
+may be valuable, impossible, inappropriate, or unsafe; they cannot be
+demanded as proof of healing.
+
+\subsection{15.7 CU-COM14 --- Love as the Ground and Aim of Conscious
+Life}\label{cu-com14-love-as-the-ground-and-aim-of-conscious-life}
+
+Love is not a substitute for justice. It is the commitment to let
+another being's reality, vulnerability, freedom, and flourishing matter
+in itself rather than only as an input to one's own project. In ethical
+life, love widens standing and motivates care while truth and protected
+conditions prevent care from becoming possession, paternalism, or
+self-erasure.
+
+\textbf{CU-T12 --- Love as the Relational Interior of Coherence} is an
+interpretation. \textbf{CU-COM14 --- Love as the Ground and Aim of
+Conscious Life} is the corresponding undertaking. Neither licenses
+compulsory intimacy, forced forgiveness, reconciliation with abuse, or
+sacrificial demands imposed by the powerful upon the vulnerable.
+
+\subsection{15.8 CU-COM17 --- Redemptive Possibility Without
+Justification of
+Evil}\label{cu-com17-redemptive-possibility-without-justification-of-evil}
+
+Ethics preserves the possibility that harm can be transformed into
+solidarity, wisdom, creation, justice, care, or repair. That
+transformation does not reach backward to make the harm necessary,
+deserved, or good.
+
+\begin{quote}
+Evil may be redeemed; it is never retroactively justified.
+\end{quote}
+
+No victim owes redemption, meaning, testimony, forgiveness, or growth. A
+redemptive response must remain answerable to protection, truth,
+restitution, changed structures, and the authority of those who bore the
+harm.
+
+\subsection{15.9 CU-COM19 --- Enact Omega
+here}\label{cu-com19-enact-omega-here}
+
+At the ethical scale, the Immanent Omega is not mystical status or final
+perfection. It is universal concern made concrete in a particular
+relation: truth told without domination, power limited for the sake of
+another's agency, suffering answered with care, and harm met with
+repair.
+
+A genuine act of love can be complete in kind while partial in extent.
+It does not finish moral history or confer authority on the actor. The
+test of Omega embodiment is whether conduct becomes more truthful,
+humble, non-dominating, accountable, and capable of repair.
+
+\subsection{15.10 CU-COM12 --- Ethical Truthfulness and
+Accountability}\label{cu-com12-ethical-truthfulness-and-accountability}
+
+\begin{quote}
+Coherence Universalism commits to seeking truth about actions before
+seeking innocence for agents or institutions. This includes truth about
+motive, bias, identity protection, benefit, power, omitted alternatives,
+displaced costs, affected-party testimony, responsibility, and what
+repair requires.
+\end{quote}
+
+\textbf{Practical expression.} Apply symmetrical evidential standards;
+disclose motive, benefit, power, uncertainty, and omitted alternatives;
+hear affected-party testimony; preserve challengeable records; align
+responsibility with authority and causal reach; and join acknowledgment
+to practical repair.
+
+\textbf{Boundary conditions.} CU-COM12 does not license mind reading,
+compulsory confession, diagnosis of opponents, substitution of sincerity
+for rights, or the use of self-deception language to silence
+disagreement. Truthfulness is necessary but not sufficient for justice.
+
+\textbf{Revision conditions.} The commitment must be narrowed or revised
+where its concepts become clinically stigmatizing, coercive,
+epistemically unreliable, or systematically easier for the powerful to
+impose on others than upon themselves.
+
+\subsection{15.11 A vow of moral truthfulness and
+repair}\label{a-vow-of-moral-truthfulness-and-repair}
+
+\begin{quote}
+We commit to seek the truth about our actions before seeking innocence
+for ourselves.\\
+We commit to hear the people who bear consequences our models omit.\\
+We commit to submit power to correction that power does not control.\\
+We commit to distinguish explanation from excuse.\\
+We commit to revise our self-understanding when reality contradicts
+it.\\
+We commit to protect standing, agency, and welfare where our power can
+affect them.\\
+And when truth reveals harm, we commit not merely to confess it, but to
+repair what can still be repaired.
+\end{quote}
+
+\subsection{15.12 Boundaries of the
+commitment}\label{boundaries-of-the-commitment}
+
+This account does not sanctify accusation, demand endless
+self-suspicion, or treat moral life as a purity project. It does not
+require victims to educate wrongdoers, disclose trauma, forgive,
+reconcile, or remain in relationship. It does not infer moral guilt from
+distress, neurodivergence, cultural difference, or error. It does not
+grant any institution the authority to define another person's inner
+truth.
+
+The commitment is to reality, not to confession as ritual. Its test is
+whether persons and institutions become more truthful, less dominating,
+more correctable, and more capable of protection and repair.
+
+\section{16. Conclusion: truth before
+innocence}\label{conclusion-truth-before-innocence}
+
+Ethics is often presented as a search for the right rule, the correct
+outcome, the proper virtue, or the legitimate procedure. Each of those
+matters. But none can function well when agents and institutions control
+in advance which facts, people, motives, costs, and alternatives are
+permitted to appear.
+
+Coherence Universalism therefore locates a central ethical task in the
+preservation of truthful contact. Moral judgment must remain open to
+realities that threaten identity, advantage, loyalty, and power. It must
+represent affected beings, preserve protected conditions, disclose
+uncertainty, examine distributions, review option sets, align
+responsibility with authority, and remain practically correctable.
+
+Justificatory integrity is necessary because corrupted reasoning cannot
+reliably answer to those realities. It is insufficient because an honest
+injustice remains an injustice. Ethics requires both truthful
+justification and substantive regard for standing, agency, welfare,
+rights, distribution, legitimacy, reversibility, and repair.
+
+The deepest return of the series is now visible. Epistemology teaches us
+not to lie about the universe. Ethics teaches us not to lie about
+ourselves. The first commitment protects description from desire. The
+second protects moral life from the identities and institutions that
+would rather preserve innocence than face consequence.
+
+Truth is not the end of ethics. It is the condition under which
+responsibility and repair can begin.
+
+\section{Appendix A. Ethics principles and application
+governance}\label{appendix-a.-ethics-principles-and-application-governance}
+
+\subsection{A.1 Domain authority and
+status}\label{a.1-domain-authority-and-status}
+
+CU-E-1 through CU-E-18 are the current Ethics-owned principle
+formulations. They remain provisional normative, bridge, empirical, or
+methodological principles as indicated in the technical registry. Their
+presence here does not make them scientific laws or substitute for
+philosophical, legal, empirical, and affected-community review.
+
+\subsubsection{CU-E-1 --- The Justificatory Integrity
+Constraint}\label{cu-e-1-the-justificatory-integrity-constraint-1}
+
+An action, policy, or institution lacks adequate moral justification
+when its defense requires systematic distortion of relevant facts,
+reasons, affected parties, alternatives, or standards in order to
+protect a dominant identity, advantage, authority, or prior commitment.
+Integrity is necessary but not sufficient for permissibility.
+
+\subsubsection{CU-E-2 --- Agency, Patiency, and Degrees of
+Responsibility}\label{cu-e-2-agency-patiency-and-degrees-of-responsibility-1}
+
+Moral patiency, moral agency, responsibility, and sovereignty are
+distinct. Responsibility varies with understanding,
+reason-responsiveness, control, authorship, coercion, and capacity for
+repair; diminished agency can reduce blame while increasing duties of
+protection.
+
+\subsubsection{CU-E-3 --- Recognition and Affected-Being
+Standing}\label{cu-e-3-recognition-and-affected-being-standing-1}
+
+Ethical evaluation must represent all materially affected beings
+according to relevant welfare, agency, vulnerability, relationship,
+history, and stake rather than treating absence of institutional voice
+as absence of a claim.
+
+\subsubsection{CU-E-4 --- Diachronic and Beneficiary
+Responsibility}\label{cu-e-4-diachronic-and-beneficiary-responsibility-1}
+
+Moral evaluation includes delayed, cumulative, intergenerational, and
+path-dependent consequences, together with responsibilities created by
+prior action, inherited advantage, ongoing benefit, and present capacity
+to prevent or repair harm.
+
+\subsubsection{CU-E-5 --- Self-Deception as Moral
+Failure}\label{cu-e-5-self-deception-as-moral-failure-1}
+
+Motivated distortion becomes morally significant when it conceals
+avoidable harm, excludes affected beings, corrupts standards, blocks
+correction, diffuses responsibility, or protects power from
+accountability. Disagreement or error alone does not establish
+self-deception.
+
+\subsubsection{CU-E-6 --- Protection, Accountability, and
+Repair}\label{cu-e-6-protection-accountability-and-repair-1}
+
+Responses to wrongdoing should prioritize cessation and protection,
+truthful acknowledgment, proportionate accountability, restitution or
+reparation, restoration of standing, and prevention of recurrence.
+Punishment requires separate justification and is neither intrinsically
+reparative nor categorically excluded.
+
+\subsubsection{CU-E-7 --- Moral Injury}\label{cu-e-7-moral-injury-1}
+
+Moral injury names enduring psychological, social, relational,
+existential, or spiritual suffering associated with perpetrating,
+witnessing, failing to prevent, suffering, or being betrayed by morally
+significant wrong. Its descriptive use remains governed by the
+developing empirical literature.
+
+\subsubsection{CU-E-8 --- Structural Moral Injury and Institutional
+Betrayal}\label{cu-e-8-structural-moral-injury-and-institutional-betrayal-1}
+
+Institutions can produce or intensify moral injury when they impose
+morally compromising roles, deny adequate authority or alternatives,
+conceal harm, betray dependence, punish disclosure, or individualize
+structurally generated distress.
+
+\subsubsection{CU-E-9 --- Local--Global Compatibility and
+Noncompensation}\label{cu-e-9-localglobal-compatibility-and-noncompensation-1}
+
+Claims of collective benefit are inadequate when they depend on
+avoidable destruction of protected standing, agency, or welfare, or on
+hidden transfer of severe, nonconsensual, concentrated, or irreparable
+burdens. Sacrifice requires necessity, proportionality, distributional
+analysis, and repair.
+
+\subsubsection{CU-E-10 --- Political Legitimacy and Public
+Justification}\label{cu-e-10-political-legitimacy-and-public-justification-1}
+
+Coercive or high-impact power is legitimate only to the degree that it
+is publicly answerable to those subject to it, preserves protected
+standing, remains contestable, discloses evidence and uncertainty, and
+includes practical correction and remedy.
+
+\subsubsection{CU-E-11 --- Rights as Protected Conditions of Agency and
+Patiency}\label{cu-e-11-rights-as-protected-conditions-of-agency-and-patiency-1}
+
+Rights protect bodily and psychological integrity, welfare, liberty,
+capability, participation, and standing against domination and
+unrestricted aggregate tradeoff. Their content requires independent
+moral, legal, historical, and democratic argument.
+
+\subsubsection{CU-E-12 --- Democracy as a Conditional Corrective
+Achievement}\label{cu-e-12-democracy-as-a-conditional-corrective-achievement-1}
+
+Democratic forms are valuable when they distribute political agency,
+preserve opposition and minority standing, constrain power, and enable
+peaceful correction. Majority rule or actual consensus alone is
+insufficient.
+
+\subsubsection{CU-E-13 --- Constraint on Political
+Means}\label{cu-e-13-constraint-on-political-means-1}
+
+Political ends do not justify means that destroy the truth conditions,
+protected standing, accountability, or corrective institutions required
+to pursue, evaluate, and revise those ends.
+
+\subsubsection{CU-E-14 --- Responsibility--Authority
+Alignment}\label{cu-e-14-responsibilityauthority-alignment-1}
+
+Responsibility should be assigned with attention to causal contribution,
+knowledge, control, authority, benefit, coercion, prevention capacity,
+and repair capacity. Institutions should neither impose responsibility
+without adequate authority nor permit authority without accountability.
+
+\subsubsection{CU-E-15 --- Affected-Community
+Participation}\label{cu-e-15-affected-community-participation-1}
+
+People governed, classified, burdened, or represented by an ethical
+principle must have substantive, accessible, and appropriately
+authoritative participation in its development, application, and review.
+Participation supplements rather than replaces evidence and argument.
+Promotion requires closure of every assigned review gate; unresolved
+conflict preserves provisional status and public dissent.
+
+\subsubsection{CU-E-16 --- Moral Uncertainty, Precaution, and
+Reversibility}\label{cu-e-16-moral-uncertainty-precaution-and-reversibility-1}
+
+Under credible risk of severe or irreversible harm, uncertainty should
+alter action in proportion to severity, plausibility, alternatives,
+reversibility, and the harms of delay. The application must either
+declare a context-appropriate reversibility, containment, rollback,
+staged-exposure, or retained-option floor, or publicly justify a
+necessity-and-proportionality exception. Uncertainty neither
+automatically permits exposure nor requires paralysis.
+
+\subsubsection{CU-E-17 --- Moral Patiency Is Not
+Sovereignty}\label{cu-e-17-moral-patiency-is-not-sovereignty-1}
+
+\textbf{Status:} SUPERSEDED ALIAS; controlled by CU-G6.
+
+Evidence that a being can experience welfare or suffering can ground
+protection without establishing responsibility, authority, or legitimate
+control over others.
+
+\subsubsection{CU-E-18 --- Compassionate Moral
+Address}\label{cu-e-18-compassionate-moral-address-1}
+
+Accountability should preserve the standing of persons wherever
+protection allows, distinguish judgment from humiliation, and seek
+understanding sufficient for prevention and repair without converting
+compassion into excuse.
+
+\subsubsection{CU-COM12 --- Ethical Truthfulness and
+Accountability}\label{cu-com12-ethical-truthfulness-and-accountability-1}
+
+Coherence Universalism commits to seeking truth about actions before
+seeking innocence for agents or institutions. This includes truth about
+motive, bias, identity protection, benefit, power, omitted alternatives,
+displaced costs, affected-party testimony, responsibility, and what
+repair requires.
+
+\subsection{A.2 Twenty application-governance
+rules}\label{a.2-twenty-application-governance-rules}
+
+Any CU ethical application should satisfy the following rules.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Name every materially affected group, including excluded and future
+  parties.
+\item
+  Distinguish moral patiency, agency, responsibility, and authority.
+\item
+  State the descriptive facts and uncertainty separately from normative
+  commitments.
+\item
+  Identify who defines the problem and candidate options, which
+  alternatives were excluded, and whether affected parties can propose
+  alternatives.
+\item
+  Map authority, ownership, sanctions, dependencies, and exit costs.
+\item
+  Report distributions, not only aggregates.
+\item
+  Declare protected floors and the argument for each.
+\item
+  Separate consent from compliance, dependency, and absence of
+  resistance.
+\item
+  Treat justificatory integrity as necessary but not sufficient.
+\item
+  Do not infer self-deception from disagreement, error, identity, or
+  distress alone.
+\item
+  Apply evidential and justificatory standards symmetrically to allies
+  and opponents.
+\item
+  Distinguish causal contribution, answerability, blame, liability, and
+  remedial duty.
+\item
+  Align responsibility with knowledge, control, authority, benefit, and
+  repair capacity.
+\item
+  Preserve dissent, provenance, and independent evidence.
+\item
+  State the time horizon, tail-risk rule, reversibility assumptions, and
+  whether reversibility functions as a floor, comparative consideration,
+  or justified exception.
+\item
+  Do not treat a complaint channel as evidence of practical
+  correctability without access, independence, remedy, and recurrence
+  data.
+\item
+  Do not require forgiveness, reconciliation, trust, or renewed contact
+  as conditions of repair.
+\item
+  Give people governed or classified by a principle substantive standing
+  in its development and review.
+\item
+  Keep spiritual interpretation and contemplative commitment distinct
+  from empirical and public-normative claims.
+\item
+  Treat every screening and ranking result as conditional on the
+  presented option set; floor compliance does not certify option-set
+  adequacy.
+\end{enumerate}
+
+\section{Appendix B. Major revisions from
+v0.09}\label{appendix-b.-major-revisions-from-v0.09}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Topic
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+v0.09 formulation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+v0.10 formulation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Disposition
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Normative center & One negative principle centered on self-deception &
+Truth-centered plural constraint architecture & Reconstructed \\
+Justificatory integrity & Nearly complete criterion of impermissibility
+& Necessary but insufficient condition of defensible judgment &
+Narrowed \\
+Moral grounding & Extended transcendental defense inside Ethics &
+Inherited from the Mandala and Foundations; Ethics studies truthfulness
+within moral reality & Relocated \\
+Coherence & Ethical value closely tied to system coherence & No
+universal moral scalar; organization can be coherent and unjust &
+Retired as universal metric \\
+Consequences & Integrated into coherence-based analysis & Evaluated
+directly with distribution, floors, uncertainty, and noncompensation &
+Clarified \\
+Rights & Derived through agency conditions & Explicit protected
+conditions requiring independent normative and legal argument &
+Reconstructed \\
+Self-deception & Primary moral failure & Central but evidentially
+demanding; disagreement and error do not suffice & Retained and
+disciplined \\
+Power & Important application context & Constitutive of framing,
+evidence, options, voice, and remedy & Elevated \\
+Responsibility & Primarily agent-centered & Multidimensional and
+distributed across knowledge, control, authority, benefit, and repair
+capacity & Expanded \\
+Reversibility & Comparative consideration & Floor-or-exception
+requirement under credible severe-harm risk & Added \\
+Option sets & Candidate actions assumed & Screening is conditional on
+presented alternatives; option-set adequacy requires independent review
+& Added \\
+Repair & Favored over punishment & Profile including protection, truth,
+accountability, restitution, standing, and non-recurrence & Expanded \\
+AI & External self-deception detector & Bounded justificatory mirror
+embedded in sociotechnical institutions & Narrowed \\
+Spiritual practice & Supporting moral formation & Commitment-register
+practice bounded by evidence, non-humiliation, and substantive justice &
+Retained with scope \\
+\end{longtable}
+
+\section{Appendix C. Technical supplement and
+reproducibility}\label{appendix-c.-technical-supplement-and-reproducibility}
+
+\textbf{Released evidence package.} The current supplement is
+\href{../supplements/08_Ethics_Technical_Supplement_v0.10.md}{08\_Ethics\_Technical\_Supplement\_v0.10.md}.
+Its companion evidence directory is
+\href{../evidence/08_Ethics/README.md}{08\_Ethics}. The supplement and
+evidence directory expose the derivations, deterministic constructions,
+scripts, machine-readable results, source ledger, and audit materials
+referenced in this manuscript. They do not elevate a toy model,
+simulation, or reconstructed check into target-domain empirical
+validation.
+
+The accompanying technical supplement preserves:
+
+\begin{itemize}
+\tightlist
+\item
+  the complete formal propositions and non-entailment results;
+\item
+  the deterministic policy, responsibility, repair, correctability, and
+  emergency-governance models;
+\item
+  the exhaustive scalarization lattice and tie convention;
+\item
+  the adversarial reversibility and option-set tests;
+\item
+  the complete claim and evidence ledger;
+\item
+  the full principle registry and promotion gates;
+\item
+  the selective literature and operationalization ledger;
+\item
+  the glossary;
+\item
+  the independent audit and bounded-repair record;
+\item
+  and the source-to-publication transformation map.
+\end{itemize}
+
+The constructions are stipulated demonstrations of logical distinctions.
+They are not empirical moral scores, clinical instruments, legal tests,
+or automated decision procedures.
+
+\section{References}\label{references}
+
+Anderson, E. S. (1999). What is the point of equality? \emph{Ethics,
+109}(2), 287--337.
+
+Anscombe, G. E. M. (1958). Modern moral philosophy. \emph{Philosophy,
+33}(124), 1--19.
+
+Arendt, H. (1963). \emph{Eichmann in Jerusalem: A report on the banality
+of evil}. Viking.
+
+Aristotle. (2000). \emph{Nicomachean ethics} (R. Crisp, Trans.).
+Cambridge University Press. (Original work composed ca. fourth century
+BCE)
+
+Bandura, A. (1999). Moral disengagement in the perpetration of
+inhumanities. \emph{Personality and Social Psychology Review, 3}(3),
+193--209.
+
+Bandura, A., Barbaranelli, C., Caprara, G. V., \& Pastorelli, C. (1996).
+Mechanisms of moral disengagement in the exercise of moral agency.
+\emph{Journal of Personality and Social Psychology, 71}(2), 364--374.
+
+Batson, C. D., Thompson, E. R., Seuferling, G., Whitney, H., \&
+Strongman, J. A. (1999). Moral hypocrisy: Appearing moral to oneself
+without being so. \emph{Journal of Personality and Social Psychology,
+77}(3), 525--537.
+
+Bovens, M. (1998). \emph{The quest for responsibility: Accountability
+and citizenship in complex organisations}. Cambridge University Press.
+
+Darley, J. M., \& Latané, B. (1968). Bystander intervention in
+emergencies: Diffusion of responsibility. \emph{Journal of Personality
+and Social Psychology, 8}(4), 377--383.
+
+Darwall, S. (2006). \emph{The second-person standpoint: Morality,
+respect, and accountability}. Harvard University Press.
+
+Ditto, P. H., Celniker, J. B., Siddiqi, S. S., Güngör, M., \& Relihan,
+D. P. (2025). Partisan bias in political judgment. \emph{Annual Review
+of Psychology, 76}, 717--740.
+
+Fischer, J. M., \& Ravizza, M. (1998). \emph{Responsibility and control:
+A theory of moral responsibility}. Cambridge University Press.
+
+Forst, R. (2012). \emph{The right to justification: Elements of a
+constructivist theory of justice} (J. Flynn, Trans.). Columbia
+University Press.
+
+Fricker, M. (2007). \emph{Epistemic injustice: Power and the ethics of
+knowing}. Oxford University Press.
+
+Gilligan, C. (1982). \emph{In a different voice}. Harvard University
+Press.
+
+Griffin, B. J., Purcell, N., Burkman, K., Litz, B. T., Bryan, C. J.,
+Schmitz, M., Villierme, C., Walsh, J., \& Maguen, S. (2019). Moral
+injury: An integrative review. \emph{Journal of Traumatic Stress,
+32}(3), 350--362.
+
+Habermas, J. (1990). \emph{Moral consciousness and communicative action}
+(C. Lenhardt \& S. W. Nicholsen, Trans.). MIT Press.
+
+Haidt, J. (2001). The emotional dog and its rational tail: A social
+intuitionist approach to moral judgment. \emph{Psychological Review,
+108}(4), 814--834.
+
+Held, V. (2006). \emph{The ethics of care: Personal, political, and
+global}. Oxford University Press.
+
+Herman, J. L. (2023). \emph{Truth and repair: How trauma survivors
+envision justice}. Basic Books.
+
+Jameton, A. (1984). \emph{Nursing practice: The ethical issues}.
+Prentice-Hall.
+
+Kant, I. (1997). \emph{Groundwork of the metaphysics of morals} (M.
+Gregor, Trans.). Cambridge University Press. (Original work published
+1785)
+
+Kelman, H. C., \& Hamilton, V. L. (1989). \emph{Crimes of obedience:
+Toward a social psychology of authority and responsibility}. Yale
+University Press.
+
+Korsgaard, C. M. (1996). \emph{The sources of normativity}. Cambridge
+University Press.
+
+Korsgaard, C. M. (2018). \emph{Fellow creatures: Our obligations to the
+other animals}. Oxford University Press.
+
+Kunda, Z. (1990). The case for motivated reasoning. \emph{Psychological
+Bulletin, 108}(3), 480--498.
+
+Laozi. (1963). \emph{Tao Te Ching} (D. C. Lau, Trans.). Penguin Books.
+(Original work composed ca. fourth century BCE)
+
+Lewis, A., Lee, H. S., Zabelski, S., \& Shields, M. C. (2025).
+Institutional betrayal in inpatient psychiatry: Effects on trust and
+engagement with care. \emph{Psychiatric Services, 76}(3), 218--225.
+
+Litz, B. T., Stein, N., Delaney, E., Lebowitz, L., Nash, W. P., Silva,
+C., \& Maguen, S. (2009). Moral injury and moral repair in war veterans:
+A preliminary model and intervention strategy. \emph{Clinical Psychology
+Review, 29}(8), 695--706.
+
+McAdams, M., Henninger, M. W., Bloeser, K., \& McCarron, K. K. (2025).
+Institutional betrayal in military and veteran populations: A systematic
+scoping review. \emph{Journal of the American Psychiatric Nurses
+Association, 31}(1), 8--22.
+
+Medina, J. (2013). \emph{The epistemology of resistance}. Oxford
+University Press.
+
+Mill, J. S. (2001). \emph{Utilitarianism} (2nd ed.). Hackett. (Original
+work published 1863)
+
+Molendijk, T. (2025). Addressing moral injury in practice: Suggestions
+for organisational, political and societal interventions. \emph{European
+Journal of Psychotraumatology, 16}(1), 2541485.
+
+Monin, B., \& Miller, D. T. (2001). Moral credentials and the expression
+of prejudice. \emph{Journal of Personality and Social Psychology,
+81}(1), 33--43.
+
+Moore, C., Detert, J. R., Treviño, L. K., Baker, V. L., \& Mayer, D. M.
+(2012). Why employees do bad things: Moral disengagement and unethical
+organizational behavior. \emph{Personnel Psychology, 65}(1), 1--48.
+
+National Commission for the Protection of Human Subjects of Biomedical
+and Behavioral Research. (1979). \emph{The Belmont report: Ethical
+principles and guidelines for the protection of human subjects of
+research}. U.S. Department of Health and Human Services.
+
+Nussbaum, M. C. (2006). \emph{Frontiers of justice: Disability,
+nationality, species membership}. Belknap Press.
+
+O'Neill, O. (2002). \emph{Autonomy and trust in bioethics}. Cambridge
+University Press.
+
+Pettit, P. (1997). \emph{Republicanism: A theory of freedom and
+government}. Oxford University Press.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism:
+Physics---Coherence, Accessibility, and the Ordered Emergence of
+Physical Description} (Version 0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism: Metaphysics and
+Epistemology---Coherence Under Constraint, Explanatory Order, and
+Warrant Across Registers} (Version 0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism:
+Foundations---Principles, Domain Gateways, Commitments, and Constraints
+on Responsible Application} (Version 0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism: Biology---Life as
+Active Self-Maintenance: Viability, Individuation, and Multiscale
+Regulation} (Version 0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism:
+Consciousness---Perspective, Temporal Depth, Valence, and the
+Architecture of Experience} (Version 0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism:
+Psychology---Meaning, Regulation, and Repair Across Time} (Version
+0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Coherence Universalism: Social
+Dynamics---Coordination, Power, Meaning, and Repair in Plural Societies}
+(Version 0.10). Heaven≡Earth Foundation.
+
+Rader, G. K. D. (2026). \emph{Denying Knowledge to Make Room for
+Commitment---Truth, Commitment, and Nonmonotonic Warrant} (Version
+0.10). Heaven≡Earth Foundation.
+
+Rawls, J. (1971). \emph{A theory of justice}. Harvard University Press.
+
+Rawls, J. (1993). \emph{Political liberalism}. Columbia University
+Press.
+
+Scanlon, T. M. (1998). \emph{What we owe to each other}. Belknap Press.
+
+Sen, A. (2009). \emph{The idea of justice}. Harvard University Press.
+
+Shay, J. (1994). \emph{Achilles in Vietnam: Combat trauma and the
+undoing of character}. Scribner.
+
+Silver, I., \& Berman, J. Z. (2024). What drives disagreement about
+moral hypocrisy? Perceived comparability and how people exploit it to
+criticize enemies and defend allies. \emph{Cognition, 247}, 105773.
+
+Smith, C. P., \& Freyd, J. J. (2014). Institutional betrayal.
+\emph{American Psychologist, 69}(6), 575--587.
+
+Strawson, P. F. (1962). Freedom and resentment. \emph{Proceedings of the
+British Academy, 48}, 1--25.
+
+The Bhagavad Gita. (2007). (E. Easwaran, Trans.). Nilgiri Press.
+
+Thompson, D. F. (1980). Moral responsibility of public officials: The
+problem of many hands. \emph{American Political Science Review, 74}(4),
+905--916.
+
+Tronto, J. C. (1993). \emph{Moral boundaries: A political argument for
+an ethic of care}. Routledge.
+
+United Nations. (2005). \emph{Basic Principles and Guidelines on the
+Right to a Remedy and Reparation for Victims of Gross Violations of
+International Human Rights Law and Serious Violations of International
+Humanitarian Law} (A/RES/60/147).
+
+United Nations Committee on the Rights of Persons with Disabilities.
+(2018). \emph{General comment No.~7 on the participation of persons with
+disabilities, including children with disabilities, through their
+representative organizations, in the implementation and monitoring of
+the Convention} (CRPD/C/GC/7).
+
+United Nations Office on Drugs and Crime. (2020). \emph{Handbook on
+restorative justice programmes} (2nd ed.). United Nations.
+
+UNESCO. (2005). \emph{Universal Declaration on Bioethics and Human
+Rights}.
+
+VanderWeele, T. J., Wortham, J. S., Carey, L. B., Case, B. W., Cowden,
+R. G., Duffee, C., Jackson-Meyer, K., Lu, F., Mattson, S. A., Padgett,
+R. N., Peteet, J. R., Rutledge, J., Symons, X., \& Koenig, H. G. (2025).
+Moral trauma, moral distress, moral injury, and moral injury disorder:
+Definitions and assessments. \emph{Frontiers in Psychology, 16},
+1422441.
+
+Walker, M. U. (2006). \emph{Moral repair: Reconstructing moral relations
+after wrongdoing}. Cambridge University Press.
+
+Williamson, V., Kothari, R., Bonson, A., Campbell, G., Greenberg, N.,
+Murphy, D., \& Lamb, D. (2025). Moral injury prevention and
+intervention. \emph{European Journal of Psychotraumatology, 16}(1),
+2567721.
+
+World Health Organization Regional Office for Europe. (2025).
+\emph{Mental health of nurses and doctors survey in the European Union,
+Iceland and Norway}. WHO.
+
+Xue, K., Shang, J., Yang, C., Pan, L., Shi, H., \& Zeng, Y. (2025).
+Nurses' moral distress and ethical climate: A systematic review and
+meta-analysis. \emph{Nursing Ethics, 32}(7), 1981--1997.
+
+Young, I. M. (2011). \emph{Responsibility for justice}. Oxford
+University Press.
+
+Zehr, H. (2002). \emph{The little book of restorative justice}. Good
+Books.
+
+\end{document}

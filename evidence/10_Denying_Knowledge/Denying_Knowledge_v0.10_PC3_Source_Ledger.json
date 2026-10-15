@@ -1,0 +1,14 @@
+{
+  "publication": "Denying Knowledge",
+  "source_pc": 2,
+  "target_pc": 3,
+  "source_manuscript": "/mnt/data/CU_Denying_Knowledge_v0.10_Publication_PC2/Denying_Knowledge_to_Make_Room_for_Commitment_v0.10_Publication_Candidate_2.md",
+  "source_manuscript_sha256": "d85c98bcaf6003146c473f63d4b706c4bcb50fd9f38c3663be4e71c7f7d63223",
+  "updated_manuscript": "Denying_Knowledge_to_Make_Room_for_Commitment_v0.10_Publication_Candidate_3.md",
+  "updated_manuscript_sha256": "01e53fec6ce91976600a8f59be8e62246f34db19477a4188813aa75dd7cc0e53",
+  "frozen_technical_supplement": "frozen/Denying_Knowledge_v0.10_PC2_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "53849493167f0b485b03d45fc8b133d0d8cc656f948c7fb58a765e22554ff4b0",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 22
+}

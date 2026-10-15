@@ -1,0 +1,48 @@
+paper_id,paper_slug,evidence_kind,path,scope
+01,Metaphysics_Epistemology,independent audit,audits/01_CU_v0.10_Audit_01_Metaphysics_Epistemology.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+01,Metaphysics_Epistemology,audit script,evidence/01_Metaphysics_Epistemology/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+01,Metaphysics_Epistemology,audit output,evidence/01_Metaphysics_Epistemology/independent_audit_output.txt,Recorded output of the independent audit check script.
+01,Metaphysics_Epistemology,technical supplement,technical_supplements/01_Metaphysics_Epistemology_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+02,Foundations,independent audit,audits/02_CU_v0.10_Audit_02_Foundations.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+02,Foundations,reproducibility run,evidence/02_Foundations/wave4_reproducibility_run.txt,Wave 4 execution record for included deterministic or registry scripts.
+02,Foundations,technical supplement,technical_supplements/02_Foundations_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+03,Physics,independent audit,audits/03_CU_v0.10_Audit_03_Physics.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+03,Physics,audit script,evidence/03_Physics/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+03,Physics,audit output,evidence/03_Physics/independent_audit_output.txt,Recorded output of the independent audit check script.
+03,Physics,technical supplement,technical_supplements/03_Physics_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+04,Biology,independent audit,audits/04_CU_v0.10_Audit_04_Biology.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+04,Biology,audit script,evidence/04_Biology/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+04,Biology,audit output,evidence/04_Biology/independent_audit_output.txt,Recorded output of the independent audit check script.
+04,Biology,technical supplement,technical_supplements/04_Biology_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+05,Consciousness,independent audit,audits/05_CU_v0.10_Audit_05_Consciousness.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+05,Consciousness,audit script,evidence/05_Consciousness/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+05,Consciousness,audit output,evidence/05_Consciousness/independent_audit_output.txt,Recorded output of the independent audit check script.
+05,Consciousness,technical supplement,technical_supplements/05_Consciousness_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+06,Psychology,independent audit,audits/06_CU_v0.10_Audit_06_Psychology.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+06,Psychology,audit script,evidence/06_Psychology/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+06,Psychology,audit output,evidence/06_Psychology/independent_audit_output.txt,Recorded output of the independent audit check script.
+06,Psychology,technical supplement,technical_supplements/06_Psychology_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+07,Social_Dynamics,independent audit,audits/07_CU_v0.10_Audit_07_Social_Dynamics.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+07,Social_Dynamics,audit script,evidence/07_Social_Dynamics/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+07,Social_Dynamics,audit output,evidence/07_Social_Dynamics/independent_audit_output.txt,Recorded output of the independent audit check script.
+07,Social_Dynamics,technical supplement,technical_supplements/07_Social_Dynamics_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+08,Ethics,independent audit,audits/08_CU_v0.10_Audit_08_Ethics.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+08,Ethics,audit script,evidence/08_Ethics/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+08,Ethics,audit output,evidence/08_Ethics/independent_audit_output.txt,Recorded output of the independent audit check script.
+08,Ethics,reproducibility run,evidence/08_Ethics/wave4_reproducibility_run.txt,Wave 4 execution record for included deterministic or registry scripts.
+08,Ethics,technical supplement,technical_supplements/08_Ethics_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+09,Artificial_Intelligence,independent audit,audits/09_CU_v0.10_Audit_09_Artificial_Intelligence.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+09,Artificial_Intelligence,audit script,evidence/09_Artificial_Intelligence/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+09,Artificial_Intelligence,audit output,evidence/09_Artificial_Intelligence/independent_audit_output.txt,Recorded output of the independent audit check script.
+09,Artificial_Intelligence,reproducibility run,evidence/09_Artificial_Intelligence/wave4_reproducibility_run.txt,Wave 4 execution record for included deterministic or registry scripts.
+09,Artificial_Intelligence,technical supplement,technical_supplements/09_Artificial_Intelligence_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+10,Denying_Knowledge,independent audit,audits/10_CU_v0.10_Audit_10_Denying_Knowledge.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+10,Denying_Knowledge,audit script,evidence/10_Denying_Knowledge/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+10,Denying_Knowledge,audit output,evidence/10_Denying_Knowledge/independent_audit_output.txt,Recorded output of the independent audit check script.
+10,Denying_Knowledge,reproducibility run,evidence/10_Denying_Knowledge/wave4_reproducibility_run.txt,Wave 4 execution record for included deterministic or registry scripts.
+10,Denying_Knowledge,technical supplement,technical_supplements/10_Denying_Knowledge_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."
+11,Non_Egoic_Artificial_Mind,independent audit,audits/11_CU_v0.10_Audit_11_Non_Egoic_Artificial_Mind.md,"Advisory internal-coherence, formal-correctness, and sourcing review."
+11,Non_Egoic_Artificial_Mind,audit script,evidence/11_Non_Egoic_Artificial_Mind/independent_audit_checks.py,Script reproducing computed findings against the audited RC3 baseline.
+11,Non_Egoic_Artificial_Mind,audit output,evidence/11_Non_Egoic_Artificial_Mind/independent_audit_output.txt,Recorded output of the independent audit check script.
+11,Non_Egoic_Artificial_Mind,reproducibility run,evidence/11_Non_Egoic_Artificial_Mind/wave4_reproducibility_run.txt,Wave 4 execution record for included deterministic or registry scripts.
+11,Non_Egoic_Artificial_Mind,technical supplement,technical_supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_Wave4.md,"Formal derivations, contrast cases, claim ledger, source map, and revision boundary."

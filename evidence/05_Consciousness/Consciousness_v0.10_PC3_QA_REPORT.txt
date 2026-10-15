@@ -1,0 +1,25 @@
+CONSCIOUSNESS PC3 SYNCHRONIZATION QA
+========================================================================
+
+passes: 15
+failures: 0
+
+PASSES
+- all prior display-math blocks remain byte-identical and in order
+- code fences are balanced
+- display-math delimiters are balanced
+- no NUL or carriage-return characters
+- canonical synchronization note present
+- required synchronization token present: Publication Candidate 3
+- required synchronization token present: Canonical Base B.5.1
+- required synchronization token present: CU-T9
+- required synchronization token present: CU-T13
+- required synchronization token present: CU-COM19
+- required synchronization token present: Omega glimpse
+- superseded token absent: Canonical Base B.2
+- superseded token absent: B.2 correction
+- bounded reader-facing change size (65 changed lines)
+- prior technical supplement frozen byte-for-byte
+
+FAILURES
+None.

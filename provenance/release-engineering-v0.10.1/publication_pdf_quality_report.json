@@ -1,0 +1,101 @@
+[
+  {
+    "file": "01_CU_Metaphysics_Epistemology_v0.10.pdf",
+    "pages": 84,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "02_CU_Foundations_v0.10.pdf",
+    "pages": 102,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "03_CU_Physics_v0.10.pdf",
+    "pages": 175,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "04_CU_Biology_v0.10.pdf",
+    "pages": 71,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "05_CU_Consciousness_v0.10.pdf",
+    "pages": 66,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "06_CU_Psychology_v0.10.pdf",
+    "pages": 54,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "07_CU_Social_Dynamics_v0.10.pdf",
+    "pages": 54,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "08_CU_Ethics_v0.10.pdf",
+    "pages": 59,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "09_CU_Artificial_Intelligence_v0.10.pdf",
+    "pages": 71,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "10_Denying_Knowledge_v0.10.pdf",
+    "pages": 37,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  },
+  {
+    "file": "11_Architecture_Non_Egoic_Artificial_Mind_v0.10.pdf",
+    "pages": 43,
+    "renderer": "Pandoc + XeLaTeX from release Markdown",
+    "out_of_page_spans": [],
+    "conversion_markers": [],
+    "empty_pages": [],
+    "missing_character_warnings": []
+  }
+]

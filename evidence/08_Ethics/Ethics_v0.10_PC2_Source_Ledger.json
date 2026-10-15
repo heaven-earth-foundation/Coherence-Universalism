@@ -1,0 +1,14 @@
+{
+  "publication": "Ethics",
+  "source_pc": 1,
+  "target_pc": 2,
+  "source_manuscript": "/mnt/data/CU_Ethics_v0.10_Publication_PC1/CU_Ethics_v0.10_Publication_Candidate_1.md",
+  "source_manuscript_sha256": "9cfba724c2507a4331e038ca2b85f4f8281d229b8e15b8aff33e1e8ba082f0f5",
+  "updated_manuscript": "CU_Ethics_v0.10_Publication_Candidate_2.md",
+  "updated_manuscript_sha256": "6e2b2222c725b1380122b0d1940f281750e6ccfeb59a46e0a4a98fb738cef9fc",
+  "frozen_technical_supplement": "frozen/CU_Ethics_v0.10_PC1_Technical_Supplement.md",
+  "frozen_technical_supplement_sha256": "944e88c5172324cc4c72bd3a98e9d4c4dad5fc5958ee11333d304deb4ecb7c51",
+  "canonical_target": "M&E PC5 / Foundations PC5 / Canonical Base B.5.1",
+  "technical_core_reopened": false,
+  "changed_lines_in_unified_patch": 63
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "CU_Mandala_Graph.zip",
+    "uploaded_path": "/mnt/data/CU_Mandala_Graph(1).zip",
+    "sha256": "8edfc148823a09e0c2fcce247be900deb40aba0bc8268d528567a118b3032a84",
+    "expected_sha256": "8edfc148823a09e0c2fcce247be900deb40aba0bc8268d528567a118b3032a84",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 2,
+    "extracted_to": "/mnt/data/cu_release_work/CU_Mandala_Graph"
+  },
+  {
+    "file": "CU_Mandala_Maps_01-32.zip",
+    "uploaded_path": "/mnt/data/CU_Mandala_Maps_01-32(1).zip",
+    "sha256": "c180d06c299c08fbf0ccfbb4db9cf65159b79338f1c89d66a33baa0205eae60a",
+    "expected_sha256": "c180d06c299c08fbf0ccfbb4db9cf65159b79338f1c89d66a33baa0205eae60a",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 46,
+    "extracted_to": "/mnt/data/cu_release_work/CU_Mandala_Maps_01-32"
+  },
+  {
+    "file": "CU_Mandala_Maps_33-64.zip",
+    "uploaded_path": "/mnt/data/CU_Mandala_Maps_33-64(1).zip",
+    "sha256": "6f75704d13e45b3f99ac61ddff530d20121a331def20d7b5770b800eb38c5ed7",
+    "expected_sha256": "6f75704d13e45b3f99ac61ddff530d20121a331def20d7b5770b800eb38c5ed7",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 44,
+    "extracted_to": "/mnt/data/cu_release_work/CU_Mandala_Maps_33-64"
+  },
+  {
+    "file": "CU_Mandala_Readers.zip",
+    "uploaded_path": "/mnt/data/CU_Mandala_Readers(1).zip",
+    "sha256": "57d2ec5a507b160b521048307ca5807a8d2e2c45b4e49ca29384de3d262250d6",
+    "expected_sha256": "57d2ec5a507b160b521048307ca5807a8d2e2c45b4e49ca29384de3d262250d6",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 7,
+    "extracted_to": "/mnt/data/cu_release_work/CU_Mandala_Readers"
+  },
+  {
+    "file": "CU_Mandala_Technical.zip",
+    "uploaded_path": "/mnt/data/CU_Mandala_Technical(1).zip",
+    "sha256": "019231b90c9eaebfc19bb33f3b4d6132954c020dc1beff4fce82e71246e1045c",
+    "expected_sha256": "019231b90c9eaebfc19bb33f3b4d6132954c020dc1beff4fce82e71246e1045c",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 54,
+    "extracted_to": "/mnt/data/cu_release_work/CU_Mandala_Technical"
+  },
+  {
+    "file": "CU_Word_Documents.zip",
+    "uploaded_path": "/mnt/data/CU_Word_Documents(1).zip",
+    "sha256": "407ccd2e77afc17ab5a00f04fc93c5dabd188e9d4fb940550e79f7fb27cca80b",
+    "expected_sha256": "407ccd2e77afc17ab5a00f04fc93c5dabd188e9d4fb940550e79f7fb27cca80b",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 14,
+    "extracted_to": "/mnt/data/cu_release_work/CU_Word_Documents"
+  },
+  {
+    "file": "CU_v0.10_Source_Repository_v0.10.0.zip",
+    "uploaded_path": "/mnt/data/CU_v0.10_Source_Repository_v0.10.0(1).zip",
+    "sha256": "fffa0d1229c4fd3275fd6118f4efa8335815a92719cd207ee4255f456e04b5b5",
+    "expected_sha256": "fffa0d1229c4fd3275fd6118f4efa8335815a92719cd207ee4255f456e04b5b5",
+    "sha256_match": true,
+    "crc_pass": true,
+    "entries": 233,
+    "extracted_to": "/mnt/data/cu_release_work/CU_v0.10_Source_Repository_v0.10.0"
+  }
+]

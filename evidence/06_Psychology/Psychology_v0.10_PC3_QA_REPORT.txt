@@ -1,0 +1,24 @@
+PSYCHOLOGY PC3 SYNCHRONIZATION QA
+========================================================================
+
+passes: 14
+failures: 0
+
+PASSES
+- all prior display-math blocks remain byte-identical and in order
+- code fences are balanced
+- display-math delimiters are balanced
+- no NUL or carriage-return characters
+- canonical synchronization note present
+- required synchronization token present: Publication Candidate 3
+- required synchronization token present: Canonical Base B.5.1
+- required synchronization token present: CU-COM15
+- required synchronization token present: CU-COM16
+- required synchronization token present: CU-COM17
+- required synchronization token present: CU-COM19
+- required synchronization token present: Stages 16–21
+- bounded reader-facing change size (46 changed lines)
+- prior technical supplement frozen byte-for-byte
+
+FAILURES
+None.

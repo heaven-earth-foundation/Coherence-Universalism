@@ -1,0 +1,168 @@
+BROKEN LINKS 146
+supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md -> ../manuscripts/10_Denying_Knowledge_v0.10.md
+supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Denying_Knowledge_v0.10_Publication_PC3.zip
+supplements/02_Foundations_Technical_Supplement_v0.10.md -> ../manuscripts/02_CU_Foundations_v0.10.md
+supplements/02_Foundations_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip
+supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md -> ../manuscripts/07_CU_Social_Dynamics_v0.10.md
+supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Social_Dynamics_v0.10_Publication_PC2.zip
+supplements/04_Biology_Technical_Supplement_v0.10.md -> ../manuscripts/04_CU_Biology_v0.10.md
+supplements/04_Biology_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Biology_v0.10_Publication_PC4.zip
+supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md -> ../manuscripts/09_CU_Artificial_Intelligence_v0.10.md
+supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Artificial_Intelligence_v0.10_Publication_PC2.zip
+supplements/03_Physics_Technical_Supplement_v0.10.md -> ../manuscripts/03_CU_Physics_v0.10.md
+supplements/03_Physics_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Physics_v0.10_Publication_PC4.zip
+supplements/05_Consciousness_Technical_Supplement_v0.10.md -> ../manuscripts/05_CU_Consciousness_v0.10.md
+supplements/05_Consciousness_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Consciousness_v0.10_Publication_PC3.zip
+supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md -> ../manuscripts/11_The_Architecture_of_Non_Egoic_Artificial_Mind_v0.10.md
+supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Non_Egoic_Artificial_Mind_v0.10_RC1.zip
+supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md -> ../manuscripts/01_CU_Metaphysics_Epistemology_v0.10.md
+supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip
+supplements/06_Psychology_Technical_Supplement_v0.10.md -> ../manuscripts/06_CU_Psychology_v0.10.md
+supplements/06_Psychology_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Psychology_v0.10_Publication_PC3.zip
+supplements/08_Ethics_Technical_Supplement_v0.10.md -> ../manuscripts/08_CU_Ethics_v0.10.md
+supplements/08_Ethics_Technical_Supplement_v0.10.md -> ../archival_source_packages/CU_Ethics_v0.10_Publication_PC2.zip
+papers/04_CU_Biology_v0.10.md -> ../technical_supplements/04_Biology_Technical_Supplement_v0.10.md
+papers/04_CU_Biology_v0.10.md -> ../technical_supplements/04_Biology_Technical_Supplement_v0.10.md
+papers/03_CU_Physics_v0.10.md -> ../technical_supplements/03_Physics_Technical_Supplement_v0.10.md
+papers/03_CU_Physics_v0.10.md -> ../technical_supplements/03_Physics_Technical_Supplement_v0.10.md
+papers/05_CU_Consciousness_v0.10.md -> ../technical_supplements/05_Consciousness_Technical_Supplement_v0.10.md
+papers/05_CU_Consciousness_v0.10.md -> ../technical_supplements/05_Consciousness_Technical_Supplement_v0.10.md
+papers/09_CU_Artificial_Intelligence_v0.10.md -> ../technical_supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md
+papers/09_CU_Artificial_Intelligence_v0.10.md -> ../technical_supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md
+papers/08_CU_Ethics_v0.10.md -> ../technical_supplements/08_Ethics_Technical_Supplement_v0.10.md
+papers/08_CU_Ethics_v0.10.md -> ../technical_supplements/08_Ethics_Technical_Supplement_v0.10.md
+papers/02_CU_Foundations_v0.10.md -> ../technical_supplements/02_Foundations_Technical_Supplement_v0.10.md
+papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md -> ../technical_supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md
+papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md -> ../technical_supplements/Framework_Addendum_Companion_Synchronization_v0.10.md
+papers/07_CU_Social_Dynamics_v0.10.md -> ../technical_supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md
+papers/07_CU_Social_Dynamics_v0.10.md -> ../technical_supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md
+papers/01_CU_Metaphysics_Epistemology_v0.10.md -> ../technical_supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md
+papers/10_Denying_Knowledge_v0.10.md -> ../technical_supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md
+papers/10_Denying_Knowledge_v0.10.md -> ../technical_supplements/Framework_Addendum_Companion_Synchronization_v0.10.md
+papers/10_Denying_Knowledge_v0.10.md -> ../technical_supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md
+papers/06_CU_Psychology_v0.10.md -> ../technical_supplements/06_Psychology_Technical_Supplement_v0.10.md
+papers/06_CU_Psychology_v0.10.md -> ../technical_supplements/06_Psychology_Technical_Supplement_v0.10.md
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_5_stage_arc_role_heatmap.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_3_object_type_counts.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_3_relation_type_grammar.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_2_strict_prerequisite_subgraph.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_5_protection_edge_atlas.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_6_service_invocation_matrix.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_1_three_layer_mandala.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_1_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_2_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_3_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_4_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_5_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_6_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_7_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/arc_maps/arc_8_relationship_map.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_4_evidence_grade_counts.png
+companions/mandala/Mandala_v0.4_Volume_I.md -> figures/figure_9_relation_audit_coverage.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_01_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_02_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_03_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_04_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_05_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_06_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_07_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_08_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_09_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_10_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_11_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_12_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_13_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_14_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_15_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_15_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_16_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_16_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_17_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_18_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_19_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_19_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_20_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_21_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_22_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_23_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_23_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_24_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_25_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_25_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_26_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_26_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_27_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_27_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_28_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_28_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_29_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_29_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_30_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_30_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_31_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_31_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_32_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_32_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_33_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_33_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_34_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_34_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_35_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_35_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_36_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_36_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_37_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_38_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_39_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_40_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_41_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_42_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_42_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_43_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_43_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_44_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_44_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_45_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_46_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_47_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_47_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_48_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_49_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_50_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_51_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_52_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_53_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_54_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_55_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_55_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_56_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_57_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_57_relationship_map_02.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_58_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_59_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_60_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_61_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_62_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_63_relationship_map_01.png
+companions/mandala/Mandala_v0.4_Volume_II.md -> figures/stage_maps/stage_64_relationship_map_01.png
+RC OCCURRENCES
+02_CU_Foundations_v0.10.md 4363 Rader, G. K. D. (2026). *Coherence Universalism v0.10 Master Principle Consolidation and Disposition Ledger*. RC1.
+09_CU_Artificial_Intelligence_v0.10.md 3108 Rader, G. K. D. (2026). *Open Myth and Mythic–Constitutional Alignment Architecture* (RC1). Heaven≡Earth Foundation.
+10_Denying_Knowledge_v0.10.md 39 This release candidate synchronizes the companion paper with *Coherence Universalism: Metaphysics and Epistemology* and *Coherence Universalism: Foundations*. It adds the official CU-COM identifiers and cross-references to the restored meaning, love, revision, redemption, and Omega architecture. The formal results, audit disposition, finite regressions, and philosophical scope established by the audited prior version are unchanged.
+TYPED GRAPH
+99 | Methodological authority | CU-FP2, CU-M2, CU-M11, CU-M12, CU-M13, CU-M14, and CU-M15 | Controlling Version 0.10 methodological framework |
+115 | 11 | **Scalar status.** No universal scalar. Measurement scalars, decision scalarizations, and risk functionals may be used only as typed, local instruments. | Governed by revised CU-FP2 |
+209 - **method:** the Coherence Analysis Protocol, Shared Analytic Frame, Translation Licenses, typed scalars, local–global declaration, and model revision;
+480 3. **Typed scalar licenses** distinguish measurement scalars, decision scalarizations, and risk functionals; protected floors are screened before any permitted scoring.
+486 ### 2.10.1 Typed mathematical universality
+490 The system is not identical with its statistical image. The geometry does not choose the partition, factorization, reference distribution, divergence, objective, dynamics, value direction, or interpretation. Nor does use of the same theorem create cross-domain numerical commensurability. The mature universal claim is therefore typed: **one canonica
+2208 The typed technical dependency graph remains provisional in node count because later review may split capacities, merge redundancies, or reveal incomparable branches. The sixty-four Mandala stages are nevertheless stable conceptual reference points. Their numbering does not declare one final branch topology, empirical chronology, or deductively nec
+2328 ## 13.12 Typed graph protocol and companion atlas
+2330 CU-M15 governs the technical counterpart of the Mandala. The canonical traversal and the technical graph perform different jobs: the traversal organizes philosophical exposition, while the graph records typed objects, relations, warrant bases, evidence grades, scopes, and failure conditions.
+2332 Each domain paper therefore supplies concise declared dependencies through its Domain Analytic Frame and points to the shared Mandala registries rather than reproducing a separate edge table. The complete object- and relation-level records are maintained in *The Coherence Mandala: A Typed Architecture of Enablement, Protection, and Participation* a
+2344 **[Interpretive architecture with stage-specific claim statuses]** Version 0.10 restores the original sixty-four-stage Coherence Mandala as CU’s stable explanatory and contemplative architecture. The numbered set is canonical for reference. It is not an empirical chronology, a proof by exhaustion, or a claim that each stage is a deductive consequen
+2692 The typed dependency graph is the controlling instrument for proof, evidence, and bridge status. The ring structure of *You Are the Universe Becoming Conscious of Itself* is a literary and contemplative macrostructure. Appendix B of that book offers a Yi Jing contemplative traversal through Shao Yong's binary sequence. Its hexagrams, characters, na
+SOURCE HASHES
+mismatch_or_missing []
+ENV NOTES
+False

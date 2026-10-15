@@ -1,0 +1,17 @@
+PASS 11 papers 11
+PASS 228 active registry records 228
+PASS CU-M15 active 
+PASS CU-M15 in Foundations 
+FAIL typed graph protocol in M&E 
+PASS 64 stages 64
+FAIL no active RC labels 
+PASS no legacy compact identifiers 
+PASS no mnemonic nested p subscripts 
+FAIL relative Markdown links resolve [('supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md', '../manuscripts/10_Denying_Knowledge_v0.10.md'), ('supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md', '../archival_source_packages/CU_Denying_Knowledge_v0.10_Publication_PC3.zip'), ('supplements/02_Foundations_Technical_Supplement_v0.10.md', '../manuscripts/02_CU_Foundations_v0.10.md'), ('supplements/02_Foundations_Technical_Supplement_v0.10.md', '../archival_source_packages/CU_v0.10_Canonical_Publication_PC5.zip'), ('supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md', '../manuscripts/07_CU_Social_Dynamics_v0.10.md')]
+PASS 03_Physics evidence present 
+PASS 03_Physics manifest present ['Physics_v0.10_PC4_MANIFEST.sha256', 'CU_Physics_A6_1_MANIFEST.sha256', 'Physics_v0.10_PC4_MANIFEST.sha256']
+PASS 03_Physics manifest hashes verify verified=28; bad=[]
+PASS 04_Biology evidence present 
+PASS 04_Biology manifest present ['Biology_v0.10_PC4_MANIFEST.sha256', 'CU_Biology_C1_1_MANIFEST.sha256', 'Biology_v0.10_PC4_MANIFEST.sha256']
+PASS 04_Biology manifest hashes verify verified=38; bad=[]
+OVERALL: 13 PASS / 3 FAIL

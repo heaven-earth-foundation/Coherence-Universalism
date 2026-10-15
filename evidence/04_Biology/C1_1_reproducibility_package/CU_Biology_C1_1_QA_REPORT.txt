@@ -1,0 +1,210 @@
+CU BIOLOGY C.1.1 QUALITY-ASSURANCE REPORT
+===========================================
+
+Scope: structural, registry, citation, and deterministic regression checks.
+This report is not biological peer review or empirical validation.
+
+SUMMARY
+-------
+manuscript_lines: 3517
+manuscript_words: 28114
+manuscript_bytes: 210312
+manuscript_sha256: 8da7ac1e213a1a0f3d977deb0b339389387508fd18caf4856f8d109f340d16c0
+claim_count: 37
+candidate_principle_count: 5
+primary_controller_run_count: 8
+adverse_controller_run_count: 8
+pass_count: 185
+failure_count: 0
+
+FAILURES
+--------
+None.
+
+PASSES
+------
+- required file exists: CU_Biology_Systematic_Reconstruction_Kaya_C1_1.md
+- required file exists: CU_Biology_C1_1_verification_results.json
+- required file exists: CU_Biology_C1_1_reproducibility.py
+- required file exists: CU_Biology_C1_1_claim_ledger.json
+- required file exists: CU_Biology_C1_1_principle_registry.json
+- required file exists: CU_Biology_C1_1_LITERATURE_LEDGER.md
+- required file exists: CU_Biology_C1_1_CHANGELOG.md
+- required file exists: CU_Biology_C1_1_AUDIT_RESPONSE.md
+- expected title present
+- C.1.1 version line present
+- literature horizon declared
+- exactly one References section
+- Sections 1–13 appear once and in order
+- Appendices A–F appear once and in order
+- display-math bracket counts balance
+- double-dollar math delimiters balance
+- code-fence count is even
+- no tabs, CRs, or NULs
+- no unexpected ASCII control characters
+- no editorial placeholder tokens
+- required repair phrase present: Claim-governance protocol
+- required repair phrase present: Boundary rule
+- required repair phrase present: Horizon rule
+- required repair phrase present: Disturbance rule
+- required repair phrase present: Profile rule
+- required repair phrase present: Register rule
+- required repair phrase present: the viability effect of diffusive coupling is configuration-dependent
+- required repair phrase present: D M(x;c)=\kappa(\bar x-x_j)
+- required repair phrase present: homogeneous-floor configuration
+- required repair phrase present: specialized high-requirement component
+- required repair phrase present: does not demonstrate coupling-mediated rescue from failure
+- required repair phrase present: clipping counter is zero
+- required repair phrase present: designer optimization
+- required repair phrase present: as-if control analysis
+- required repair phrase present: evolutionary outcome
+- required repair phrase present: accelerated habituation and prolonged memory retention
+- required repair phrase present: maintenance of habituation memory in progeny following cell division
+- required repair phrase present: not fitted to biological data
+- required repair phrase present: does not establish that biological integration generally destroys viability
+- prohibited active overclaim absent: simulation validates the framework
+- prohibited active overclaim absent: all living systems maximize coherence
+- prohibited active overclaim absent: fitness is identical with coherence
+- prohibited active overclaim absent: life violates the second law
+- prohibited active overclaim absent: integration destroys viability here
+- prohibited active overclaim absent: coupling universally improves viability
+- claim registry contains BIO-C1–BIO-C37 in order
+- claim registry identifiers are unique
+- claim-ledger authority names C.1.1 manuscript
+- manuscript contains ledger row BIO-C1
+- manuscript contains ledger row BIO-C2
+- manuscript contains ledger row BIO-C3
+- manuscript contains ledger row BIO-C4
+- manuscript contains ledger row BIO-C5
+- manuscript contains ledger row BIO-C6
+- manuscript contains ledger row BIO-C7
+- manuscript contains ledger row BIO-C8
+- manuscript contains ledger row BIO-C9
+- manuscript contains ledger row BIO-C10
+- manuscript contains ledger row BIO-C11
+- manuscript contains ledger row BIO-C12
+- manuscript contains ledger row BIO-C13
+- manuscript contains ledger row BIO-C14
+- manuscript contains ledger row BIO-C15
+- manuscript contains ledger row BIO-C16
+- manuscript contains ledger row BIO-C17
+- manuscript contains ledger row BIO-C18
+- manuscript contains ledger row BIO-C19
+- manuscript contains ledger row BIO-C20
+- manuscript contains ledger row BIO-C21
+- manuscript contains ledger row BIO-C22
+- manuscript contains ledger row BIO-C23
+- manuscript contains ledger row BIO-C24
+- manuscript contains ledger row BIO-C25
+- manuscript contains ledger row BIO-C26
+- manuscript contains ledger row BIO-C27
+- manuscript contains ledger row BIO-C28
+- manuscript contains ledger row BIO-C29
+- manuscript contains ledger row BIO-C30
+- manuscript contains ledger row BIO-C31
+- manuscript contains ledger row BIO-C32
+- manuscript contains ledger row BIO-C33
+- manuscript contains ledger row BIO-C34
+- manuscript contains ledger row BIO-C35
+- manuscript contains ledger row BIO-C36
+- manuscript contains ledger row BIO-C37
+- principle registry contains CU-B1–CU-B5
+- principle registry version is C.1.1
+- principle promotion guard present
+- principle audit boundary recorded
+- governance rule appears in manuscript: candidate unit and scale
+- governance rule appears in manuscript: temporal horizon
+- governance rule appears in manuscript: perturbation or disturbance class
+- governance rule appears in manuscript: weights, protected floors
+- governance rule appears in manuscript: phenomenal or moral value
+- reference present: Aubin 1991
+- reference present: Aoki 2019
+- reference present: Chernet 2016
+- reference present: Ciriello 2024
+- reference present: Cortés-Poza 2026
+- reference present: Doulcier 2024
+- reference present: Dufour 2014
+- reference present: Durant 2019
+- reference present: Friston 2013
+- reference present: Giessler 2026
+- reference present: Hordijk 2011
+- reference present: Kolchinsky 2024
+- reference present: Kriegman 2020
+- reference present: Maynard Smith 1995
+- reference present: Montévil 2015
+- reference present: Mossio 2009
+- reference present: Rajan 2026
+- reference present: Ruiz-Mirazo 2004
+- reference present: Schreiber 2000
+- reference present: Shi 2025
+- reference present: Shirt-Ediss 2025
+- reference present: Varela 1974
+- reference present: Walker 2013
+- reference present: West 2015
+- all numerical regression checks are true
+- results identify C.1.1
+- eight primary coupling runs recorded
+- eight adverse coupling runs recorded
+- zero clipping in all default controller runs
+- primary no-controller failure time retained
+- four primary step-size sweeps recorded
+- four adverse step-size sweeps recorded
+- manuscript contains primary minimum_viability_margin=0.2811715052 for kappa=0.0
+- manuscript contains primary total_control_cost=7.1992430737 for kappa=0.0
+- manuscript contains primary late_tracking_rmse=0.0467393362 for kappa=0.0
+- manuscript contains primary minimum_viability_margin=0.2849524361 for kappa=0.02
+- manuscript contains primary total_control_cost=7.2709721099 for kappa=0.02
+- manuscript contains primary late_tracking_rmse=0.0566120419 for kappa=0.02
+- manuscript contains primary minimum_viability_margin=0.2902537462 for kappa=0.05
+- manuscript contains primary total_control_cost=7.3530511929 for kappa=0.05
+- manuscript contains primary late_tracking_rmse=0.0685386360 for kappa=0.05
+- manuscript contains primary minimum_viability_margin=0.2982139959 for kappa=0.1
+- manuscript contains primary total_control_cost=7.4472332460 for kappa=0.1
+- manuscript contains primary late_tracking_rmse=0.0824069720 for kappa=0.1
+- manuscript contains primary minimum_viability_margin=0.3052341325 for kappa=0.15
+- manuscript contains primary total_control_cost=7.5103262408 for kappa=0.15
+- manuscript contains primary late_tracking_rmse=0.0916364861 for kappa=0.15
+- manuscript contains primary minimum_viability_margin=0.3170137752 for kappa=0.25
+- manuscript contains primary total_control_cost=7.5890867215 for kappa=0.25
+- manuscript contains primary late_tracking_rmse=0.1030533350 for kappa=0.25
+- manuscript contains primary minimum_viability_margin=0.3305262552 for kappa=0.4
+- manuscript contains primary total_control_cost=7.6530593363 for kappa=0.4
+- manuscript contains primary late_tracking_rmse=0.1123240184 for kappa=0.4
+- manuscript contains primary minimum_viability_margin=0.3527559814 for kappa=0.8
+- manuscript contains primary total_control_cost=7.7238403844 for kappa=0.8
+- manuscript contains primary late_tracking_rmse=0.1228401182 for kappa=0.8
+- manuscript contains adverse minimum_viability_margin=0.0431278138 for kappa=0.0
+- manuscript contains adverse direct coupling=0.0000000000 for kappa=0.0
+- manuscript contains adverse minimum_viability_margin=0.0369053152 for kappa=0.02
+- manuscript contains adverse direct coupling=-0.0033499396 for kappa=0.02
+- manuscript contains adverse minimum_viability_margin=0.0285644110 for kappa=0.05
+- manuscript contains adverse direct coupling=-0.0078440606 for kappa=0.05
+- manuscript contains adverse minimum_viability_margin=0.0167977155 for kappa=0.1
+- manuscript contains adverse direct coupling=-0.0141911234 for kappa=0.1
+- manuscript contains adverse minimum_viability_margin=0.0070877984 for kappa=0.15
+- manuscript contains adverse direct coupling=-0.0194345846 for kappa=0.15
+- manuscript contains adverse minimum_viability_margin=-0.0080077450 for kappa=0.25
+- manuscript contains adverse direct coupling=-0.0275950011 for kappa=0.25
+- manuscript contains adverse minimum_viability_margin=-0.0237919344 for kappa=0.4
+- manuscript contains adverse direct coupling=-0.0361348902 for kappa=0.4
+- manuscript contains adverse minimum_viability_margin=-0.0470145357 for kappa=0.8
+- manuscript contains adverse direct coupling=-0.0487013205 for kappa=0.8
+- manuscript contains primary step-size minimum_margin_at_kappa_0=0.2810250082 at dt=0.04
+- manuscript contains primary step-size minimum_margin_at_kappa_0_8=0.3527054405 at dt=0.04
+- manuscript contains primary step-size minimum_margin_at_kappa_0=0.2811225312 at dt=0.02
+- manuscript contains primary step-size minimum_margin_at_kappa_0_8=0.3527390630 at dt=0.02
+- manuscript contains primary step-size minimum_margin_at_kappa_0=0.2811715052 at dt=0.01
+- manuscript contains primary step-size minimum_margin_at_kappa_0_8=0.3527559814 at dt=0.01
+- manuscript contains primary step-size minimum_margin_at_kappa_0=0.2811960446 at dt=0.005
+- manuscript contains primary step-size minimum_margin_at_kappa_0_8=0.3527644672 at dt=0.005
+- manuscript contains adverse step-size minimum_margin_at_kappa_0=0.0431206323 at dt=0.04
+- manuscript contains adverse step-size minimum_margin_at_kappa_0_8=-0.0470207782 at dt=0.04
+- manuscript contains adverse step-size minimum_margin_at_kappa_0=0.0431254019 at dt=0.02
+- manuscript contains adverse step-size minimum_margin_at_kappa_0_8=-0.0470166205 at dt=0.02
+- manuscript contains adverse step-size minimum_margin_at_kappa_0=0.0431278138 at dt=0.01
+- manuscript contains adverse step-size minimum_margin_at_kappa_0_8=-0.0470145357 at dt=0.01
+- manuscript contains adverse step-size minimum_margin_at_kappa_0=0.0431290265 at dt=0.005
+- manuscript contains adverse step-size minimum_margin_at_kappa_0_8=-0.0470134917 at dt=0.005
+- reproducibility script exits successfully
+- reproducibility script creates output
+- reproduced JSON is byte-for-byte identical

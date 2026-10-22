@@ -1,0 +1,175 @@
+{
+  "schema": "cu-publication-links-1",
+  "updated": "2026-10-22",
+  "author": {
+    "name": "Gaura Kiśora Dās Rader",
+    "orcid": "https://orcid.org/0000-0002-0804-1048"
+  },
+  "publisher": "Heaven≡Earth Foundation",
+  "first_publication_date": "2026-10-14",
+  "research_version": "0.10",
+  "distribution_version": "0.10.1",
+  "complete_release": {
+    "title": "Coherence Universalism: Version 0.10 Research Release (Distribution 0.10.1)",
+    "url": "https://zenodo.org/records/23404449",
+    "doi": null,
+    "doi_note": "No version-specific DOI inferred; supplied record URL retained."
+  },
+  "repository_url": "https://github.com/heaven-earth-foundation/Coherence-Universalism",
+  "release_url": "https://github.com/heaven-earth-foundation/Coherence-Universalism/releases/tag/v0.10.1",
+  "research_page_url": "https://heavenearthfoundation.org/theory-research/",
+  "interactive_graph": {
+    "planned_url": "https://heaven-earth-foundation.github.io/Coherence-Universalism/mandala/",
+    "deployment_status": "Requires GitHub Pages enablement and live verification",
+    "offline_archive_url": "https://github.com/heaven-earth-foundation/Coherence-Universalism/releases/download/v0.10.1/Mandala_v0.4_Interactive_Graph.zip",
+    "source_file": "companions/mandala/Mandala_v0.4_Interactive_Graph.html",
+    "sha256": "17ecf2a3d2955eb3e4d253f9d851351e420094c5703fd8dd32af132acdebc8ed"
+  },
+  "source_note": "Author-supplied CU_Zenodo_Progress.json, exported 2026-10-21. All 12 works marked published by author; local mapping validation, not an independent live-record audit.",
+  "records": [
+    {
+      "id": "01",
+      "title": "Coherence Universalism: Metaphysics and Epistemology: Coherence Under Constraint, Explanatory Order, and Warrant Across Registers",
+      "url": "https://zenodo.org/records/23537000",
+      "status": "published",
+      "doi": "10.5281/zenodo.23537000",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537000",
+      "short_title": "Metaphysics and Epistemology",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/01_CU_Metaphysics_Epistemology_v0.10.pdf"
+    },
+    {
+      "id": "02",
+      "title": "Coherence Universalism: Foundations: Principles, Domain Gateways, Commitments, and Constraints on Responsible Application",
+      "status": "published",
+      "url": "https://zenodo.org/records/23537365",
+      "doi": "10.5281/zenodo.23537365",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537365",
+      "short_title": "Foundations",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/02_CU_Foundations_v0.10.pdf"
+    },
+    {
+      "id": "03",
+      "title": "Coherence Universalism: Physics: Coherence, Accessibility, and the Ordered Emergence of Physical Description",
+      "status": "published",
+      "url": "https://zenodo.org/records/23537500",
+      "doi": "10.5281/zenodo.23537500",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537500",
+      "short_title": "Physics",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/03_CU_Physics_v0.10.pdf"
+    },
+    {
+      "id": "04",
+      "title": "Coherence Universalism: Biology: Life as Active Self-Maintenance: Viability, Individuation, and Multiscale Regulation",
+      "status": "published",
+      "url": "https://zenodo.org/records/23537608",
+      "doi": "10.5281/zenodo.23537608",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537608",
+      "short_title": "Biology",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/04_CU_Biology_v0.10.pdf"
+    },
+    {
+      "id": "05",
+      "title": "Coherence Universalism: Consciousness: Perspective, Temporal Depth, Valence, and the Architecture of Experience",
+      "doi": "10.5281/zenodo.23537669",
+      "status": "published",
+      "url": "https://zenodo.org/records/23537669",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537669",
+      "short_title": "Consciousness",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/05_CU_Consciousness_v0.10.pdf"
+    },
+    {
+      "id": "06",
+      "title": "Coherence Universalism: Psychology: Meaning, Regulation, and Repair Across Time",
+      "doi": "10.5281/zenodo.23537780",
+      "status": "published",
+      "notes": "https://zenodo.org/records/23537780",
+      "url": "https://zenodo.org/records/23537780",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537780",
+      "short_title": "Psychology",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/06_CU_Psychology_v0.10.pdf"
+    },
+    {
+      "id": "07",
+      "title": "Coherence Universalism: Social Dynamics: Coordination, Power, Meaning, and Repair in Plural Societies",
+      "status": "published",
+      "url": "https://zenodo.org/records/23537871",
+      "doi": "10.5281/zenodo.23537871",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537871",
+      "short_title": "Social Dynamics",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/07_CU_Social_Dynamics_v0.10.pdf"
+    },
+    {
+      "id": "08",
+      "title": "Coherence Universalism: Ethics: Truth, Self-Deception, Power, and Repair",
+      "status": "published",
+      "url": "https://zenodo.org/records/23537912",
+      "doi": "10.5281/zenodo.23537912",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537912",
+      "short_title": "Ethics",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/08_CU_Ethics_v0.10.pdf"
+    },
+    {
+      "id": "09",
+      "title": "Coherence Universalism: Artificial Intelligence: Capability, Alignment, Consciousness, and the Governance of Non-Egoic Systems",
+      "status": "published",
+      "doi": "10.5281/zenodo.23537985",
+      "url": "https://zenodo.org/records/23537985",
+      "doi_url": "https://doi.org/10.5281/zenodo.23537985",
+      "short_title": "Artificial Intelligence",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/09_CU_Artificial_Intelligence_v0.10.pdf"
+    },
+    {
+      "id": "10",
+      "title": "Denying Knowledge to Make Room for Commitment: Truth, Commitment, and Nonmonotonic Warrant",
+      "status": "published",
+      "url": "https://zenodo.org/records/23538081",
+      "doi": "10.5281/zenodo.23538081",
+      "doi_url": "https://doi.org/10.5281/zenodo.23538081",
+      "short_title": "Denying Knowledge to Make Room for Commitment",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/10_Denying_Knowledge_v0.10.pdf"
+    },
+    {
+      "id": "11",
+      "title": "The Architecture of Non-Egoic Artificial Mind: Perspective, Self-Maintenance, and Alignment Without a Sovereign Self",
+      "status": "published",
+      "url": "https://zenodo.org/records/23538171",
+      "doi": "10.5281/zenodo.23538171",
+      "doi_url": "https://doi.org/10.5281/zenodo.23538171",
+      "short_title": "The Architecture of Non-Egoic Artificial Mind",
+      "version": "0.10",
+      "publication_date": "2026-10-14",
+      "pdf_url": "https://heavenearthfoundation.org/wp-content/uploads/2026/10/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.pdf"
+    },
+    {
+      "id": "12",
+      "title": "The Coherence Mandala: Two-Volume Companion and Relational Atlas (Version 0.4)",
+      "status": "published",
+      "doi": "10.5281/zenodo.23538253",
+      "url": "https://zenodo.org/records/23538253",
+      "doi_url": "https://doi.org/10.5281/zenodo.23538253",
+      "short_title": "The Coherence Mandala",
+      "version": "0.4",
+      "publication_date": "2026-10-14"
+    }
+  ]
+}

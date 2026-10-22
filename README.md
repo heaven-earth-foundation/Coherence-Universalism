@@ -8,6 +8,16 @@ Coherence Universalism (CU) is an integrative philosophical and research framewo
 
 Start with **[What Is Coherence Universalism?](00_What_Is_Coherence_Universalism_v0.10.md)**. It is the human-facing doorway into the project. The controlling scholarly architecture begins with **[Metaphysics and Epistemology](papers/01_CU_Metaphysics_Epistemology_v0.10.md)** and **[Foundations](papers/02_CU_Foundations_v0.10.md)**.
 
+## Published records and reader access
+
+[Foundation research page](https://heavenearthfoundation.org/theory-research/) | [Complete-release archive](https://zenodo.org/records/23404449) | [GitHub release downloads](https://github.com/heaven-earth-foundation/Coherence-Universalism/releases/tag/v0.10.1)
+
+The eleven papers and Mandala have individual DOI entries in the [citation directory](CITATIONS.md). Use the DOI for the particular work and version being cited.
+
+[Explore the interactive Mandala](https://heaven-earth-foundation.github.io/Coherence-Universalism/mandala/) or [download its original offline ZIP](https://github.com/heaven-earth-foundation/Coherence-Universalism/releases/download/v0.10.1/Mandala_v0.4_Interactive_Graph.zip). GitHub Pages must be enabled for main /docs before the browser address becomes available; see [setup and graph provenance](docs/README.md).
+
+The frozen v0.10.1 release assets remain unchanged. The main branch also contains the [documented verifier portability correction](CI_PORTABILITY_NOTE_2026-10-19.md) and publication-link maintenance. Report the actual commit when using code from main.
+
 ## What Version 0.10 contains
 
 - eleven reader-facing papers;
@@ -43,6 +53,7 @@ All papers are designed to be read independently, though cross-references become
 - `companions/mandala/` — Markdown and digital-source components of the official noncontrolling Mandala companion.
 - `scripts/` — release verification and reproducibility runners.
 - `provenance/` — RC3 history, external audits, and release-convergence records.
+- `docs/` - GitHub Pages graph, DOI directory, and public link registry.
 - `release-manifests/` — checksums and external-asset manifests.
 
 ## Verification
@@ -70,9 +81,9 @@ Text and figures are released under **CC BY 4.0**. Code is released under the **
 
 ## Citation
 
-Rader, G. K. D. (2026). *Coherence Universalism*, Version 0.10. Heaven≡Earth Foundation.
+Rader, G. K. D. (2026). *Coherence Universalism: Version 0.10 Research Release (Distribution 0.10.1)*. Heaven≡Earth Foundation. [Archived release](https://zenodo.org/records/23404449).
 
-Machine-readable citation metadata are provided in `CITATION.cff`; paper-level citations are in `CITATIONS.bib`.
+Use [CITATIONS.md](CITATIONS.md) for the individual-paper and Mandala DOI links. Machine-readable metadata are in [CITATION.cff](CITATION.cff) and [CITATIONS.bib](CITATIONS.bib). The complete-release URL is retained without guessing its DOI.
 
 The root runner executes six required saved-result suites. It does not rerun every historical audit or validate all domain hypotheses. Publication and correction guidance is in [CORRECTIONS.md](CORRECTIONS.md).
 

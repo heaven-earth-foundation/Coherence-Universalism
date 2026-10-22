@@ -4,7 +4,9 @@
 **Publisher:** Heaven≡Earth Foundation  
 **Research version:** 0.10  
 **Distribution package:** 0.10.1, prepared 13 October 2026  
-**Mandala companion version:** 0.4
+**Mandala companion version:** 0.4  
+**First website publication:** 14 October 2026 (author-confirmed)  
+**Citation/link maintenance:** 22 October 2026; no scientific-file changes
 
 ## Start here
 
@@ -12,19 +14,19 @@ Read [What Is Coherence Universalism?](00_What_Is_Coherence_Universalism_v0.10.m
 
 ## Papers and technical supplements
 
-| No. | Paper | Role | Technical supplement |
-|---|---|---|---|
-| 01 | [Metaphysics and Epistemology](papers/01_CU_Metaphysics_Epistemology_v0.10.md) | controlling paper | [Supplement](supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md) |
-| 02 | [Foundations](papers/02_CU_Foundations_v0.10.md) | controlling paper | [Supplement](supplements/02_Foundations_Technical_Supplement_v0.10.md) |
-| 03 | [Physics](papers/03_CU_Physics_v0.10.md) | controlling paper | [Supplement](supplements/03_Physics_Technical_Supplement_v0.10.md) |
-| 04 | [Biology](papers/04_CU_Biology_v0.10.md) | controlling paper | [Supplement](supplements/04_Biology_Technical_Supplement_v0.10.md) |
-| 05 | [Consciousness](papers/05_CU_Consciousness_v0.10.md) | controlling paper | [Supplement](supplements/05_Consciousness_Technical_Supplement_v0.10.md) |
-| 06 | [Psychology](papers/06_CU_Psychology_v0.10.md) | controlling paper | [Supplement](supplements/06_Psychology_Technical_Supplement_v0.10.md) |
-| 07 | [Social Dynamics](papers/07_CU_Social_Dynamics_v0.10.md) | controlling paper | [Supplement](supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md) |
-| 08 | [Ethics](papers/08_CU_Ethics_v0.10.md) | controlling paper | [Supplement](supplements/08_Ethics_Technical_Supplement_v0.10.md) |
-| 09 | [Artificial Intelligence](papers/09_CU_Artificial_Intelligence_v0.10.md) | controlling paper | [Supplement](supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md) |
-| 10 | [Denying Knowledge to Make Room for Commitment](papers/10_Denying_Knowledge_v0.10.md) | official noncontrolling scholarly companion | [Supplement](supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md) |
-| 11 | [The Architecture of Non-Egoic Artificial Mind](papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md) | official noncontrolling scholarly companion | [Supplement](supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md) |
+| No. | Paper | Role | Technical supplement | DOI / archive |
+|---|---|---|---|---|
+| 01 | [Metaphysics and Epistemology](papers/01_CU_Metaphysics_Epistemology_v0.10.md) | controlling paper | [Supplement](supplements/01_Metaphysics_Epistemology_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537000](https://doi.org/10.5281/zenodo.23537000) |
+| 02 | [Foundations](papers/02_CU_Foundations_v0.10.md) | controlling paper | [Supplement](supplements/02_Foundations_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537365](https://doi.org/10.5281/zenodo.23537365) |
+| 03 | [Physics](papers/03_CU_Physics_v0.10.md) | controlling paper | [Supplement](supplements/03_Physics_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537500](https://doi.org/10.5281/zenodo.23537500) |
+| 04 | [Biology](papers/04_CU_Biology_v0.10.md) | controlling paper | [Supplement](supplements/04_Biology_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537608](https://doi.org/10.5281/zenodo.23537608) |
+| 05 | [Consciousness](papers/05_CU_Consciousness_v0.10.md) | controlling paper | [Supplement](supplements/05_Consciousness_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537669](https://doi.org/10.5281/zenodo.23537669) |
+| 06 | [Psychology](papers/06_CU_Psychology_v0.10.md) | controlling paper | [Supplement](supplements/06_Psychology_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537780](https://doi.org/10.5281/zenodo.23537780) |
+| 07 | [Social Dynamics](papers/07_CU_Social_Dynamics_v0.10.md) | controlling paper | [Supplement](supplements/07_Social_Dynamics_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537871](https://doi.org/10.5281/zenodo.23537871) |
+| 08 | [Ethics](papers/08_CU_Ethics_v0.10.md) | controlling paper | [Supplement](supplements/08_Ethics_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537912](https://doi.org/10.5281/zenodo.23537912) |
+| 09 | [Artificial Intelligence](papers/09_CU_Artificial_Intelligence_v0.10.md) | controlling paper | [Supplement](supplements/09_Artificial_Intelligence_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23537985](https://doi.org/10.5281/zenodo.23537985) |
+| 10 | [Denying Knowledge to Make Room for Commitment](papers/10_Denying_Knowledge_v0.10.md) | official noncontrolling scholarly companion | [Supplement](supplements/10_Denying_Knowledge_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23538081](https://doi.org/10.5281/zenodo.23538081) |
+| 11 | [The Architecture of Non-Egoic Artificial Mind](papers/11_Architecture_Non_Egoic_Artificial_Mind_v0.10.md) | official noncontrolling scholarly companion | [Supplement](supplements/11_Non_Egoic_Artificial_Mind_Technical_Supplement_v0.10.md) | [10.5281/zenodo.23538171](https://doi.org/10.5281/zenodo.23538171) |
 
 ## Mandala
 
@@ -32,11 +34,17 @@ Read [What Is Coherence Universalism?](00_What_Is_Coherence_Universalism_v0.10.m
 
 M&E and Foundations control shared definitions, methodological rules and registered wording. The domain papers control domain claims. The introduction, Denying Knowledge, Non-Egoic Artificial Mind and the Mandala have the bounded companion roles stated in their texts. Older versions and books remain historical or interpretive sources, not overriding authorities.
 
+[Explore the interactive Mandala online](https://heaven-earth-foundation.github.io/Coherence-Universalism/mandala/) | [Offline graph ZIP](https://github.com/heaven-earth-foundation/Coherence-Universalism/releases/download/v0.10.1/Mandala_v0.4_Interactive_Graph.zip) | [Mandala DOI and archived materials](https://doi.org/10.5281/zenodo.23538253)
+
+The online graph is an unchanged copy of the supplied v0.4 HTML, hosted from docs/mandala/index.html. Enable GitHub Pages using main /docs before treating the address as live.
+
 ## Cite the version actually used
 
-Framework: Rader, G. K. D. (2026). *Coherence Universalism* (Version 0.10; distribution 0.10.1). Heaven≡Earth Foundation.
+Framework: Rader, G. K. D. (2026). *Coherence Universalism: Version 0.10 Research Release (Distribution 0.10.1)*. Heaven≡Earth Foundation. [Complete-release record](https://zenodo.org/records/23404449).
 
-For a specific claim, cite the individual paper's full title and Version 0.10, adding the relevant section, appendix or principle identifier. Use the version-specific DOI displayed in the published record when assigned. No DOI, repository URL or ORCID has been invented for this package. The DOI can be added to the public record and website without altering frozen files. `CITATIONS.bib` provides paper-level citations; `CITATION.cff` supplies machine-readable repository metadata.
+For a specific claim, cite the paper's DOI, full title and Version 0.10, plus its section, appendix or principle. The Mandala has its own DOI and Version 0.4. See the [publication directory](CITATIONS.md), [BibTeX entries](CITATIONS.bib), and [CFF metadata](CITATION.cff).
+
+The author-supplied DOI list identifies the twelve individual works. The complete-release record is linked by its confirmed URL rather than an inferred DOI. Published archives and the v0.10.1 tag are not changed by this metadata update. For code on main, also record the commit used; the [verifier portability note](CI_PORTABILITY_NOTE_2026-10-19.md) documents the post-release correction.
 
 ## Reuse and verification
 

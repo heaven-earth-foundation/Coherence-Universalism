@@ -1,22 +1,222 @@
+# Citation/link maintenance only; scientific source files and frozen release unchanged.
 cff-version: 1.2.0
-message: For the framework cite the preferred research-release citation; for specific
-  claims cite the relevant paper listed in CITATIONS.bib. MIT applies to source code;
-  CC BY 4.0 applies to text and original figures.
+message: For the framework cite the preferred research-release citation. For specific claims cite the
+  relevant paper in CITATIONS.md or CITATIONS.bib. The archived distribution is 0.10.1; main also contains
+  documented maintenance. Text and original figures use CC BY 4.0; source code uses MIT. The collection
+  record URL is supplied because its version-specific DOI has not been independently confirmed.
 type: software
 title: 'Coherence Universalism: Source and Reproducibility Repository'
 version: 0.10.1
 authors:
-- &id001
-  family-names: Rader
+- family-names: Rader
   given-names: Gaura Kiśora Dās
+  orcid: https://orcid.org/0000-0002-0804-1048
+  affiliation: Heaven≡Earth Foundation
 license: MIT
+url: https://github.com/heaven-earth-foundation/Coherence-Universalism
+repository-code: https://github.com/heaven-earth-foundation/Coherence-Universalism
+repository-artifact: https://github.com/heaven-earth-foundation/Coherence-Universalism/releases/tag/v0.10.1
 preferred-citation:
   type: report
-  title: Coherence Universalism
+  title: 'Coherence Universalism: Version 0.10 Research Release (Distribution 0.10.1)'
   version: 0.10 (distribution 0.10.1)
   year: 2026
+  date-released: '2026-10-14'
   authors:
-  - *id001
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
   publisher:
     name: Heaven≡Earth Foundation
+  url: https://zenodo.org/records/23404449
+  license: CC-BY-4.0
+references:
+- type: report
+  title: 'Coherence Universalism: Metaphysics and Epistemology: Coherence Under Constraint, Explanatory
+    Order, and Warrant Across Registers'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537000
+  url: https://zenodo.org/records/23537000
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Foundations: Principles, Domain Gateways, Commitments, and Constraints
+    on Responsible Application'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537365
+  url: https://zenodo.org/records/23537365
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Physics: Coherence, Accessibility, and the Ordered Emergence of Physical
+    Description'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537500
+  url: https://zenodo.org/records/23537500
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Biology: Life as Active Self-Maintenance: Viability, Individuation,
+    and Multiscale Regulation'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537608
+  url: https://zenodo.org/records/23537608
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Consciousness: Perspective, Temporal Depth, Valence, and the Architecture
+    of Experience'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537669
+  url: https://zenodo.org/records/23537669
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Psychology: Meaning, Regulation, and Repair Across Time'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537780
+  url: https://zenodo.org/records/23537780
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Social Dynamics: Coordination, Power, Meaning, and Repair in Plural
+    Societies'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537871
+  url: https://zenodo.org/records/23537871
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Ethics: Truth, Self-Deception, Power, and Repair'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537912
+  url: https://zenodo.org/records/23537912
+  license: CC-BY-4.0
+- type: report
+  title: 'Coherence Universalism: Artificial Intelligence: Capability, Alignment, Consciousness, and the
+    Governance of Non-Egoic Systems'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23537985
+  url: https://zenodo.org/records/23537985
+  license: CC-BY-4.0
+- type: report
+  title: 'Denying Knowledge to Make Room for Commitment: Truth, Commitment, and Nonmonotonic Warrant'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23538081
+  url: https://zenodo.org/records/23538081
+  license: CC-BY-4.0
+- type: report
+  title: 'The Architecture of Non-Egoic Artificial Mind: Perspective, Self-Maintenance, and Alignment
+    Without a Sovereign Self'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.10'
+  doi: 10.5281/zenodo.23538171
+  url: https://zenodo.org/records/23538171
+  license: CC-BY-4.0
+- type: report
+  title: 'The Coherence Mandala: Two-Volume Companion and Relational Atlas (Version 0.4)'
+  authors:
+  - family-names: Rader
+    given-names: Gaura Kiśora Dās
+    orcid: https://orcid.org/0000-0002-0804-1048
+    affiliation: Heaven≡Earth Foundation
+  publisher:
+    name: Heaven≡Earth Foundation
+  year: 2026
+  date-released: '2026-10-14'
+  version: '0.4'
+  doi: 10.5281/zenodo.23538253
+  url: https://zenodo.org/records/23538253
   license: CC-BY-4.0
